@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  anaconda:
+    image: agalera/anaconda:${CONDA_VERSION}
+    container_name: "anaconda"
+    network_mode: host
+    user: "1000:1000"
+    working_dir: /home/anaconda/notebooks
+    #command: anaconda-navigator
+    #command: jupyter-notebook
+    command: tail -F /dev/null
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ../notebooks:/home/anaconda/notebooks
+      - ../local:/home/anaconda/.local
+    environment:
+      - DISPLAY=:0.0
+
+networks:
+  default:
+    name: ${RSTUDIO_NETWORK}
