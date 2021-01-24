@@ -1,14 +1,42 @@
-version: '3.8'
+version: '3.5'
 services:
+  rstudio:
+    build:
+      args: 
+        - RSTUDIO_VERSION=${RSTUDIO_VERSION}
+        - RSTUDIO_TEMP_DIR=${RSTUDIO_TEMP_DIR}
+        - RSTUDIO_HOME=${RSTUDIO_HOME}
+      context: .
+      dockerfile: Dockerfile
+    image: "agalera/rstudio:${RSTUDIO_VERSION}"
+    container_name: "rstudio"
+    command: rstudio
+#    command: tail -F /dev/null
+    volumes:
+      - ../:${RSTUDIO_HOME}
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    environment:
+      - DISPLAY=:0.0
+      - XDG_RUNTIME_DIR=${RSTUDIO_TEMP_DIR}
+      - QT_XCB_FORCE_SOFTWARE_OPENGL=1
+    working_dir: ${RSTUDIO_HOME}
+    networks:
+      - default
+
   anaconda:
+    build:
+      context: .
+      dockerfile: Dockerfile_anaconda3
+      args:
+        - CONDA_ENV=${CONDA_ENV}
+        - CONDA_VERSION=${CONDA_VERSION}
     image: agalera/anaconda:${CONDA_VERSION}
     container_name: "anaconda"
     network_mode: host
     user: "1000:1000"
+#    command: anaconda-navigator
     working_dir: /home/anaconda/notebooks
-    #command: anaconda-navigator
-    #command: jupyter-notebook
-    command: tail -F /dev/null
+    command: jupyter-notebook
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
       - ../notebooks:/home/anaconda/notebooks

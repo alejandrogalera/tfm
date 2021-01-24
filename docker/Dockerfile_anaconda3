@@ -1,0 +1,118 @@
+FROM ubuntu:20.04
+
+ARG DEBIAN_FRONTEND=noninteractive
+ARG CONDA_ENV=master_env
+
+ENV QT_XKB_CONFIG_ROOT /usr/share/X11/xkb
+ENV CONDA_VERSION 2020.07
+
+ARG USER_NAME=anaconda
+
+RUN apt-get update
+RUN apt-get install -y git curl gnupg2 wget libgl1-mesa-glx libegl1-mesa libxrandr2 libxss1 libxcursor1 libxcomposite1 libxi6 libxtst6
+RUN apt-get update
+RUN apt-get install -y libasound2 
+
+#ADD https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb .
+#RUN wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add -
+#RUN apt install -y ./google-chrome-stable_current_amd64.deb
+#RUN rm -f google-chrome-stable_current_amd64.deb
+
+#Install R
+RUN apt-get update
+RUN apt-get install -y r-base
+
+#Virtual environments
+RUN apt-get install -y python3-pip jupyter-notebook texlive-xetex
+RUN pip3 install virtualenv
+
+RUN useradd -m ${USER_NAME}
+WORKDIR /home/${USER_NAME}
+RUN curl -O https://repo.anaconda.com/archive/Anaconda3-${CONDA_VERSION}-Linux-x86_64.sh && chmod +x Anaconda3-${CONDA_VERSION}-Linux-x86_64.sh
+USER ${USER_NAME}
+RUN ./Anaconda3-${CONDA_VERSION}-Linux-x86_64.sh -b -p /home/anaconda/anaconda3
+ENV PATH=${PATH}:/home/${USER_NAME}/anaconda3/bin
+
+RUN conda install -y anaconda=${CONDA_VERSION}
+#If prefer latest, RUN conda update
+RUN git clone https://github.com/fermaat/online_deep_learning_intro.git
+#RUN conda install --file online_deep_learning_intro/requirements.txt
+#RUN conda install -y ipykernel Keras matplotlib notebook numpy pandas Pillow scikit-learn scipy tensorflow
+
+#Create virtual environment CONDA_ENV
+RUN virtualenv /home/${USER_NAME}/anaconda3/envs/${CONDA_ENV}
+#RUN conda env create ${CONDA_ENV}
+#RUN conda init bash
+#Activate virtual environment: sh has no source command, so '.' is used.
+RUN . /home/${USER_NAME}/anaconda3/envs/${CONDA_ENV}/bin/activate && conda install -y ipykernel Keras matplotlib notebook numpy pandas Pillow scikit-learn scipy tensorflow
+#RUN conda activate ${CONDA_ENV}
+
+#Install python kernel
+RUN python -m ipykernel install --user --name ${CONDA_ENV}
+#Warning in jupyter mathjax
+
+#Install R kernel
+USER root
+RUN R -e "install.packages(c('repr', 'IRdisplay', 'IRkernel'), type = 'source')"
+RUN R -e "IRkernel::installspec(user = FALSE)"
+
+#R-Packages for Machine Learning.
+RUN R -e "install.packages(c('e1071', 'caret', 'MASS', 'dummies', 'naniar', 'nnet', 'NeuralNetTools', \
+                             'ggplot2', 'plotly', 'dplyr', 'data.table', 'reshape', 'pROC', 'reshape2', \
+                             'rpart', 'rpart.plot', 'rattle', 'randomForest', 'gbm', 'xgboost', \
+                             'caretEnsemble', 'smartdata'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages('h2o', type='source', repos='http://h2o-release.s3.amazonaws.com/h2o/rel-yates/2/R')"
+
+RUN pip3 install jupyter_contrib_nbextensions
+
+RUN jupyter contrib nbextension install --user
+
+RUN apt-get -y install locales
+RUN locale-gen es_ES.UTF-8
+RUN echo "LC_CTYPE=\"es_ES.UTF-8\""
+RUN echo "LC_ALL=\"es_ES.UTF-8\""
+RUN echo "LANG=\"es_ES.UTF-8\""
+
+#OSM and ArcGIS
+RUN apt-get install -y python3-testresources
+RUN pip3 install arcgis OSMPythonTools
+RUN pip3 install geopandas earthpy
+#RUN apt-get -y install libgeos++-dev
+#RUN pip3 install cartopy geoplot
+#CMD anaconda-navigator
+RUN apt-get -y install  libproj-dev proj-data proj-bin libgeos-dev
+RUN pip3 install cython cartopy
+RUN pip3 install geoplot
+RUN pip3 install osmnx 
+
+RUN R -e "install.packages(c('rgdal'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN apt-get install -y libgdal-dev
+ENV CPLUS_INCLUDE_PATH=/usr/include/gdal
+ENV C_INCLUDE_PATH=/usr/include/gdal
+##RUN pip3 install GDAL
+RUN R -e "install.packages(c('dplyr'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN pip3 install numpy
+RUN R -e "install.packages(c('rgeos'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN pip3 install geos
+RUN R -e "install.packages(c('maptools'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages(c('sp'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages(c('tmaptools'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages(c('osrm'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages(c('leaflet'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN pip3 install folium
+RUN R -e "install.packages(c('spdep'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages(c('sphet'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages(c('spatialreg'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN pip3 install pysal
+RUN R -e "install.packages(c('RColorBrewer'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages(c('classInt'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages(c('scales'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages(c('stargazer'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages(c('tmap'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+
+USER ${USER_NAME}
+
+#ArcGIS for Python
+RUN conda install -y -c esri arcgis 
+
+CMD tail -F /dev/null

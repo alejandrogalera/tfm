@@ -1,0 +1,743 @@
+---
+title: "Tarea Aplicaciones BigData Empresa"
+subtitle: "Máster BigData y Business Analytics"
+author: "Alejandro Galera"
+date: "2020"
+output: 
+  html_document:
+    df_print: paged
+    toc_depth: 3
+    number_sections: true 
+    theme: yeti
+    highlight: tango
+    code_folding: hide
+    fig_width: 9
+    fig_height: 7
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+
+# Introducción. Origen de los datos. 
+A partir de los datos de [Taarifa](http://taarifa.org/) y del [Ministerio del agua de Tanzania](http://maji.go.tz/) se pretende predecir qué bombas de agua son funcionales, cuáles necesitan reparación y cuáles no funcionan.  
+Se usa una competición de [Driven Data](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/)  
+Los datos han sido descargados de [Url de datos](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/data/) previo login en la web de Driven Data.  
+
+## Descripción de las variables.
+La descripción de las variables de encuentra en la web [drivendata.org variables] (https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/25/)
+
+- amount_tsh - Cantidad de agua disponible en el punto de agua.
+- date_recorded - Fecha de registro.
+- funder - Fundador del pozo.
+- gps_height - Altitud del pozo.
+- installer - Organización instaladora del pozo.
+- longitude - Coordenada GPS. 
+- latitude - Coordenada GPS.
+- wpt_name - Nombre del punto de agua (puede no estar definido)
+- num_private - Número privado.
+- basin - Cuenca hidrográfica.
+- subvillage - Ubicación geográfica.
+- region - Ubicación geográfica de la región.
+- region_code - Código de la región
+- district_code - código del distrito.
+- lga - Ubicación del gobierno local.
+- ward - Ubicación del distrito electoral.
+- population - Población en torno al pozo.
+- public_meeting - True/False
+- recorded_by - Grupo encargado del registro.
+- scheme_management - Quién gestiona el punto de agua.
+- scheme_name - Nombre del esquema de quien opera en el punto de agua.
+- permit - Indica si el punto de agua está permitido.
+- construction_year - Año de construcción del punto de agua.
+- extraction_type - Tipo de extracción del punto de agua.
+- extraction_type_group - Grupo del tipo de extracción del punto de agua.
+- extraction_type_class - Clase del tipo de extracción.
+- management - Tipo de gestión del punto de agua.
+- management_group - Cómo es gestionado el punto de agua.
+- payment - Coste del punto de agua.
+- payment_type - Tipo de pago del punto de agua.
+- water_quality - Calidad del agua.
+- quality_group - Calidad del agua.
+- quantity - Cantidad de agua.
+- quantity_group - Cantidad de agua.
+- source - Origen del agua.
+- source_type - Tipo de fuente del agua.
+- source_class - Clase de la fuente del agua.
+- waterpoint_type - Tipo de punto de agua.
+- waterpoint_type_group - Grupo del tipo de punto de agua.
+
+La variable a predecir será `status_group`, que se encuentra definida en los TrainingSetLabels.csv.   
+El objetivo será predecir un conjunto "TestSetLabels" que guardaremos como **SubmissionFormat.csv** para registrarlo en el concurso.
+
+## Configuración inicial.
+En este apartado se trata de configurar todo lo necesario previo a la carga de los datos y posterior a la descarga de los csv.  
+Por ejemplo, el sistema de codificación para evitar problemas de presentación de texto explicativo en la exportación a HTML, o el número de threads a usar para agilizar la lectura.
+
+```{r configinicial, message=FALSE, warning=FALSE, layout="l-body"}
+#setwd('ConcursoDrivenData')  #Debe particularizarse para el caso concreto.
+#rm(list = ls())  #Reset del entorno.
+options(max.print=200)
+Sys.setlocale("LC_CTYPE", "es_ES.UTF-8")
+```
+## Configuración del procesamiento paralelo (doMC).
+Para utilizar de forma óptima el número de threads es una buena práctica asignar a una variable `num_threads` por ejemplo, el número de cores que disponga el equipo sobre el que se va a ejecutar los cálculos.  
+En sistemas Linux, por ejemplo, puede obtenerse este valor del fichero `/proc/cpuinfo`.  
+```
+cat /proc/cpuinfo | grep processor | wc -l
+```
+
+No obstante, hay una librería que permite realizar un comando análogo desde R: 
+```{r}
+suppressPackageStartupMessages({
+  library(doMC)
+})
+ncor_val <- parallel::detectCores()
+ncor_val
+registerDoMC(cores = (ncor_val -1)) 
+```
+
+Eliminamos 1 para aprovechar al máximo la capacidad de la máquina sin que se cuelgue ante un pico de CPU que inutilice el resto de procesos fundamentales del sistema operativo.  
+Este número de *cores* se podrá usar como valor base para el número de *threads* en el proceso de carga de datos.
+
+## Esquema de un proceso de modelado.
+El proceso de desarrollo de un modelo efectivo es tanto iterativo como heurístico, ya que es difícil saber a priori si son necesarios determinados datos antes de trabajar con ellos.  
+Un ejemplo de la secuencia a seguir se muestra en el siguiente esquema, de [Feature Engineering](http://www.feat.engineering/important-concepts.html#the-model-versus-the-modeling-process) de *Max Kuhn and Kjell Johnson*.
+
+![Figura: Esquema de ejemplo de proceso de modelado](http://www.feat.engineering/figures/intro-process-1.svg)
+Hay un punto a partir del cual hay que decidir detener el proceso iterativo de ajuste, tuning y *feature engineering*, ya que a partir de un punto determinado, la adición de nuevas variables no mejorará el resultado.
+
+- Análisis exploratorio de los datos (EDA). Se utilizará la librería `inspectdf` de R.
+- Análisis cuantitativo.
+- Feature Engineering: Se trata de crear nuevas variables que puedan enriquecer el modelo.
+- Ajuste y tuning del modelo.
+
+## Librerías de R necesarias.
+La siguiente sentencia limpia las librerías previamente cargadas, cosa recomendable para partir de un modelo limpio sin conflicto de librerías. Por ejemplo, no es el caso, pero hay librerías como `plyr` que contiene funciones con el mismo nombre que `dplyr` de modo que para tener cargadas ambas y proceder con un correcto funcionamiento, éstas deben cargarse en un orden determinado.
+```{r cargo, message=FALSE, warning=FALSE, layout="l-body"}
+suppressPackageStartupMessages({
+  library(data.table)      # Manipulation
+  library(dplyr)           # Manipulation
+  library(caret)           # Equivalent to scikit-learn
+  library(scales)          # To scale data
+  library(ggplot2)         # Graphics
+  library(stringi)         # Strings manipulation
+  library(stringr)         # Strings manipulation 
+  library(dataPreparation) # Manipulation
+  library(knitr)           # RMarkdown
+  library(kableExtra)      # Tables formatting
+  library(ggpubr)          # Charts elaborated
+  library(tictoc)          # Measure time
+  library(ggeasy)          # Graphics ggplot easy
+  library(lubridate)       # Dates Manipulation
+  library(inspectdf)       # Easy EDA
+  library(h2o)             # Librería h2o para AutoML
+})
+```
+
+# Carga de datos.
+## Lectura multithreading.
+Como se ha comentado anteriormente, la carga de datos se efectúa para este dataset desde disco usando la función `fread`.  
+Para datasets ingentes se recomienda parametrizar el número de threads a utilizar en el proceso de lectura con el fin de agilizarlo.  
+```{r cargadatos, message=FALSE, warning=FALSE, layout="l-body"}
+num_threads <- ncor_val
+trainData <- fread( file = 'TrainingSetValues.csv', nThread = num_threads)
+trainLabels <- fread( file = 'TrainingSetLabels.csv', nThread = num_threads)
+testData <- fread( file = 'TestSetValues.csv', nThread = num_threads)
+fullData <- merge(trainData, trainLabels, by="id")
+```
+
+# Iteración 1 del proceso de modelado.
+En esta primera iteración del modelo realizaremos un análisis exploratorio a *grosso modo*, haciendo una breve mención a los NA's y outliers.  
+Para esta primera iteración no será necesario eliminar los NA's ya que se realizará con AutoML para tener una primera idea de los mejores modelos y variables importantes de este dataset. Sin embargo, el conocimiento de estos NA's y eliminación de posibles outliers nos serán de gran utilidad en el resto de iteraciones de *feature engineering*, ajuste y tunning. 
+## EDA: Análisis exploratorio preliminar de los datos.
+El conjunto de `trainData` tiene 59400 observaciones con 40 variables. Procedemos a hacer un análisis exploratorio para eliminar las columnas que no vayan a intervenir en la primera selección de variables, como por ejemplo, la primera: `id`.  
+Son especialmente útiles las funciones `head`, mostrando las primeras observaciones, `summary` para inspeccionar algunos estadísticos, y `str` para ver todas las variables y sus tipos.
+```{r inspeccionvar, message=FALSE, warning=FALSE, layout="l-body"}
+head(fullData)
+```
+Con la opción `summary` podemos obtener información sobre el tipo de las variables, y en caso de ser numéricas, algunos estadísticos que nos den pistas de posibles outliers si para las numéricas el valor máximo está muy alejado de la media y por tanto ésta está muy separada de la mediana.  
+```{r inspeccionvar2, message=FALSE, warning=FALSE, layout="l-body"}
+summary(fullData)
+```
+De la salida de este comando se obtienen varias conclusiones que se ilustran brevemente en los dos siguientes subapartados.
+### Análisis de NA.
+En primer lugar, en cuanto a NA, tenemos 3334 observaciones NA de `public_meeting` y 3056 de `permit`. No obstante, considerando la semántica de las variables, los años a 0 son también NA.  
+Procedemos por tanto a setear dichos años de 0->NA para que ante las herramientas de imputación o eliminación de NA se comporten como tales.
+```{r}
+fullData$construction_year[fullData$construction_year==0]<-NA
+summary(fullData$construction_year)
+```
+Vemos que hay una cantidad importante de NA's en el año de construcción, el cual es un parámetro delicado e importante. O bien se imputa tomando una media entre 1960 y 2013 (evitando crear outliers en la imputación como podría ser un año de hace dos siglos), o bien se eliminan estas variables de manera que no se altere la proporción de la variable objetivo.  
+Esto lo abordaremos más tarde, ya que se trata de un parámetro que podría influir bastante en si la variable objetivo `status_group` es funcional, no funcional o necesita reparación, ya que las bombas, como casi todo, se deterioran con el tiempo.
+
+Por último, veamos si la variable objetivo tiene NA's para el conjunto de train.
+```{r}
+sum(is.na(trainLabels$status_group))
+```
+Afortunadamente para la simplicidad del procesamiento, la variable objetivo no tiene NA's.
+
+### Análisis de outliers.
+En segundo lugar, en cuanto a outliers, parecen sospechosas de tener outliers las variables `amount_tsh`, `num_private`, y la altura GPS `gps_height` contiene valores negativos sin más sentido allá de la falta de precisión en el medidor.  
+```{r}
+fullData$gps_height[fullData$gps_height<0]<-0
+summary(fullData$gps_height)
+```
+
+Analicemos a continuación la cantidad de agua disponible en los puntos de los que la extraen las bombas.
+```{r}
+summary(fullData$amount_tsh)
+```
+Si ignorásemos la semántica de las variables nos encontraríamos ante un posible valor de *outlier*, pero considerando aspectos del negocio a analizar y no los puramente numéricos, se entiende que muchas bombas no suministran agua, no porque estén estropeadas, sino porque están conectadas a un punto con escasez de la misma.  
+```{r}
+sum(fullData$amount_tsh==0)
+```
+Para afinar mejor el modelo, en la interpretación final se podrán considerar como funcionales que no necesitan reparación aquellos que estén conectados a pozos vacíos, pero para los cálculos lo dejamos así, ya que no se da información en el enunciado de que la bomba necesite reparación en función de su estado o de la cantidad de agua remanente en la fuente.
+
+La variable `num_private` no se define en el enunciado semánticamente. Es un número privado mayoritariamente cero dado lo bajas que son tanto la media como la mediana. Calcularemos la cantidad de valores distintos de cero para comprobar si esa variable va a tener capacidad discriminativa.
+```{r}
+summary(fullData$num_private)
+(nrow(fullData)-sum(fullData$num_private==0))*100/nrow(fullData)
+```
+La cantidad obtenida de valores `num_private` no cero es del 1.27%, por lo que dada la escasa capacidad para discriminar los valores, la podemos eliminar de los cálculos, sumado a la falta de semántica en la descripción.
+Creamos una copia de `fullData` en `dataset1` para operar con él en la primera iteración del proceso sin perder la variable `num_private` eliminada, por si al final se quisiese hacer alguna iteración basada en árboles que tuviese en cuenta esta capacidad discriminatoria tan menor.
+```{r}
+dataset1 <- fullData
+dataset1$num_private <- NULL
+str(dataset1)
+```
+## Target engineering: Definición de variables objetivo.
+Resulta altamente recomendable realizar un análisis cuantitativo de la variable objetivo para estimar, en primer lugar, si se ha de analizar como variable continua (cantidad elevada de posibles valores) o dicotómica (true/false).  
+Disponemos de un comando para observar la proporción de las categorías.
+```{r}
+round(prop.table(table(dataset1$status_group))*100, 3)
+```
+Tenemos un 54% de bombas funcionales, 7.27% que necesitan reparación y 38.42% no funcionales.  
+Como se trata de sólo tres posibles valores, una acción factible de *target engineering* es analizar dos variables booleanas creadas a partir de dummies de `status_group` y combinarlas al final.
+```{r}
+library(fastDummies)
+y <- dataset1$status_group
+y[y=="functional"]<-"fu"
+y[y=="functional needs repair"]<-"fnr"
+y[y=="non functional"]<-"no"
+dataset1$y <- y
+dataset1$status_group <- NULL
+dataset1 <- dummy_cols(dataset1, select_columns = c("y"))
+summary(dataset1)
+```
+
+## Feature engineering.
+### Conversión de tipo character a factor.
+Las variables categóricas que se encuentran definidas como carácter habrá que pasarlas a factor, incluidas las pertenecientes a la variable objetivo, con los niveles "functional" (fu), "functional needs repair" (fnr) y "non functional" (no).  
+De este modo se consigue que mejoren los cálculos, al margen de que se sustituyan los factores de tipo caracter por enteros o no.
+```{r}
+dataset1 <- dataset1  %>%
+  mutate_if(is.character,factor)
+```
+### Conversión de fecha a categóricas.
+Otra operación típica de la *feature engineering* es la separación de las variables fecha en componentes para el año, mes e incluso día si procede.  
+En nuestro caso, el campo `date_recorded` nos da información sobre cuándo se registraron los datos.  
+No es necesaria tanta precisión como los días y meses, por lo que será interesante extraer el año y asignarlo a una nueva categoría.
+```{r conversion, message=FALSE, warning=FALSE, layout="l-body"}
+class(dataset1$date_recorded)
+```
+Como es de tipo `"IDate" "Date"`, no es necesario emplear la función de la librería `lubridate` para su conversión de String a POSIXt con `mdy_hms(trainData$date_recorded)`, sino hacer uso de `as.POSIXct`.  
+Se recomienda definir una nueva variable con el prefijo `fe_` para denotar que no pertenece al conjunto original, sino que se ha creado como las de *feature engineering (fe)*.
+```{r datosdentro, message=FALSE, warning=FALSE, layout="l-body"}
+fe_date_recorded <- as.POSIXct(dataset1$date_recorded, format="%Y-%m-%d")
+class(fe_date_recorded)
+head(fe_date_recorded)
+```
+A continuación, extraemos el año y lo almacenamos en el dataset:
+```{r}
+dataset1$fe_date_recorded <- as.numeric(format(as.Date(dataset1$date_recorded, format="%Y-%m-%d"),"%Y"))
+```
+### Eliminación de variables redundantes.
+En este apartado se pretende eliminar aquellas variables que no van a ser necesarias por tener la información redundada.  
+Por ejemplo, después de hacer *One-hot* encoding, dado que con dos variables podemos predecir la tercera y que por facilidad de discriminación vamos a elegir las dos mayoritarias, eliminaremos `y_fnr`.  
+Además, se elimina la fecha en formato *IDate* para mantener la numérica `fe_date_recorded`.  
+Para la primera iteración con *AutoML* no se eliminarán más variables, aunque para posteriores iteraciones habrá que considerar la recategorización de las variables factores con muchos niveles representados con poca frecuencia.  
+```{r}
+dataset1$date_recorded <- NULL
+dataset1$y_fnr <- NULL
+summary(dataset1)
+save.image("backup.RData")  #Es recomendable cada cierto tiempo realizar backups
+``` 
+Con este `summary` vemos varios aspectos a considerar. Por un lado, `recorded_by` tiene todos los valores iguales a "GeoData Consultants Ltd".  
+Eliminamos por tanto también la variable `recorded_by`.  
+Además, hay más valores NA que no habíamos considerado en el apartado de análisis de NA. Por ejemplo, los *unknown* del tipo de fuente `source_class` o el *unknown* de `water_quality`.
+```{r}
+dataset1$recorded_by <- NULL
+```
+
+### Subset de datos proporcional: Muestreo aleatorio simple estratificado.
+En este apartado buscamos conseguir un subset de variables sin NA en parámetros críticos como el año de construcción y los *unknown* de `water_quality` y `source_class`, pero que mantengan la proporción de la variable objetivo para no distorsionar demasiado el resultado final con esta eliminación de missings.  
+Es muy importante resaltar que esta eliminación de missings no siempre es posible. En otras ocasiones es necesario imputar o considerarla como una categoría "unknown" y procesarla así. Por ejemplo, las observaciones "unknown" del `management_group` no se eliminarán.   
+Se ha optado por la eliminación porque semánticamente se trata de variables críticas y porque hay una cantidad de observaciones suficiente.  
+```{r}
+dataset1$water_quality[dataset1$water_quality=="unknown"] <- NA
+dataset1$source_class[dataset1$source_class=="unknown"] <- NA
+dataset1_clean <- na.omit(dataset1)
+nrow(dataset1_clean)
+```
+Hemos pasado de 59400 observaciones a 33954, pero se han distorsionado los ratios de las variables objetivo. 
+```{r}
+round(prop.table(table(dataset1$y))*100, 2)
+round(prop.table(table(dataset1_clean$y))*100, 2)
+
+```
+Procedemos a crear un subset del nuevo `dataset1_clean` que tenga los mismos ratios que el original `dataset1`.  
+Es lo que se conoce como un **muestreo aleatorio simple y estratificado**.  
+Utilizaremos la función `sample_n` de la librería `dplyr`.  
+El objetivo es quedarnos con una muestra de, por ejemplo, 10000 observaciones, tomando 5431 de las "functional", 727 de las "functional needs repair" y 3842 "non functional", con proporciones acordes a los ratios anteriormente comentados.
+```{r}
+#Copiamos muestras aleatorias simples a sendas variables auxiliares, especificando como tamaño el ratio
+#que queremos conseguir.
+aux_fu  <- sample_n(dataset1_clean[dataset1_clean$y=="fu"], size=5431)
+aux_fnr <- sample_n(dataset1_clean[dataset1_clean$y=="fnr"], size=727)
+aux_no  <- sample_n(dataset1_clean[dataset1_clean$y=="no"], size=3842)
+#Las juntamos en un dataframe que tendrá 10000 filas (observaciones), pero, atención, están dispuestas 
+#de forma ordenada y necesitamos una submuestra aleatoria.
+df_10000 <- rbind(aux_fu, aux_fnr, aux_no)
+df_10000_random <- df_10000 %>% sample_n(10000, replace=F)
+df_10000_random$y
+#Tras contemplar que es aleatorio, comprobamos las proporciones y el tamaño:
+round(prop.table(table(df_10000_random$y))*100, 2)
+nrow(df_10000_random)
+```
+Llegados a este punto, ya podemos proceder a la etapa de modelización.
+```{r}
+#Realizamos un backup antes de la modelización
+save.image("backup.RData")
+load("backup.RData")
+```
+
+## Modelización.
+En primer lugar realizaremos una modelización sin ensamblado y luego otra con ensamblado.
+### Modelado con AutoML sin ensamblado.
+El ensamblado es una técnica de Machine Learning para combinar distintos modelos de modo que pueda mejorar el poder predictivo del conjunto sobre los modelos individuales que lo componen.  
+El ensamblado suele mejorar la precisión de los modelos sin ensamblar, pero es interesante realizar un primer estudio sin ensamblar para ver qué modelo es el que mejor se adapta por sí mismo a este conjunto de variables.  
+Posteriormente, habrá que volver a iterar para recategorizar las variables que lo requieran y hacer un EDA más profundo y así poder comparar con este modelo inicial y el de ensamblado.  
+Para usar AutoML se puede definir un máximo de hilos (que debería ir acorde a los *cores* de nuestra máquina) y un máximo de memoria, que no debería sobrepasar la memoria máxima disponible, y así evitar cuelgues y bloqueos.  
+Por ejemplo, en sistemas Linux, la memoria disponible puede obtenerse con el comando `top` o con el siguiente:
+```
+cat /proc/meminfo | grep -i available
+```
+El valor obtenido `MemAvailable:    3667724 kB` lo asignaremos a `max_mem_size` en la inicialización de `h2o`, que es la librería que nos permite usar AutoML.
+```{r}
+suppressPackageStartupMessages({
+  library(h2o)
+})
+h2o.init( max_mem_size = '5G', nthreads = 2*ncor_val)  
+#Seteamos número de threads igual al doble de cores si tenemos HyperThreading. También se puede escoger
+#un valor mayor. 
+#Por defecto, debería evitarse h2o.init() porque utilizaría un único thread, lo que ralentizaría los cálculos 
+#de manera notable.
+```
+El siguiente paso es separar el dataframe en dos, de modo que cada uno de ellos tenga una única variable objetivo dicotómica. El primero, `datMod_fu`, tendrá como variable objetivo `y_fu` y por tanto tendrá que eliminar `y` e `y_no`. De forma análoga, `datMod_no` se quedará con la variable objetivo `y_no` y eliminará las otras dos.  
+```{r}
+datMod_fu <- df_10000_random
+datMod_no <- df_10000_random
+datMod_fu$y <- NULL
+datMod_no$y <- NULL
+datMod_fu$y_no <- NULL
+datMod_no$y_fu <- NULL
+
+datMod_hex_fu <- as.h2o(datMod_fu, destination_frame = "datMod_hex_fu")
+datMod_hex_no <- as.h2o(datMod_no, destination_frame = "datMod_hex_no")
+```
+Definimos a continuación los subsets de entrenamiento, validación y test con la función `splitFrame`.  
+Sólo es necesario especificar los porcentajes de los dos primeros, ya que el del tercero (test) va implícito.
+```{r}
+splits <- h2o.splitFrame( 
+  data = datMod_hex_fu, 
+  ratios = c(0.6,0.2), 
+  destination_frames = c("train_hex", "valid_hex", "test_hex"), 
+  seed = 1234
+) 
+train_hex_fu <- splits[[1]] 
+valid_hex_fu <- splits[[2]] 
+test_hex_fu  <- splits[[3]]
+```
+Lo siguiente es identificar la variable a predecir y las predictoras.  
+Por simplicidad, asignaremos al vector `y` la variable a predecir, primero `y_fu` y luego `y_no`, y el vector de variables `x` predictoras se conformará a partir del resto de variables, teniendo en cuenta que acabamos de eliminar las dummies que no procedían en los respectivos datasets `datMod_fu` y `datMod_no`.
+```{r}
+y <- "y_fu"
+x <- setdiff(names(train_hex_fu), y)
+```
+La respuesta debe ser un factor siempre que se realice clasificación binaria, luego procedemos a transformar la `y` del conjunto de `train_hex_fu` con el que entrenaremos *AutoML*.
+```{r}
+train_hex_fu[,y] <- as.factor(train_hex_fu[,y])
+save.image("backup.RData")
+#load("backup.RData")
+```
+La ejecución de AutoML se puede limitar por tiempo o número de modelos. Estos parámetros se indican a la función `h2o.automl` mediante los parámetros `max_runtime_secs` y `max_models` respectivamente.  
+Si no se indica nada, el tiempo máximo por defecto está limitado a 1 hora, pero para esta ejecución asignaremos un valor al límite por modelos.  
+Un número razonable de modelos es 20 si tenemos en cuenta que hemos desahabilitado el ensamblado por medio del argumento `exclude_algos = c('StackedEnsemble')`
+```{r}
+aml <- h2o.automl(
+                   x = x, 
+                   y = y,
+                   training_frame = train_hex_fu,
+                   validation_frame = valid_hex_fu,
+                   # max_runtime_secs = 200,
+                   max_models = 20,
+                   stopping_metric = "AUC",
+                   stopping_rounds = 3,
+                   sort_metric = 'AUC',
+                   nfolds  = 5,
+                   exclude_algos = c('StackedEnsemble'),
+                   seed = 12345,
+                   verbosity = 'info'
+                   )
+```
+En los logs de salida se muestra que hasta en tres ocasiones se ha saltado el *StackEnsemble*, lo cual nos confirma que en la siguiente iteración deberemos activarlo.  
+Veamos la tabla de mejores algoritmos de AutoML:
+```{r}
+lb_fu <- aml@leaderboard
+print(lb_fu, n = nrow(lb_fu))  #Con esta opción se imprimen todas las filas en lugar de las 6 por defecto.
+```
+Las características del mejor de los modelos para predecir los "functional" las combinaremos con los "non functional" para obtener finalmente los "functional needs repair" como se comentó en el apartado de *target engineering*.
+```{r}
+my_leader <- aml@leader
+my_leader
+```
+Tras 5 capas de cross-validation se consigue un AUC de 0.8639778, y AUCPR similar, en torno a 0.864.  
+Para el cálculo del modelo de los *non functional* podemos prescindir de DeepLearning ya que su cálculo es bastante costoso y el mejor modelo encontrado de DeepLearning ha sido superado por DRF (Distributed Random Forest), XRT (Extremely Randomized Trees) y dos de XGBoost. 
+```{r}
+splits2 <- h2o.splitFrame( 
+  data = datMod_hex_no, 
+  ratios = c(0.6,0.2), 
+  destination_frames = c("train_hex", "valid_hex", "test_hex"), 
+  seed = 1234
+) 
+train_hex_no <- splits2[[1]] 
+valid_hex_no <- splits2[[2]] 
+test_hex_no  <- splits2[[3]]
+```
+Lo siguiente es identificar la variable a predecir y las predictoras, del mismo modo que se hizo en los pasos anteriores para `y_fu` (variable objetivo para predecir las "functional")
+```{r}
+y <- "y_no"
+x <- setdiff(names(train_hex_no), y)
+```
+La respuesta debe ser un factor siempre que se realice clasificación binaria, luego procedemos a transformar la `y` del conjunto de `train_hex_fu` con el que entrenaremos *AutoML*.
+```{r}
+train_hex_no[,y] <- as.factor(train_hex_no[,y])
+```
+Mantenemos el número razonable de modelos a 20 aunque recordemos que en este caso tendremos desahabilitado el ensamblado por medio del argumento `exclude_algos = c('StackedEnsemble', 'DeepLearning')`
+```{r}
+aml2 <- h2o.automl(
+                   x = x, 
+                   y = y,
+                   training_frame = train_hex_no,
+                   validation_frame = valid_hex_no,
+                   # max_runtime_secs = 200,
+                   max_models = 20,
+                   stopping_metric = "AUC",
+                   stopping_rounds = 3,
+                   sort_metric = 'AUC',
+                   nfolds  = 5,
+                   exclude_algos = c('StackedEnsemble', 'DeepLearning'),
+                   seed = 12345,
+                   verbosity = 'info'
+                   )
+```
+Procedemos del mismo modo que con la variable objetivo binaria de los "functional" y guardamos los datos para pasar a evaluar el modelo con el subconjunto de datos de test obtenidos con el `h2o.splitFrame`.
+```{r}
+lb_no <- aml2@leaderboard
+print(lb_no, n = nrow(lb_no))
+```
+El mejor modelo vuelve a ser un DRF, aunque esta vez *DRF_1_AutoML_20201203_034821* en lugar de *DRF_1_AutoML_20201203_022535*. Esta diferencia de modelos no es un problema; al contrario, es una ventaja que ofrece el haber hecho *target engineering*. No importa si el modelo para `y_fu` e `y_no` son diferentes; lo importante es que la predicción sea buena, precisa y obtengamos unos datos de validación acertados.
+```{r}
+my_leader2 <- aml2@leader
+my_leader2
+save.image("backup.RData")
+#load("backup.RData")
+```
+El AUC que se consigue es de 0.883 aunque el promediado tras las validaciones cruzadas desciende ligeramente. De cualquier modo es un valor más que aceptable, por lo que podemos pasar a realizar una primera evaluación del modelo.
+
+## Evaluación de modelos.
+La evaluación de los modelos consiste en analizar por un lado la importancia de las variables de cara a poder realizar una iteración con variables más precisas, y por otro lado estimar el error de las variables objetivo.
+### Importancia de las variables.
+Tras imprimir el gráfico de barras de las variables importantes se observa que las principales son `funder` (fundador), `installer` (instalador), `lga` (ubicación del gobierno local) y `quantity` (cantidad de agua).  
+En la siguiente iteración de EDA se realizará un estudio con `inspectdf` poniendo especial énfasis en estas variables.
+```{r}
+h2o.varimp_plot(my_leader)
+h2o.varimp_plot(my_leader2)
+```
+### Error de las variables objetivo.
+El error de las variables objetivo se calcula, como se ha mencionado, mediante el subset de test y la función `h2o.performance`
+```{r predict}
+h2o.performance(my_leader2, valid_hex_no)
+```
+Se obtienen valores elevados de precisión máxima y AUC de 0.87. Está bastante bien, pero iteremos de nuevo para ver si afinamos el modelo.
+
+# Iteración 2 del proceso de modelado.
+En esta iteración partimos del dataframe del apartado anterior con los NA filtrados, sobre el que estudiaremos las variables con `inspectdf` e incluiremos en el ajuste del modelo el ensamblado.
+## EDA: Análisis de las variables con inspectdf.
+`inspectdf` va a indicar si hay NA's, el número de niveles de las categóricas o el nivel de desbalanceo (proporción de las variables categóricas dicotómicas) para tener una idea de lo difícil que va a ser predecir la variable objetivo, por ejemplo.  
+### EDA. Inspección categórica.
+Analicemos las categorías poniendo énfasis en las variables importantes para el modelo anterior, y observamos que coinciden las más importantes con variables que se deberían haber tratado por tener muchas categorías poco representadas.
+```{r eda }
+dataset2 <- df_10000_random
+dataset2$id <- NULL
+# categorical plot
+x <- inspect_cat(dataset2) 
+show_plot(x)
+```
+Las variables que aparecen en negro indica que tiene tantos niveles que su comportamiento se asemeja más a una variable continua que discreta en esas categorías tan escasamente representadas.  
+Por ello, habrá que realizar algún tratamiento de **recategorización** con las variables `funder, installer, scheme_name, subvillage, ward` y `wpt_name` si queremos tenerlas en cuenta para los cálculos.  
+Además, se puestra que las categorías `permit` y `public_meeting` contienen un considerable número de missings como muestra el segmento gris de a la derecha del gráfico.  
+La variable a predecir `y` se ve que es categórica con tres posibles valores como ya sabemos.
+### EDA. Inspección de missings.
+Los missings se pueden, no obstante, inspeccionar de una forma más directa y clara con la función `inspect_na`, que incluye las variables continuas para el análisis, aunque esta gráfica no sirve sino para comprobar que no tenemos missings.
+```{r eda2}
+# missingness barplot
+x <- inspect_na(dataset2)
+show_plot(x)
+```
+Tenemos sólo dos categorías con valores NA: `public_meeting`y `permit`, que tienen un 5.6%y 5.1% respectivamente de NA. El ratio es tan bajo que con respecto al elevado número de observaciones podemos eliminarlos. También se podría imputar, pero como se ha comentado, hay observaciones suficientes para ajustar el modelo.  
+Se observa que la variable objetivo no tiene missings.
+
+### EDA. Inspección de correlación.
+Otro análisis interesante es el estudio de las variables con un alto nivel de correlación, ya que en caso de que dos variables se aproximen a 1 puede facilitarnos que prescindamos de una de ellas, ya que el hecho de que dos variables estén altamente correlacionadas es negativo para los modelos lineales.  
+```{r eda3}
+# correlations in numeric columns
+x <- inspect_cor(dataset2)
+show_plot(x)
+```
+Vemos que no hay variables con correlación cercana a la unidad, salvo las variables objetivo dummies, luego en principio no hay ninguna a eliminar según el análisis de este gráfico. Tiene sentido que estén correladas ya que son casi complementarias.
+
+### EDA. Inspección del desequilibrio en las variables.
+La siguiente gráfica muestra cómo de desequilibradas están las variables, entendiendo por más desequilibradas las variables que tengan un nivel muy predominante frente al resto.  
+```{r eda4}
+# feature imbalance bar plot
+x <- inspect_imb(dataset2)
+show_plot(x)
+```
+Por ejemplo, `public_meeting` contiene un 91.95% de valores TRUE, mientras que las que aparecen más a la derecha tienen los valores más repartidos. Esto nos sirve para confirmar `ward, subvillage, lga` como las principales candidatas a ser recategorizadas o incluso descartadas.  
+Hay que valorar que no es descabellado considerar descartar la subdivisión de la localidad `subvillage` o el distrito electoral `ward` dado que la información geográfica ya la tenemos en la latitud y longitud.
+Podríamos pensar en descartar las variables que tienen un valor predominante con una frecuencia superior al 90%, pero dado que vamos a usar previsiblemente Random Forest (por lo que vimos en AutoML) y AutoML con ensamblado, decidimos mantenerlas por ahora.
+### EDA. Histograma de variables numéricas.
+Este gráfico es útil para identificar las variables continuas que están desbalanceadas en un rango. Representan la distribución y ofrecen una visión general de la medida de dispersión.  
+```{r eda6}
+# histograms for numeric columns
+x <- inspect_num(dataset2)
+show_plot(x)
+```
+Las variables `amount_tsh`, `population` presentan una concentración elevada de valores cercana al cero. Esto puede indicar que `amount_tsh` es candidata a ser descartada. `population` es fuertemente asimétrica pero la visualización de las cantidades no predominantes confirma a que hay que mantenerla.
+### EDA. Inspección de variables por tipo.
+La siguiente gráfica confirma lo que se ha comentado anteriormente, que hay un predominio de variables tipo `factor` una vez que se convirtieron de carácter antes de procesarla con h2o. No habrá que añadir más procesamiento al respecto salvo una recategorización de niveles string a niveles numéricos que hagan agilizar los cálculos del modelado. 
+```{r eda7}
+# barplot of column types
+fullData$status_group <- as.factor(fullData$status_group)
+x <- inspect_types(dataset2)
+show_plot(x)
+```
+
+### EDA. Inspección del uso de memoria por variable.
+```{r eda5}
+# memory usage barplot
+x <- inspect_mem(dataset2)
+show_plot(x)
+```
+Aunque la gráfica muestra un valor predominante de `wpt_name` respecto de otras variables, si consideramos los tamaños absolutos y no relativos entre variables, podemos concluir que esta gráfica no tiene especial impacto. El orden de magnitud es similar y no va a haber problemas de memoria. Será interesante repetir esta gráfica cuando se añadan variables compuestas.
+
+## Feature engineering.  
+### Dummies de las categóricas con no demasiados valores diferentes.
+Vamos a usar una codificación basada en frecuencias.  
+Por cada categórica que aparecía con muchas categorías poco representadas calcularemos la frecuencia y almacenaremos ese dígito en una variable con el mismo nombre pero con el prefijo *fe_* para denotar *feature engineering*. Tiene el inconveniente de que se puede confundir al algoritmo si hay dos conceptos semánticamente opuestos (funcional y no funcional con la misma etiqueta, por ejemplo) con la misma etiqueta. 
+```{r}
+dataset2 <- df_10000_random
+dataset2[ , fe_wpt_name := .N, by = .(wpt_name)]
+dataset2[ , fe_subvillage := .N, by = .(subvillage)]
+dataset2[ , fe_ward := .N, by = .(ward)]
+dataset2[ , fe_scheme_name := .N, by = .(scheme_name)]
+dataset2[ , fe_installer := .N, by = .(installer)]
+dataset2[ , fe_funder := .N, by = .(funder)]
+```
+
+## Modelización.
+### Ajuste del mejor modelo AutoML incluyendo ensamblado.
+Procedemos de manera análoga a la iteración anterior pero con el dataset2 (recategorizado por frecuencias) y activado el ensamblado (mantenemos la desactivación de DeepLearning para mayor agilidad computacional)
+```{r}
+h2o.init( max_mem_size = '5G', nthreads = 2*ncor_val)
+options("h2o.use.data.table" = TRUE)
+```
+Repetimos el procedimiento de la primera iteración separando el dataframe en dos, de modo que cada uno de ellos tenga una única variable objetivo dicotómica. El primero, `datMod_fu`, tendrá como variable objetivo `y_fu` y por tanto tendrá que eliminar `y` e `y_no`. De forma análoga, `datMod_no` se quedará con la variable objetivo `y_no` y eliminará las otras dos.  
+```{r}
+datMod_fu$y <- NULL
+datMod_no$y <- NULL
+datMod_fu$y_no <- NULL
+datMod_no$y_fu <- NULL
+
+datMod_hex_fu <- as.h2o(datMod_fu, destination_frame = "datMod_hex_fu")
+datMod_hex_no <- as.h2o(datMod_no, destination_frame = "datMod_hex_no")
+
+splits <- h2o.splitFrame( 
+  data = datMod_hex_fu, 
+  ratios = c(0.6,0.2), 
+  destination_frames = c("train_hex", "valid_hex", "test_hex"), 
+  seed = 1234
+) 
+train_hex_fu <- splits[[1]] 
+valid_hex_fu <- splits[[2]] 
+test_hex_fu  <- splits[[3]]
+```
+Lo siguiente es identificar la variable a predecir y las predictoras.  
+Por simplicidad, asignaremos al vector `y` la variable a predecir, primero `y_fu` y luego `y_no`, y el vector de variables `x` predictoras se conformará a partir del resto de variables, teniendo en cuenta que acabamos de eliminar las dummies que no procedían en los respectivos datasets `datMod_fu` y `datMod_no`.
+```{r}
+y <- "y_fu"
+x <- setdiff(names(train_hex_fu), y)
+```
+La respuesta debe ser un factor siempre que se realice clasificación binaria, luego procedemos a transformar la `y` del conjunto de `train_hex_fu` con el que entrenaremos *AutoML*.
+```{r}
+train_hex_fu[,y] <- as.factor(train_hex_fu[,y])
+```
+Repetimos los parámetros de la anterior ejecución de AutoML con un número de modelos igual a 30 pero sin DeepLearning, como hemos comentado. 
+```{r}
+aml <- h2o.automl(
+                   x = x, 
+                   y = y,
+                   training_frame = train_hex_fu,
+                   validation_frame = valid_hex_fu,
+                   # max_runtime_secs = 200,
+                   max_models = 30,
+                   stopping_metric = "AUC",
+                   stopping_rounds = 3,
+                   sort_metric = 'AUC',
+                   nfolds  = 5,
+                   exclude_algos = c('DeepLearning'),
+                   seed = 12345,
+                   verbosity = 'info'
+                   )
+```
+En los logs de salida se muestra que el mejor modelo es el *StackEnsemble*, lo cual nos confirma la decisión de haberlo activado. 
+De igual modo que en la iteración anterior, las características del mejor de los modelos para predecir los "functional" las combinaremos con los "non functional" para obtener finalmente los "functional needs repair" como se comentó en el apartado de *target engineering*.
+```{r}
+my_leader <- aml@leader
+my_leader
+```
+El AUC es superior al anterior en más de un 1% y el AUCPR en torno a algo más de un 2% mejor: 0.88.   
+Para ambos casos se usó el índice de Gini como método de corte y la misma semilla.  
+Hacemos por tanto lo propio para la otra variable dicotómica.
+```{r}
+splits2 <- h2o.splitFrame( 
+  data = datMod_hex_no, 
+  ratios = c(0.6,0.2), 
+  destination_frames = c("train_hex", "valid_hex", "test_hex"), 
+  seed = 1234
+) 
+train_hex_no <- splits2[[1]] 
+valid_hex_no <- splits2[[2]] 
+test_hex_no  <- splits2[[3]]
+
+y2 <- "y_no"
+x2 <- setdiff(names(train_hex_no), y2)
+train_hex_no[,y2] <- as.factor(train_hex_no[,y2])
+aml2 <- h2o.automl(
+                   x = x2, 
+                   y = y2,
+                   training_frame = train_hex_no,
+                   validation_frame = valid_hex_no,
+                   # max_runtime_secs = 200,
+                   max_models = 30,
+                   stopping_metric = "AUC",
+                   stopping_rounds = 3,
+                   sort_metric = 'AUC',
+                   nfolds  = 5,
+                   exclude_algos = c('DeepLearning'),
+                   seed = 12345,
+                   verbosity = 'info'
+                   )
+my_leader2 <- aml2@leader
+```
+Se consiguen valores superiores con este AutoML, con una AUC de 0.89. Pasamos a evaluar el modelo.
+
+## Evaluación de modelos.
+### Error de las variables objetivo.
+El error de las variables objetivo se calcula, como se ha mencionado, mediante el subset de test y la función `h2o.performance`. 
+Antes, debemos adaptar el conjunto de test con la mismas transformaciones de *feature engineering* que el resto.
+```{r}
+newdata2 <- testData
+newdata2 <- newdata2  %>%
+  mutate_if(is.character,factor)
+newdata2[ , fe_wpt_name := .N, by = .(wpt_name)]
+newdata2[ , fe_subvillage := .N, by = .(subvillage)]
+newdata2[ , fe_ward := .N, by = .(ward)]
+newdata2[ , fe_scheme_name := .N, by = .(scheme_name)]
+newdata2[ , fe_installer := .N, by = .(installer)]
+newdata2[ , fe_funder := .N, by = .(funder)]
+newdata2$fe_date_recorded <- as.numeric(format(as.Date(newdata2$date_recorded, format="%Y-%m-%d"),"%Y"))
+newdata2$date_recorded <- NULL
+```
+Procedemos por tanto a realizar la predicción.
+```{r}
+my_leader
+#h2o.performance(my_leader, valid_hex_fu)
+h2o.performance(my_leader2, valid_hex_no)
+valid_hex_fu
+newdata2
+testh2o <- as.h2o(newdata2)
+h2o.predict(aml2, newdata=testh2o)
+```
+Se muestra un mensaje de error con lo siguiente: 
+- `funder` tiene muchos niveles no entrenados.
+- `extraction_type` has levels not trained on: ["cemo", "climax"]
+- `water_quality` has levels not trained on: ["unknown"]
+- `quality_group` has levels not trained on: ["unknown"]
+- `source` has levels not trained on: ["other", "unknown"]
+- `source_type` has levels not trained on: ["other"]
+- `source_class` has levels not trained on: ["unknown"]
+Esto nos hace indicar que el procedimiento de AutoML hay que hacerlo incluso sin *feature engineering* salvo por los factores.  
+El resto de *feature engineering* realizado lo dejamos para un *Random Forest*, que fue el mejor modelo encontrado en la primera iteración de AutoML sin ensamblado.
+
+# Iteración 3 del proceso de modelado.
+Pasamos directamente a la modelización con el conjunto original sin eliminar las filas NA del año, para no tener tantos niveles no entrenados.
+## Feature engineering.
+```{r}
+dataset3 <- fullData  #Incluye trainData y trainLabels (status_group)
+dataset3 <- dataset3  %>%
+  mutate_if(is.character,factor)
+dataset3_test <- testData
+dataset3_test <- dataset3_test  %>%
+  mutate_if(is.character,factor)
+```
+## Modelización.
+```{r}
+datMod <- as.h2o(dataset3)
+datModTest <- as.h2o(dataset3_test)
+
+splits <- h2o.splitFrame( 
+  data = datMod, 
+  ratios = c(0.6,0.2), 
+  destination_frames = c("train_hex", "valid_hex", "test_hex"), 
+  seed = 1234
+) 
+train_hex <- splits[[1]] 
+valid_hex <- splits[[2]] 
+test_hex  <- splits[[3]]
+
+y <- "status_group"
+x <- setdiff(names(train_hex), y)
+train_hex[,y] <- as.factor(train_hex[,y])
+aml <- h2o.automl(
+                   x = x, 
+                   y = y,
+                   training_frame = train_hex,
+                   validation_frame = valid_hex,
+                   # max_runtime_secs = 200,
+                   max_models = 30,
+                   stopping_metric = "AUC",
+                   stopping_rounds = 3,
+                   sort_metric = 'AUC',
+                   nfolds  = 5,
+                   exclude_algos = c('DeepLearning'),
+                   seed = 12345,
+                   verbosity = 'info'
+                   )
+my_leader <- aml@leader
+```
+
+### Ajuste del mejor modelo AutoML.
