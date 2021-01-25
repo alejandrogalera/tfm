@@ -4,7 +4,7 @@ import pyspark
 from pyspark import SparkConf
 from pyspark import SparkContext
 from pyspark.sql import SparkSession
-from pyspark.sql import functions as F
+from pyspark.sql.functions import *
 from pyspark.sql import types as T
 
 import glob
@@ -25,7 +25,7 @@ def getMostRecentFileInDir(dir, prefix, ext):
 #############
 # En una posterior version, estas variables se parametrizaran como 
 # argumentos en linea de comandos
-srcDir = '../data'
+srcDir = '../data/opendata_esri/incid_traf'
 prefix = "incidenciasTrafico"
 # Por defecto, el fichero de entrada sera cadena vacia, ya que no lo 
 # invocaremos por defecto con ningun parametro, en cuyo caso se 
@@ -53,26 +53,86 @@ sc = SparkContext(appName='mm_exp', conf=conf)
 sqlContext = pyspark.SQLContext(sc)
 
 
-spark = SparkSession \
-    .builder \
-    .appName("Python Spark SQL basic example") \
-    .config("spark.executor.memory", sparkMemory) \
-    .config("spark.driver.memory", sparkMemory) \
-    .getOrCreate()
-df = spark.read.json("../data/mifichero.json", multiLine=True)
-print(df.show())
-exit(1)
+#spark = SparkSession \
+#    .builder \
+#    .appName("Python Spark SQL basic example") \
+#    .config("spark.executor.memory", sparkMemory) \
+#    .config("spark.driver.memory", sparkMemory) \
+#    .getOrCreate()
+#df = spark.read.json("../data/mifichero.json", multiLine=True)
+#print(df.show())
+#exit(1)
 ####################
 # Lectura de datos #
 ####################
 #if (0==len(inputFile)): 
 #    inputFile = getMostRecentFileInDir(srcDir, prefix, ".json")
 #print(inputFile)
-#data = sqlContext.read.json(inputFile)
+inputFile = "../data/opendata_esri/incid_traf"
+data = sqlContext.read.option("mode", "DROPMALFORMED").json(inputFile)
+schema = sqlContext.read.json(inputFile).schema
 
-#data.printSchema()
-#causas = data.select("objectIdFieldName").distinct()
-#print(causas)
+data.printSchema()
+#root
+# |-- features: array (nullable = true)
+# |    |-- element: struct (containsNull = true)
+# |    |    |-- attributes: struct (nullable = true)
+# |    |    |    |-- FID: long (nullable = true)
+# |    |    |    |-- X1: double (nullable = true)
+# |    |    |    |-- Y1: double (nullable = true)
+# |    |    |    |-- actualizad: string (nullable = true)
+# |    |    |    |-- autonomia: string (nullable = true)
+# |    |    |    |-- carretera: string (nullable = true)
+# |    |    |    |-- causa: string (nullable = true)
+# |    |    |    |-- fechahora_: string (nullable = true)
+# |    |    |    |-- hacia: string (nullable = true)
+# |    |    |    |-- matricula: string (nullable = true)
+# |    |    |    |-- nivel: string (nullable = true)
+# |    |    |    |-- pk_final: double (nullable = true)
+# |    |    |    |-- pk_inicial: double (nullable = true)
+# |    |    |    |-- poblacion: string (nullable = true)
+# |    |    |    |-- provincia: string (nullable = true)
+# |    |    |    |-- ref_incide: string (nullable = true)
+# |    |    |    |-- sentido: string (nullable = true)
+# |    |    |    |-- tipo: string (nullable = true)
+# |    |    |    |-- tipolocali: long (nullable = true)
+# |    |    |    |-- version_in: long (nullable = true)
+# |    |    |    |-- x: double (nullable = true)
+# |    |    |    |-- xml_fragme: string (nullable = true)
+# |    |    |    |-- xml_id: string (nullable = true)
+# |    |    |    |-- xml_matche: string (nullable = true)
+# |    |    |    |-- xml_pare_1: string (nullable = true)
+# |    |    |    |-- xml_parent: string (nullable = true)
+# |    |    |    |-- y: double (nullable = true)
+# |    |    |-- geometry: struct (nullable = true)
+# |    |    |    |-- x: double (nullable = true)
+# |    |    |    |-- y: double (nullable = true)
+# |-- fields: array (nullable = true)
+# |    |-- element: struct (containsNull = true)
+# |    |    |-- alias: string (nullable = true)
+# |    |    |-- defaultValue: string (nullable = true)
+# |    |    |-- domain: string (nullable = true)
+# |    |    |-- length: long (nullable = true)
+# |    |    |-- name: string (nullable = true)
+# |    |    |-- sqlType: string (nullable = true)
+# |    |    |-- type: string (nullable = true)
+# |-- geometryType: string (nullable = true)
+# |-- globalIdFieldName: string (nullable = true)
+# |-- objectIdFieldName: string (nullable = true)
+# |-- spatialReference: struct (nullable = true)
+# |    |-- latestWkid: long (nullable = true)
+# |    |-- wkid: long (nullable = true)
+# |-- uniqueIdField: struct (nullable = true)
+# |    |-- isSystemMaintained: boolean (nullable = true)
+# |    |-- name: string (nullable = true)
+
+#sampleDF = data.withColumnRenamed("id", "key")
+df = data.select("amigo")
+df.printSchema()
+#causas = data.withColumn("objectIdFieldName", F.explode(data['features']['element']['attributes']))
+#https://stackoverflow.com/questions/42659719/spark-2-0-flatten-json-file-to-a-csv
+#causas = data.select(col("features.element.attributes.causa")).alias("causasss")
+#causas.show()
 
 
 #sc =SparkContext()

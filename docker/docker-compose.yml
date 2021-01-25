@@ -44,6 +44,16 @@ services:
     environment:
       - DISPLAY=:0.0
 
+  spark:
+    build:
+      context: .
+      dockerfile: Dockerfile_spark
+    image: agalera/spark:${SPARK_VERSION}
+    container_name: "spark"
+    command: tail -F /dev/null
+    networks:
+      - default
+
 networks:
   default:
     name: ${RSTUDIO_NETWORK}

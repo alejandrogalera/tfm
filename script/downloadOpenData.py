@@ -1,5 +1,6 @@
 import requests
 import time
+import json
 from datetime import date
 
 #Los datos de Opendata tienen asociados un arcGIS Id, que en el caso de las incidencias de trafico es nCKYwcSONQTkPA4K
@@ -15,14 +16,14 @@ from datetime import date
 ##############
 # Estos parametros podrian setearse como argumento en linea de comandos
 # Esta primera version lo simplifica seteandolo como variable global.
-targetDir = "../data"
+targetDir = "../data/opendata_esri/incid_traf/"
 prefix = "incidenciasTrafico"
 
 ###############
 # Generar URL #
 ###############
 arcgisId = "nCKYwcSONQTkPA4K"
-autonomia = 'CATALU%C3%91A'
+autonomia = 'CATALU%C3%91A' #sys.argv[1]
 
 outFieldsFilter="*"  #Por defecto no se filtran los parametros de salida
 whereFilter='1%3D1'  #El valor por defecto sera '1%3D1'
@@ -67,10 +68,10 @@ finally:
 ##################
 # El nombre del fichero se formara con el prefijo y la fecha YYYYMMDD.
 todayYYYYMMDD = date.today().strftime("%Y%m%d")
-filename = targetDir+"/"+prefix+todayYYYYMMDD+".json"
+filename = targetDir.rstrip("/")+"/"+prefix+todayYYYYMMDD+".json"
 try:
     with open(filename, "w") as fout:
-        fout.write(str(result.json()))
+        fout.write(json.dumps(result.json()))
     fout.close()
 except Exception as e:
     print("Error writting "+filename+". Exception "+str(e))

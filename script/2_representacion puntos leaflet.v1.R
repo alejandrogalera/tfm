@@ -1,4 +1,4 @@
-# libreía leaflet
+# librería leaflet
 
 library(leaflet) #Mapas web interactivos.
 
