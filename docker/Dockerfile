@@ -67,7 +67,7 @@ RUN R -e "install.packages('h2o', type='source', repos='http://h2o-release.s3.am
 #Aplicaciones BigData a la Empresa
 RUN R -e "install.packages(c('ggeasy', 'dataPreparation', 'tictoc', 'inspectdf'), \
                            dependencies=TRUE, repos='http://cran.rstudio.com/')"
-RUN R -e "install.packages(c('fastDummies', 'vtreat', 'DataExplorer'), \
+RUN R -e "install.packages(c('fastDummies', 'vtreat', 'DataExplorer', 'sqldf'), \
                            dependencies=TRUE, repos='http://cran.rstudio.com/')"
 
 RUN apt-get -y install sudo
@@ -99,7 +99,7 @@ ENV HOME ${RSTUDIO_HOME}
 RUN apt install default-jre -y
 RUN R -e "install.packages('h2o', type='source', repos='http://h2o-release.s3.amazonaws.com/h2o/rel-zermelo/2/R')"
 RUN apt-get update 
-RUN apt-get install -y apt install texlive-latex-base
+RUN apt-get install -y texlive-latex-base
 USER rstudio
 
 ENV DISPLAY :0.0

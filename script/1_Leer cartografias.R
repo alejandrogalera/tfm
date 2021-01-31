@@ -1,50 +1,27 @@
-# Importar Cartograf??as a R
-
-# existen diferentes sitios donde descargar cartograf??as
-# La uni??n europea
-# https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/nuts
-# Instituto geogr??fico Nacional
-# https://www.ign.es/web/cbg-area-cartografia
-# El INE (proporciona informaci??n a nivel de distrito Censal)
+# Estudio de la poblaci??n por municipios en Catalu??a
 
 options(encoding = "UTF-8")
 Sys.setlocale(category="LC_ALL", locale = "es_ES.UTF8")
 
 
-# 1 Lectura de Shapes ----
+#Librer??as necesarias
+library(sp)       # Datos espaciales
+library(rgdal)    # Lectura de cartograf??as
+library(rgeos)    # Lectura de cartograf??as
+library(maptools) # Lectura de cartograf??as
 
-library(sp) #Datos espaciales
-library(rgdal) #Leer cartograf??as.
-library(rgeos)
-library(maptools) #Tambi??n permite leer cartograf??as
-
-# dir() para encontrar el nombre del dirctorio donde est??n guardados los
-# ficheros shape con las cartograf??as
 dir()
+# Utilizamos los shapes que disponemos en el directorio del Instituto Geogr??fico Nacional.
+dir("data/ign/Carto_BCN500")
 
-# puedo llamar dir() con el nombre del directorio
-
-dir("1.AnalisisParadas")
-# Read in shapefile with readOGR(): neighborhoods
-paradasCat<-readOGR("1.AnalisisParadas","PARADAS_DEFINITIVO")
+# Leemos el shape con readOGR
+poblacion<-readOGR("data/ign/Carto_BCN500", "BCN500_0501P_POBLACION")
+paradasCat<-readOGR("data/opendata_esri/paradas","PARADAS_DEFINITIVO")
 #Crea un Large SpatialPolygonsDataFrame: tiene tantas filas como pol??gonos: 17 CCAA + 2 ciudades aut??nomas.
 
-dir("notebooks/BTN100_TEMA6_TRANSPORTES")
-carrAutovia<-readOGR("notebooks/BTN100_TEMA6_TRANSPORTES", "BTN100_0601L_AUTOVIA")
-carrAutopista<-readOGR("notebooks/BTN100_TEMA6_TRANSPORTES", "BTN100_0602L_AUTOPISTA")
-carrNac<-readOGR("notebooks/BTN100_TEMA6_TRANSPORTES", "BTN100_0603L_CARR_NAC")
-carrAuton<-readOGR("notebooks/BTN100_TEMA6_TRANSPORTES", "BTN100_0604L_CARR_AUTON")
 
-dir("Carto_BCN500")
-poblacion<-readOGR("Carto_BCN500", "BCN500_0501P_POBLACION")
-prov<-readOGR("Carto_BCN500", "BCN500_0103L_EV_ENCLAVE_PROV")  #readOGR descarga la dimensi??n Z.
-libAdm<-readOGR("Carto_BCN500", "BCN500_0101S_LIMITE_ADM")
 
-#Si el directorio es el de trabajo tambi??n se puede usar
-#CCAA_MAP<-readOGR(dsn=getwd(),"CCAA_GEO_ETRS89")
-#CCAA_MAP<-readOGR(dsn="."","CCAA_GEO_ETRS89")
-CCAA_MAP<-readOGR("3.EstudioR/cartoclase", "CCAA_GEO_ETRS89")
-summary(CCAA_MAP)
+
 #De la p??gina https://www.ine.es/daco/daco42/codmun/cod_ccaa.htm vemos que el c??digo de Catalu??a es 09
 catCodeId <- 9
 catCode <- sprintf("CA%02d",catCodeId)
@@ -346,10 +323,8 @@ tm_shape(catalunyaMap4)+
 save.image("backup.RData")
 
 #Pasamos a leer un rds para los c??lculos por municipio (nivel 4: ESP_4)
-library(sp)
-library(rgdal)
-dir("Carto_GADM")
-ESP <- readRDS("Carto_GADM/gadm36_ESP_4_sp.rds")
+dir("data")
+ESP <- readRDS("data/gadm/gadm36_ESP_4_sp.rds")
 unique(ESP$NAME_1)
 catalunyaMap3 <- ESP[ESP$NAME_1=="Catalu??a",]
 spplot(catalunyaMap3, "NAME_2")

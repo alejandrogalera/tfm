@@ -1,0 +1,948 @@
+"","COD_INE","Municipio","Poblacion"
+"1","08001","Abrera",12538
+"2","08002","Aguilar de Segarra",282
+"3","08014","Aiguafreda",2512
+"4","08003","Alella",9904
+"5","08004","Alpens",261
+"6","08005","Ametlla del Vallès, L'",8646
+"7","08006","Arenys de Mar",15941
+"8","08007","Arenys de Munt",9121
+"9","08008","Argençola",219
+"10","08009","Argentona",12536
+"11","08010","Artés",5762
+"12","08011","Avià",2220
+"13","08012","Avinyó",2289
+"14","08013","Avinyonet del Penedès",1697
+"15","08015","Badalona",223166
+"16","08904","Badia del Vallès",13415
+"17","08016","Bagà",2140
+"18","08017","Balenyà",3840
+"19","08018","Balsareny",3192
+"20","08252","Barberà del Vallès",33334
+"21","08019","Barcelona",1664182
+"22","08020","Begues",7300
+"23","08021","Bellprat",64
+"24","08022","Berga",16760
+"25","08023","Bigues i Riells",9358
+"26","08024","Borredà",464
+"27","08025","Bruc, El",2110
+"28","08026","Brull, El",258
+"29","08027","Cabanyes, Les",979
+"30","08028","Cabrera d'Anoia",1482
+"31","08029","Cabrera de Mar",4747
+"32","08030","Cabrils",7432
+"33","08031","Calaf",3656
+"34","08034","Calders",1045
+"35","08033","Caldes de Montbui",17812
+"36","08032","Caldes d'Estrac",3021
+"37","08035","Calella",19277
+"38","08037","Calldetenes",2513
+"39","08038","Callús",2129
+"40","08036","Calonge de Segarra",188
+"41","08039","Campins",541
+"42","08040","Canet de Mar",14865
+"43","08041","Canovelles",16829
+"44","08042","Cànoves i Samalús",3156
+"45","08043","Canyelles",4699
+"46","08044","Capellades",5342
+"47","08045","Capolat",84
+"48","08046","Cardedeu",18424
+"49","08047","Cardona",4639
+"50","08048","Carme",785
+"51","08049","Casserres",1588
+"52","08057","Castell de l'Areny",67
+"53","08052","Castellar de n'Hug",156
+"54","08050","Castellar del Riu",176
+"55","08051","Castellar del Vallès",24488
+"56","08053","Castellbell i el Vilar",3719
+"57","08054","Castellbisbal",12539
+"58","08055","Castellcir",742
+"59","08056","Castelldefels",67460
+"60","08058","Castellet i la Gornal",2382
+"61","08060","Castellfollit de Riubregós",162
+"62","08059","Castellfollit del Boix",447
+"63","08061","Castellgalí",2119
+"64","08062","Castellnou de Bages",1437
+"65","08063","Castellolí",626
+"66","08064","Castellterçol",2548
+"67","08065","Castellví de la Marca",1575
+"68","08066","Castellví de Rosanes",1933
+"69","08067","Centelles",7513
+"70","08268","Cercs",1150
+"71","08266","Cerdanyola del Vallès",57855
+"72","08068","Cervelló",9077
+"73","08069","Collbató",4544
+"74","08070","Collsuspina",359
+"75","08071","Copons",321
+"76","08072","Corbera de Llobregat",14882
+"77","08073","Cornellà de Llobregat",89936
+"78","08074","Cubelles",15770
+"79","08075","Dosrius",5652
+"80","08076","Esparreguera",22302
+"81","08077","Esplugues de Llobregat",47150
+"82","08078","Espunyola, L'",242
+"83","08254","Esquirol, L'",2186
+"84","08079","Estany, L'",408
+"85","08134","Figaró-Montmany",1142
+"86","08080","Fígols",43
+"87","08082","Fogars de la Selva",1469
+"88","08081","Fogars de Montclús",475
+"89","08083","Folgueroles",2265
+"90","08084","Fonollosa",1459
+"91","08085","Font-rubí",1414
+"92","08086","Franqueses del Vallès, Les",20364
+"93","08090","Gaià",183
+"94","08087","Gallifa",167
+"95","08088","Garriga, La",16668
+"96","08089","Gavà",47057
+"97","08091","Gelida",7670
+"98","08092","Gironella",4946
+"99","08093","Gisclareny",26
+"100","08094","Granada, La",2208
+"101","08095","Granera",77
+"102","08096","Granollers",62419
+"103","08097","Gualba",1548
+"104","08099","Guardiola de Berguedà",941
+"105","08100","Gurb",2713
+"106","08101","Hospitalet de Llobregat, L'",269382
+"107","08162","Hostalets de Pierola, Els",2980
+"108","08102","Igualada",40742
+"109","08103","Jorba",833
+"110","08104","Llacuna, La",903
+"111","08105","Llagosta, La",13587
+"112","08107","Lliçà d'Amunt",15469
+"113","08108","Lliçà de Vall",6497
+"114","08106","Llinars del Vallès",10018
+"115","08109","Lluçà",276
+"116","08110","Malgrat de Mar",18772
+"117","08111","Malla",272
+"118","08112","Manlleu",20912
+"119","08113","Manresa",78245
+"120","08242","Marganell",266
+"121","08114","Martorell",28772
+"122","08115","Martorelles",4820
+"123","08116","Masies de Roda, Les",719
+"124","08117","Masies de Voltregà, Les",3132
+"125","08118","Masnou, El",23831
+"126","08119","Masquefa",9402
+"127","08120","Matadepera",9496
+"128","08121","Mataró",129661
+"129","08122","Mediona",2369
+"130","08138","Moià",6383
+"131","08123","Molins de Rei",25940
+"132","08124","Mollet del Vallès",51600
+"133","08128","Monistrol de Calders",702
+"134","08127","Monistrol de Montserrat",3139
+"135","08125","Montcada i Reixac",36803
+"136","08130","Montclar",139
+"137","08131","Montesquiu",1030
+"138","08126","Montgat",12200
+"139","08132","Montmajor",469
+"140","08133","Montmaneu",151
+"141","08135","Montmeló",8831
+"142","08136","Montornès del Vallès",16644
+"143","08137","Montseny",351
+"144","08129","Muntanyola",632
+"145","08139","Mura",220
+"146","08140","Navarcles",6057
+"147","08141","Navàs",6018
+"148","08142","Nou de Berguedà, La",162
+"149","08143","Òdena",3668
+"150","08145","Olèrdola",3768
+"151","08146","Olesa de Bonesvalls",1840
+"152","08147","Olesa de Montserrat",24144
+"153","08148","Olivella",3935
+"154","08149","Olost",1202
+"155","08144","Olvan",858
+"156","08150","Orís",322
+"157","08151","Oristà",549
+"158","08152","Orpí",151
+"159","08153","Òrrius",758
+"160","08154","Pacs del Penedès",918
+"161","08155","Palafolls",9613
+"162","08156","Palau-solità i Plegamans",14892
+"163","08157","Pallejà",11622
+"164","08905","Palma de Cervelló, La",2992
+"165","08158","Papiol, El",4172
+"166","08159","Parets del Vallès",19071
+"167","08160","Perafita",405
+"168","08161","Piera",16134
+"169","08163","Pineda de Mar",27984
+"170","08164","Pla del Penedès, El",1275
+"171","08165","Pobla de Claramunt, La",2185
+"172","08166","Pobla de Lillet, La",1093
+"173","08167","Polinyà",8504
+"174","08182","Pont de Vilomara i Rocafort, El",3907
+"175","08168","Pontons",528
+"176","08169","Prat de Llobregat, El",65385
+"177","08171","Prats de Lluçanès",2604
+"178","08170","Prats de Rei, Els",537
+"179","08230","Premià de Dalt",10441
+"180","08172","Premià de Mar",28531
+"181","08174","Puigdàlber",524
+"182","08175","Puig-reig",4295
+"183","08176","Pujalt",210
+"184","08177","Quar, La",49
+"185","08178","Rajadell",534
+"186","08179","Rellinars",809
+"187","08180","Ripollet",39179
+"188","08181","Roca del Vallès, La",10754
+"189","08183","Roda de Ter",6490
+"190","08184","Rubí",78591
+"191","08185","Rubió",239
+"192","08901","Rupit i Pruit",271
+"193","08187","Sabadell",216520
+"194","08188","Sagàs",145
+"195","08190","Saldes",278
+"196","08191","Sallent",6735
+"197","08194","Sant Adrià de Besòs",37447
+"198","08195","Sant Agustí de Lluçanès",89
+"199","08196","Sant Andreu de la Barca",27569
+"200","08197","Sant Andreu de Llavaneres",11133
+"201","08198","Sant Antoni de Vilamajor",6208
+"202","08199","Sant Bartomeu del Grau",884
+"203","08200","Sant Boi de Llobregat",84500
+"204","08201","Sant Boi de Lluçanès",580
+"205","08203","Sant Cebrià de Vallalta",3438
+"206","08202","Sant Celoni",18136
+"207","08204","Sant Climent de Llobregat",4160
+"208","08205","Sant Cugat del Vallès",92977
+"209","08206","Sant Cugat Sesgarrigues",1009
+"210","08207","Sant Esteve de Palautordera",2864
+"211","08208","Sant Esteve Sesrovires",7696
+"212","08210","Sant Feliu de Codines",6363
+"213","08211","Sant Feliu de Llobregat",45467
+"214","08212","Sant Feliu Sasserra",605
+"215","08209","Sant Fost de Campsentelles",8853
+"216","08213","Sant Fruitós de Bages",8837
+"217","08215","Sant Hipòlit de Voltregà",3540
+"218","08193","Sant Iscle de Vallalta",1342
+"219","08216","Sant Jaume de Frontanyà",30
+"220","08218","Sant Joan de Vilatorrada",10998
+"221","08217","Sant Joan Despí",34267
+"222","08903","Sant Julià de Cerdanyola",229
+"223","08220","Sant Julià de Vilatorta",3140
+"224","08221","Sant Just Desvern",18670
+"225","08222","Sant Llorenç d'Hortons",2428
+"226","08223","Sant Llorenç Savall",2417
+"227","08225","Sant Martí d'Albars",114
+"228","08224","Sant Martí de Centelles",1184
+"229","08226","Sant Martí de Tous",1228
+"230","08227","Sant Martí Sarroca",3261
+"231","08228","Sant Martí Sesgueioles",342
+"232","08229","Sant Mateu de Bages",608
+"233","08231","Sant Pere de Ribes",31111
+"234","08232","Sant Pere de Riudebitlles",2380
+"235","08233","Sant Pere de Torelló",2470
+"236","08234","Sant Pere de Vilamajor",4544
+"237","08189","Sant Pere Sallavinera",151
+"238","08235","Sant Pol de Mar",5428
+"239","08236","Sant Quintí de Mediona",2317
+"240","08237","Sant Quirze de Besora",2154
+"241","08238","Sant Quirze del Vallès",20195
+"242","08239","Sant Quirze Safaja",631
+"243","08240","Sant Sadurní d'Anoia",12841
+"244","08241","Sant Sadurní d'Osormort",76
+"245","08098","Sant Salvador de Guardiola",3221
+"246","08262","Sant Vicenç de Castellet",9767
+"247","08264","Sant Vicenç de Montalt",6452
+"248","08265","Sant Vicenç de Torelló",2058
+"249","08263","Sant Vicenç dels Horts",28268
+"250","08243","Santa Cecília de Voltregà",182
+"251","08244","Santa Coloma de Cervelló",8268
+"252","08245","Santa Coloma de Gramenet",120443
+"253","08246","Santa Eugènia de Berga",2278
+"254","08247","Santa Eulàlia de Riuprimer",1383
+"255","08248","Santa Eulàlia de Ronçana",7426
+"256","08249","Santa Fe del Penedès",367
+"257","08250","Santa Margarida de Montbui",10225
+"258","08251","Santa Margarida i els Monjos",7676
+"259","08253","Santa Maria de Besora",161
+"260","08256","Santa Maria de Martorelles",890
+"261","08255","Santa Maria de Merlès",184
+"262","08257","Santa Maria de Miralles",119
+"263","08259","Santa Maria de Palautordera",9630
+"264","08258","Santa Maria d'Oló",1024
+"265","08260","Santa Perpètua de Mogoda",25999
+"266","08261","Santa Susanna",3548
+"267","08192","Santpedor",7604
+"268","08267","Sentmenat",9235
+"269","08269","Seva",3544
+"270","08270","Sitges",29553
+"271","08271","Sobremunt",78
+"272","08272","Sora",212
+"273","08273","Subirats",3104
+"274","08274","Súria",5948
+"275","08276","Tagamanent",318
+"276","08277","Talamanca",209
+"277","08278","Taradell",6640
+"278","08275","Tavèrnoles",322
+"279","08280","Tavertet",105
+"280","08281","Teià",6427
+"281","08279","Terrassa",223627
+"282","08282","Tiana",8945
+"283","08283","Tona",8356
+"284","08284","Tordera",17519
+"285","08285","Torelló",14400
+"286","08286","Torre de Claramunt, La",3741
+"287","08287","Torrelavit",1422
+"288","08288","Torrelles de Foix",2398
+"289","08289","Torrelles de Llobregat",6073
+"290","08290","Ullastrell",2089
+"291","08291","Vacarisses",6832
+"292","08292","Vallbona d'Anoia",1357
+"293","08293","Vallcebre",249
+"294","08294","Vallgorguina",2988
+"295","08295","Vallirana",15312
+"296","08296","Vallromanes",2558
+"297","08297","Veciana",175
+"298","08298","Vic",47630
+"299","08299","Vilada",419
+"300","08301","Viladecans",67197
+"301","08300","Viladecavalls",7545
+"302","08305","Vilafranca del Penedès",40154
+"303","08306","Vilalba Sasserra",753
+"304","08303","Vilanova de Sau",312
+"305","08302","Vilanova del Camí",12596
+"306","08902","Vilanova del Vallès",5503
+"307","08307","Vilanova i la Geltrú",67733
+"308","08214","Vilassar de Dalt",9072
+"309","08219","Vilassar de Mar",21035
+"310","08304","Vilobí del Penedès",1102
+"311","08308","Viver i Serrateix",172
+"312","17001","Agullana",863
+"313","17002","Aiguaviva",765
+"314","17003","Albanyà",155
+"315","17004","Albons",759
+"316","17006","Alp",1593
+"317","17007","Amer",2332
+"318","17008","Anglès",5654
+"319","17009","Arbúcies",6608
+"320","17010","Argelaguer",396
+"321","17011","Armentera, L'",951
+"322","17012","Avinyonet de Puigventós",1641
+"323","17015","Banyoles",20053
+"324","17016","Bàscara",1001
+"325","17013","Begur",3891
+"326","17018","Bellcaire d'Empordà",678
+"327","17019","Besalú",2487
+"328","17020","Bescanó",4991
+"329","17021","Beuda",186
+"330","17022","Bisbal d'Empordà, La",11159
+"331","17234","Biure",241
+"332","17023","Blanes",39914
+"333","17029","Boadella i les Escaules",272
+"334","17024","Bolvir",375
+"335","17025","Bordils",1761
+"336","17026","Borrassà",733
+"337","17027","Breda",3762
+"338","17028","Brunyola i Sant Martí Sapresa",389
+"339","17031","Cabanelles",267
+"340","17030","Cabanes",968
+"341","17032","Cadaqués",2695
+"342","17033","Caldes de Malavella",7872
+"343","17034","Calonge i Sant Antoni",11331
+"344","17035","Camós",677
+"345","17036","Campdevànol",3232
+"346","17037","Campelles",140
+"347","17038","Campllong",537
+"348","17039","Camprodon",2298
+"349","17040","Canet d'Adri",729
+"350","17041","Cantallops",309
+"351","17042","Capmany",611
+"352","17044","Cassà de la Selva",10410
+"353","17046","Castellfollit de la Roca",947
+"354","17047","Castelló d'Empúries",11100
+"355","17048","Castell-Platja d'Aro",11030
+"356","17189","Cellera de Ter, La",1950
+"357","17049","Celrà",5561
+"358","17050","Cervià de Ter",966
+"359","17051","Cistella",282
+"360","17054","Colera",445
+"361","17055","Colomers",174
+"362","17057","Corçà",1268
+"363","17056","Cornellà del Terri",2399
+"364","17058","Crespià",254
+"365","17901","Cruïlles, Monells i Sant Sadurní de l'Heura",1270
+"366","17060","Darnius",537
+"367","17061","Das",234
+"368","17062","Escala, L'",10244
+"369","17063","Espinelves",221
+"370","17064","Espolla",412
+"371","17065","Esponellà",463
+"372","17005","Far d'Empordà, El",602
+"373","17066","Figueres",47235
+"374","17067","Flaçà",1130
+"375","17068","Foixà",303
+"376","17069","Fontanals de Cerdanya",437
+"377","17070","Fontanilles",146
+"378","17071","Fontcoberta",1469
+"379","17902","Forallac",1695
+"380","17073","Fornells de la Selva",2670
+"381","17074","Fortià",787
+"382","17075","Garrigàs",451
+"383","17076","Garrigoles",167
+"384","17077","Garriguella",853
+"385","17078","Ger",449
+"386","17079","Girona",103369
+"387","17080","Gombrèn",192
+"388","17081","Gualta",402
+"389","17082","Guils de Cerdanya",549
+"390","17083","Hostalric",4291
+"391","17084","Isòvol",281
+"392","17085","Jafre",387
+"393","17086","Jonquera, La",3320
+"394","17087","Juià",319
+"395","17088","Lladó",844
+"396","17089","Llagostera",8647
+"397","17090","Llambilles",713
+"398","17091","Llanars",535
+"399","17092","Llançà",4775
+"400","17093","Llers",1237
+"401","17094","Llívia",1431
+"402","17095","Lloret de Mar",39089
+"403","17096","Llosses, Les",212
+"404","17102","Maçanet de Cabrenys",698
+"405","17103","Maçanet de la Selva",7066
+"406","17097","Madremanya",288
+"407","17098","Maià de Montcal",463
+"408","17100","Masarac",288
+"409","17101","Massanes",796
+"410","17099","Meranges",100
+"411","17105","Mieres",345
+"412","17106","Mollet de Peralada",198
+"413","17107","Molló",336
+"414","17109","Montagut i Oix",930
+"415","17110","Mont-ras",1680
+"416","17111","Navata",1427
+"417","17112","Ogassa",240
+"418","17114","Olot",35926
+"419","17115","Ordis",361
+"420","17116","Osor",428
+"421","17117","Palafrugell",23244
+"422","17118","Palamós",18135
+"423","17119","Palau de Santa Eulàlia",90
+"424","17121","Palau-sator",310
+"425","17120","Palau-saverdera",1456
+"426","17123","Palol de Revardit",448
+"427","17124","Pals",2395
+"428","17125","Pardines",169
+"429","17126","Parlavà",391
+"430","17128","Pau",557
+"431","17129","Pedret i Marzà",191
+"432","17130","Pera, La",435
+"433","17132","Peralada",1898
+"434","17133","Planes d'Hostoles, Les",1712
+"435","17134","Planoles",304
+"436","17135","Pont de Molins",516
+"437","17136","Pontós",260
+"438","17137","Porqueres",4677
+"439","17140","Port de la Selva, El",958
+"440","17138","Portbou",1063
+"441","17139","Preses, Les",1855
+"442","17141","Puigcerdà",9486
+"443","17142","Quart",3798
+"444","17043","Queralbs",188
+"445","17143","Rabós",184
+"446","17144","Regencós",276
+"447","17145","Ribes de Freser",1760
+"448","17146","Riells i Viabrea",4153
+"449","17147","Ripoll",10803
+"450","17148","Riudarenes",2204
+"451","17149","Riudaura",481
+"452","17150","Riudellots de la Selva",2071
+"453","17151","Riumors",246
+"454","17152","Roses",19807
+"455","17153","Rupià",273
+"456","17154","Sales de Llierca",159
+"457","17155","Salt",32138
+"458","17157","Sant Andreu Salou",160
+"459","17183","Sant Aniol de Finestres",345
+"460","17158","Sant Climent Sescebes",707
+"461","17159","Sant Feliu de Buixalleu",797
+"462","17160","Sant Feliu de Guíxols",22097
+"463","17161","Sant Feliu de Pallerols",1437
+"464","17162","Sant Ferriol",236
+"465","17163","Sant Gregori",3928
+"466","17164","Sant Hilari Sacalm",5703
+"467","17165","Sant Jaume de Llierca",871
+"468","17167","Sant Joan de les Abadesses",3224
+"469","17168","Sant Joan de Mollet",498
+"470","17185","Sant Joan les Fonts",3044
+"471","17166","Sant Jordi Desvalls",760
+"472","17169","Sant Julià de Ramis",3576
+"473","17903","Sant Julià del Llor i Bonmatí",1313
+"474","17171","Sant Llorenç de la Muga",265
+"475","17172","Sant Martí de Llémena",641
+"476","17173","Sant Martí Vell",251
+"477","17174","Sant Miquel de Campmajor",229
+"478","17175","Sant Miquel de Fluvià",761
+"479","17176","Sant Mori",166
+"480","17177","Sant Pau de Segúries",688
+"481","17178","Sant Pere Pescador",2090
+"482","17180","Santa Coloma de Farners",13363
+"483","17181","Santa Cristina d'Aro",5287
+"484","17182","Santa Llogaia d'Àlguema",368
+"485","17184","Santa Pau",1614
+"486","17186","Sarrià de Ter",5229
+"487","17187","Saus, Camallera i Llampaies",856
+"488","17188","Selva de Mar, La",195
+"489","17190","Serinyà",1133
+"490","17191","Serra de Daró",222
+"491","17192","Setcases",170
+"492","17193","Sils",6219
+"493","17052","Siurana",171
+"494","17194","Susqueda",93
+"495","17195","Tallada d'Empordà, La",454
+"496","17196","Terrades",338
+"497","17197","Torrent",164
+"498","17198","Torroella de Fluvià",703
+"499","17199","Torroella de Montgrí",11836
+"500","17200","Tortellà",818
+"501","17201","Toses",168
+"502","17202","Tossa de Mar",5818
+"503","17204","Ullà",1177
+"504","17205","Ullastret",274
+"505","17203","Ultramort",225
+"506","17206","Urús",196
+"507","17014","Vajol, La",89
+"508","17208","Vall de Bianya, La",1275
+"509","17207","Vall d'en Bas, La",3093
+"510","17170","Vallfogona de Ripollès",196
+"511","17209","Vall-llobrega",897
+"512","17210","Ventalló",846
+"513","17211","Verges",1169
+"514","17212","Vidrà",177
+"515","17213","Vidreres",7951
+"516","17214","Vilabertran",993
+"517","17215","Vilablareix",3063
+"518","17217","Viladamat",458
+"519","17216","Viladasens",206
+"520","17218","Vilademuls",835
+"521","17220","Viladrau",1047
+"522","17221","Vilafant",5421
+"523","17223","Vilajuïga",1116
+"524","17224","Vilallonga de Ter",398
+"525","17225","Vilamacolum",377
+"526","17226","Vilamalla",1161
+"527","17227","Vilamaniscle",212
+"528","17228","Vilanant",386
+"529","17230","Vila-sacra",758
+"530","17222","Vilaür",158
+"531","17233","Vilobí d'Onyar",3333
+"532","17232","Vilopriu",204
+"533","25001","Abella de la Conca",183
+"534","25002","Àger",580
+"535","25003","Agramunt",5411
+"536","25038","Aitona",2567
+"537","25004","Alamús, Els",811
+"538","25005","Alàs i Cerc",320
+"539","25006","Albagés, L'",361
+"540","25007","Albatàrrec",2236
+"541","25008","Albesa",1561
+"542","25009","Albi, L'",744
+"543","25010","Alcanó",238
+"544","25011","Alcarràs",9707
+"545","25012","Alcoletge",3435
+"546","25013","Alfarràs",2765
+"547","25014","Alfés",297
+"548","25015","Algerri",404
+"549","25016","Alguaire",3029
+"550","25017","Alins",272
+"551","25019","Almacelles",6826
+"552","25020","Almatret",305
+"553","25021","Almenar",3357
+"554","25022","Alòs de Balaguer",132
+"555","25023","Alpicat",6266
+"556","25024","Alt Àneu",414
+"557","25027","Anglesola",1365
+"558","25029","Arbeca",2126
+"559","25031","Arres",60
+"560","25032","Arsèguel",81
+"561","25033","Artesa de Lleida",1535
+"562","25034","Artesa de Segre",3400
+"563","25036","Aspa",220
+"564","25037","Avellanes i Santa Linya, Les",433
+"565","25039","Baix Pallars",331
+"566","25040","Balaguer",17472
+"567","25041","Barbens",878
+"568","25042","Baronia de Rialb, La",229
+"569","25044","Bassella",217
+"570","25045","Bausen",60
+"571","25046","Belianes",520
+"572","25170","Bellaguarda",287
+"573","25047","Bellcaire d'Urgell",1199
+"574","25048","Bell-lloc d'Urgell",2335
+"575","25049","Bellmunt d'Urgell",185
+"576","25050","Bellpuig",5218
+"577","25051","Bellver de Cerdanya",2005
+"578","25052","Bellvís",2260
+"579","25053","Benavent de Segrià",1518
+"580","25055","Biosca",177
+"581","25057","Bòrdes, Es",255
+"582","25058","Borges Blanques, Les",6173
+"583","25059","Bossòst",1115
+"584","25056","Bovera",248
+"585","25060","Cabanabona",71
+"586","25061","Cabó",93
+"587","25062","Camarasa",810
+"588","25063","Canejan",89
+"589","25904","Castell de Mur",173
+"590","25064","Castellar de la Ribera",131
+"591","25067","Castelldans",930
+"592","25068","Castellnou de Seana",665
+"593","25069","Castelló de Farfanya",539
+"594","25070","Castellserà",996
+"595","25071","Cava",45
+"596","25072","Cervera",9350
+"597","25073","Cervià de les Garrigues",662
+"598","25074","Ciutadilla",208
+"599","25075","Clariana de Cardener",161
+"600","25076","Cogul, El",151
+"601","25077","Coll de Nargó",540
+"602","25163","Coma i la Pedra, La",255
+"603","25161","Conca de Dalt",410
+"604","25078","Corbins",1462
+"605","25079","Cubells",338
+"606","25081","Espluga Calba, L'",329
+"607","25082","Espot",366
+"608","25088","Estamariu",125
+"609","25085","Estaràs",156
+"610","25086","Esterri d'Àneu",804
+"611","25087","Esterri de Cardós",64
+"612","25089","Farrera",108
+"613","25908","Fígols i Alinyà",244
+"614","25092","Floresta, La",140
+"615","25093","Fondarella",776
+"616","25094","Foradada",203
+"617","25096","Fuliola, La",1250
+"618","25097","Fulleda",102
+"619","25098","Gavet de la Conca",261
+"620","25912","Gimenells i el Pla de la Font",1120
+"621","25099","Golmés",1855
+"622","25100","Gósol",206
+"623","25101","Granadella, La",716
+"624","25102","Granja d'Escarp, La",922
+"625","25103","Granyanella",143
+"626","25105","Granyena de les Garrigues",140
+"627","25104","Granyena de Segarra",151
+"628","25109","Guimerà",271
+"629","25903","Guingueta d'Àneu, La",289
+"630","25110","Guissona",7248
+"631","25111","Guixers",132
+"632","25115","Isona i Conca Dellà",1042
+"633","25112","Ivars de Noguera",332
+"634","25113","Ivars d'Urgell",1537
+"635","25114","Ivorra",108
+"636","25910","Josa i Tuixén",103
+"637","25118","Juncosa",395
+"638","25119","Juneda",3501
+"639","25121","Les",971
+"640","25122","Linyola",2717
+"641","25123","Lladorre",237
+"642","25124","Lladurs",180
+"643","25125","Llardecans",444
+"644","25126","Llavorsí",346
+"645","25120","Lleida",140403
+"646","25127","Lles de Cerdanya",270
+"647","25128","Llimiana",146
+"648","25129","Llobera",188
+"649","25133","Maials",909
+"650","25130","Maldà",227
+"651","25131","Massalcoreig",610
+"652","25132","Massoteres",212
+"653","25134","Menàrguens",813
+"654","25135","Miralcamp",1385
+"655","25137","Mollerussa",14649
+"656","25136","Molsosa, La",104
+"657","25139","Montellà i Martinet",578
+"658","25140","Montferrer i Castellbò",1034
+"659","25138","Montgai",643
+"660","25142","Montoliu de Lleida",483
+"661","25141","Montoliu de Segarra",187
+"662","25143","Montornès de Segarra",96
+"663","25145","Nalec",90
+"664","25025","Naut Aran",1836
+"665","25146","Navès",284
+"666","25148","Odèn",258
+"667","25149","Oliana",1843
+"668","25150","Oliola",203
+"669","25151","Olius",981
+"670","25152","Oluges, Les",171
+"671","25153","Omellons, Els",206
+"672","25154","Omells de na Gaia, Els",130
+"673","25155","Organyà",771
+"674","25156","Os de Balaguer",980
+"675","25157","Ossó de Sió",203
+"676","25158","Palau d'Anglesola, El",2166
+"677","25164","Penelles",436
+"678","25165","Peramola",347
+"679","25166","Pinell de Solsonès",193
+"680","25167","Pinós",286
+"681","25911","Plans de Sió, Els",491
+"682","25168","Poal, El",670
+"683","25169","Pobla de Cérvoles, La",189
+"684","25171","Pobla de Segur, La",3043
+"685","25030","Pont de Bar, El",152
+"686","25173","Pont de Suert, El",2257
+"687","25172","Ponts",2644
+"688","25174","Portella, La",743
+"689","25175","Prats i Sansor",222
+"690","25176","Preixana",387
+"691","25177","Preixens",418
+"692","25179","Prullans",226
+"693","25180","Puiggròs",278
+"694","25181","Puigverd d'Agramunt",229
+"695","25182","Puigverd de Lleida",1349
+"696","25183","Rialp",641
+"697","25905","Ribera d'Ondara",433
+"698","25185","Ribera d'Urgellet",932
+"699","25186","Riner",263
+"700","25913","Riu de Cerdanya",93
+"701","25189","Rosselló",3237
+"702","25190","Salàs de Pallars",327
+"703","25191","Sanaüja",379
+"704","25196","Sant Esteve de la Sarga",122
+"705","25192","Sant Guim de Freixenet",1037
+"706","25197","Sant Guim de la Plana",181
+"707","25193","Sant Llorenç de Morunys",960
+"708","25902","Sant Martí de Riucorb",639
+"709","25194","Sant Ramon",487
+"710","25201","Sarroca de Bellera",116
+"711","25200","Sarroca de Lleida",358
+"712","25202","Senterada",139
+"713","25035","Sentiu de Sió, La",414
+"714","25204","Seròs",1946
+"715","25203","Seu d'Urgell, La",12206
+"716","25205","Sidamon",748
+"717","25206","Soleràs, El",332
+"718","25207","Solsona",9137
+"719","25208","Soriguera",420
+"720","25209","Sort",2154
+"721","25210","Soses",1761
+"722","25211","Sudanell",840
+"723","25212","Sunyer",343
+"724","25215","Talarn",595
+"725","25216","Talavera",279
+"726","25217","Tàrrega",17445
+"727","25218","Tarrés",102
+"728","25219","Tarroja de Segarra",188
+"729","25220","Térmens",1360
+"730","25221","Tírvia",134
+"731","25222","Tiurana",77
+"732","25223","Torà",1237
+"733","25224","Torms, Els",138
+"734","25225","Tornabous",822
+"735","25227","Torre de Cabdella, La",759
+"736","25226","Torrebesses",267
+"737","25228","Torrefarrera",4694
+"738","25907","Torrefeta i Florejacs",607
+"739","25230","Torregrossa",2179
+"740","25231","Torrelameu",735
+"741","25232","Torres de Segre",2366
+"742","25233","Torre-serona",398
+"743","25234","Tremp",5911
+"744","25043","Vall de Boí, La",1019
+"745","25901","Vall de Cardós",350
+"746","25238","Vallbona de les Monges",243
+"747","25240","Vallfogona de Balaguer",1906
+"748","25906","Valls d'Aguilar, Les",245
+"749","25239","Valls de Valira, Les",784
+"750","25909","Vansa i Fórnols, La",149
+"751","25242","Verdú",902
+"752","25243","Vielha e Mijaran",5611
+"753","25244","Vilagrassa",560
+"754","25245","Vilaller",549
+"755","25247","Vilamòs",178
+"756","25248","Vilanova de Bellpuig",1183
+"757","25254","Vilanova de la Barca",1088
+"758","25249","Vilanova de l'Aguda",200
+"759","25250","Vilanova de Meià",415
+"760","25251","Vilanova de Segrià",985
+"761","25252","Vila-sana",734
+"762","25253","Vilosell, El",173
+"763","25255","Vinaixa",450
+"764","43001","Aiguamúrcia",930
+"765","43002","Albinyana",2468
+"766","43003","Albiol, L'",500
+"767","43004","Alcanar",9434
+"768","43005","Alcover",5144
+"769","43904","Aldea, L'",4147
+"770","43006","Aldover",905
+"771","43007","Aleixar, L'",893
+"772","43008","Alfara de Carles",376
+"773","43009","Alforja",1783
+"774","43010","Alió",458
+"775","43011","Almoster",1341
+"776","43012","Altafulla",5307
+"777","43013","Ametlla de Mar, L'",6866
+"778","43906","Ampolla, L'",3277
+"779","43014","Amposta",21115
+"780","43016","Arboç, L'",5609
+"781","43015","Arbolí",127
+"782","43017","Argentera, L'",117
+"783","43018","Arnes",444
+"784","43019","Ascó",1644
+"785","43020","Banyeres del Penedès",3207
+"786","43021","Barberà de la Conca",471
+"787","43022","Batea",1901
+"788","43023","Bellmunt del Priorat",273
+"789","43024","Bellvei",2237
+"790","43025","Benifallet",723
+"791","43026","Benissanet",1140
+"792","43027","Bisbal de Falset, La",211
+"793","43028","Bisbal del Penedès, La",3631
+"794","43029","Blancafort",382
+"795","43030","Bonastre",685
+"796","43031","Borges del Camp, Les",2056
+"797","43032","Bot",554
+"798","43033","Botarell",1077
+"799","43034","Bràfim",695
+"800","43035","Cabacés",302
+"801","43036","Cabra del Camp",1175
+"802","43037","Calafell",27601
+"803","43903","Camarles",3194
+"804","43038","Cambrils",34734
+"805","43907","Canonja, La",5956
+"806","43039","Capafonts",111
+"807","43040","Capçanes",392
+"808","43041","Caseres",237
+"809","43042","Castellvell del Camp",2828
+"810","43043","Catllar, El",4557
+"811","43045","Colldejou",168
+"812","43046","Conesa",100
+"813","43047","Constantí",6665
+"814","43048","Corbera d'Ebre",1003
+"815","43049","Cornudella de Montsant",944
+"816","43050","Creixell",3758
+"817","43051","Cunit",13533
+"818","43901","Deltebre",11578
+"819","43053","Duesaigües",244
+"820","43054","Espluga de Francolí, L'",3736
+"821","43055","Falset",2735
+"822","43056","Fatarella, La",926
+"823","43057","Febró, La",40
+"824","43058","Figuera, La",114
+"825","43059","Figuerola del Camp",329
+"826","43060","Flix",3410
+"827","43061","Forès",43
+"828","43062","Freginals",385
+"829","43063","Galera, La",736
+"830","43064","Gandesa",3096
+"831","43065","Garcia",527
+"832","43066","Garidells, Els",190
+"833","43067","Ginestar",764
+"834","43068","Godall",598
+"835","43069","Gratallops",237
+"836","43070","Guiamets, Els",278
+"837","43071","Horta de Sant Joan",1146
+"838","43072","Lloar, El",105
+"839","43073","Llorac",91
+"840","43074","Llorenç del Penedès",2395
+"841","43076","Marçà",600
+"842","43075","Margalef",106
+"843","43077","Mas de Barberans",564
+"844","43078","Masdenverge",1071
+"845","43079","Masllorenç",505
+"846","43080","Masó, La",280
+"847","43081","Maspujols",823
+"848","43082","Masroig, El",492
+"849","43083","Milà, El",190
+"850","43084","Miravet",706
+"851","43085","Molar, El",291
+"852","43086","Montblanc",7379
+"853","43088","Montbrió del Camp",2909
+"854","43089","Montferri",403
+"855","43090","Montmell, El",1582
+"856","43091","Mont-ral",168
+"857","43092","Mont-roig del Camp",12460
+"858","43093","Móra d'Ebre",5695
+"859","43094","Móra la Nova",3108
+"860","43095","Morell, El",3742
+"861","43096","Morera de Montsant, La",159
+"862","43097","Nou de Gaià, La",600
+"863","43098","Nulles",509
+"864","43100","Pallaresos, Els",4850
+"865","43099","Palma d'Ebre, La",338
+"866","43101","Passanant i Belltall",155
+"867","43102","Paüls",545
+"868","43103","Perafort",1264
+"869","43104","Perelló, El",2826
+"870","43105","Piles, Les",210
+"871","43106","Pinell de Brai, El",1008
+"872","43107","Pira",503
+"873","43108","Pla de Santa Maria, El",2348
+"874","43109","Pobla de Mafumet, La",3971
+"875","43110","Pobla de Massaluca, La",317
+"876","43111","Pobla de Montornès, La",2884
+"877","43112","Poboleda",321
+"878","43113","Pont d'Armentera, El",488
+"879","43141","Pontils",122
+"880","43114","Porrera",424
+"881","43115","Pradell de la Teixeta",158
+"882","43116","Prades",588
+"883","43117","Prat de Comte",177
+"884","43118","Pratdip",726
+"885","43119","Puigpelat",1163
+"886","43120","Querol",518
+"887","43121","Rasquera",783
+"888","43122","Renau",162
+"889","43123","Reus",106168
+"890","43124","Riba, La",585
+"891","43125","Riba-roja d'Ebre",1110
+"892","43126","Riera de Gaià, La",1742
+"893","43127","Riudecanyes",1146
+"894","43128","Riudecols",1189
+"895","43129","Riudoms",6569
+"896","43130","Rocafort de Queralt",211
+"897","43131","Roda de Berà",6785
+"898","43132","Rodonyà",494
+"899","43133","Roquetes",8079
+"900","43134","Rourell, El",372
+"901","43135","Salomó",549
+"902","43905","Salou",28526
+"903","43136","Sant Carles de la Ràpita",14953
+"904","43137","Sant Jaume dels Domenys",2624
+"905","43902","Sant Jaume d'Enveja",3527
+"906","43138","Santa Bàrbara",3715
+"907","43139","Santa Coloma de Queralt",2672
+"908","43140","Santa Oliva",3353
+"909","43142","Sarral",1538
+"910","43143","Savallà del Comtat",53
+"911","43144","Secuita, La",1708
+"912","43145","Selva del Camp, La",5683
+"913","43146","Senan",44
+"914","43044","Sénia, La",5640
+"915","43147","Solivella",632
+"916","43148","Tarragona",136496
+"917","43149","Tivenys",902
+"918","43150","Tivissa",1619
+"919","43151","Torre de Fontaubella, La",131
+"920","43152","Torre de l'Espanyol, La",601
+"921","43153","Torredembarra",16567
+"922","43154","Torroja del Priorat",152
+"923","43155","Tortosa",33439
+"924","43156","Ulldecona",6525
+"925","43157","Ulldemolins",398
+"926","43158","Vallclara",88
+"927","43159","Vallfogona de Riucorb",77
+"928","43160","Vallmoll",1774
+"929","43161","Valls",24477
+"930","43162","Vandellòs i l'Hospitalet de l'Infant",6603
+"931","43163","Vendrell, El",38373
+"932","43164","Vespella de Gaià",417
+"933","43165","Vilabella",729
+"934","43175","Vilalba dels Arcs",621
+"935","43166","Vilallonga del Camp",2405
+"936","43168","Vilanova de Prades",107
+"937","43167","Vilanova d'Escornalbou",565
+"938","43169","Vilaplana",555
+"939","43170","Vila-rodona",1276
+"940","43171","Vila-seca",22555
+"941","43172","Vilaverd",443
+"942","43173","Vilella Alta, La",133
+"943","43174","Vilella Baixa, La",204
+"944","43176","Vimbodí i Poblet",890
+"945","43177","Vinebre",425
+"946","43178","Vinyols i els Arcs",2124
+"947","43052","Xerta",1154
