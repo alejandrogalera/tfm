@@ -1,0 +1,25 @@
+FROM ubuntu:20.04
+
+ARG DEBIAN_FRONTEND=noninteractive
+
+RUN apt update
+RUN apt -y upgrade
+
+#Install java
+RUN apt install -y software-properties-common curl
+RUN apt install -y openjdk-11-jdk
+ENV JAVA_HOME=/path/to/openjdk
+# For OpenJDK version 11 #
+ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+
+#RUN apt install -y default-jdk
+RUN apt update
+#RUN add-apt-repository -y ppa:webupd8team/java
+#RUN apt update
+#RUN apt install -y oracle-java8-installer oracle-java8-set-default
+
+#Download Apache Spark
+RUN curl -O https://www.apache.org/dyn/closer.lua/spark/spark-2.4.7/spark-2.4.7-bin-hadoop2.7.tgz
+RUN apt install -y gzip
+RUN tar xvf spark-2.4.7-bin-hadoop2.7.tgz
+
