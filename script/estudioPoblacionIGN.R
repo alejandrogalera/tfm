@@ -9,7 +9,7 @@ library(maptools) #Lectura de cartografías
 library(readxl)   #Lectura de ficheros Excel
 library(tmap)     #Representación de funciones
 
-# dir() para encontrar el nombre del dirctorio donde están guardados los
+# dir() para encontrar el nombre del directorio donde están guardados los
 # ficheros shape con las cartografías
 dir("data/ign/Carto_BCN500")
 # Read in shapefile with readOGR(): neighborhoods
@@ -54,26 +54,12 @@ nrow(m)
 length(listaMunicipios$ETIQUETA)
 
 #Hacemos uso del join de la libreria plyr tipo right sobre listaMunicipios
-merge2 <- plyr::join(poblacion@data, listaMunicipios, type="right")
+merge2 <- plyr::join(poblacion@data, listaMunicipios, type="left")
 nrow(merge2)
 
-sum(is.na(catalunyaIGNMap@data$POB_ENT_SI))
+sum(is.na(poblacion@data$POB_ENT_SI))
 #Hay demasiados missings (1746). Trataremos de buscar la población del INE.
 
-#---------------------
-
-
-
-
-#Pasamos a leer un rds para los cálculos por municipio (nivel 4: ESP_4)
-dir("data/gadm")
-ESP <- readRDS("data/gadm/gadm36_ESP_4_sp.rds")
-#Vemos que NAME_1 contiene las Comunidades Autónomas
-unique(ESP$NAME_1)
-catalunyaMunicMap <- ESP[ESP$NAME_1=="Cataluña",]
-spplot(catalunyaMunicMap, "NAME_4")
-catalunyaMunicMap@proj4string
-sum(!is.na(poblacion@data$ETIQUETA))
 
 #Otros posibles merge se realizan con las funciones merge o join
 catalunyaMunicMap@data$ETIQUETA <- catalunyaMunicMap@data$NAME_4
@@ -87,5 +73,24 @@ length(merge4$ETIQUETA)
 #A continuación, descargaremos los datos del censo del INE en lugar de utilizar como hasta ahora
 #los del IGN (Instituto Geográfico Nacional).
 #De aquí en adelante no usaremos la función poblacion@data
+
+#---------------------
+
+
+
+
+#Pasamos a leer un rds para los cálculos por municipio (nivel 4: ESP_4)
+download.file("https://biogeo.ucdavis.edu/data/gadm3.6/Rsp/gadm36_ESP_4_sp.rds", 
+              "data/gadm/gadm36_ESP_4_sp.rds")
+dir("data/gadm")
+ESP <- readRDS("data/gadm/gadm36_ESP_4_sp.rds")
+#Vemos que NAME_1 contiene las Comunidades Autónomas
+unique(ESP$NAME_1)
+catalunyaMunicMap <- ESP[ESP$NAME_1=="Cataluña",]
+spplot(catalunyaMunicMap, "NAME_4", title ="GADM WGS84 Municipios Cat.")
+catalunyaMunicMap@proj4string
+sum(is.na(catalunyaMunicMap@data$NAME_4))
+
+
 
 save(catalunyaMunicMap, file="data/r/catalunyaMunicMap.RData")

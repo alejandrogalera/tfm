@@ -17,20 +17,25 @@ carrNac<-readOGR("data/ign/BTN100_TEMA6_TRANSPORTES", "BTN100_0603L_CARR_NAC")
 carrAuton<-readOGR("data/ign/BTN100_TEMA6_TRANSPORTES", "BTN100_0604L_CARR_AUTON")
 
 #Se puede acceder al mapa de los límites 
-#mapDir <- "data/ign/SIGLIM_Publico_INSPIRE/SHP_ETRS89/recintos_municipales_inspire_peninbal_etrs89"
-
+mapDir <- "data/ign/SIGLIM_Publico_INSPIRE/SHP_ETRS89/recintos_provinciales_inspire_peninbal_etrs89/"
+dir(mapDir)
 #Buscamos un borde provincial sobre el que dibujar las carreteras.
 #catalunyaIGNMap<- readOGR(mapDir, "recintos_provinciales_inspire_peninbal_etrs89")
-mapDir <- "data/ign/lim_CCAA"
 catalunyaIGNMap<- rgdal::readOGR(mapDir, "recintos_provinciales_inspire_peninbal_etrs89")
 tm_shape(catalunyaIGNMap)+
-  tm_borders()
+  tm_borders()+
+  tm_layout(legend.position = c("right", "top"), 
+            title= 'SIGLIM_Publico_INSPIRE SHP_ETRS89 ign.es', 
+            title.position = c('left', 'bottom'))
 
 #Otra opción es cargar un mapa análogo de la web de ArcGIS: https://www.arcgis.com/home/item.html?id=83d81d9336c745fd839465beab885ab7
 mapDirArcGIS <- "data/arcgis/Provincias_ETRS_1989_UTM_Zone_30N"
 catalunyaArcGISMap<- rgdal::readOGR(mapDirArcGIS, "Provincias_ETRS89_30N")
 tm_shape(catalunyaArcGISMap)+
-  tm_borders()
+  tm_borders()+
+  tm_layout(legend.position = c("right", "top"), 
+            title= 'Provincias_ETRS89_30N ArcGIS', 
+            title.position = c('left', 'top'))
 #Este mapa de ArcGIS incluye incluso las islas Canarias.
 
 #Tenemos un mapa de toda España, y nos interesaría tenerlo sólo de Cataluña para representar las carreteras
@@ -79,7 +84,11 @@ catalunyaArcGISMap <- spTransform(catalunyaArcGISMap, CRS.new)
 #Según el INE, los códigos de CCAA y provincia vienen recogidos en la siguiente tabla:
 #https://www.ine.es/daco/daco42/codmun/cod_ccaa_provincia.htm
 #Fuente: INE: Relación de provincias por comunidades autónomas y sus códigos
-regionCodeId = 9
+
+cod_CCAA_prov_INE <- read.csv("data/ine/Relac_provincias_por_CCAA_Cod.csv", 
+                              encoding = "UTF-8", header = TRUE)
+regionCodeId <- cod_CCAA_prov_INE$CODAUTO[cod_CCAA_prov_INE$Comunidad.Autónoma=="Cataluña"][1]
+regionCodeId
 #Cataluña tiene el Cod_CCAA = 9
 
 #Aunque sólo se va a invocar una vez para el estudio, es buena práctica definir una función para reutilizar
@@ -104,7 +113,10 @@ catalunyaMap <- getArcGISRegionProvinces(catalunyaArcGISMap, regionCodeId)
 catalunyaMap@data <- dplyr::filter(catalunyaMap@data, catalunyaMap@data$CCAA=="Cataluña")
 
 tm_shape(catalunyaMap)+
-  tm_borders()
+  tm_borders()+
+  tm_layout(legend.position = c("right", "top"), 
+            title= 'Provincias_CAT_ETRS89_30N ArcGIS', 
+            title.position = c('right', 'bottom'))
 
 rgdal::writeOGR(catalunyaMap, "data/arcgis/new", "Prov_Cat_Map_ESR89", 
                 driver = "ESRI Shapefile", encoding = "UTF-8")
@@ -254,16 +266,28 @@ carrNacCat <- filterWGS84ShapeLines(carrNac, latMin, latMax, longMin, longMax)
 carrAutonCat <- filterWGS84ShapeLines(carrAuton, latMin, latMax, longMin, longMax)
 
 #Representamos las gráficas.
+color_carretera <- c("blue", "green", "red", "orange")
 tm_shape(catalunyaMap)+
   tm_borders()+
-  tm_shape(carrAutopistaCat)+tm_lines(col='blue', scale=2)+
-  tm_shape(carrAutoviaCat)+tm_lines(col='green', scale=2)+
-  tm_shape(carrNacCat)+tm_lines(col='red', scale=1)+
-  tm_shape(carrAutonCat)+tm_lines(col='orange', scale=1)
+  tm_shape(carrAutopistaCat)+tm_lines(col=color_carretera[1], scale=2)+
+  tm_shape(carrAutoviaCat)+tm_lines(col=color_carretera[2], scale=2)+
+  tm_shape(carrNacCat)+tm_lines(col=color_carretera[3], scale=1)+
+  tm_shape(carrAutonCat)+tm_lines(col=color_carretera[4], scale=1)+
+  tm_layout(legend.position = c("right", "bottom"), 
+            legend.text.color = color_carretera,
+            legend.title.size = 1.5,
+            legend.text.size = 1,
+            title= 'BTN100_0601L-0604L_Carreteras ign.es', 
+            title.position = c('right', 'top'))+
+  tm_add_legend(type="symbol", title = "Carreteras BTN IGN", 
+                labels = c("Autopista", "Autovia", "Carretera Nacional", "Carretera Autonomica"), 
+                col = color_carretera)
+
+
 
 
 #Guardamos los datos a fichero.
-saveRDS(limits, file = "limits.rds")
+save(limits, file = "data/r/limits.RData")
 
 rgdal::writeOGR(catalunyaMap, "data/arcgis/new", "Prov_Cat_Map_ESR89", 
                 driver = "ESRI Shapefile", encoding = "UTF-8")
@@ -276,7 +300,6 @@ rgdal::writeOGR(carrNacCat, "data/ign/new", "carrNacCat",
                 driver = "ESRI Shapefile", encoding = "UTF-8")
 rgdal::writeOGR(carrAutonCat, "data/ign/new", "carrAutonCat", 
                 driver = "ESRI Shapefile", encoding = "UTF-8")
-
 
 
 

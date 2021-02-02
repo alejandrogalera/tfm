@@ -95,13 +95,17 @@ nrow(pobCATdf)
 
 dir("data/r")
 load("data/r/catalunyaMunicMap.RData")
+catalunyaPoblacMap <- catalunyaMunicMap
 catalunyaPoblacMap@data<-dplyr::left_join(catalunyaMunicMap@data,pobCATdf, by=c("NAME_4"="Municipio"))
 
 #Representamos el mapa con tm_shape de tmap
 tm_shape(catalunyaPoblacMap) +
   tm_borders() +
-  tm_fill(col = "Poblacion", n=10)
-#?tm_fill
+  tm_fill(col = "Poblacion", n=10)+
+  tm_layout(title= 'Revision del Padron Municipal.\n     Fuente: INE', 
+            legend.just = "right",
+            title.position = c('right', 'top'))
+
 
 #Gestión de missings
 #Dado que los datasets de los que partíamos no tenían un código asociado para todos los municipios y hemos 
@@ -113,6 +117,7 @@ tm_shape(catalunyaPoblacMap) +
 #de puntos.
 sum(is.na(catalunyaPoblacMap$Poblacion))
 sum(is.na(catalunyaPoblacMap$COD_INE))
+#Salen 142
 
 #Veamos a qué pueblos se refieren esos missings.
 catalunyaPoblacMap$NAME_4[is.na(catalunyaPoblacMap$COD_INE)]
@@ -322,6 +327,13 @@ mipaleta = c("orange1", "red", "green3", "blue", "cyan", "magenta", "yellow","gr
 
 tm_shape(catProvisionalParaGraf) +
   tm_borders() +
-  tm_fill(col = "Poblacion", n=100, palette = mipaleta)
+  tm_fill(col = "Poblacion", n=100, palette = mipaleta)+
+  tm_layout(main.title= 'Revision del Padron Municipal. Fuente: INE', 
+            legend.outside = TRUE,
+            legend.outside.position = "right",
+            legend.hist.size = 2,
+            legend.text.size = 2,
+            main.title.position = c('left', 'top'))
 
+save(catProvisionalParaGraf, file="data/r/catProvisionalParaGraf.RData")
 
