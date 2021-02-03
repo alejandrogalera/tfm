@@ -49,7 +49,6 @@ tm_shape(catProvisionalParaGraf)+
 
 #Analicemos el dataset un poco más en profundidad.
 unique(paradasCat@data$Operador)
-#Vemos que tenemos paradas de 120 operadores.
 #A continuación se ordenarán para estudiar si nuestra empresa debería centrarse en los operadores que disponen
 #de más lineas, usan más paradas y por tanto presumiblemente tendrán una flota mayor, o bien debería contemplar 
 #las empresas minoritarias (o long tail) para ofrecer un servicio conjunto que optimice sus beneficios, como 
@@ -58,13 +57,70 @@ unique(paradasCat@data$Operador)
 ######
 #Vamos a calcular el número de paradas que tiene cada operador y lo ordenaremos.
 #Con esto se podrá ofrecer un servicio de análisis de la competencia centralizado.
+#https://dplyr.tidyverse.org/reference/count.html
+operadores <- paradasCat@data %>% dplyr::count(Operador)
+nrow(operadores)
+# [1] 120
+#Vemos que tenemos paradas de 120 operadores entre los que destacan como mayoritarios:
+operadores[order(operadores$n, decreasing = TRUE),]
 
+
+#Veamos el número de paradas por línea.
+paradasLineas <- paradasCat@data[,c(1,5,7)]
+paradasLineas <- paradasLineas %>%
+  dplyr::group_by(Nombre_d_1,Operador) %>%
+  dplyr::count()
+
+nrow(lineas)
+summary(as.vector(lineas$n))
+var(as.vector(lineas$n))
+#Tenemos una distribución de paradas por línea muy asimétrica, con valores extremos muy alejados de la media,
+#fruto de lo cual está desplazada la media de la mediana.
+#Otra forma de ver esta asimetría es con el estadístico de la kurtosis, que se obtiene positiva.
+#Hacemos uso de la función skewness de la librería moments.
+#https://www.geeksforgeeks.org/skewness-and-kurtosis-in-r-programming/
+moments::skewness(as.vector(lineas$n))
+#Parece que tenemos outliers. Resulta llamativo que haya una línea con 1447 paradas.
+
+head(paradasLineas[order(paradasLineas$n, decreasing = TRUE),])
+
+######
+## Eliminación de duplicados.
+#Comenzamos eliminando los FID que provocan los duplicados..
+#Una forma de realizarlo es hacer directamente paradasLineas <- unique(paradasLineas), 
+#pero perderíamos la información de FID.
+#Lo que haremos es agrupar por el mínimo de FID.
+paradasLineas <- paradasCat@data
+paradasLineas <- paradasLineas %>%
+  na.omit() %>%
+  dplyr::group_by(Nombre_d_1, COORD_X, COORD_Y,
+                  Municipio) %>%
+  mutate(FID = min(FID, na.rm = TRUE)) %>%
+  arrange(FID, Nombre_d_1, COORD_X, COORD_Y,
+          Municipio)
+paradasLineasNoDup <- unique(paradasLineas)
+
+#Hemos pasado de 49438 registros a 19260.
+summary(paradasLineasNoDup)
+
+numParadasPorLinea <- paradasLineasNoDup[,c(1,5)]
+numParadasPorLinea <- numParadasPorLinea %>%
+  dplyr::group_by(Nombre_d_1) %>%
+  dplyr::count()
+
+head(numParadasPorLinea[order(numParadasPorLinea$n, decreasing = TRUE),])
+
+summary(numParadasPorLinea$n)
+
+moments::skewness(as.vector(numParadasPorLinea$n))
+
+
+####################
+## Cálculo de municipio correspondiente a la parada.
 #En primer lugar, contamos los NA en el nombre de la parada y descripción.
 paradasCat@bbox
-
 catalunyaPoblacMap@polygons
 
-#Mirar función over para ver a qué municipio pertenece la parada.
 #https://gis.stackexchange.com/questions/133625/checking-if-points-fall-within-polygon-shapefile
 dat <- data.frame(Longitude = paradasCat@coords[,1], 
                   Latitude = paradasCat@coords[,2],
@@ -76,7 +132,7 @@ proj4string(dat) <- proj4string(catalunyaPoblacMap)
 #Coordenadas de la parada: 
 
 municipioDeCadaParada <- sp::over(dat, catalunyaPoblacMap)
-municipioDeCadaParada$NAME_4
+head(municipioDeCadaParada$NAME_4)
 #> sp::over(dat, catalunyaPoblacMap)
 #GID_0 NAME_0   GID_1   NAME_1     GID_2    NAME_2        GID_3    NAME_3           GID_4
 #coords.x1   ESP  Spain ESP.6_1 Cataluña ESP.6.1_1 Barcelona ESP.6.1.10_1 n.a. (36) ESP.6.1.10.15_1
@@ -93,3 +149,8 @@ paradasCat@data$COD_INE <- municipioDeCadaParada$COD_INE
 head(paradasCat@data)
 
 #A esto queda añadirle el gasto por hogar y ya podemos pasárselo al leaflet para la leyenda.
+paradasCat$Municipio <- municipioDeCadaParada$NAME_4
+
+save(paradasCat, file = "data/r/paradasCat.RData")
+save(numParadasPorLinea, file = "data/r/numParadasPorLinea.RData")
+save(paradasLineasNoDup, file = "data/r/paradasLineasNoDup.RData")

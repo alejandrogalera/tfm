@@ -100,6 +100,8 @@ RUN apt install default-jre -y
 RUN R -e "install.packages('h2o', type='source', repos='http://h2o-release.s3.amazonaws.com/h2o/rel-zermelo/2/R')"
 RUN apt-get update 
 RUN apt-get install -y texlive-latex-base
+RUN R -e "install.packages(c('tidyverse'), \
+                           dependencies=TRUE, repos='http://cran.rstudio.com/')"
 USER rstudio
 
 ENV DISPLAY :0.0

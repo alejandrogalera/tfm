@@ -336,4 +336,4 @@ tm_shape(catProvisionalParaGraf) +
             main.title.position = c('left', 'top'))
 
 save(catProvisionalParaGraf, file="data/r/catProvisionalParaGraf.RData")
-
+save(catalunyaPoblacMap, file="data/r/catalunyaPoblacMap.RData")
