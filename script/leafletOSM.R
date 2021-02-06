@@ -14,10 +14,10 @@ library(leaflet)  #Mapas web interactivos.
 library(htmlwidgets) #Guardar gráficos en html.
 
 #Cargamos los datos procesados
-load("data/r/catalunyaPoblacMap.RData") #Para el mapa base.
-load("data/r/paradasLineasNoDup.RData") #Para un tipo de marcadores
-#load("data/r/incidentesTrafico.RData")  #Para el otro tipo de marcadores: incidentes de tráfico.
-load("data/r/fullData.RData")           #Para el gasto medio en transporte por municipio.
+load("data/r/catalunyaPoblacMap.RData")          #Para el mapa base.
+load("data/r/paradasLineasNoDupMunicipio.RData") #Para un tipo de marcadores
+#load("data/r/incidentesTrafico.RData")   #Para el otro tipo de marcadores: incidentes de tráfico.
+load("data/r/fullData.RData")                    #Para el gasto medio en transporte por municipio.
 
 #Representamos el mapa con leaflet definiendo una escala cromática amarillo-naranja-marrón.
 leaflet(catalunyaPoblacMap, 
@@ -41,59 +41,100 @@ htmlLeafletOSMPoblacion =
   addPolygons(data=catalunyaPoblacMap, stroke=TRUE, opacity = 0.35, fillOpacity = 0.37,color="grey10",
               fillColor = ~colorQuantile("YlOrBr", n=9, Poblacion, na.color = "white")(Poblacion))
 saveWidget(htmlLeafletOSMPoblacion, file="web/maps/leafletOSMPoblacion.html")
-
+htmlLeafletOSMPoblacion
 #Exportamos el gráfico con la proyección correcta (mercator), que distorsiona en latitudes mucho más altas.
 
 ######################
 # paradasLineasNoDup #
 ######################
 #A continuación, situamos los marcadores correspondientes a las paradas de autobús.
-#Antes, pasamos a double las columnas COORD_X y COORD_Y
-paradasLineasNoDup$Longitude <- as.double(paradasLineasNoDup$COORD_X)/100000
-paradasLineasNoDup$Latitude <-  as.double(paradasLineasNoDup$COORD_Y)/100000
-paradasLineasNoDup$COORD_X <- NULL
-paradasLineasNoDup$COORD_Y <- NULL
-
 #Añadimos como marcadores los puntos de una línea.
 paradasL0242 <- paradasLineasNoDup[paradasLineasNoDup$Nombre_d_1==paradasLineasNoDup$Nombre_d_1[1],]
-
-a <- as.data.frame(paradasCat@coords[c(1:10),])
 
 dat <- data.frame(Longitude = paradasL0242$Longitude,
                   Latitude = paradasL0242$Latitude)
 
-dat2 <- data.frame(Longitude = a$coords.x1,
-                  Latitude = a$coords.x2)
-
-
-leaflet(data=dat) %>%
+htmlLeafletOSMParadasL0242 <- leaflet(data=dat) %>%
   addTiles()%>%  
-  addMarkers(data=dat2,lng=~Longitude, lat=~Latitude)
+  addMarkers(data=dat,lng=~Longitude, lat=~Latitude)
+htmlLeafletOSMParadasL0242
+saveWidget(htmlLeafletOSMParadasL0242, file="web/maps/leafletOSMParadasL0242.html")
 
-
-
-datos_map<-data.frame(longx=c(-3.741274,-3.718765,-3.707027, -3.674605,-3.709559 ),
-                      laty=c(40.38479, 40.36751, 40.45495, 40.50615, 40.42059))
-
-leaflet(data=datos_map) %>%
-  addTiles()%>%  
-  addMarkers(data=datos_map,lng=~longx, lat=~laty)
-
-#Se le podr??a asignar m??s informaci??n a los marcadores.
-
-# Cargamos datos desde fichero 
-Datos <- read.csv(file="3.EstudioR/cartoclase/Data_Housing_Madrid.csv",header=TRUE)
-
-hist(Datos$house.price)
+######################################
+# Información extra a los marcadores
+# Cargamos datos desde fichero fullData
+colnames(fullData)
+head(fullData)
 
 #Para no representar todos, cojo una muestra de 100:
-m <- leaflet(data=Datos[sample(nrow(Datos),100),]) %>%
+#Para los múltiples popup utilizamos la función paste separando las líneas por el 
+#retorno de carro en HTML: https://stackoverflow.com/questions/31562383/using-leaflet-library-to-output-multiple-popup-values
+htmlLeafletOSMPobGastoOper <- leaflet(data=fullData[sample(nrow(fullData),100),]) %>%
   addTiles() %>%  # Add default OpenStreetMap map tiles
-  addMarkers(lng=~longitude,
-             lat=~latitude,
-             popup=~paste0(type.house, " - ", house.price, " euros"))
-#Basta con a??adir en el popup el tipo de la casa y el precio a la funci??n addMarkers.
-m  # Print the map
+  addMarkers(lng=~Latitude,
+             lat=~Longitude,
+             popup=~paste0("Nombre parada: ", Nombre_de_, "<br>",
+                           "Municipio:     ", Municipio, "(", COD_INE, ")<br>",
+                           "Operador:      ", Operador, "<br>",
+                           "Línea:         ", Nombre_d_1, "<br>",
+                           "Trayecto:      ", Descripcio, "<br>",
+                           "
+                           <div class=\"tab\">
+  <button class=\"tablinks\" onclick=\"openCity(event, 'London')\">London</button>
+  <button class=\"tablinks\" onclick=\"openCity(event, 'Paris')\">Paris</button>
+</div>
+                           <div id=\"London\" class=\"tabcontent\">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+  <p>London is the capital city of England.</p>
+</div>
+<div id=\"Paris\" class=\"tabcontent\">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+  <p>Paris is the capital of France.</p>
+</div>
+"
+                          ))
+#La documentación para el popup
+#https://www.w3schools.com/howto/howto_js_tabs.asp
 
+
+#Ejemplo de gráfico en el popup
+#https://stackoverflow.com/questions/32352539/plotting-barchart-in-popup-using-leaflet-library
+colnames(fullData)
+a <- fullData[1,]
+asdf <- barplot(c(a$Gasto_vehiculo, a$Gasto_tra_pub, a$Gasto_uso_veh_pers, a$Gasto_total),
+        main = "Gastos en el sector Transporte",
+        names.arg = c("Adq. veh.", "Uso pers. veh.", "Tr. publico", "Total"),
+        xlab = "Gasto promedio por familia y tipo de municipio (pob)",
+        ylab = "Euros anuales")
+
+png(filename = "test.png")
+asdf
+dev.off()
+
+kk <- plot(c(1,2,3), c(5,6,7))
+
+leaflet(data=fullData[sample(nrow(fullData),100),]) %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=~Latitude,
+             lat=~Longitude,
+             popup= leafpop::popupGraph(kk, width = 300, height = 400))
+             #popup= leafpop::popupGraph(asdf, width = 300, height = 400))
+
+#https://rdrr.io/github/r-spatial/leafpop/man/addPopupGraphs.html
+pt = data.frame(x = 174.764474, y = -36.877245)
+pt = st_as_sf(pt, coords = c("x", "y"), crs = 4326)
+p2 = lattice::levelplot(t(volcano), col.regions = terrain.colors(100))
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addCircleMarkers(data = pt, group = "pt") %>%
+  leafpop::addPopupGraphs(list(p2), group="pt", width = 300, height = 400)
+#popup= leafpop::popupGraph(asdf, width = 300, height = 400))
+
+#install.packages("leafpop")
+
+htmlLeafletOSMPobGastoOper
+saveWidget(htmlLeafletOSMPobGastoOper, file="web/maps/leafletOSMPobGastoOper.html")
 
 

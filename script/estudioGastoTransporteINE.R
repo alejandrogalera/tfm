@@ -17,17 +17,18 @@ library(stringr)  #Para str_split_fixed
 load("data/r/paradasCat.RData")
 load("data/r/numParadasPorLinea.RData")
 load("data/r/catalunyaPoblacMap.RData")
-load("data/r/paradasLineasNoDup.RData")
+load("data/r/paradasLineasNoDupMunicipio.RData")
+
 catalunyaMap <- rgdal::readOGR("data/arcgis/new", "Prov_Cat_Map_ESR89", 
-                driver = "ESRI Shapefile", encoding = "UTF-8")
+                               encoding = "UTF-8")
 carrAutoviaCat <- rgdal::readOGR("data/ign/new", "carrAutoviaCat", 
-                driver = "ESRI Shapefile", encoding = "UTF-8")
+                                  encoding = "UTF-8")
 carrAutopistaCat <- rgdal::readOGR("data/ign/new", "carrAutopistaCat", 
-                driver = "ESRI Shapefile", encoding = "UTF-8")
+                                   encoding = "UTF-8")
 carrNacCat <- rgdal::readOGR("data/ign/new", "carrNacCat", 
-                driver = "ESRI Shapefile", encoding = "UTF-8")
+                             encoding = "UTF-8")
 carrAutonCat <- rgdal::readOGR("data/ign/new", "carrAutonCat", 
-                driver = "ESRI Shapefile", encoding = "UTF-8")
+                               encoding = "UTF-8")
 
 #Leemos el fichero csv con el gasto en transporte por familia.
 gastoTransporteHousehold <- read.csv("data/ine/gasto_transporte/gasto_transporte_household_10668bsc.csv",
@@ -79,9 +80,11 @@ fullData$Gasto_tra_pub      <- rep(0, nrow(paradasLineasNoDup))
 fullData$Gasto_total        <- rep(0, nrow(paradasLineasNoDup))
 
 
-fullData <- dplyr::left_join(fullData, pobCATdf, by=c("Municipio"="Municipio"))
+fullData <- dplyr::left_join(fullData, pobCATdf, by=c("Municipio"="Municipio", 
+                                                      "Poblacion"="Poblacion",
+                                                      "COD_INE"="COD_INE"))
 colnames(fullData)
-head(fullData[,c(2,8,9,10,11,12,15)])
+head(fullData[,c(2,8,11,12,13,14,9)])
 
 #Ahora se rellenan las columnas Gasto_vehiculo, Gasto_uso_veh_pers, Gasto_tra_pub con los datos de 
 #gasto1_vehiculos, gasto2_uso_vehiculo y gasto3_tra_pub
@@ -124,6 +127,6 @@ fullData$Gasto_total <- fullData$Gasto_vehiculo + fullData$Gasto_uso_veh_pers + 
 #Veamos cómo ha quedado el dataset.
 #Elimino algunas columnas sólo para la representación, para que se vea más claramente lo que se ha calculado
 #en estos pasos.
-fullData[,c(2,8,9,10,11,12,15)]
+fullData[,c(2,8,11,12,13,14,9)]
 
 save(fullData, file = "data/r/fullData.RData")

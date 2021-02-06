@@ -22,12 +22,11 @@ download.file("https://opendata.arcgis.com/datasets/01ead513fe9842b98a19dd3e451c
 paradasCat<-readOGR("data/opendata_esri/paradas","PARADAS_DEFINITIVO")
 
 load("data/r/catalunyaPoblacMap.RData")
+load("data/r/catProvisionalParaGraf.RData")
 
 #Usamos una variable provisional para setear el máximo de Barcelona más cerca de la 
 #siguiente ciudad con más población y que de este modo no parezcan tan homogéneos en 
 #cuanto a color los municipios con poca densidad de habitantes.
-catProvisionalParaGraf<-catalunyaPoblacMap
-catProvisionalParaGraf$Poblacion[catalunyaPoblacMap$NAME_4=="Barcelona"]<-300000
 mipaleta = c("orange1", "red", "green3", "blue", "cyan", "magenta", "yellow","gray", "black")
 
 tm_shape(catProvisionalParaGraf)+
@@ -64,6 +63,8 @@ nrow(operadores)
 #Vemos que tenemos paradas de 120 operadores entre los que destacan como mayoritarios:
 operadores[order(operadores$n, decreasing = TRUE),]
 
+#Los minoritarios:
+head(operadores[order(operadores$n, decreasing = FALSE),])
 
 #Veamos el número de paradas por línea.
 paradasLineas <- paradasCat@data[,c(1,5,7)]
@@ -90,20 +91,27 @@ head(paradasLineas[order(paradasLineas$n, decreasing = TRUE),])
 #Una forma de realizarlo es hacer directamente paradasLineas <- unique(paradasLineas), 
 #pero perderíamos la información de FID.
 #Lo que haremos es agrupar por el mínimo de FID.
+
+#Antes de eso, dado que para las paradas nos vamos a quedar con un dataframe y no un SpatialDataFrame,
+#pasaremos las coordenadas de @coord a las variables COORD_X y COORD_Y de @data.
+paradasCat@data$Longitude <- paradasCat@coords[,1]
+paradasCat@data$Latitude <- paradasCat@coords[,2]
+paradasCat$COORD_X <- NULL
+paradasCat$COORD_Y <- NULL
+
 paradasLineas <- paradasCat@data
+
 paradasLineas <- paradasLineas %>%
   na.omit() %>%
-  dplyr::group_by(Nombre_d_1, COORD_X, COORD_Y,
-                  Municipio) %>%
-  mutate(FID = min(FID, na.rm = TRUE)) %>%
-  arrange(FID, Nombre_d_1, COORD_X, COORD_Y,
-          Municipio)
+  dplyr::group_by(Nombre_d_1, Longitude, Latitude) %>%
+  dplyr::mutate(FID = min(FID, na.rm = TRUE)) %>%
+  dplyr::arrange(FID, Nombre_d_1, Longitude, Latitude)
 paradasLineasNoDup <- unique(paradasLineas)
 
 #Hemos pasado de 49438 registros a 19260.
 summary(paradasLineasNoDup)
 
-numParadasPorLinea <- paradasLineasNoDup[,c(1,5)]
+numParadasPorLinea <- paradasLineasNoDup[,c(1,3)]
 numParadasPorLinea <- numParadasPorLinea %>%
   dplyr::group_by(Nombre_d_1) %>%
   dplyr::count()
@@ -122,9 +130,9 @@ paradasCat@bbox
 catalunyaPoblacMap@polygons
 
 #https://gis.stackexchange.com/questions/133625/checking-if-points-fall-within-polygon-shapefile
-dat <- data.frame(Longitude = paradasCat@coords[,1], 
-                  Latitude = paradasCat@coords[,2],
-                  names = paradasCat@data$Nombre_de_)
+dat <- data.frame(Longitude = paradasLineasNoDup$Longitude, 
+                  Latitude = paradasLineasNoDup$Latitude,
+                  names = paradasLineasNoDup$Nombre_de_)
 coordinates(dat) <- ~ Longitude + Latitude
 proj4string(dat) <- proj4string(catalunyaPoblacMap)
 
@@ -142,15 +150,14 @@ nrow(municipioDeCadaParada)
 nrow(paradasCat@data)
 head(municipioDeCadaParada)
 
-paradasCat@data$Municipio <- municipioDeCadaParada$NAME_4
-paradasCat@data$Poblacion <- municipioDeCadaParada$Poblacion
-paradasCat@data$COD_INE <- municipioDeCadaParada$COD_INE
+paradasLineasNoDup$Municipio <- municipioDeCadaParada$NAME_4
+paradasLineasNoDup$Poblacion <- municipioDeCadaParada$Poblacion
+paradasLineasNoDup$COD_INE <- municipioDeCadaParada$COD_INE
 
-head(paradasCat@data)
+head(paradasLineasNoDup)
 
 #A esto queda añadirle el gasto por hogar y ya podemos pasárselo al leaflet para la leyenda.
-paradasCat$Municipio <- municipioDeCadaParada$NAME_4
 
-save(paradasCat, file = "data/r/paradasCat.RData")
+save(paradasCat, file = "data/r/paradasCatMunicipio.RData")
 save(numParadasPorLinea, file = "data/r/numParadasPorLinea.RData")
-save(paradasLineasNoDup, file = "data/r/paradasLineasNoDup.RData")
+save(paradasLineasNoDup, file = "data/r/paradasLineasNoDupMunicipio.RData")
