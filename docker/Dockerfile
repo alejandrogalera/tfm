@@ -102,6 +102,19 @@ RUN apt-get update
 RUN apt-get install -y texlive-latex-base
 RUN R -e "install.packages(c('tidyverse'), \
                            dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages(c('googleCloudStorageR', 'googleauthR', 'googleAnalyticsR', 'searchConsoleR'), \
+                           dependencies=TRUE, repos='http://cran.rstudio.com/')"
+
+#Chrome
+#RUN wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add -
+#RUN sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+#RUN apt update
+#RUN apt install google-chrome-stable -y
+
+#Firefox
+RUN apt update
+RUN apt install -y firefox
+
 USER rstudio
 
 ENV DISPLAY :0.0

@@ -2,6 +2,7 @@ import requests
 import time
 import json
 from datetime import date
+import pandas as pd
 
 #Los datos de Opendata tienen asociados un arcGIS Id, que en el caso de las incidencias de trafico es nCKYwcSONQTkPA4K
 #Esto se puede obtener consultando la URL de opendata.esri.es:
@@ -18,17 +19,21 @@ from datetime import date
 # Esta primera version lo simplifica seteandolo como variable global.
 targetDir = "../data/opendata_esri/incid_traf/"
 prefix = "incidenciasTrafico"
+suffix = ''
 
 ###############
 # Generar URL #
 ###############
 arcgisId = "nCKYwcSONQTkPA4K"
-autonomia = 'CATALU%C3%91A' #sys.argv[1]
+#autonomia = 'CATALU%C3%91A' #sys.argv[1]
+autonomia = ''
 
 outFieldsFilter="*"  #Por defecto no se filtran los parametros de salida
 whereFilter='1%3D1'  #El valor por defecto sera '1%3D1'
 if (0!=len(autonomia)):
     whereFilter="autonomia%20%3D%20\'"+autonomia+"\'"
+else:
+    suffix="_total"
 
 url = ('https://services1.arcgis.com/' 
       +arcgisId+ 
@@ -68,7 +73,7 @@ finally:
 ##################
 # El nombre del fichero se formara con el prefijo y la fecha YYYYMMDD.
 todayYYYYMMDD = date.today().strftime("%Y%m%d")
-filename = targetDir.rstrip("/")+"/"+prefix+todayYYYYMMDD+".json"
+filename = targetDir.rstrip("/")+"/"+prefix+todayYYYYMMDD+suffix+".json"
 try:
     with open(filename, "w") as fout:
         fout.write(json.dumps(result.json()))
@@ -79,3 +84,21 @@ except Exception as e:
 #finally:
 
 print("Saved "+filename)
+
+
+#############################
+# Conversion CSV con Pandas #
+#############################
+with open(filename) as json_data:
+    data = json.load(json_data)
+
+# using the from_dict load function. Note that the 'orient' parameter 
+#is not using the default value (or it will give the same error that you got before)
+# We transpose the resulting df and set index column as its index to get this result
+df = pd.DataFrame.from_dict(data, orient='split').T.set_index('split')  
+
+
+#df = pd.read_json(filename)
+csvname = filename.replace("json", "csv")
+df.to_csv(csvname)
+print("Saved "+csvname)
