@@ -1,0 +1,518 @@
+﻿FID,autonomia,carretera,causa,fechahora_,hacia,matricula,nivel,pk_final,pk_inicial,poblacion,provincia,ref_incide,sentido,tipo,tipolocali,version_in,x,xml_fragme,xml_id,xml_matche,xml_parent,xml_pare_1,y,X1,Y1,actualizad
+29,CATALUÑA,L-911,HIELO,2021/01/14 18:43:00,Ambos,L,VERDE,11,0,BENAVENT DE LA CONCA,LLEIDA,OL101138080,Ambos sentidos,METEOROLOGICA,0,2,42.05508,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>HIELO</causa>
+<poblacion>BENAVENT DE LA CONCA</poblacion>
+<fechahora_ini>2021",id-incidencia-1.29,incidencia, , ,1.08945,1.08945,42.05508,2021/01/19 23:31:00
+30,CATALUÑA,LV-5134,HIELO,2021/01/12 18:19:00,Ambos,L,VERDE,28.8,0,NOVES DE SEGRE,LLEIDA,OL101128231,Ambos sentidos,METEOROLOGICA,0,7,42.29316,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>HIELO</causa>
+<poblacion>NOVES DE SEGRE</poblacion>
+<fechahora_ini>2021-01-12",id-incidencia-1.30,incidencia, , ,1.34492,1.34492,42.29316,2021/01/19 23:31:00
+31,CATALUÑA,L-913,HIELO,2021/01/12 18:16:00,Ambos,L,VERDE,8.3,0,VILANOVA DE MEIA,LLEIDA,OL101129225,Ambos sentidos,METEOROLOGICA,0,4,41.99462,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>HIELO</causa>
+<poblacion>VILANOVA DE MEIA</poblacion>
+<fechahora_ini>2021-01-",id-incidencia-1.31,incidencia, , ,1.0237,1.0237,41.99462,2021/01/19 23:31:00
+125,CATALUÑA,GI-503, CARRETERA CORTADA EN ESTE SENTIDO,2021/01/15 19:07:00, ,GI,NEGRO,25,18,MAÇANET DE CABRENYS,GIRONA,GI101159187,AMBOS SENTIDOS,CONO,0,1,42.3801697,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa> CARRETERA CORTADA EN ESTE SENTIDO </causa>
+<poblacion>MAÇANET DE CABRENYS</poblacio",id-incidencia-1.125,incidencia, , ,2.701933,2.701933,42.3801697,2021/01/19 23:31:00
+126,CATALUÑA,GI-503, OTROS,2021/01/15 19:07:00, ,GI,NEGRO,25,18,MAÇANET DE CABRENYS,GIRONA,GI101158193,AMBOS SENTIDOS,CONO,0,1,42.3801697,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa> OTROS </causa>
+<poblacion>MAÇANET DE CABRENYS</poblacion>
+<fechahora_ini>2021-01-15",id-incidencia-1.126,incidencia, , ,2.701933,2.701933,42.3801697,2021/01/19 23:31:00
+127,CATALUÑA,GI-505, OTROS,2021/01/15 19:07:00, ,GI,NEGRO,3,0,VAJOL (LA),GIRONA,GI101159186,AMBOS SENTIDOS,CONO,0,2,42.40466,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa> OTROS </causa>
+<poblacion>VAJOL (LA)</poblacion>
+<fechahora_ini>2021-01-15 19:07</fe",id-incidencia-1.127,incidencia, , ,2.80112,2.80112,42.40466,2021/01/19 23:31:00
+128,CATALUÑA,GI-505, CARRETERA CORTADA EN ESTE SENTIDO,2021/01/15 19:07:00, ,GI,NEGRO,3,0,VAJOL (LA),GIRONA,GI101158192,AMBOS SENTIDOS,CONO,0,2,42.40466,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa> CARRETERA CORTADA EN ESTE SENTIDO </causa>
+<poblacion>VAJOL (LA)</poblacion>
+<fechah",id-incidencia-1.128,incidencia, , ,2.80112,2.80112,42.40466,2021/01/19 23:31:00
+133,CATALUÑA,N-141, OTROS,2021/01/08 09:48:00, ,L,NEGRO,8.4,8,BOSSOST,LLEIDA,OL101069034,AMBOS SENTIDOS,CONO,0,3,42.767274,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa> OTROS </causa>
+<poblacion>BOSSOST</poblacion>
+<fechahora_ini>2021-01-08 09:48</fechah",id-incidencia-1.133,incidencia, , ,0.659323,0.659323,42.767274,2021/01/19 23:31:00
+134,CATALUÑA,N-141, CARRETERA CORTADA EN ESTE SENTIDO,2021/01/08 09:48:00, ,L,NEGRO,8.4,8,BOSSOST,LLEIDA,OL101068027,AMBOS SENTIDOS,CONO,0,3,42.767274,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa> CARRETERA CORTADA EN ESTE SENTIDO </causa>
+<poblacion>BOSSOST</poblacion>
+<fechahora_",id-incidencia-1.134,incidencia, , ,0.659323,0.659323,42.767274,2021/01/19 23:31:00
+156,CATALUÑA,C-32,TRABAJOS DE MANTENIMIENTO,2021/01/15 10:18:00,ESPLUGUES DE LLOBREGAT,B,VERDE,63,59,ALMEDA MERCADER,BARCELONA,OB101128060,AMBOS SENTIDOS,OBRAS,0,2,41.3482244,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>ALMEDA MERCADER</poblacion>
+<fechahor",id-incidencia-1.156,incidencia, , ,2.0924056,2.0924056,41.3482244,2021/01/19 23:31:00
+157,CATALUÑA,C-61,OBRAS EN GENERAL,2021/01/15 14:05:00, ,B,VERDE,6.3,6.1,ARENYS DE MUNT,BARCELONA,OB008098024,AMBOS SENTIDOS,OBRAS,0,21,41.6215652,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ARENYS DE MUNT</poblacion>
+<fechahora_ini>2021",id-incidencia-1.157,incidencia, , ,2.5343305,2.5343305,41.6215652,2021/01/19 23:31:00
+158,CATALUÑA,C-31,OBRAS EN GENERAL,2021/01/18 14:37:00,BARCELONA,B,VERDE,210.5,215,BADALONA,BARCELONA,OB101199002,SUR,OBRAS,0,4,41.46146,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>BADALONA</poblacion>
+<fechahora_ini>2021-01-18",id-incidencia-1.158,incidencia, , ,2.2629067,2.2629067,41.46146,2021/01/19 23:31:00
+159,CATALUÑA,BP-1121,TRABAJOS DE MANTENIMIENTO,2020/12/24 19:16:00, ,B,VERDE,1.2,1.1,BAUMA,BARCELONA,OB010208205,AMBOS SENTIDOS,OBRAS,0,14,41.6271614,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>BAUMA</poblacion>
+<fechahora_ini>2020",id-incidencia-1.159,incidencia, , ,1.8676063,1.8676063,41.6271614,2021/01/19 23:31:00
+160,CATALUÑA,C-245,TRABAJOS DE MANTENIMIENTO,2020/10/17 09:36:00,TARRAGONA,B,VERDE,1.4,2,CASTELLDEFELS,BARCELONA,OB010109026,SUR,OBRAS,0,2,41.2783231,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>CASTELLDEFELS</poblacion>
+<fechahora_",id-incidencia-1.160,incidencia, , ,1.9774417,1.9774417,41.2783231,2021/01/19 23:31:00
+161,CATALUÑA,C-245,TRABAJOS DE MANTENIMIENTO,2021/01/12 08:13:00, ,B,VERDE,2.4,2,CASTELLDEFELS,BARCELONA,OB101128064,AMBOS SENTIDOS,OBRAS,0,1,41.2783231,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>CASTELLDEFELS</poblacion>
+<fechahora_",id-incidencia-1.161,incidencia, , ,1.9774417,1.9774417,41.2783231,2021/01/19 23:31:00
+162,CATALUÑA,A-2,TRABAJOS DE MANTENIMIENTO,2021/01/19 08:33:00,BARCELONA,B,VERDE,558.2,560,CASTELLOLI,BARCELONA,OB101198072,ESTE,OBRAS,0,1,41.5906165,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>CASTELLOLI</poblacion>
+<fechahora_ini",id-incidencia-1.162,incidencia, , ,1.679263,1.679263,41.5906165,2021/01/19 23:31:00
+163,CATALUÑA,B-20, ,2019/10/31 18:35:00,TARRAGONA-HORARI: 22 A 6 H,B,NEGRO,3,2.5,CORNELLÀ DE LLOBREGAT,BARCELONA,OB906170137,SUR,OBRAS,0,32,41.34259,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa></causa>
+<poblacion>CORNELLÀ DE LLOBREGAT</poblacion>
+<fechahora_ini>2019-10-31 1",id-incidencia-1.163,incidencia, , ,2.09063,2.09063,41.34259,2021/01/19 23:31:00
+164,CATALUÑA,BV-5101,TRABAJOS DE MANTENIMIENTO,2021/01/11 09:42:00, ,B,VERDE,4.4,0.9,DOSRIUS,BARCELONA,OB101118107,AMBOS SENTIDOS,OBRAS,0,1,41.59681,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>DOSRIUS</poblacion>
+<fechahora_ini>20",id-incidencia-1.164,incidencia, , ,2.4378762,2.4378762,41.59681,2021/01/19 23:31:00
+165,CATALUÑA,BV-5122,OBRAS EN GENERAL,2020/12/15 08:26:00, ,B,VERDE,6.2,4.2,FOGARS DE LA SELVA,BARCELONA,OB012158133,AMBOS SENTIDOS,OBRAS,0,1,41.7173966,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>FOGARS DE LA SELVA</poblacion>
+<fechahora_ini>",id-incidencia-1.165,incidencia, , ,2.678158,2.678158,41.7173966,2021/01/19 23:31:00
+166,CATALUÑA,BV-2429,OBRAS EN GENERAL,2020/11/16 10:34:00, ,B,VERDE,21.2,21.1,LAVERN,BARCELONA,OB011169264,AMBOS SENTIDOS,OBRAS,0,1,41.3957615,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>LAVERN</poblacion>
+<fechahora_ini>2020-11-16 1",id-incidencia-1.166,incidencia, , ,1.7687295,1.7687295,41.3957615,2021/01/19 23:31:00
+167,CATALUÑA,C-17,TRABAJOS DE MANTENIMIENTO,2021/01/19 22:32:00,VIC,B,VERDE,20,17,LLEVANT INDUSTRIAL (POLIGON),BARCELONA,OB101199231,NORTE,OBRAS,0,2,41.5796875,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>LLEVANT INDUSTRIAL (POLIGON)</poblaci",id-incidencia-1.167,incidencia, , ,2.2527505,2.2527505,41.5796875,2021/01/19 23:31:00
+168,CATALUÑA,C-243C,TRABAJOS DE MANTENIMIENTO,2020/11/06 09:19:00,TERRASSA,B,VERDE,12.8,0,MARTORELL,BARCELONA,OB911069284,AMBOS SENTIDOS,OBRAS,0,8,41.47247,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>MARTORELL</poblacion>
+<fechahora_ini>",id-incidencia-1.168,incidencia, , ,1.93853,1.93853,41.47247,2021/01/19 23:31:00
+169,CATALUÑA,AP-7,OBRAS EN GENERAL,2021/01/19 22:07:00,GIRONA,B,VERDE,170.5,171.5,MARTORELL,BARCELONA,OB101199227,NORTE,OBRAS,0,1,41.46434,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>MARTORELL</poblacion>
+<fechahora_ini>2021-01-1",id-incidencia-1.169,incidencia, , ,1.91052,1.91052,41.46434,2021/01/19 23:31:00
+170,CATALUÑA,C-17Z,TRABAJOS DE MANTENIMIENTO,2021/01/15 14:04:00, ,B,NEGRO,85,84.7,MONTESQUIU,BARCELONA,OB001279259,AMBOS SENTIDOS,OBRAS,0,25,42.1223118,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>MONTESQUIU</poblacion>
+<fechahora_ini",id-incidencia-1.170,incidencia, , ,2.2041772,2.2041772,42.1223118,2021/01/19 23:31:00
+171,CATALUÑA,C-17,TRABAJOS DE MANTENIMIENTO,2021/01/11 13:07:00,CANOVELLES,B,VERDE,18.7,14.7,POLIGON INDUSTRIAL Z,BARCELONA,OB101118173,AMBOS SENTIDOS,OBRAS,0,1,41.55957,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>POLIGON INDUSTRIAL Z</poblacion>
+<fec",id-incidencia-1.171,incidencia, , ,2.23948,2.23948,41.55957,2021/01/19 23:31:00
+172,CATALUÑA,B-431,OBRAS EN GENERAL,2021/01/18 13:32:00, ,B,VERDE,72.5,70,PRATS DE LLUÇANES,BARCELONA,OB101188192,AMBOS SENTIDOS,OBRAS,0,1,41.9889531,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>PRATS DE LLUÇANES</poblacion>
+<fechahora_ini>",id-incidencia-1.172,incidencia, , ,2.0248387,2.0248387,41.9889531,2021/01/19 23:31:00
+173,CATALUÑA,B-400,OBRAS EN GENERAL,2019/11/01 18:43:00, ,B,VERDE,17.5,17,SALDES,BARCELONA,OB901070068,AMBOS SENTIDOS,OBRAS,0,22,42.2228062,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>SALDES</poblacion>
+<fechahora_ini>2019-11-01 1",id-incidencia-1.173,incidencia, , ,1.7259923,1.7259923,42.2228062,2021/01/19 23:31:00
+174,CATALUÑA,B-430,TRABAJOS DE MANTENIMIENTO,2020/08/29 16:47:00, ,B,NEGRO,1,0,SALLENT,BARCELONA,OB006099276,AMBOS SENTIDOS,OBRAS,0,3,41.80514,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>SALLENT</poblacion>
+<fechahora_ini>20",id-incidencia-1.174,incidencia, , ,1.89831,1.89831,41.80514,2021/01/19 23:31:00
+175,CATALUÑA,BV-2002,TRABAJOS DE MANTENIMIENTO,2021/01/11 09:41:00, ,B,VERDE,7,6.5,SANT BOI DE LLOBREGAT,BARCELONA,OB005239023,AMBOS SENTIDOS,OBRAS,0,12,41.3508689,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>SANT BOI DE LLOBREGAT</poblacion>
+<fe",id-incidencia-1.175,incidencia, , ,2.039605,2.039605,41.3508689,2021/01/19 23:31:00
+176,CATALUÑA,A-2,OBRAS EN GENERAL,2021/01/19 22:17:00, ,B,VERDE,608.9,605.7,SANT FELIU DE LLOBREGAT,BARCELONA,OB101198214,AMBOS SENTIDOS,OBRAS,0,1,41.37054,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>SANT FELIU DE LLOBREGAT</poblacion>
+<fechahora",id-incidencia-1.176,incidencia, , ,2.03995,2.03995,41.37054,2021/01/19 23:31:00
+177,CATALUÑA,A-2,TRABAJOS DE MANTENIMIENTO,2021/01/14 19:28:00, ,B,VERDE,609,606.5,SANT FELIU DE LLOBREGAT,BARCELONA,OB011229036,AMBOS SENTIDOS,OBRAS,0,6,41.3561929,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>SANT FELIU DE LLOBREGAT</poblacion>
+<",id-incidencia-1.177,incidencia, , ,2.052245,2.052245,41.3561929,2021/01/19 23:31:00
+178,CATALUÑA,BV-4511,SEÑALIZACION DE LA CALZADA,2021/01/18 13:47:00, ,B,VERDE,10.2,0,SANT JOAN DE VILATORRADA,BARCELONA,OB101189197,AMBOS SENTIDOS,OBRAS,0,1,41.76982,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>SEÑALIZACION DE LA CALZADA</causa>
+<poblacion>SANT JOAN DE VILATORRADA</poblacion",id-incidencia-1.178,incidencia, , ,1.90327,1.90327,41.76982,2021/01/19 23:31:00
+179,CATALUÑA,BV-1468,TRABAJOS DE MANTENIMIENTO,2020/10/11 10:42:00, ,B,VERDE,12.2,6.3,SANT JUST DESVERN,BARCELONA,OB010118006,AMBOS SENTIDOS,OBRAS,0,1,41.4184579,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>SANT JUST DESVERN</poblacion>
+<fechah",id-incidencia-1.179,incidencia, , ,2.060766,2.060766,41.4184579,2021/01/19 23:31:00
+180,CATALUÑA,BV-5303,TRABAJOS DE MANTENIMIENTO,2021/01/12 09:49:00, ,B,VERDE,4.4,3.7,SEVA,BARCELONA,OB101128148,AMBOS SENTIDOS,OBRAS,0,1,41.84613,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>SEVA</poblacion>
+<fechahora_ini>2021-",id-incidencia-1.180,incidencia, , ,2.23337,2.23337,41.84613,2021/01/19 23:31:00
+181,CATALUÑA,N-150,TRABAJOS DE MANTENIMIENTO,2020/08/14 10:03:00, ,B,VERDE,19,18.3,TERRASSA,BARCELONA,OB006228257,AMBOS SENTIDOS,OBRAS,0,2,41.5520693,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>TERRASSA</poblacion>
+<fechahora_ini>2",id-incidencia-1.181,incidencia, , ,2.0261138,2.0261138,41.5520693,2021/01/19 23:31:00
+182,CATALUÑA,C-245,TRABAJOS DE MANTENIMIENTO,2020/09/07 18:28:00,SANT BOI DE LLOBREGAT,B,VERDE,9.7,8.8,VILADECANS,BARCELONA,OB009078274,AMBOS SENTIDOS,OBRAS,0,1,41.325377,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>VILADECANS</poblacion>
+<fechahora_ini",id-incidencia-1.182,incidencia, , ,2.0330291,2.0330291,41.325377,2021/01/19 23:31:00
+183,CATALUÑA,C-245,TRABAJOS DE MANTENIMIENTO,2020/09/30 21:38:00, ,B,VERDE,7,6,VILADECANS,BARCELONA,OB008179134,AMBOS SENTIDOS,OBRAS,0,7,41.3043531,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>VILADECANS</poblacion>
+<fechahora_ini",id-incidencia-1.183,incidencia, , ,2.0093009,2.0093009,41.3043531,2021/01/19 23:31:00
+184,CATALUÑA,C-35,TRABAJOS DE MANTENIMIENTO,2020/07/16 09:06:00, ,B,VERDE,58,50.3,VILALBA SASSERRA,BARCELONA,OB006098274,AMBOS SENTIDOS,OBRAS,0,3,41.6553542,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>VILALBA SASSERRA</poblacion>
+<fechaho",id-incidencia-1.184,incidencia, , ,2.4468033,2.4468033,41.6553542,2021/01/19 23:31:00
+185,CATALUÑA,N-141D,TRABAJOS DE MANTENIMIENTO,2021/01/13 09:34:00, ,B,VERDE,18.7,15.1,VILANOVA DE SAU,BARCELONA,OB101138106,AMBOS SENTIDOS,OBRAS,0,1,41.948638,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>VILANOVA DE SAU</poblacion>
+<fechahor",id-incidencia-1.185,incidencia, , ,2.381552,2.381552,41.948638,2021/01/19 23:31:00
+218,CATALUÑA,GI-513,REASFALTADO,2021/01/13 08:41:00,BÀSCARA,GI,VERDE,13.2,0,BANYOLES,GIRONA,GI101139086,AMBOS SENTIDOS,OBRAS,0,1,42.10081,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>BANYOLES</poblacion>
+<fechahora_ini>2021-01-13 08:41<",id-incidencia-1.218,incidencia, , ,2.79153,2.79153,42.10081,2021/01/19 23:31:00
+219,CATALUÑA,N-260,OBRAS EN GENERAL,2021/01/18 13:30:00, ,GI,VERDE,123.2,123.1, ,GIRONA,GI101189194,AMBOS SENTIDOS,OBRAS,0,1,42.2477767,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion></poblacion>
+<fechahora_ini>2021-01-18 13:30</fe",id-incidencia-1.219,incidencia, , ,2.1640858,2.1640858,42.2477767,2021/01/19 23:31:00
+220,CATALUÑA,C-66,REASFALTADO,2020/12/27 19:45:00,SANT FERRIOL,GI,VERDE,55.8,50.4,PORQUERES,GIRONA,GI012278013,AMBOS SENTIDOS,OBRAS,0,3,42.15595,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>PORQUERES</poblacion>
+<fechahora_ini>2020-12-27 19:45",id-incidencia-1.220,incidencia, , ,2.74835,2.74835,42.15595,2021/01/19 23:31:00
+221,CATALUÑA,C-25,REASFALTADO,2021/01/11 13:00:00,CAMPLLONG,GI,VERDE,242,240,RIUDELLOTS DE LA SELVA,GIRONA,GI101119175,AMBOS SENTIDOS,OBRAS,0,1,41.8956863,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>RIUDELLOTS DE LA SELVA</poblacion>
+<fechahora_ini>202",id-incidencia-1.221,incidencia, , ,2.8099028,2.8099028,41.8956863,2021/01/19 23:31:00
+222,CATALUÑA,C-25,REASFALTADO,2021/01/14 16:41:00,VIC,GI,VERDE,207.5,207,SANT HILARI SACALM,GIRONA,GI012249023,ESTE,OBRAS,0,3,41.8489748,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>SANT HILARI SACALM</poblacion>
+<fechahora_ini>2021-01",id-incidencia-1.222,incidencia, , ,2.4750854,2.4750854,41.8489748,2021/01/19 23:31:00
+223,CATALUÑA,N-260,TRABAJOS DE MANTENIMIENTO,2021/01/13 09:54:00, ,GI,VERDE,106.8,106.8,SANT JOAN DE LES ABADESSES,GIRONA,GI101139126,AMBOS SENTIDOS,OBRAS,0,9,42.2351072,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>SANT JOAN DE LES ABADESSES</poblacion>
+",id-incidencia-1.223,incidencia, , ,2.2821969,2.2821969,42.2351072,2021/01/19 23:31:00
+239,CATALUÑA,C-13,OBRAS EN GENERAL,2021/01/11 12:15:00, ,L,VERDE,47.5,46.4,CAMARASA,LLEIDA,OL101119165,AMBOS SENTIDOS,OBRAS,0,1,41.9010705,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>CAMARASA</poblacion>
+<fechahora_ini>2021-01-11 12",id-incidencia-1.239,incidencia, , ,0.8842893,0.8842893,41.9010705,2021/01/19 23:31:00
+240,CATALUÑA,C-13,TRABAJOS DE MANTENIMIENTO,2021/01/12 11:25:00, ,L,VERDE,45.7,45.5,CAMARASA,LLEIDA,OL012079041,AMBOS SENTIDOS,OBRAS,0,5,41.8941736,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>CAMARASA</poblacion>
+<fechahora_ini>2021",id-incidencia-1.240,incidencia, , ,0.8788536,0.8788536,41.8941736,2021/01/19 23:31:00
+241,CATALUÑA,C-13,TRABAJOS DE MANTENIMIENTO,2021/01/12 11:26:00, ,L,VERDE,47.2,46.4,CAMARASA,LLEIDA,OL101129173,AMBOS SENTIDOS,OBRAS,0,1,41.9010705,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>CAMARASA</poblacion>
+<fechahora_ini>2021",id-incidencia-1.241,incidencia, , ,0.8842893,0.8842893,41.9010705,2021/01/19 23:31:00
+242,CATALUÑA,C-462,REASFALTADO,2020/09/30 21:36:00,ALÀS I CERC,L,VERDE,83.1,68.8, ,LLEIDA,OL008309020,AMBOS SENTIDOS,OBRAS,0,2,42.2772083,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>REASFALTADO</causa>
+<poblacion></poblacion>
+<fechahora_ini>2020-09-30 21:36</fechahor",id-incidencia-1.242,incidencia, , ,1.5024114,1.5024114,42.2772083,2021/01/19 23:31:00
+243,CATALUÑA,L-504,OBRAS EN GENERAL,2020/12/24 19:22:00, ,L,VERDE,18.6,18.6,LLADORRE,LLEIDA,OL012149263,AMBOS SENTIDOS,OBRAS,0,2,42.6399702,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>LLADORRE</poblacion>
+<fechahora_ini>2020-12-24 19",id-incidencia-1.243,incidencia, , ,1.2521372,1.2521372,42.6399702,2021/01/19 23:31:00
+244,CATALUÑA,C-14,TRABAJOS DE MANTENIMIENTO,2021/01/11 13:10:00, ,L,VERDE,169,162.5,ORGANYA,LLEIDA,OL010119011,AMBOS SENTIDOS,OBRAS,0,18,42.2115308,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>ORGANYA</poblacion>
+<fechahora_ini>2021-",id-incidencia-1.244,incidencia, , ,1.3295613,1.3295613,42.2115308,2021/01/19 23:31:00
+245,CATALUÑA,C-14, ,2019/11/01 18:31:00,PAS ALTERNATIU MENTRE DURI L' OBRA I TALLS PUNTUALS DE CALÇADA,L,VERDE,166.5,163.2,ORGANYÀ,LLEIDA,OL901070006,AMBOS SENTIDOS,OBRAS,0,22,42.2194627,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa></causa>
+<poblacion>ORGANYÀ</poblacion>
+<fechahora_ini>2019-11-01 18:31</fechahora_i",id-incidencia-1.245,incidencia, , ,1.3326848,1.3326848,42.2194627,2021/01/19 23:31:00
+307,CATALUÑA,TV-7048,OBRAS EN GENERAL,2020/07/03 09:47:00,SELVA DEL CAMP,T,VERDE,2,1,ALMOSTER,TARRAGONA,OT005149171,AMBOS SENTIDOS,OBRAS,0,5,41.1862674,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ALMOSTER</poblacion>
+<fechahora_ini>2020-07-03",id-incidencia-1.307,incidencia, , ,1.1057797,1.1057797,41.1862674,2021/01/19 23:31:00
+308,CATALUÑA,TV-2127,OBRAS EN GENERAL,2021/01/18 13:20:00, ,T,VERDE,3.5,3,BARRI MARITIM DE SANT SALVADOR,TARRAGONA,OT101188190,AMBOS SENTIDOS,OBRAS,0,1,41.1884988,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>BARRI MARITIM DE SANT SALVADOR</poblacion>
+<fe",id-incidencia-1.308,incidencia, , ,1.5427098,1.5427098,41.1884988,2021/01/19 23:31:00
+309,CATALUÑA,T-301,OBRAS EN GENERAL,2021/01/11 19:35:00, ,T,VERDE,21.2,21.1,BENIFALLET,TARRAGONA,OT101118251,AMBOS SENTIDOS,OBRAS,0,1,40.9525069,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>BENIFALLET</poblacion>
+<fechahora_ini>2021-01-",id-incidencia-1.309,incidencia, , ,0.5030294,0.5030294,40.9525069,2021/01/19 23:31:00
+310,CATALUÑA,C-43,TRABAJOS DE MANTENIMIENTO,2020/06/09 13:19:00,GANDESA,T,VERDE,13.4,0,BENIFALLET,TARRAGONA,OT005288212,AMBOS SENTIDOS,OBRAS,0,2,40.98067,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>BENIFALLET</poblacion>
+<fechahora_ini",id-incidencia-1.310,incidencia, , ,0.51698,0.51698,40.98067,2021/01/19 23:31:00
+311,CATALUÑA,T-362,TRABAJOS DE MANTENIMIENTO,2021/01/18 13:49:00,ENLLAÇ AMB TV-3531,T,VERDE,1.5,0.2,BOT,TARRAGONA,OT101188196,SUR,OBRAS,0,3,41.04866,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>BOT</poblacion>
+<fechahora_ini>2021-0",id-incidencia-1.311,incidencia, , ,0.37064,0.37064,41.04866,2021/01/19 23:31:00
+312,CATALUÑA,T-2237,OBRAS EN GENERAL,2021/01/11 19:52:00, ,T,VERDE,0.8,0, ,TARRAGONA,OT101118254,AMBOS SENTIDOS,OBRAS,0,1,41.18358,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion></poblacion>
+<fechahora_ini>2021-01-11 19:52</",id-incidencia-1.312,incidencia, , ,0.58667,0.58667,41.18358,2021/01/19 23:31:00
+313,CATALUÑA,T-3231,OBRAS EN GENERAL,2020/07/03 09:50:00,SELVA DEL CAMP,T,VERDE,3.1,0, ,TARRAGONA,OT005148171,AMBOS SENTIDOS,OBRAS,0,5,41.1981,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion></poblacion>
+<fechahora_ini>2020-07-03 09:50</",id-incidencia-1.313,incidencia, , ,1.11482,1.11482,41.1981,2021/01/19 23:31:00
+314,CATALUÑA,TV-2441,OBRAS EN GENERAL,2021/01/18 13:18:00, ,T,VERDE,15.6,13.6,QUEROL,TARRAGONA,OT101189193,AMBOS SENTIDOS,OBRAS,0,1,41.396318,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>QUEROL</poblacion>
+<fechahora_ini>2021-01-18 1",id-incidencia-1.314,incidencia, , ,1.4560938,1.4560938,41.396318,2021/01/19 23:31:00
+315,CATALUÑA,TV-3021,OBRAS EN GENERAL,2021/01/11 19:50:00, ,T,VERDE,0.5,0,RASQUERA,TARRAGONA,OT101119256,AMBOS SENTIDOS,OBRAS,0,1,41.00266,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>RASQUERA</poblacion>
+<fechahora_ini>2021-01-11",id-incidencia-1.315,incidencia, , ,0.60053,0.60053,41.00266,2021/01/19 23:31:00
+316,CATALUÑA,T-711,OBRAS EN GENERAL,2021/01/11 19:43:00, ,T,VERDE,5,4.9,TORROJA DEL PRIORAT,TARRAGONA,OT101118252,AMBOS SENTIDOS,OBRAS,0,1,41.2127113,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>TORROJA DEL PRIORAT</poblacion>
+<fechahora_ini",id-incidencia-1.316,incidencia, , ,0.8121824,0.8121824,41.2127113,2021/01/19 23:31:00
+317,CATALUÑA,C-12,TRABAJOS DE MANTENIMIENTO,2020/06/09 13:18:00,BENIFALLET,T,VERDE,40.8,19,TORTOSA,TARRAGONA,OT005289200,AMBOS SENTIDOS,OBRAS,0,2,40.8191708,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>TORTOSA</poblacion>
+<fechahora_ini>20",id-incidencia-1.317,incidencia, , ,0.5137306,0.5137306,40.8191708,2021/01/19 23:31:00
+318,CATALUÑA,TV-2021,TRABAJOS DE MANTENIMIENTO,2021/01/14 10:40:00,LA NOU DE GAIÀ,T,VERDE,4.9,2.2,VESPELLA,TARRAGONA,OT101139171,AMBOS SENTIDOS,OBRAS,0,2,41.1962385,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>VESPELLA</poblacion>
+<fechahora_ini>2",id-incidencia-1.318,incidencia, , ,1.3631914,1.3631914,41.1962385,2021/01/19 23:31:00
+319,CATALUÑA,TV-7223,OBRAS EN GENERAL,2021/01/11 19:54:00, ,T,VERDE,3,2.9,VILALLONGA DEL CAMP,TARRAGONA,OT101118255,AMBOS SENTIDOS,OBRAS,0,1,41.2129315,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>VILALLONGA DEL CAMP</poblacion>
+<fechahora_ini",id-incidencia-1.319,incidencia, , ,1.1864345,1.1864345,41.2129315,2021/01/19 23:31:00

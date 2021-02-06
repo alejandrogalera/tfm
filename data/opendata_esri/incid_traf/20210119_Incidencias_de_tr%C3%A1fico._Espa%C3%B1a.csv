@@ -1,0 +1,2648 @@
+﻿FID,autonomia,carretera,causa,fechahora_,hacia,matricula,nivel,pk_final,pk_inicial,poblacion,provincia,ref_incide,sentido,tipo,tipolocali,version_in,x,xml_fragme,xml_id,xml_matche,xml_parent,xml_pare_1,y,X1,Y1,actualizad
+1,COMUNITAT VALENCIANA,CV-797,NIEVE,2021/01/13 08:56:00,Ambos,A,VERDE,8.6,0,ALCOY,ALICANTE/ALACANT,OA101138121,Ambos sentidos,METEOROLOGICA,0,1,38.68416,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>ALICANTE/ALACANT</provincia>
+<matricula>A</matricula>
+<causa>NIEVE</causa>
+<poblacion>ALCOY</poblacion>
+<fechahora_in",id-incidencia-1.1,incidencia, , ,-0.47239,-0.47239,38.68416,2021/01/19 21:31:00
+2,COMUNITAT VALENCIANA,CV-780,NIEVE,2021/01/13 09:21:00,Ambos,A,VERDE,22.5,13.8,XIXONA,ALICANTE/ALACANT,OA101138113,Ambos sentidos,METEOROLOGICA,0,1,38.6147883,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>ALICANTE/ALACANT</provincia>
+<matricula>A</matricula>
+<causa>NIEVE</causa>
+<poblacion>XIXONA</poblacion>
+<fechahora_i",id-incidencia-1.2,incidencia, , ,-0.4182328,-0.4182328,38.6147883,2021/01/19 21:31:00
+3,CASTILLA-LA MANCHA,AB-508,NIEVE,2021/01/16 15:01:00,Ambos,AB,AMARILLO,8,2,MOLINICOS,ALBACETE,AB101119186,Ambos sentidos,METEOROLOGICA,0,6,38.4760569,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>ALBACETE</provincia>
+<matricula>AB</matricula>
+<causa>NIEVE</causa>
+<poblacion>MOLINICOS</poblacion>
+<fechahora_ini>202",id-incidencia-1.3,incidencia, , ,-2.2218069,-2.2218069,38.4760569,2021/01/19 21:31:00
+4,CASTILLA-LA MANCHA,AB-5017,NIEVE,2021/01/13 13:34:00,Ambos,AB,VERDE,4,0,MOLINICOS,ALBACETE,AB101078223,Ambos sentidos,METEOROLOGICA,0,3,38.4914,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>ALBACETE</provincia>
+<matricula>AB</matricula>
+<causa>NIEVE</causa>
+<poblacion>MOLINICOS</poblacion>
+<fechahora_ini>202",id-incidencia-1.4,incidencia, , ,-2.2824,-2.2824,38.4914,2021/01/19 21:31:00
+5,CASTILLA-LA MANCHA,AB-702,NIEVE,2021/01/19 19:15:00,Ambos,AB,VERDE,21,0,MUNERA,ALBACETE,AB101078224,Ambos sentidos,METEOROLOGICA,0,6,39.04881,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>ALBACETE</provincia>
+<matricula>AB</matricula>
+<causa>NIEVE</causa>
+<poblacion>MUNERA</poblacion>
+<fechahora_ini>2021-0",id-incidencia-1.5,incidencia, , ,-2.47829,-2.47829,39.04881,2021/01/19 21:31:00
+6,CASTILLA-LA MANCHA,CM-3225,NIEVE,2021/01/13 17:52:00,Ambos,AB,VERDE,60,48,NERPIO,ALBACETE,AB101098275,Ambos sentidos,METEOROLOGICA,0,4,38.2220022,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>ALBACETE</provincia>
+<matricula>AB</matricula>
+<causa>NIEVE</causa>
+<poblacion>NERPIO</poblacion>
+<fechahora_ini>2021-0",id-incidencia-1.6,incidencia, , ,-2.3174447,-2.3174447,38.2220022,2021/01/19 21:31:00
+7,CASTILLA-LA MANCHA,AB-505,NIEVE,2021/01/12 12:43:00,Ambos,AB,VERDE,12,9,PEÑAS DE SAN PEDRO,ALBACETE,AB101019078,Ambos sentidos,METEOROLOGICA,0,6,38.7435648,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>ALBACETE</provincia>
+<matricula>AB</matricula>
+<causa>NIEVE</causa>
+<poblacion>PEÑAS DE SAN PEDRO</poblacion>
+<fechaho",id-incidencia-1.7,incidencia, , ,-2.0926212,-2.0926212,38.7435648,2021/01/19 21:31:00
+8,CASTILLA-LA MANCHA,AB-515,NIEVE,2021/01/07 15:11:00,Ambos,AB,ROJO,17,0,PEÑASCOSA,ALBACETE,AB101079158,Ambos sentidos,METEOROLOGICA,0,2,38.67384,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>ALBACETE</provincia>
+<matricula>AB</matricula>
+<causa>NIEVE</causa>
+<poblacion>PEÑASCOSA</poblacion>
+<fechahora_ini>20",id-incidencia-1.8,incidencia, , ,-2.40577,-2.40577,38.67384,2021/01/19 21:31:00
+9,CASTILLA-LA MANCHA,AB-516,NIEVE,2021/01/19 16:49:00,Ambos,AB,AMARILLO,24,0,RIOPAR,ALBACETE,AB101018031,Ambos sentidos,METEOROLOGICA,1,13,38.4998099,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>ALBACETE</provincia>
+<matricula>AB</matricula>
+<causa>NIEVE</causa>
+<poblacion>RIOPAR</poblacion>
+<fechahora_ini>2021-0",id-incidencia-1.9,incidencia, , ,-2.4183931,-2.4183931,38.4998099,2021/01/19 21:31:00
+10,ANDALUCIA,AL-4404,HIELO,2021/01/17 14:39:00,Ambos,AL,AMARILLO,28,23,AULAGO,ALMERIA,AL101109119,Ambos sentidos,METEOROLOGICA,0,4,37.2112658,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>ALMERIA</provincia>
+<matricula>AL</matricula>
+<causa>HIELO</causa>
+<poblacion>AULAGO</poblacion>
+<fechahora_ini>2021-01-17 14:39",id-incidencia-1.10,incidencia, , ,-2.6070465,-2.6070465,37.2112658,2021/01/19 21:31:00
+11,ANDALUCIA,AL-5405,HIELO,2021/01/17 14:40:00,Ambos,AL,AMARILLO,28,19,ESCULLAR,ALMERIA,AL101178017,Ambos sentidos,METEOROLOGICA,0,1,37.2103393,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>ALMERIA</provincia>
+<matricula>AL</matricula>
+<causa>HIELO</causa>
+<poblacion>ESCULLAR</poblacion>
+<fechahora_ini>2021-01-17 14:",id-incidencia-1.11,incidencia, , ,-2.7443056,-2.7443056,37.2103393,2021/01/19 21:31:00
+12,ANDALUCIA,AL-5406,HIELO,2021/01/17 14:38:00,Ambos,AL,AMARILLO,5,0,MENAS (LAS),ALMERIA,AL101108144,Ambos sentidos,METEOROLOGICA,0,2,37.28137,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>ALMERIA</provincia>
+<matricula>AL</matricula>
+<causa>HIELO</causa>
+<poblacion>MENAS (LAS)</poblacion>
+<fechahora_ini>2021-01-17",id-incidencia-1.12,incidencia, , ,-2.51093,-2.51093,37.28137,2021/01/19 21:31:00
+13,ANDALUCIA,AL-3102,HIELO,2021/01/17 14:38:00,Ambos,AL,AMARILLO,42,18,VELEFIQUE,ALMERIA,AL101179004,Ambos sentidos,METEOROLOGICA,0,2,37.1983067,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>ALMERIA</provincia>
+<matricula>AL</matricula>
+<causa>HIELO</causa>
+<poblacion>VELEFIQUE</poblacion>
+<fechahora_ini>2021-01-17 14",id-incidencia-1.13,incidencia, , ,-2.408286,-2.408286,37.1983067,2021/01/19 21:31:00
+14,CASTILLA-LEON,AP-1,NIEBLA,2021/01/18 11:10:00,Ambos,BU,VERDE,12,1.6,CASTAÑARES,BURGOS,BU101188127,Ambos sentidos,METEOROLOGICA,0,2,42.33557,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>BURGOS</provincia>
+<matricula>BU</matricula>
+<causa>NIEBLA</causa>
+<poblacion>CASTAÑARES</poblacion>
+<fechahora_ini>2021-01",id-incidencia-1.14,incidencia, , ,-3.62081,-3.62081,42.33557,2021/01/19 21:31:00
+15,ANDALUCIA,CA-9104,NIEVE,2021/01/18 12:03:00,Ambos,CA,NEGRO,13.5,0.9,GRAZALEMA,CADIZ,CA101099340,Ambos sentidos,METEOROLOGICA,0,5,36.7695682,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>CADIZ</provincia>
+<matricula>CA</matricula>
+<causa>NIEVE</causa>
+<poblacion>GRAZALEMA</poblacion>
+<fechahora_ini>2021-01-18 12:0",id-incidencia-1.15,incidencia, , ,-5.3797736,-5.3797736,36.7695682,2021/01/19 21:31:00
+16,EXTREMADURA,A-5,NIEBLA,2021/01/19 12:06:00,Ambos,CC,VERDE,210,200,ALMARAZ,CACERES,CC101198015,Ambos sentidos,METEOROLOGICA,0,2,39.7904876,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>EXTREMADURA</autonomia>
+<provincia>CACERES</provincia>
+<matricula>CC</matricula>
+<causa>NIEBLA</causa>
+<poblacion>ALMARAZ</poblacion>
+<fechahora_ini>2021-01-19 1",id-incidencia-1.16,incidencia, , ,-5.6945909,-5.6945909,39.7904876,2021/01/19 21:31:00
+17,EXTREMADURA,CC-22.3,HIELO,2021/01/11 10:52:00,Ambos,CC,NEGRO,10,0,NAVEZUELAS,CACERES,CC101119147,Ambos sentidos,METEOROLOGICA,0,1,39.56322,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>EXTREMADURA</autonomia>
+<provincia>CACERES</provincia>
+<matricula>CC</matricula>
+<causa>HIELO</causa>
+<poblacion>NAVEZUELAS</poblacion>
+<fechahora_ini>2021-01-11",id-incidencia-1.17,incidencia, , ,-5.52491,-5.52491,39.56322,2021/01/19 21:31:00
+18,ANDALUCIA,N-432,NIEBLA,2021/01/19 10:27:00,Ambos,CO,VERDE,210,180,FUENTE OBEJUNA,CORDOBA,CO101198148,Ambos sentidos,METEOROLOGICA,0,1,38.2810638,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>CORDOBA</provincia>
+<matricula>CO</matricula>
+<causa>NIEBLA</causa>
+<poblacion>FUENTE OBEJUNA</poblacion>
+<fechahora_ini>2021-01",id-incidencia-1.18,incidencia, , ,-5.386451,-5.386451,38.2810638,2021/01/19 21:31:00
+19,CASTILLA-LA MANCHA,CM-4017,NIEVE,2021/01/11 14:38:00,Ambos,CR,VERDE,98,32,RETUERTA DEL BULLAQUE,CIUDAD REAL,CR101098359,Ambos sentidos,METEOROLOGICA,0,3,39.5199995,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>CIUDAD REAL</provincia>
+<matricula>CR</matricula>
+<causa>NIEVE</causa>
+<poblacion>RETUERTA DEL BULLAQUE</poblacion>
+<fe",id-incidencia-1.19,incidencia, , ,-4.0742234,-4.0742234,39.5199995,2021/01/19 21:31:00
+20,CASTILLA-LA MANCHA,CR-200,NIEVE,2021/01/07 09:19:00,Ambos,CR,NEGRO,14,0,VILLARRUBIA DE LOS OJOS,CIUDAD REAL,CR101079111,Ambos sentidos,METEOROLOGICA,0,1,39.22239,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>CIUDAD REAL</provincia>
+<matricula>CR</matricula>
+<causa>NIEVE</causa>
+<poblacion>VILLARRUBIA DE LOS OJOS</poblacion>
+<",id-incidencia-1.20,incidencia, , ,-3.60606,-3.60606,39.22239,2021/01/19 21:31:00
+21,CASTILLA-LA MANCHA,CM-2201,NIEVE,2021/01/16 23:12:00,Ambos,CU,VERDE,11,5,BETETA,CUENCA,CU101168036,Ambos sentidos,METEOROLOGICA,0,1,40.5529023,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>CUENCA</provincia>
+<matricula>CU</matricula>
+<causa>NIEVE</causa>
+<poblacion>BETETA</poblacion>
+<fechahora_ini>2021-01-",id-incidencia-1.21,incidencia, , ,-2.0282631,-2.0282631,40.5529023,2021/01/19 21:31:00
+22,CASTILLA-LA MANCHA,CM-2104,NIEVE,2021/01/19 08:07:00,Ambos,CU,VERDE,25,14,CUENCA,CUENCA,CU101089023,Ambos sentidos,METEOROLOGICA,0,3,40.1766747,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>CUENCA</provincia>
+<matricula>CU</matricula>
+<causa>NIEVE</causa>
+<poblacion>CUENCA</poblacion>
+<fechahora_ini>2021-01-",id-incidencia-1.22,incidencia, , ,-2.0256148,-2.0256148,40.1766747,2021/01/19 21:31:00
+23,CASTILLA-LA MANCHA,CM-2119,NIEVE,2021/01/19 08:06:00,Ambos,CU,VERDE,8.9,0,CUENCA,CUENCA,CU101188212,Ambos sentidos,METEOROLOGICA,0,5,40.32014,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>CUENCA</provincia>
+<matricula>CU</matricula>
+<causa>NIEVE</causa>
+<poblacion>CUENCA</poblacion>
+<fechahora_ini>2021-01-",id-incidencia-1.23,incidencia, , ,-1.81228,-1.81228,40.32014,2021/01/19 21:31:00
+24,CASTILLA-LA MANCHA,CM-2106,NIEVE,2021/01/13 17:20:00,Ambos,CU,VERDE,78,43,HUELAMO,CUENCA,CU101138187,Ambos sentidos,METEOROLOGICA,0,1,40.3132251,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>CUENCA</provincia>
+<matricula>CU</matricula>
+<causa>NIEVE</causa>
+<poblacion>HUELAMO</poblacion>
+<fechahora_ini>2021-01",id-incidencia-1.24,incidencia, , ,-1.8091114,-1.8091114,40.3132251,2021/01/19 21:31:00
+25,CASTILLA-LA MANCHA,N-420,NIEVE,2021/01/19 08:08:00,Ambos,CU,VERDE,480,525,SALVACAÑETE,CUENCA,CU101108021,Ambos sentidos,METEOROLOGICA,0,3,40.1033915,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>CUENCA</provincia>
+<matricula>CU</matricula>
+<causa>NIEVE</causa>
+<poblacion>SALVACAÑETE</poblacion>
+<fechahora_ini>20",id-incidencia-1.25,incidencia, , ,-1.4124744,-1.4124744,40.1033915,2021/01/19 21:31:00
+26,CASTILLA-LA MANCHA,CM-200,NIEVE,2021/01/18 10:56:00,Ambos,CU,VERDE,65,0,VILLAMAYOR DE SANTIAGO,CUENCA,CU101189170,Ambos sentidos,METEOROLOGICA,0,1,39.73485,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>CUENCA</provincia>
+<matricula>CU</matricula>
+<causa>NIEVE</causa>
+<poblacion>VILLAMAYOR DE SANTIAGO</poblacion>
+<fechah",id-incidencia-1.26,incidencia, , ,-2.92595,-2.92595,39.73485,2021/01/19 21:31:00
+27,CASTILLA-LA MANCHA,GU-190,HIELO,2021/01/13 11:57:00,Ambos,GU,VERDE,8.9,0,TORIJA,GUADALAJARA,GU101138140,Ambos sentidos,METEOROLOGICA,0,1,40.74895,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>GUADALAJARA</provincia>
+<matricula>GU</matricula>
+<causa>HIELO</causa>
+<poblacion>TORIJA</poblacion>
+<fechahora_ini>202",id-incidencia-1.27,incidencia, , ,-3.03366,-3.03366,40.74895,2021/01/19 21:31:00
+28,ARAGON,A-1202,NIEVE,2021/01/18 08:37:00,Ambos,HU,ROJO,7,23.5,AGÜERO,HUESCA,HU101188087,Ambos sentidos,METEOROLOGICA,0,1,42.34495,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>HUESCA</provincia>
+<matricula>HU</matricula>
+<causa>NIEVE</causa>
+<poblacion>AGÜERO</poblacion>
+<fechahora_ini>2021-01-18 08:37</f",id-incidencia-1.28,incidencia, , ,-0.85355,-0.85355,42.34495,2021/01/19 21:31:00
+29,CATALUÑA,L-911,HIELO,2021/01/14 18:43:00,Ambos,L,VERDE,11,0,BENAVENT DE LA CONCA,LLEIDA,OL101138080,Ambos sentidos,METEOROLOGICA,0,2,42.05508,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>HIELO</causa>
+<poblacion>BENAVENT DE LA CONCA</poblacion>
+<fechahora_ini>2021",id-incidencia-1.29,incidencia, , ,1.08945,1.08945,42.05508,2021/01/19 21:31:00
+30,CATALUÑA,LV-5134,HIELO,2021/01/12 18:19:00,Ambos,L,VERDE,28.8,0,NOVES DE SEGRE,LLEIDA,OL101128231,Ambos sentidos,METEOROLOGICA,0,7,42.29316,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>HIELO</causa>
+<poblacion>NOVES DE SEGRE</poblacion>
+<fechahora_ini>2021-01-12",id-incidencia-1.30,incidencia, , ,1.34492,1.34492,42.29316,2021/01/19 21:31:00
+31,CATALUÑA,L-913,HIELO,2021/01/12 18:16:00,Ambos,L,VERDE,8.3,0,VILANOVA DE MEIA,LLEIDA,OL101129225,Ambos sentidos,METEOROLOGICA,0,4,41.99462,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>HIELO</causa>
+<poblacion>VILANOVA DE MEIA</poblacion>
+<fechahora_ini>2021-01-",id-incidencia-1.31,incidencia, , ,1.0237,1.0237,41.99462,2021/01/19 21:31:00
+32,CASTILLA-LEON,LE-491,NIEVE,2021/01/16 09:22:00,Ambos,LE,ROJO,2.6,0,PIEDRAFITA DE BABIA,LEON,LE101059107,Ambos sentidos,METEOROLOGICA,0,4,42.96699,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>LEON</provincia>
+<matricula>LE</matricula>
+<causa>NIEVE</causa>
+<poblacion>PIEDRAFITA DE BABIA</poblacion>
+<fechahora_ini>20",id-incidencia-1.32,incidencia, , ,-6.21111,-6.21111,42.96699,2021/01/19 21:31:00
+33,CASTILLA-LEON,LE-321,NIEVE,2021/01/18 10:42:00,Ambos,LE,AMARILLO,45,40,VECILLA DE CURUEÑO (LA),LEON,LE101189166,Ambos sentidos,METEOROLOGICA,0,1,43.0096852,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>LEON</provincia>
+<matricula>LE</matricula>
+<causa>NIEVE</causa>
+<poblacion>VECILLA DE CURUEÑO (LA)</poblacion>
+<fechahora_i",id-incidencia-1.33,incidencia, , ,-5.4410869,-5.4410869,43.0096852,2021/01/19 21:31:00
+34,GALICIA,A-8,VIENTO,2021/01/19 10:54:00,Ambos,LU,AMARILLO,552,536,MONDOÑEDO,LUGO,LU101199010,Ambos sentidos,METEOROLOGICA,0,6,43.4542978,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>GALICIA</autonomia>
+<provincia>LUGO</provincia>
+<matricula>LU</matricula>
+<causa>VIENTO</causa>
+<poblacion>MONDOÑEDO</poblacion>
+<fechahora_ini>2021-01-19 10:54",id-incidencia-1.34,incidencia, , ,-7.3220055,-7.3220055,43.4542978,2021/01/19 21:31:00
+35,NAVARRA,NA-2011,NIEVE,2021/01/13 19:29:00,Ambos,NA,NEGRO,7,7,OCHAGAVIA,NAVARRA,NA101138206,Ambos sentidos,METEOROLOGICA,0,1,42.958116,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>NAVARRA</autonomia>
+<provincia>NAVARRA</provincia>
+<matricula>NA</matricula>
+<causa>NIEVE</causa>
+<poblacion>OCHAGAVIA</poblacion>
+<fechahora_ini>2021-01-13 19:2",id-incidencia-1.35,incidencia, , ,-1.0115334,-1.0115334,42.958116,2021/01/19 21:31:00
+36,NAVARRA,NA-2012,NIEVE,2021/01/07 19:51:00,Ambos,NA,NEGRO,23.5,7,OCHAGAVIA,NAVARRA,NA101079264,Ambos sentidos,METEOROLOGICA,0,1,42.9371784,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>NAVARRA</autonomia>
+<provincia>NAVARRA</provincia>
+<matricula>NA</matricula>
+<causa>NIEVE</causa>
+<poblacion>OCHAGAVIA</poblacion>
+<fechahora_ini>2021-01-07 19:5",id-incidencia-1.36,incidencia, , ,-1.1170396,-1.1170396,42.9371784,2021/01/19 21:31:00
+37,ASTURIAS,CO-4,NIEVE,2020/12/31 14:38:00,Ambos,O,NEGRO,0.1,0.1,COVADONGA,ASTURIAS,OO012289111,Ambos sentidos,METEOROLOGICA,0,2,43.30755,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ASTURIAS</autonomia>
+<provincia>ASTURIAS</provincia>
+<matricula>O</matricula>
+<causa>NIEVE</causa>
+<poblacion>COVADONGA</poblacion>
+<fechahora_ini>2020-12-31 14:",id-incidencia-1.37,incidencia, , ,-5.05145,-5.05145,43.30755,2021/01/19 21:31:00
+38,CASTILLA-LEON,A-67,NIEBLA,2021/01/19 10:16:00,Ambos,P,VERDE,117,20,MONZON DE CAMPOS,PALENCIA,OP101199052,Ambos sentidos,METEOROLOGICA,0,3,42.1028875,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>PALENCIA</provincia>
+<matricula>P</matricula>
+<causa>NIEBLA</causa>
+<poblacion>MONZON DE CAMPOS</poblacion>
+<fechahora_ini>2",id-incidencia-1.38,incidencia, , ,-4.4811296,-4.4811296,42.1028875,2021/01/19 21:31:00
+39,CASTILLA-LEON,N-611,NIEBLA,2021/01/14 02:45:00,Ambos,P,VERDE,66,13.5,VILLALOBON,PALENCIA,OP101148006,Ambos sentidos,METEOROLOGICA,0,2,42.0458836,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>PALENCIA</provincia>
+<matricula>P</matricula>
+<causa>NIEBLA</causa>
+<poblacion>VILLALOBON</poblacion>
+<fechahora_ini>2021-01",id-incidencia-1.39,incidencia, , ,-4.5131948,-4.5131948,42.0458836,2021/01/19 21:31:00
+40,CANTABRIA,CA-643,NIEVE,2021/01/11 13:05:00,Ambos,S,NEGRO,14.6,5,CONCHA (LA),CANTABRIA,OS012289024,Ambos sentidos,METEOROLOGICA,0,3,43.1869743,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CANTABRIA</autonomia>
+<provincia>CANTABRIA</provincia>
+<matricula>S</matricula>
+<causa>NIEVE</causa>
+<poblacion>CONCHA (LA)</poblacion>
+<fechahora_ini>2021-01-11",id-incidencia-1.40,incidencia, , ,-3.6883218,-3.6883218,43.1869743,2021/01/19 21:31:00
+41,CASTILLA-LEON,DSA-180,HIELO,2021/01/13 07:00:00,Ambos,SA,ROJO,9.5,0,HOYA (LA),SALAMANCA,SA012298125,Ambos sentidos,METEOROLOGICA,0,6,40.4101,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>SALAMANCA</provincia>
+<matricula>SA</matricula>
+<causa>HIELO</causa>
+<poblacion>HOYA (LA)</poblacion>
+<fechahora_ini>2021-01",id-incidencia-1.41,incidencia, , ,-5.69759,-5.69759,40.4101,2021/01/19 21:31:00
+42,CASTILLA-LEON,CM-310,HIELO,2021/01/18 10:10:00,Ambos,SA,AMARILLO,5.4,0,MONTEJO,SALAMANCA,SA101119154,Ambos sentidos,METEOROLOGICA,0,3,40.66998,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>SALAMANCA</provincia>
+<matricula>SA</matricula>
+<causa>HIELO</causa>
+<poblacion>MONTEJO</poblacion>
+<fechahora_ini>2021-01-1",id-incidencia-1.42,incidencia, , ,-5.62025,-5.62025,40.66998,2021/01/19 21:31:00
+43,CASTILLA-LEON,CL-101,NIEBLA,2021/01/19 09:13:00,Ambos,SO,VERDE,43,29,ALMENAR DE SORIA,SORIA,SO101198079,Ambos sentidos,METEOROLOGICA,0,1,41.6893825,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>SORIA</provincia>
+<matricula>SO</matricula>
+<causa>NIEBLA</causa>
+<poblacion>ALMENAR DE SORIA</poblacion>
+<fechahora_ini>202",id-incidencia-1.43,incidencia, , ,-2.0887623,-2.0887623,41.6893825,2021/01/19 21:31:00
+44,CASTILLA-LEON,CL-101,NIEBLA,2021/01/19 09:16:00,Ambos,SO,VERDE,105,99,BARAONA,SORIA,SO101199093,Ambos sentidos,METEOROLOGICA,0,1,41.296607,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>SORIA</provincia>
+<matricula>SO</matricula>
+<causa>NIEBLA</causa>
+<poblacion>BARAONA</poblacion>
+<fechahora_ini>2021-01-19 0",id-incidencia-1.44,incidencia, , ,-2.6532453,-2.6532453,41.296607,2021/01/19 21:31:00
+45,ARAGON,TE-V-8024,NIEVE,2021/01/14 09:35:00,Ambos,TE,AMARILLO,14.5,0,ALCALA DE LA SELVA,TERUEL,TE101089261,Ambos sentidos,METEOROLOGICA,0,8,40.37102,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>ALCALA DE LA SELVA</poblacion>
+<fechahora_ini>2021-01-",id-incidencia-1.45,incidencia, , ,-0.72033,-0.72033,40.37102,2021/01/19 21:31:00
+46,ARAGON,TE-V-8215,NIEVE,2021/01/13 13:06:00,Ambos,TE,VERDE,10,0,ALCORISA,TERUEL,TE101079254,Ambos sentidos,METEOROLOGICA,0,3,40.88333,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>ALCORISA</poblacion>
+<fechahora_ini>2021-01-13 13:06</",id-incidencia-1.46,incidencia, , ,-0.40038,-0.40038,40.88333,2021/01/19 21:31:00
+47,ARAGON,TE-V-1009,NIEVE,2021/01/13 13:08:00,Ambos,TE,VERDE,16,6,CAMAÑAS,TERUEL,TE101119219,Ambos sentidos,METEOROLOGICA,0,4,40.6078963,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>CAMAÑAS</poblacion>
+<fechahora_ini>2021-01-13 13:08</",id-incidencia-1.47,incidencia, , ,-1.139144,-1.139144,40.6078963,2021/01/19 21:31:00
+48,ARAGON,A-2520,NIEVE,2021/01/15 10:48:00,Ambos,TE,AMARILLO,20.7,10,CAMARENA DE LA SIERRA,TERUEL,TE101079160,Ambos sentidos,METEOROLOGICA,0,12,40.1750571,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>CAMARENA DE LA SIERRA</poblacion>
+<fechahora_ini>2021-",id-incidencia-1.48,incidencia, , ,-1.0105251,-1.0105251,40.1750571,2021/01/19 21:31:00
+49,ARAGON,A-1512,NIEVE,2021/01/13 12:50:00,Ambos,TE,VERDE,50,0,CAUDE,TERUEL,TE101079227,Ambos sentidos,METEOROLOGICA,0,5,40.38771,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>CAUDE</poblacion>
+<fechahora_ini>2021-01-13 12:50</fec",id-incidencia-1.49,incidencia, , ,-1.18091,-1.18091,40.38771,2021/01/19 21:31:00
+50,ARAGON,A-2515,NIEVE,2021/01/13 12:47:00,Ambos,TE,VERDE,30.5,3,CELLA,TERUEL,TE101079170,Ambos sentidos,METEOROLOGICA,0,8,40.4538756,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>CELLA</poblacion>
+<fechahora_ini>2021-01-13 12:47</fec",id-incidencia-1.50,incidencia, , ,-1.2781535,-1.2781535,40.4538756,2021/01/19 21:31:00
+51,ARAGON,TE-V-9101,NIEVE,2021/01/13 13:07:00,Ambos,TE,VERDE,1,0,CUERVO (EL),TERUEL,TE101099241,Ambos sentidos,METEOROLOGICA,0,3,40.1533137,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>CUERVO (EL)</poblacion>
+<fechahora_ini>2021-01-13 13:0",id-incidencia-1.51,incidencia, , ,-1.3257812,-1.3257812,40.1533137,2021/01/19 21:31:00
+52,ARAGON,TE-V-9023,NIEVE,2021/01/11 12:13:00,Ambos,TE,VERDE,7,0, ,TERUEL,TE101089122,Ambos sentidos,METEOROLOGICA,0,2,40.68321,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion></poblacion>
+<fechahora_ini>2021-01-11 12:13</fechahor",id-incidencia-1.52,incidencia, , ,-1.42862,-1.42862,40.68321,2021/01/19 21:31:00
+53,ARAGON,A-1509,NIEVE,2021/01/14 11:20:00,Ambos,TE,VERDE,34,0, ,TERUEL,TE101078236,Ambos sentidos,METEOROLOGICA,0,3,40.74744,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion></poblacion>
+<fechahora_ini>2021-01-14 11:20</fechahor",id-incidencia-1.53,incidencia, , ,-1.32751,-1.32751,40.74744,2021/01/19 21:31:00
+54,ARAGON,A-1704,NIEVE,2021/01/14 11:19:00,Ambos,TE,VERDE,24,15,FRIAS DE ALBARRACIN,TERUEL,TE101079228,Ambos sentidos,METEOROLOGICA,0,7,40.338841,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>FRIAS DE ALBARRACIN</poblacion>
+<fechahora_ini>2021-01",id-incidencia-1.54,incidencia, , ,-1.6125828,-1.6125828,40.338841,2021/01/19 21:31:00
+55,ARAGON,A-1512,NIEVE,2021/01/14 11:19:00,Ambos,TE,VERDE,66,50,NOGUERA,TERUEL,TE101098254,Ambos sentidos,METEOROLOGICA,0,4,40.456585,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>NOGUERA</poblacion>
+<fechahora_ini>2021-01-14 11:19</f",id-incidencia-1.55,incidencia, , ,-1.5962172,-1.5962172,40.456585,2021/01/19 21:31:00
+56,ARAGON,A-2709,NIEVE,2021/01/14 11:19:00,Ambos,TE,VERDE,8,0,NOGUERA,TERUEL,TE101079211,Ambos sentidos,METEOROLOGICA,0,4,40.45871,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>NOGUERA</poblacion>
+<fechahora_ini>2021-01-14 11:19</f",id-incidencia-1.56,incidencia, , ,-1.59534,-1.59534,40.45871,2021/01/19 21:31:00
+57,ARAGON,TE-V-9032,NIEVE,2021/01/13 13:07:00,Ambos,TE,VERDE,19.4,0,ORIHUELA DEL TREMEDAL,TERUEL,TE101098257,Ambos sentidos,METEOROLOGICA,0,3,40.50151,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>ORIHUELA DEL TREMEDAL</poblacion>
+<fechahora_ini>2021-",id-incidencia-1.57,incidencia, , ,-1.65893,-1.65893,40.50151,2021/01/19 21:31:00
+58,ARAGON,A-1511,NIEVE,2021/01/13 13:10:00,Ambos,TE,VERDE,28,3.5,SANTA EULALIA,TERUEL,TE101079169,Ambos sentidos,METEOROLOGICA,0,18,40.5633261,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>SANTA EULALIA</poblacion>
+<fechahora_ini>2021-01-13 13",id-incidencia-1.58,incidencia, , ,-1.3208641,-1.3208641,40.5633261,2021/01/19 21:31:00
+59,ARAGON,TE-V-6015,NIEVE,2021/01/11 12:12:00,Ambos,TE,VERDE,8.4,0,TERUEL,TERUEL,TE101079243,Ambos sentidos,METEOROLOGICA,0,4,40.33312,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>TERUEL</poblacion>
+<fechahora_ini>2021-01-11 12:12</fe",id-incidencia-1.59,incidencia, , ,-1.10105,-1.10105,40.33312,2021/01/19 21:31:00
+60,ARAGON,A-1513,NIEVE,2021/01/11 12:11:00,Ambos,TE,VERDE,41,0,TERUEL,TERUEL,TE101079230,Ambos sentidos,METEOROLOGICA,0,3,40.35349,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>TERUEL</poblacion>
+<fechahora_ini>2021-01-11 12:11</fe",id-incidencia-1.60,incidencia, , ,-1.13245,-1.13245,40.35349,2021/01/19 21:31:00
+61,ARAGON,TE-V-6014,NIEVE,2021/01/11 12:12:00,Ambos,TE,VERDE,17,0,TERUEL,TERUEL,TE101078237,Ambos sentidos,METEOROLOGICA,0,4,40.32528,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>TERUEL</poblacion>
+<fechahora_ini>2021-01-11 12:12</fe",id-incidencia-1.61,incidencia, , ,-1.11495,-1.11495,40.32528,2021/01/19 21:31:00
+62,ARAGON,TE-V-1008,NIEVE,2021/01/13 13:08:00,Ambos,TE,VERDE,22,0,TORREMOCHA DE JILOCA,TERUEL,TE101119218,Ambos sentidos,METEOROLOGICA,0,4,40.56584,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>TORREMOCHA DE JILOCA</poblacion>
+<fechahora_ini>2021-0",id-incidencia-1.62,incidencia, , ,-1.28508,-1.28508,40.56584,2021/01/19 21:31:00
+63,ARAGON,TE-V-9024,NIEVE,2021/01/13 13:06:00,Ambos,TE,VERDE,16,0,VILLAFRANCA DEL CAMPO,TERUEL,TE101089123,Ambos sentidos,METEOROLOGICA,0,2,40.70131,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>VILLAFRANCA DEL CAMPO</poblacion>
+<fechahora_ini>2021-",id-incidencia-1.63,incidencia, , ,-1.33083,-1.33083,40.70131,2021/01/19 21:31:00
+64,ARAGON,TE-V-9033,NIEVE,2021/01/13 13:08:00,Ambos,TE,VERDE,2.5,0,VILLAR DEL COBO,TERUEL,TE101098258,Ambos sentidos,METEOROLOGICA,0,4,40.4058,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>VILLAR DEL COBO</poblacion>
+<fechahora_ini>2021-01-13",id-incidencia-1.64,incidencia, , ,-1.69531,-1.69531,40.4058,2021/01/19 21:31:00
+65,ARAGON,TE-V-6016,NIEVE,2021/01/11 12:12:00,Ambos,TE,VERDE,1.4,0,VILLASPESA,TERUEL,TE101078238,Ambos sentidos,METEOROLOGICA,0,4,40.29801,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>NIEVE</causa>
+<poblacion>VILLASPESA</poblacion>
+<fechahora_ini>2021-01-11 12:12",id-incidencia-1.65,incidencia, , ,-1.12269,-1.12269,40.29801,2021/01/19 21:31:00
+66,CASTILLA-LA MANCHA,TO-2437,NIEVE,2021/01/15 20:48:00,Ambos,TO,VERDE,3,0,BOROX,TOLEDO,TO101129215,Ambos sentidos,METEOROLOGICA,0,4,40.02756,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>BOROX</poblacion>
+<fechahora_ini>2021-01-1",id-incidencia-1.66,incidencia, , ,-3.68926,-3.68926,40.02756,2021/01/19 21:31:00
+67,CASTILLA-LA MANCHA,CM-411,NIEVE,2021/01/19 09:06:00,Ambos,TO,VERDE,21,14,CAMPILLO DE LA JARA (EL),TOLEDO,TO101089143,Ambos sentidos,METEOROLOGICA,0,2,39.5587273,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>CAMPILLO DE LA JARA (EL)</poblacion>
+<fech",id-incidencia-1.67,incidencia, , ,-5.0718172,-5.0718172,39.5587273,2021/01/19 21:31:00
+68,CASTILLA-LA MANCHA,CM-4010,NIEVE,2021/01/17 08:53:00,Ambos,TO,VERDE,19,0,ILLESCAS,TOLEDO,TO101139185,Ambos sentidos,METEOROLOGICA,0,2,40.12749,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>ILLESCAS</poblacion>
+<fechahora_ini>2021-0",id-incidencia-1.68,incidencia, , ,-3.84514,-3.84514,40.12749,2021/01/19 21:31:00
+69,CASTILLA-LA MANCHA,CM-43,NIEVE,2021/01/19 10:04:00,Ambos,TO,VERDE,17,0,ILLESCAS,TOLEDO,TO101099403,Ambos sentidos,METEOROLOGICA,0,9,40.09696,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>ILLESCAS</poblacion>
+<fechahora_ini>2021-0",id-incidencia-1.69,incidencia, , ,-3.83502,-3.83502,40.09696,2021/01/19 21:31:00
+70,CASTILLA-LA MANCHA,TO-3639,NIEVE,2021/01/15 20:08:00,Ambos,TO,VERDE,11,0,MENASALBAS,TOLEDO,TO101109012,Ambos sentidos,METEOROLOGICA,0,5,39.63601,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>MENASALBAS</poblacion>
+<fechahora_ini>2021",id-incidencia-1.70,incidencia, , ,-4.2866,-4.2866,39.63601,2021/01/19 21:31:00
+71,CASTILLA-LA MANCHA,CM-410,NIEVE,2021/01/17 08:56:00,Ambos,TO,VERDE,40,0,MENASALBAS,TOLEDO,TO101089077,Ambos sentidos,METEOROLOGICA,0,7,39.63829,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>MENASALBAS</poblacion>
+<fechahora_ini>2021",id-incidencia-1.71,incidencia, , ,-4.28232,-4.28232,39.63829,2021/01/19 21:31:00
+72,CASTILLA-LA MANCHA,CM-410,NIEVE,2002/02/01 21:03:00,Ambos,TO,AMARILLO,40,0,MENASALBAS,TOLEDO,TO101089077,Ambos sentidos,METEOROLOGICA,0,1,39.63829,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>MENASALBAS</poblacion>
+<fechahora_ini>2002",id-incidencia-1.72,incidencia, , ,-4.28232,-4.28232,39.63829,2021/01/19 21:31:00
+73,CASTILLA-LA MANCHA,CM-4000,NIEVE,2021/01/16 10:48:00,Ambos,TO,VERDE,39,0,PUEBLA DE MONTALBAN (LA),TOLEDO,TO101108156,Ambos sentidos,METEOROLOGICA,0,5,39.86062,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>PUEBLA DE MONTALBAN (LA)</poblacion>
+<fech",id-incidencia-1.73,incidencia, , ,-4.04424,-4.04424,39.86062,2021/01/19 21:31:00
+74,CASTILLA-LA MANCHA,TO-2899,NIEVE,2021/01/18 16:31:00,Ambos,TO,VERDE,10,3,QUINTANAR DE LA ORDEN,TOLEDO,TO101188210,Ambos sentidos,METEOROLOGICA,0,1,39.5917285,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>QUINTANAR DE LA ORDEN</poblacion>
+<fechaho",id-incidencia-1.74,incidencia, , ,-3.0021416,-3.0021416,39.5917285,2021/01/19 21:31:00
+75,CASTILLA-LA MANCHA,TO-1375,NIEVE,2002/02/01 03:16:00,Ambos,TO,ROJO,9,0,REAL DE SAN VICENTE (EL),TOLEDO,TO101078188,Ambos sentidos,METEOROLOGICA,0,1,40.15142,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>REAL DE SAN VICENTE (EL)</poblacion>
+<fech",id-incidencia-1.75,incidencia, , ,-4.69086,-4.69086,40.15142,2021/01/19 21:31:00
+76,CASTILLA-LA MANCHA,TO-1375,NIEVE,2021/01/07 17:57:00,Ambos,TO,NEGRO,15,0,REAL DE SAN VICENTE (EL),TOLEDO,TO101078188,Ambos sentidos,METEOROLOGICA,0,4,40.15142,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>REAL DE SAN VICENTE (EL)</poblacion>
+<fech",id-incidencia-1.76,incidencia, , ,-4.69086,-4.69086,40.15142,2021/01/19 21:31:00
+77,CASTILLA-LA MANCHA,TO-3845,NIEVE,2021/01/15 20:06:00,Ambos,TO,AMARILLO,20,0,SAN MARTIN DE MONTALBAN,TOLEDO,TO101138157,Ambos sentidos,METEOROLOGICA,0,2,39.70238,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>SAN MARTIN DE MONTALBAN</poblacion>
+<fecha",id-incidencia-1.77,incidencia, , ,-4.39009,-4.39009,39.70238,2021/01/19 21:31:00
+78,CASTILLA-LA MANCHA,TO-3268,NIEVE,2021/01/15 20:05:00,Ambos,TO,AMARILLO,18,5.5,URDA,TOLEDO,TO101109094,Ambos sentidos,METEOROLOGICA,0,3,39.3573572,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>URDA</poblacion>
+<fechahora_ini>2021-01-15",id-incidencia-1.78,incidencia, , ,-3.6952058,-3.6952058,39.3573572,2021/01/19 21:31:00
+79,CASTILLA-LA MANCHA,TO-3268,NIEVE,2021/01/15 20:35:00,Ambos,TO,VERDE,5.5,0,URDA,TOLEDO,TO101158150,Ambos sentidos,METEOROLOGICA,0,2,39.40621,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>URDA</poblacion>
+<fechahora_ini>2021-01-15",id-incidencia-1.79,incidencia, , ,-3.7178,-3.7178,39.40621,2021/01/19 21:31:00
+80,CASTILLA-LA MANCHA,TO-3638,NIEVE,2002/02/03 13:45:00,Ambos,TO,VERDE,15,0,VENTAS CON PEÑA AGUILERA (LAS),TOLEDO,TO101109012,Ambos sentidos,METEOROLOGICA,0,1,39.6061,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>VENTAS CON PEÑA AGUILERA (LAS)</poblacion",id-incidencia-1.80,incidencia, , ,-4.23431,-4.23431,39.6061,2021/01/19 21:31:00
+81,CASTILLA-LA MANCHA,CM-403,HIELO,2021/01/19 08:13:00,Ambos,TO,VERDE,23,17,VENTAS CON PEÑA AGUILERA (LAS),TOLEDO,TO101119007,Ambos sentidos,METEOROLOGICA,0,6,39.5675434,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>HIELO</causa>
+<poblacion>VENTAS CON PEÑA AGUILERA (LAS)</poblacion",id-incidencia-1.81,incidencia, , ,-4.2360683,-4.2360683,39.5675434,2021/01/19 21:31:00
+82,CASTILLA-LA MANCHA,TO-3638,NIEVE,2002/02/03 15:47:00,Ambos,TO,AMARILLO,15,0,VENTAS CON PEÑA AGUILERA (LAS),TOLEDO,TO101109011,Ambos sentidos,METEOROLOGICA,0,2,39.6061,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>VENTAS CON PEÑA AGUILERA (LAS)</poblacion",id-incidencia-1.82,incidencia, , ,-4.23431,-4.23431,39.6061,2021/01/19 21:31:00
+83,CASTILLA-LA MANCHA,TO-3638,NIEVE,2021/01/17 10:18:00,Ambos,TO,AMARILLO,10,6.5,VENTAS CON PEÑA AGUILERA (LAS),TOLEDO,TO101109011,Ambos sentidos,METEOROLOGICA,0,6,39.5657448,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>VENTAS CON PEÑA AGUILERA (LAS)</poblacion",id-incidencia-1.83,incidencia, , ,-4.2924574,-4.2924574,39.5657448,2021/01/19 21:31:00
+84,CASTILLA-LA MANCHA,CM-4011,HIELO,2021/01/17 09:25:00,Ambos,TO,VERDE,11,20,VILLAMIEL DE TOLEDO,TOLEDO,TO101119082,Ambos sentidos,METEOROLOGICA,0,3,39.9773564,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>HIELO</causa>
+<poblacion>VILLAMIEL DE TOLEDO</poblacion>
+<fechahora",id-incidencia-1.84,incidencia, , ,-4.1298068,-4.1298068,39.9773564,2021/01/19 21:31:00
+85,CASTILLA-LA MANCHA,CM-322,NIEVE,2021/01/17 10:31:00,Ambos,TO,VERDE,17,14,VILLARRUBIA DE SANTIAGO,TOLEDO,TO101078128,Ambos sentidos,METEOROLOGICA,0,4,40.0033259,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>VILLARRUBIA DE SANTIAGO</poblacion>
+<fecha",id-incidencia-1.85,incidencia, , ,-3.3777007,-3.3777007,40.0033259,2021/01/19 21:31:00
+86,CASTILLA-LA MANCHA,TO-2628,NIEVE,2021/01/15 20:04:00,Ambos,TO,VERDE,14,0,VILLASEQUILLA,TOLEDO,TO101118126,Ambos sentidos,METEOROLOGICA,0,3,39.94103,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>VILLASEQUILLA</poblacion>
+<fechahora_ini>2",id-incidencia-1.86,incidencia, , ,-3.74034,-3.74034,39.94103,2021/01/19 21:31:00
+87,CASTILLA-LA MANCHA,CM-3001,NIEVE,2021/01/18 18:29:00,Ambos,TO,AMARILLO,25,14,VILLATOBAS,TOLEDO,TO101188213,Ambos sentidos,METEOROLOGICA,0,1,39.8749881,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>VILLATOBAS</poblacion>
+<fechahora_ini>2021",id-incidencia-1.87,incidencia, , ,-3.3281176,-3.3281176,39.8749881,2021/01/19 21:31:00
+88,CASTILLA-LA MANCHA,TO-3360,NIEVE,2021/01/16 13:46:00,Ambos,TO,NEGRO,18,0,YEBENES (LOS),TOLEDO,TO101168022,Ambos sentidos,METEOROLOGICA,0,2,39.43017,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>YEBENES (LOS)</poblacion>
+<fechahora_ini>2",id-incidencia-1.88,incidencia, , ,-3.80998,-3.80998,39.43017,2021/01/19 21:31:00
+89,CASTILLA-LA MANCHA,TO-3249,NIEVE,2021/01/15 20:03:00,Ambos,TO,AMARILLO,27,0,YEBENES (LOS),TOLEDO,TO101139209,Ambos sentidos,METEOROLOGICA,0,2,39.52113,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>TOLEDO</provincia>
+<matricula>TO</matricula>
+<causa>NIEVE</causa>
+<poblacion>YEBENES (LOS)</poblacion>
+<fechahora_ini>2",id-incidencia-1.89,incidencia, , ,-3.84257,-3.84257,39.52113,2021/01/19 21:31:00
+90,COMUNITAT VALENCIANA,CV-482,HIELO,2021/01/12 14:14:00,Ambos,V,VERDE,1.2,0,ADEMUZ,VALENCIA,OV101129202,Ambos sentidos,METEOROLOGICA,0,1,40.14069,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>HIELO</causa>
+<poblacion>ADEMUZ</poblacion>
+<fechahora_ini>2021-",id-incidencia-1.90,incidencia, , ,-1.31566,-1.31566,40.14069,2021/01/19 21:31:00
+91,COMUNITAT VALENCIANA,CV-478,HIELO,2021/01/12 14:11:00,Ambos,V,VERDE,15.1,0,ADEMUZ,VALENCIA,OV101129198,Ambos sentidos,METEOROLOGICA,0,1,40.05878,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>HIELO</causa>
+<poblacion>ADEMUZ</poblacion>
+<fechahora_ini>2021-",id-incidencia-1.91,incidencia, , ,-1.28659,-1.28659,40.05878,2021/01/19 21:31:00
+92,COMUNITAT VALENCIANA,CV-479,HIELO,2021/01/12 14:12:00,Ambos,V,VERDE,5.6,0,ADEMUZ,VALENCIA,OV101129199,Ambos sentidos,METEOROLOGICA,0,1,40.11194,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>HIELO</causa>
+<poblacion>ADEMUZ</poblacion>
+<fechahora_ini>2021-",id-incidencia-1.92,incidencia, , ,-1.29527,-1.29527,40.11194,2021/01/19 21:31:00
+93,COMUNITAT VALENCIANA,CV-355,HIELO,2021/01/13 12:56:00,Ambos,V,VERDE,9.4,0,ARAS DE LOS OLMOS,VALENCIA,OV101118123,Ambos sentidos,METEOROLOGICA,0,3,39.92555,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>HIELO</causa>
+<poblacion>ARAS DE LOS OLMOS</poblacion>
+<fechahor",id-incidencia-1.93,incidencia, , ,-1.1379,-1.1379,39.92555,2021/01/19 21:31:00
+94,COMUNITAT VALENCIANA,CV-483,HIELO,2021/01/12 14:15:00,Ambos,V,VERDE,4.9,0,ARROYO CEREZO,VALENCIA,OV101128198,Ambos sentidos,METEOROLOGICA,0,1,40.11659,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>HIELO</causa>
+<poblacion>ARROYO CEREZO</poblacion>
+<fechahora_in",id-incidencia-1.94,incidencia, , ,-1.39757,-1.39757,40.11659,2021/01/19 21:31:00
+95,COMUNITAT VALENCIANA,A-3,NIEBLA,2021/01/09 05:10:00,Ambos,V,VERDE,317,314,BUÑOL,VALENCIA,OV101099068,Ambos sentidos,METEOROLOGICA,0,1,39.4401633,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>NIEBLA</causa>
+<poblacion>BUÑOL</poblacion>
+<fechahora_ini>2021",id-incidencia-1.95,incidencia, , ,-0.8255013,-0.8255013,39.4401633,2021/01/19 21:31:00
+96,COMUNITAT VALENCIANA,CV-35,HIELO,2021/01/13 12:55:00,Ambos,V,VERDE,106,67,CALLES,VALENCIA,OV101129122,Ambos sentidos,METEOROLOGICA,0,3,39.7469757,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>HIELO</causa>
+<poblacion>CALLES</poblacion>
+<fechahora_ini>2021-",id-incidencia-1.96,incidencia, , ,-0.9892406,-0.9892406,39.7469757,2021/01/19 21:31:00
+97,COMUNITAT VALENCIANA,A-7,NIEBLA,2021/01/09 00:06:00,Ambos,V,VERDE,410,406,CANALS,VALENCIA,OV101099001,Ambos sentidos,METEOROLOGICA,0,1,38.9424878,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>NIEBLA</causa>
+<poblacion>CANALS</poblacion>
+<fechahora_ini>2021",id-incidencia-1.97,incidencia, , ,-0.562513,-0.562513,38.9424878,2021/01/19 21:31:00
+98,COMUNITAT VALENCIANA,CV-363,HIELO,2021/01/19 16:27:00,Ambos,V,VERDE,4,0,LOSILLA,VALENCIA,OV101129196,Ambos sentidos,METEOROLOGICA,0,3,39.96531,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>HIELO</causa>
+<poblacion>LOSILLA</poblacion>
+<fechahora_ini>2021",id-incidencia-1.98,incidencia, , ,-1.09298,-1.09298,39.96531,2021/01/19 21:31:00
+99,COMUNITAT VALENCIANA,CV-343,HIELO,2021/01/12 13:56:00,Ambos,V,VERDE,1.1,0,POBLETA (LA),VALENCIA,OV101128117,Ambos sentidos,METEOROLOGICA,0,2,39.82793,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>HIELO</causa>
+<poblacion>POBLETA (LA)</poblacion>
+<fechahora_ini",id-incidencia-1.99,incidencia, , ,-0.81952,-0.81952,39.82793,2021/01/19 21:31:00
+100,COMUNITAT VALENCIANA,CV-390,HIELO,2021/01/13 04:10:00,Ambos,V,VERDE,12,8,REQUENA,VALENCIA,OV101139007,Ambos sentidos,METEOROLOGICA,0,1,39.7570885,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>HIELO</causa>
+<poblacion>REQUENA</poblacion>
+<fechahora_ini>2021",id-incidencia-1.100,incidencia, , ,-1.0827682,-1.0827682,39.7570885,2021/01/19 21:31:00
+101,COMUNITAT VALENCIANA,CV-481,HIELO,2021/01/12 14:13:00,Ambos,V,VERDE,0.8,0,SANTOS (LOS),VALENCIA,OV101129200,Ambos sentidos,METEOROLOGICA,0,1,40.10366,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>HIELO</causa>
+<poblacion>SANTOS (LOS)</poblacion>
+<fechahora_ini",id-incidencia-1.101,incidencia, , ,-1.27395,-1.27395,40.10366,2021/01/19 21:31:00
+102,COMUNITAT VALENCIANA,N-420,NIEVE,2021/01/09 03:07:00,Ambos,V,VERDE,541.2,525.1,TORREBAJA,VALENCIA,OV101109042,Ambos sentidos,METEOROLOGICA,0,1,40.10415,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>NIEVE</causa>
+<poblacion>TORREBAJA</poblacion>
+<fechahora_ini>20",id-incidencia-1.102,incidencia, , ,-1.41107,-1.41107,40.10415,2021/01/19 21:31:00
+103,COMUNITAT VALENCIANA,CV-390,HIELO,2021/01/13 13:00:00,Ambos,V,VERDE,45.9,0,TUEJAR,VALENCIA,OV101118152,Ambos sentidos,METEOROLOGICA,0,4,39.77392,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>HIELO</causa>
+<poblacion>TUEJAR</poblacion>
+<fechahora_ini>2021-",id-incidencia-1.103,incidencia, , ,-1.04316,-1.04316,39.77392,2021/01/19 21:31:00
+104,CASTILLA-LEON,A-6,NIEBLA,2021/01/19 19:38:00,Ambos,ZA,VERDE,350,270,VILLABRAZARO,ZAMORA,ZA101198004,Ambos sentidos,METEOROLOGICA,0,10,42.0701729,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>METEOROLOGICA</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>ZAMORA</provincia>
+<matricula>ZA</matricula>
+<causa>NIEBLA</causa>
+<poblacion>VILLABRAZARO</poblacion>
+<fechahora_ini>2021-0",id-incidencia-1.104,incidencia, , ,-5.6919963,-5.6919963,42.0701729,2021/01/19 21:31:00
+105,CASTILLA-LA MANCHA,CM-3216,PRECAUCION CM-3216,2021/01/19 16:48:00,Ambos,AB,VERDE,10,26,PATERNA DEL MADERA,ALBACETE,AB101078126,Ambos sentidos,PUERTOS DE MONTA?A,0,6,38.5707111,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>PUERTOS DE MONTA?A</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>ALBACETE</provincia>
+<matricula>AB</matricula>
+<causa>PRECAUCION CM-3216</causa>
+<poblacion>PATERNA DEL MADERA</po",id-incidencia-1.105,incidencia, , ,-2.3848481,-2.3848481,38.5707111,2021/01/19 21:31:00
+106,CASTILLA-LEON,BU-571,CADENAS PORTILLO DE LA SIA,2021/01/13 14:23:00,Ambos,BU,ROJO,7.3,3,RIO DE LA SIA,BURGOS,BU012308058,Ambos sentidos,PUERTOS DE MONTA?A,0,3,43.1304523,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>PUERTOS DE MONTA?A</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>BURGOS</provincia>
+<matricula>BU</matricula>
+<causa>CADENAS PORTILLO DE LA SIA</causa>
+<poblacion>RIO DE LA SIA</poblac",id-incidencia-1.106,incidencia, , ,-3.5786616,-3.5786616,43.1304523,2021/01/19 21:31:00
+107,CASTILLA-LEON,BU-572,CADENAS PORTILLO DE LUNADA,2021/01/19 07:46:00,Ambos,BU,ROJO,8.1,0,RIO DE LUNADA,BURGOS,BU101038037,Ambos sentidos,PUERTOS DE MONTA?A,0,4,43.12497,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>PUERTOS DE MONTA?A</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>BURGOS</provincia>
+<matricula>BU</matricula>
+<causa>CADENAS PORTILLO DE LUNADA</causa>
+<poblacion>RIO DE LUNADA</poblac",id-incidencia-1.107,incidencia, , ,-3.60991,-3.60991,43.12497,2021/01/19 21:31:00
+108,CASTILLA-LEON,BU-570,CADENAS ESTACAS DE TRUEBA,2021/01/19 07:47:00,Ambos,BU,ROJO,14.5,7.8,RIO TRUEBA,BURGOS,BU101039047,Ambos sentidos,PUERTOS DE MONTA?A,0,3,43.1250523,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>PUERTOS DE MONTA?A</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>BURGOS</provincia>
+<matricula>BU</matricula>
+<causa>CADENAS ESTACAS DE TRUEBA</causa>
+<poblacion>RIO TRUEBA</poblacion>",id-incidencia-1.108,incidencia, , ,-3.6109938,-3.6109938,43.1250523,2021/01/19 21:31:00
+109,CASTILLA-LEON,LE-723,CADENAS PTO. PORTELO,2021/01/18 11:02:00,Ambos,LE,AMARILLO,13.9,3,BALBOA,LEON,LE101188169,Ambos sentidos,PUERTOS DE MONTA?A,0,1,42.6880493,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>PUERTOS DE MONTA?A</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>LEON</provincia>
+<matricula>LE</matricula>
+<causa>CADENAS PTO. PORTELO</causa>
+<poblacion>BALBOA</poblacion>
+<fechahora",id-incidencia-1.109,incidencia, , ,-6.9291751,-6.9291751,42.6880493,2021/01/19 21:31:00
+110,CASTILLA-LEON,LE-233,CADENAS PTO. MONTEVIEJO,2021/01/13 19:12:00,Ambos,LE,ROJO,8.5,0,PRIORO,LEON,LE101139221,Ambos sentidos,PUERTOS DE MONTA?A,0,2,42.8971,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>PUERTOS DE MONTA?A</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>LEON</provincia>
+<matricula>LE</matricula>
+<causa>CADENAS PTO. MONTEVIEJO</causa>
+<poblacion>PRIORO</poblacion>
+<fechah",id-incidencia-1.110,incidencia, , ,-4.88783,-4.88783,42.8971,2021/01/19 21:31:00
+111,CASTILLA-LEON,LE-481,CADENAS PTO. VENTANA,2021/01/18 10:59:00,Ambos,LE,AMARILLO,16,11,SAN EMILIANO,LEON,LE101189172,Ambos sentidos,PUERTOS DE MONTA?A,0,1,43.0340972,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>PUERTOS DE MONTA?A</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>LEON</provincia>
+<matricula>LE</matricula>
+<causa>CADENAS PTO. VENTANA</causa>
+<poblacion>SAN EMILIANO</poblacion>
+<fec",id-incidencia-1.111,incidencia, , ,-6.016251,-6.016251,43.0340972,2021/01/19 21:31:00
+112,LA_RIOJA,LR-232,CERRADO PEÑA HINCADA,2021/01/10 16:04:00,Ambos,LO,NEGRO,19,12,ORTIGOSA,LA RIOJA,LO101018068,Ambos sentidos,PUERTOS DE MONTA?A,0,5,42.1649315,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>PUERTOS DE MONTA?A</tipo>
+<autonomia>LA_RIOJA</autonomia>
+<provincia>LA RIOJA</provincia>
+<matricula>LO</matricula>
+<causa>CERRADO PEÑA HINCADA</causa>
+<poblacion>ORTIGOSA</poblacion>
+<fechaho",id-incidencia-1.112,incidencia, , ,-2.7341517,-2.7341517,42.1649315,2021/01/19 21:31:00
+113,ASTURIAS,AS-254,CADENAS COLLADA DE ARNICIO,2021/01/16 11:00:00,Ambos,O,ROJO,27,16,CAMPU (EL),ASTURIAS,OO101018044,Ambos sentidos,PUERTOS DE MONTA?A,0,3,43.2479261,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>PUERTOS DE MONTA?A</tipo>
+<autonomia>ASTURIAS</autonomia>
+<provincia>ASTURIAS</provincia>
+<matricula>O</matricula>
+<causa>CADENAS COLLADA DE ARNICIO</causa>
+<poblacion>CAMPU (EL)</poblacion>
+<f",id-incidencia-1.113,incidencia, , ,-5.3942288,-5.3942288,43.2479261,2021/01/19 21:31:00
+114,ASTURIAS,AS-112,CERRADO SAN ISIDRO,2021/01/06 22:13:00,Ambos,O,NEGRO,43,33,RAYA (LA),ASTURIAS,OO012288131,Ambos sentidos,PUERTOS DE MONTA?A,0,6,43.0851356,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>PUERTOS DE MONTA?A</tipo>
+<autonomia>ASTURIAS</autonomia>
+<provincia>ASTURIAS</provincia>
+<matricula>O</matricula>
+<causa>CERRADO SAN ISIDRO</causa>
+<poblacion>RAYA (LA)</poblacion>
+<fechahora_",id-incidencia-1.114,incidencia, , ,-5.464601,-5.464601,43.0851356,2021/01/19 21:31:00
+115,ASTURIAS,AS-117,CERRADO TARNA,2020/12/29 21:22:00,Ambos,O,NEGRO,66,56,TARNA,ASTURIAS,OO012289049,Ambos sentidos,PUERTOS DE MONTA?A,0,2,43.1164562,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>PUERTOS DE MONTA?A</tipo>
+<autonomia>ASTURIAS</autonomia>
+<provincia>ASTURIAS</provincia>
+<matricula>O</matricula>
+<causa>CERRADO TARNA</causa>
+<poblacion>TARNA</poblacion>
+<fechahora_ini>2020-",id-incidencia-1.115,incidencia, , ,-5.2490832,-5.2490832,43.1164562,2021/01/19 21:31:00
+116,CANTABRIA,CA-631,CERRADO ESTACAS DE TRUEBA,2021/01/10 09:45:00,Ambos,S,NEGRO,14.3,5,PANDILLO,CANTABRIA,OS012299122,Ambos sentidos,PUERTOS DE MONTA?A,0,2,43.136915,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>PUERTOS DE MONTA?A</tipo>
+<autonomia>CANTABRIA</autonomia>
+<provincia>CANTABRIA</provincia>
+<matricula>S</matricula>
+<causa>CERRADO ESTACAS DE TRUEBA</causa>
+<poblacion>PANDILLO</poblacion>
+<fe",id-incidencia-1.116,incidencia, , ,-3.7345626,-3.7345626,43.136915,2021/01/19 21:31:00
+117,ANDALUCIA,AL-12, RESTRICCIONES EN ACCESOS,2020/04/23 06:56:00, ,AL,VERDE,0,0,ALMERIA,ALMERIA,AL004239025, ,CONO,0,1,36.843326,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>ALMERIA</provincia>
+<matricula>AL</matricula>
+<causa> RESTRICCIONES EN ACCESOS </causa>
+<poblacion>ALMERIA</poblacion>
+<fechahora_ini>202",id-incidencia-1.117,incidencia, , ,-2.4387769,-2.4387769,36.843326,2021/01/19 21:31:00
+118,CASTILLA-LEON,BU-30, CARRIL RÁPIDO CERRADO,2021/01/15 14:52:00,BURGOS,BU,VERDE,5.2,5.7,VILLAGONZALO PEDERNALES,BURGOS,BU101158168,DECRECIENTE DE LA KILOMETRICA,CONO,0,1,42.3124209,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>BURGOS</provincia>
+<matricula>BU</matricula>
+<causa> CARRIL RÁPIDO CERRADO </causa>
+<poblacion>VILLAGONZALO PEDERNALES</poblacion>
+<",id-incidencia-1.118,incidencia, , ,-3.7589431,-3.7589431,42.3124209,2021/01/19 21:31:00
+119,CATALUÑA,CAMÍ ASFALTAT, CARRETERA CORTADA EN ESTE SENTIDO,2021/01/15 19:33:00, ,GI,NEGRO,0,0, ,GIRONA,GI101158200,AMBOS SENTIDOS,CONO,2,1,0,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa> CARRETERA CORTADA EN ESTE SENTIDO </causa>
+<poblacion></poblacion>
+<fechahora_ini>20",id-incidencia-1.119,incidencia, , ,0,0,0,2021/01/19 21:31:00
+120,CATALUÑA,CAMÍ ASFALTAT, OTROS,2021/01/15 19:35:00, ,GI,NEGRO,0,0, ,GIRONA,GI101159193,AMBOS SENTIDOS,CONO,2,1,0,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa> OTROS </causa>
+<poblacion></poblacion>
+<fechahora_ini>2021-01-15 19:35</fechahora_in",id-incidencia-1.120,incidencia, , ,0,0,0,2021/01/19 21:31:00
+121,CATALUÑA,CAMÍ ASFALTAT, CARRETERA CORTADA EN ESTE SENTIDO,2021/01/15 19:35:00, ,GI,NEGRO,0,0, ,GIRONA,GI101158201,AMBOS SENTIDOS,CONO,2,1,0,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa> CARRETERA CORTADA EN ESTE SENTIDO </causa>
+<poblacion></poblacion>
+<fechahora_ini>20",id-incidencia-1.121,incidencia, , ,0,0,0,2021/01/19 21:31:00
+122,CATALUÑA,CAMÍ ASFALTAT, OTROS,2021/01/15 19:33:00, ,GI,NEGRO,0,0, ,GIRONA,GI101159192,AMBOS SENTIDOS,CONO,2,1,0,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa> OTROS </causa>
+<poblacion></poblacion>
+<fechahora_ini>2021-01-15 19:33</fechahora_in",id-incidencia-1.122,incidencia, , ,0,0,0,2021/01/19 21:31:00
+123,CATALUÑA,CAMÍ ASFALTAT, CARRETERA CORTADA EN ESTE SENTIDO,2021/01/15 19:31:00, ,GI,NEGRO,0,0, ,GIRONA,GI101158199,AMBOS SENTIDOS,CONO,2,1,0,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa> CARRETERA CORTADA EN ESTE SENTIDO </causa>
+<poblacion></poblacion>
+<fechahora_ini>20",id-incidencia-1.123,incidencia, , ,0,0,0,2021/01/19 21:31:00
+124,CATALUÑA,CAMÍ ASFALTAT, OTROS,2021/01/15 19:31:00, ,GI,NEGRO,0,0, ,GIRONA,GI101159191,AMBOS SENTIDOS,CONO,2,1,0,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa> OTROS </causa>
+<poblacion></poblacion>
+<fechahora_ini>2021-01-15 19:31</fechahora_in",id-incidencia-1.124,incidencia, , ,0,0,0,2021/01/19 21:31:00
+125,CATALUÑA,GI-503, OTROS,2021/01/15 19:07:00, ,GI,NEGRO,25,18,MAÇANET DE CABRENYS,GIRONA,GI101158193,AMBOS SENTIDOS,CONO,0,1,42.3801697,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa> OTROS </causa>
+<poblacion>MAÇANET DE CABRENYS</poblacion>
+<fechahora_ini>2021-01-15",id-incidencia-1.125,incidencia, , ,2.701933,2.701933,42.3801697,2021/01/19 21:31:00
+126,CATALUÑA,GI-503, CARRETERA CORTADA EN ESTE SENTIDO,2021/01/15 19:07:00, ,GI,NEGRO,25,18,MAÇANET DE CABRENYS,GIRONA,GI101159187,AMBOS SENTIDOS,CONO,0,1,42.3801697,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa> CARRETERA CORTADA EN ESTE SENTIDO </causa>
+<poblacion>MAÇANET DE CABRENYS</poblacio",id-incidencia-1.126,incidencia, , ,2.701933,2.701933,42.3801697,2021/01/19 21:31:00
+127,CATALUÑA,GI-505, OTROS,2021/01/15 19:07:00, ,GI,NEGRO,3,0,VAJOL (LA),GIRONA,GI101159186,AMBOS SENTIDOS,CONO,0,2,42.40466,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa> OTROS </causa>
+<poblacion>VAJOL (LA)</poblacion>
+<fechahora_ini>2021-01-15 19:07</fe",id-incidencia-1.127,incidencia, , ,2.80112,2.80112,42.40466,2021/01/19 21:31:00
+128,CATALUÑA,GI-505, CARRETERA CORTADA EN ESTE SENTIDO,2021/01/15 19:07:00, ,GI,NEGRO,3,0,VAJOL (LA),GIRONA,GI101158192,AMBOS SENTIDOS,CONO,0,2,42.40466,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa> CARRETERA CORTADA EN ESTE SENTIDO </causa>
+<poblacion>VAJOL (LA)</poblacion>
+<fechah",id-incidencia-1.128,incidencia, , ,2.80112,2.80112,42.40466,2021/01/19 21:31:00
+129,ANDALUCIA,A-4025, CARRETERA CERRADA DE FORMA PERMANENTE POR INVIERNO,2020/11/27 17:50:00, ,GR,NEGRO,7.2,0,SIERRA NEVADA,GRANADA,GR012119080,AMBOS SENTIDOS,CONO,0,1,37.13274,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>GRANADA</provincia>
+<matricula>GR</matricula>
+<causa> CARRETERA CERRADA DE FORMA PERMANENTE POR INVIERNO </causa>
+<poblacion>SIERRA NEVAD",id-incidencia-1.129,incidencia, , ,-3.43589,-3.43589,37.13274,2021/01/19 21:31:00
+130,ANDALUCIA,A-49, CARRIL EN SENTIDO CONTRARIO,2020/02/26 21:01:00,PORTUGAL,H,VERDE,132.9,132.5,AYAMONTE,HUELVA,OH912108278,CRECIENTE DE LA KILOMETRICA,CONO,0,2,37.23765,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>HUELVA</provincia>
+<matricula>H</matricula>
+<causa> CARRIL EN SENTIDO CONTRARIO </causa>
+<poblacion>AYAMONTE</poblacion>
+<fechahora_ini>2",id-incidencia-1.130,incidencia, , ,-7.41919,-7.41919,37.23765,2021/01/19 21:31:00
+131,ARAGON,A-1202, CARRETERA CERRADA EN AMBOS SENTIDOS,2021/01/19 10:17:00, ,HU,NEGRO,5.8,5.8,AYERBE,HUESCA,HU101198143,AMBOS SENTIDOS,CONO,0,1,42.27638,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>HUESCA</provincia>
+<matricula>HU</matricula>
+<causa> CARRETERA CERRADA EN AMBOS SENTIDOS </causa>
+<poblacion>AYERBE</poblacion>
+<fechahora_i",id-incidencia-1.131,incidencia, , ,-0.74851,-0.74851,42.27638,2021/01/19 21:31:00
+132,CATALUÑA,N-141, CARRETERA CORTADA EN ESTE SENTIDO,2021/01/08 09:48:00, ,L,NEGRO,8.4,8,BOSSOST,LLEIDA,OL101068027,AMBOS SENTIDOS,CONO,0,3,42.767274,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa> CARRETERA CORTADA EN ESTE SENTIDO </causa>
+<poblacion>BOSSOST</poblacion>
+<fechahora_",id-incidencia-1.132,incidencia, , ,0.659323,0.659323,42.767274,2021/01/19 21:31:00
+133,CATALUÑA,N-141, OTROS,2021/01/08 09:48:00, ,L,NEGRO,8.4,8,BOSSOST,LLEIDA,OL101069034,AMBOS SENTIDOS,CONO,0,3,42.767274,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa> OTROS </causa>
+<poblacion>BOSSOST</poblacion>
+<fechahora_ini>2021-01-08 09:48</fechah",id-incidencia-1.133,incidencia, , ,0.659323,0.659323,42.767274,2021/01/19 21:31:00
+134,NAVARRA,NA-138, CARRETERA CERRADA EN AMBOS SENTIDOS,2021/01/16 14:10:00, ,NA,NEGRO,0,0,PAMPLONA,NAVARRA,NA101168023,AMBOS SENTIDOS,CONO,0,1,42.93609,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>NAVARRA</autonomia>
+<provincia>NAVARRA</provincia>
+<matricula>NA</matricula>
+<causa> CARRETERA CERRADA EN AMBOS SENTIDOS </causa>
+<poblacion>PAMPLONA</poblacion>
+<fechaho",id-incidencia-1.134,incidencia, , ,-1.50294,-1.50294,42.93609,2021/01/19 21:31:00
+135,ASTURIAS,AS-19, MODERAR VELOCIDAD,2021/01/15 20:43:00,AVILES,O,AMARILLO,7,7,REBOLLADA (LA),ASTURIAS,OO101159196,CRECIENTE DE LA KILOMETRICA,CONO,0,1,43.5559619,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>ASTURIAS</autonomia>
+<provincia>ASTURIAS</provincia>
+<matricula>O</matricula>
+<causa> MODERAR VELOCIDAD </causa>
+<poblacion>REBOLLADA (LA)</poblacion>
+<fechahora_ini>2021",id-incidencia-1.135,incidencia, , ,-5.7616867,-5.7616867,43.5559619,2021/01/19 21:31:00
+136,CASTILLA-LEON,DSA-191, CARRETERA CERRADA DE FORMA PERMANENTE POR INVIERNO,2021/01/13 11:39:00, ,SA,NEGRO,8,10.5,EL TRAVIESO,SALAMANCA,SA011308294,AMBOS SENTIDOS,CONO,0,4,40.33492,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>SALAMANCA</provincia>
+<matricula>SA</matricula>
+<causa> CARRETERA CERRADA DE FORMA PERMANENTE POR INVIERNO </causa>
+<poblacion>EL TRA",id-incidencia-1.136,incidencia, , ,-5.73239,-5.73239,40.33492,2021/01/19 21:31:00
+137,CANARIAS,TF-445, CARRETERA CORTADA A VEHÍCULOS EN TRÁNSITO,2020/08/29 07:21:00, ,TF,NEGRO,9,2.5,TENO,SANTA CRUZ DE TENERIFE,TF011178359,AMBOS SENTIDOS,CONO,0,2,28.362042,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>CONO</tipo>
+<autonomia>CANARIAS</autonomia>
+<provincia>SANTA CRUZ DE TENERIFE</provincia>
+<matricula>TF</matricula>
+<causa> CARRETERA CORTADA A VEHÍCULOS EN TRÁNSITO </causa>
+<poblacion>TENO<",id-incidencia-1.137,incidencia, , ,-16.8661016,-16.8661016,28.362042,2021/01/19 21:31:00
+138,COMUNITAT VALENCIANA,A-77,TRABAJOS DE MANTENIMIENTO,2021/01/14 20:17:00, ,A,AMARILLO,0.3,2.3,ALICANTE,ALICANTE/ALACANT,OA101139206,AMBOS SENTIDOS,OBRAS,0,2,38.3857712,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>ALICANTE/ALACANT</provincia>
+<matricula>A</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>ALICANTE</poblacion",id-incidencia-1.138,incidencia, , ,-0.5418862,-0.5418862,38.3857712,2021/01/19 21:31:00
+139,COMUNITAT VALENCIANA,CV-935,OBRAS EN GENERAL,2021/01/13 08:17:00, ,A,NEGRO,0.9,0,ALMORADI,ALICANTE/ALACANT,OA101138045,AMBOS SENTIDOS,OBRAS,0,1,38.09605,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>ALICANTE/ALACANT</provincia>
+<matricula>A</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ALMORADI</poblacion>
+<fechah",id-incidencia-1.139,incidencia, , ,-0.79523,-0.79523,38.09605,2021/01/19 21:31:00
+140,COMUNITAT VALENCIANA,CV-902,OBRAS EN GENERAL,2021/01/13 08:22:00, ,A,NEGRO,0.8,0,ALMORADI,ALICANTE/ALACANT,OA101139063,AMBOS SENTIDOS,OBRAS,0,1,38.10528,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>ALICANTE/ALACANT</provincia>
+<matricula>A</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ALMORADI</poblacion>
+<fechah",id-incidencia-1.140,incidencia, , ,-0.78405,-0.78405,38.10528,2021/01/19 21:31:00
+141,COMUNITAT VALENCIANA,CV-935,OBRAS EN GENERAL,2021/01/13 08:17:00, ,A,NEGRO,0.9,0,ALMORADI,ALICANTE/ALACANT,OA101139061,AMBOS SENTIDOS,OBRAS,0,1,38.09605,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>ALICANTE/ALACANT</provincia>
+<matricula>A</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ALMORADI</poblacion>
+<fechah",id-incidencia-1.141,incidencia, , ,-0.79523,-0.79523,38.09605,2021/01/19 21:31:00
+142,COMUNITAT VALENCIANA,N-332,OBRAS EN GENERAL,2019/12/18 11:01:00,CARTAGENA,A,NEGRO,98,98,ALTET (EL),ALICANTE/ALACANT,OA912188198,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,38.2853738,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>ALICANTE/ALACANT</provincia>
+<matricula>A</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ALTET (EL)</poblacion>
+<fech",id-incidencia-1.142,incidencia, , ,-0.5343329,-0.5343329,38.2853738,2021/01/19 21:31:00
+143,COMUNITAT VALENCIANA,N-332,OBRAS EN GENERAL,2019/10/29 22:00:00,VALENCIA,A,AMARILLO,179.8,178.6,BENISSA,ALICANTE/ALACANT,OA912189218,CRECIENTE DE LA KILOMETRICA,OBRAS,0,1,38.7252225,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>ALICANTE/ALACANT</provincia>
+<matricula>A</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>BENISSA</poblacion>
+<fechaho",id-incidencia-1.143,incidencia, , ,0.0675875,0.0675875,38.7252225,2021/01/19 21:31:00
+144,COMUNITAT VALENCIANA,CV-745,OBRAS EN GENERAL,2020/10/30 12:09:00, ,A,NEGRO,4.4,2.9,LLIBER,ALICANTE/ALACANT,OA010308166,AMBOS SENTIDOS,OBRAS,0,2,38.7373202,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>ALICANTE/ALACANT</provincia>
+<matricula>A</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>LLIBER</poblacion>
+<fechahor",id-incidencia-1.144,incidencia, , ,0.0227491,0.0227491,38.7373202,2021/01/19 21:31:00
+145,COMUNITAT VALENCIANA,A-31,OBRAS EN GENERAL,2021/01/14 15:00:00,MADRID,A,VERDE,169.5,172,VILLENA,ALICANTE/ALACANT,OA101149232,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,1,38.7220789,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>ALICANTE/ALACANT</provincia>
+<matricula>A</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>VILLENA</poblacion>
+<fechaho",id-incidencia-1.145,incidencia, , ,-0.9336915,-0.9336915,38.7220789,2021/01/19 21:31:00
+146,CASTILLA-LA MANCHA,A-30,OBRAS EN GENERAL,2021/01/11 23:55:00, ,AB,VERDE,84,0,ALBACETE,ALBACETE,AB101118274,AMBOS SENTIDOS,OBRAS,0,1,38.97319,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>ALBACETE</provincia>
+<matricula>AB</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ALBACETE</poblacion>
+<fechahora_ini>2",id-incidencia-1.146,incidencia, , ,-1.81804,-1.81804,38.97319,2021/01/19 21:31:00
+147,CASTILLA-LA MANCHA,A-31,TRABAJOS DE MANTENIMIENTO,2021/01/18 07:39:00,ALICANTE,AB,AMARILLO,166,164.5,CAUDETE,ALBACETE,AB101189026,CRECIENTE DE LA KILOMETRICA,OBRAS,0,1,38.779257,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>ALBACETE</provincia>
+<matricula>AB</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>CAUDETE</poblacion>
+<fechaho",id-incidencia-1.147,incidencia, , ,-0.9647006,-0.9647006,38.779257,2021/01/19 21:31:00
+148,CASTILLA-LA MANCHA,A-31,OBRAS EN GENERAL,2021/01/12 21:45:00, ,AB,VERDE,124,29,RODA (LA),ALBACETE,AB101128246,AMBOS SENTIDOS,OBRAS,0,1,39.2630138,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>ALBACETE</provincia>
+<matricula>AB</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>RODA (LA)</poblacion>
+<fechahora_ini>",id-incidencia-1.148,incidencia, , ,-2.2053716,-2.2053716,39.2630138,2021/01/19 21:31:00
+149,ANDALUCIA,AL-6107,OBRAS EN GENERAL,2020/12/03 11:46:00, ,AL,NEGRO,8,4,ALBANCHEZ,ALMERIA,AL012039209,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,37.27376,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>ALMERIA</provincia>
+<matricula>AL</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ALBANCHEZ</poblacion>
+<fechahora_ini>2020-12-03",id-incidencia-1.149,incidencia, , ,-2.1673709,-2.1673709,37.27376,2021/01/19 21:31:00
+150,ANDALUCIA,AL-3102,OBRAS EN GENERAL,2021/01/04 08:39:00, ,AL,VERDE,11.8,12,CASTRO DE FILABRES,ALMERIA,AL101048043,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,37.1633848,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>ALMERIA</provincia>
+<matricula>AL</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>CASTRO DE FILABRES</poblacion>
+<fechahora_ini>2",id-incidencia-1.150,incidencia, , ,-2.4152168,-2.4152168,37.1633848,2021/01/19 21:31:00
+151,ANDALUCIA,A-7,TRABAJOS DE MANTENIMIENTO,2021/01/19 19:00:00, ,AL,VERDE,484.5,483.8,HORNILLO,ALMERIA,AL101198203,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,36.950897,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>ALMERIA</provincia>
+<matricula>AL</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>HORNILLO</poblacion>
+<fechahora_ini>20",id-incidencia-1.151,incidencia, , ,-2.1594151,-2.1594151,36.950897,2021/01/19 21:31:00
+152,ANDALUCIA,N-340A,OBRAS EN GENERAL,2020/09/08 14:53:00,ALMERIA,AL,NEGRO,433,431,ROQUETAS DE MAR,ALMERIA,AL009089195,AMBOS SENTIDOS,OBRAS,0,1,36.81699,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>ALMERIA</provincia>
+<matricula>AL</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ROQUETAS DE MAR</poblacion>
+<fechahora_ini>2020",id-incidencia-1.152,incidencia, , ,-2.56278,-2.56278,36.81699,2021/01/19 21:31:00
+153,CATALUÑA,C-32,TRABAJOS DE MANTENIMIENTO,2021/01/15 10:18:00,ESPLUGUES DE LLOBREGAT,B,VERDE,63,59,ALMEDA MERCADER,BARCELONA,OB101128060,AMBOS SENTIDOS,OBRAS,0,2,41.3482244,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>ALMEDA MERCADER</poblacion>
+<fechahor",id-incidencia-1.153,incidencia, , ,2.0924056,2.0924056,41.3482244,2021/01/19 21:31:00
+154,CATALUÑA,C-61,OBRAS EN GENERAL,2021/01/15 14:05:00, ,B,VERDE,6.3,6.1,ARENYS DE MUNT,BARCELONA,OB008098024,AMBOS SENTIDOS,OBRAS,0,21,41.6215652,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ARENYS DE MUNT</poblacion>
+<fechahora_ini>2021",id-incidencia-1.154,incidencia, , ,2.5343305,2.5343305,41.6215652,2021/01/19 21:31:00
+155,CATALUÑA,C-31,OBRAS EN GENERAL,2021/01/18 14:37:00,BARCELONA,B,VERDE,210.5,215,BADALONA,BARCELONA,OB101199002,SUR,OBRAS,0,4,41.46146,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>BADALONA</poblacion>
+<fechahora_ini>2021-01-18",id-incidencia-1.155,incidencia, , ,2.2629067,2.2629067,41.46146,2021/01/19 21:31:00
+156,CATALUÑA,BP-1121,TRABAJOS DE MANTENIMIENTO,2020/12/24 19:16:00, ,B,VERDE,1.2,1.1,BAUMA,BARCELONA,OB010208205,AMBOS SENTIDOS,OBRAS,0,14,41.6271614,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>BAUMA</poblacion>
+<fechahora_ini>2020",id-incidencia-1.156,incidencia, , ,1.8676063,1.8676063,41.6271614,2021/01/19 21:31:00
+157,CATALUÑA,C-245,TRABAJOS DE MANTENIMIENTO,2021/01/12 08:13:00, ,B,VERDE,2.4,2,CASTELLDEFELS,BARCELONA,OB101128064,AMBOS SENTIDOS,OBRAS,0,1,41.2783231,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>CASTELLDEFELS</poblacion>
+<fechahora_",id-incidencia-1.157,incidencia, , ,1.9774417,1.9774417,41.2783231,2021/01/19 21:31:00
+158,CATALUÑA,C-245,TRABAJOS DE MANTENIMIENTO,2020/10/17 09:36:00,TARRAGONA,B,VERDE,1.4,2,CASTELLDEFELS,BARCELONA,OB010109026,SUR,OBRAS,0,2,41.2783231,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>CASTELLDEFELS</poblacion>
+<fechahora_",id-incidencia-1.158,incidencia, , ,1.9774417,1.9774417,41.2783231,2021/01/19 21:31:00
+159,CATALUÑA,A-2,TRABAJOS DE MANTENIMIENTO,2021/01/19 08:33:00,BARCELONA,B,VERDE,558.2,560,CASTELLOLI,BARCELONA,OB101198072,ESTE,OBRAS,0,1,41.5906165,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>CASTELLOLI</poblacion>
+<fechahora_ini",id-incidencia-1.159,incidencia, , ,1.679263,1.679263,41.5906165,2021/01/19 21:31:00
+160,CATALUÑA,B-20, ,2019/10/31 18:35:00,TARRAGONA-HORARI: 22 A 6 H,B,NEGRO,3,2.5,CORNELLÀ DE LLOBREGAT,BARCELONA,OB906170137,SUR,OBRAS,0,32,41.34259,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa></causa>
+<poblacion>CORNELLÀ DE LLOBREGAT</poblacion>
+<fechahora_ini>2019-10-31 1",id-incidencia-1.160,incidencia, , ,2.09063,2.09063,41.34259,2021/01/19 21:31:00
+161,CATALUÑA,BV-5101,TRABAJOS DE MANTENIMIENTO,2021/01/11 09:42:00, ,B,VERDE,4.4,0.9,DOSRIUS,BARCELONA,OB101118107,AMBOS SENTIDOS,OBRAS,0,1,41.59681,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>DOSRIUS</poblacion>
+<fechahora_ini>20",id-incidencia-1.161,incidencia, , ,2.4378762,2.4378762,41.59681,2021/01/19 21:31:00
+162,CATALUÑA,BV-5122,OBRAS EN GENERAL,2020/12/15 08:26:00, ,B,VERDE,6.2,4.2,FOGARS DE LA SELVA,BARCELONA,OB012158133,AMBOS SENTIDOS,OBRAS,0,1,41.7173966,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>FOGARS DE LA SELVA</poblacion>
+<fechahora_ini>",id-incidencia-1.162,incidencia, , ,2.678158,2.678158,41.7173966,2021/01/19 21:31:00
+163,CATALUÑA,BV-2429,OBRAS EN GENERAL,2020/11/16 10:34:00, ,B,VERDE,21.2,21.1,LAVERN,BARCELONA,OB011169264,AMBOS SENTIDOS,OBRAS,0,1,41.3957615,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>LAVERN</poblacion>
+<fechahora_ini>2020-11-16 1",id-incidencia-1.163,incidencia, , ,1.7687295,1.7687295,41.3957615,2021/01/19 21:31:00
+164,CATALUÑA,C-243C,TRABAJOS DE MANTENIMIENTO,2020/11/06 09:19:00,TERRASSA,B,VERDE,12.8,0,MARTORELL,BARCELONA,OB911069284,AMBOS SENTIDOS,OBRAS,0,8,41.47247,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>MARTORELL</poblacion>
+<fechahora_ini>",id-incidencia-1.164,incidencia, , ,1.93853,1.93853,41.47247,2021/01/19 21:31:00
+165,CATALUÑA,C-17Z,TRABAJOS DE MANTENIMIENTO,2021/01/15 14:04:00, ,B,NEGRO,85,84.7,MONTESQUIU,BARCELONA,OB001279259,AMBOS SENTIDOS,OBRAS,0,25,42.1223118,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>MONTESQUIU</poblacion>
+<fechahora_ini",id-incidencia-1.165,incidencia, , ,2.2041772,2.2041772,42.1223118,2021/01/19 21:31:00
+166,CATALUÑA,C-17,TRABAJOS DE MANTENIMIENTO,2021/01/11 13:07:00,CANOVELLES,B,VERDE,18.7,14.7,POLIGON INDUSTRIAL Z,BARCELONA,OB101118173,AMBOS SENTIDOS,OBRAS,0,1,41.55957,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>POLIGON INDUSTRIAL Z</poblacion>
+<fec",id-incidencia-1.166,incidencia, , ,2.23948,2.23948,41.55957,2021/01/19 21:31:00
+167,CATALUÑA,B-431,OBRAS EN GENERAL,2021/01/18 13:32:00, ,B,VERDE,72.5,70,PRATS DE LLUÇANES,BARCELONA,OB101188192,AMBOS SENTIDOS,OBRAS,0,1,41.9889531,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>PRATS DE LLUÇANES</poblacion>
+<fechahora_ini>",id-incidencia-1.167,incidencia, , ,2.0248387,2.0248387,41.9889531,2021/01/19 21:31:00
+168,CATALUÑA,B-400,OBRAS EN GENERAL,2019/11/01 18:43:00, ,B,VERDE,17.5,17,SALDES,BARCELONA,OB901070068,AMBOS SENTIDOS,OBRAS,0,22,42.2228062,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>SALDES</poblacion>
+<fechahora_ini>2019-11-01 1",id-incidencia-1.168,incidencia, , ,1.7259923,1.7259923,42.2228062,2021/01/19 21:31:00
+169,CATALUÑA,B-430,TRABAJOS DE MANTENIMIENTO,2020/08/29 16:47:00, ,B,NEGRO,1,0,SALLENT,BARCELONA,OB006099276,AMBOS SENTIDOS,OBRAS,0,3,41.80514,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>SALLENT</poblacion>
+<fechahora_ini>20",id-incidencia-1.169,incidencia, , ,1.89831,1.89831,41.80514,2021/01/19 21:31:00
+170,CATALUÑA,BV-2002,TRABAJOS DE MANTENIMIENTO,2021/01/11 09:41:00, ,B,VERDE,7,6.5,SANT BOI DE LLOBREGAT,BARCELONA,OB005239023,AMBOS SENTIDOS,OBRAS,0,12,41.3508689,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>SANT BOI DE LLOBREGAT</poblacion>
+<fe",id-incidencia-1.170,incidencia, , ,2.039605,2.039605,41.3508689,2021/01/19 21:31:00
+171,CATALUÑA,A-2,TRABAJOS DE MANTENIMIENTO,2021/01/14 19:28:00, ,B,VERDE,609,606.5,SANT FELIU DE LLOBREGAT,BARCELONA,OB011229036,AMBOS SENTIDOS,OBRAS,0,6,41.3561929,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>SANT FELIU DE LLOBREGAT</poblacion>
+<",id-incidencia-1.171,incidencia, , ,2.052245,2.052245,41.3561929,2021/01/19 21:31:00
+172,CATALUÑA,BV-4511,SEÑALIZACION DE LA CALZADA,2021/01/18 13:47:00, ,B,VERDE,10.2,0,SANT JOAN DE VILATORRADA,BARCELONA,OB101189197,AMBOS SENTIDOS,OBRAS,0,1,41.76982,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>SEÑALIZACION DE LA CALZADA</causa>
+<poblacion>SANT JOAN DE VILATORRADA</poblacion",id-incidencia-1.172,incidencia, , ,1.90327,1.90327,41.76982,2021/01/19 21:31:00
+173,CATALUÑA,BV-1468,TRABAJOS DE MANTENIMIENTO,2020/10/11 10:42:00, ,B,VERDE,12.2,6.3,SANT JUST DESVERN,BARCELONA,OB010118006,AMBOS SENTIDOS,OBRAS,0,1,41.4184579,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>SANT JUST DESVERN</poblacion>
+<fechah",id-incidencia-1.173,incidencia, , ,2.060766,2.060766,41.4184579,2021/01/19 21:31:00
+174,CATALUÑA,BV-5303,TRABAJOS DE MANTENIMIENTO,2021/01/12 09:49:00, ,B,VERDE,4.4,3.7,SEVA,BARCELONA,OB101128148,AMBOS SENTIDOS,OBRAS,0,1,41.84613,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>SEVA</poblacion>
+<fechahora_ini>2021-",id-incidencia-1.174,incidencia, , ,2.23337,2.23337,41.84613,2021/01/19 21:31:00
+175,CATALUÑA,N-150,TRABAJOS DE MANTENIMIENTO,2020/08/14 10:03:00, ,B,VERDE,19,18.3,TERRASSA,BARCELONA,OB006228257,AMBOS SENTIDOS,OBRAS,0,2,41.5520693,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>TERRASSA</poblacion>
+<fechahora_ini>2",id-incidencia-1.175,incidencia, , ,2.0261138,2.0261138,41.5520693,2021/01/19 21:31:00
+176,CATALUÑA,C-245,TRABAJOS DE MANTENIMIENTO,2020/09/07 18:28:00,SANT BOI DE LLOBREGAT,B,VERDE,9.7,8.8,VILADECANS,BARCELONA,OB009078274,AMBOS SENTIDOS,OBRAS,0,1,41.325377,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>VILADECANS</poblacion>
+<fechahora_ini",id-incidencia-1.176,incidencia, , ,2.0330291,2.0330291,41.325377,2021/01/19 21:31:00
+177,CATALUÑA,C-245,TRABAJOS DE MANTENIMIENTO,2020/09/30 21:38:00, ,B,VERDE,7,6,VILADECANS,BARCELONA,OB008179134,AMBOS SENTIDOS,OBRAS,0,7,41.3043531,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>VILADECANS</poblacion>
+<fechahora_ini",id-incidencia-1.177,incidencia, , ,2.0093009,2.0093009,41.3043531,2021/01/19 21:31:00
+178,CATALUÑA,C-35,TRABAJOS DE MANTENIMIENTO,2020/07/16 09:06:00, ,B,VERDE,58,50.3,VILALBA SASSERRA,BARCELONA,OB006098274,AMBOS SENTIDOS,OBRAS,0,3,41.6553542,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>VILALBA SASSERRA</poblacion>
+<fechaho",id-incidencia-1.178,incidencia, , ,2.4468033,2.4468033,41.6553542,2021/01/19 21:31:00
+179,CATALUÑA,N-141D,TRABAJOS DE MANTENIMIENTO,2021/01/13 09:34:00, ,B,VERDE,18.7,15.1,VILANOVA DE SAU,BARCELONA,OB101138106,AMBOS SENTIDOS,OBRAS,0,1,41.948638,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>BARCELONA</provincia>
+<matricula>B</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>VILANOVA DE SAU</poblacion>
+<fechahor",id-incidencia-1.179,incidencia, , ,2.381552,2.381552,41.948638,2021/01/19 21:31:00
+180,EXTREMADURA,BA-058,REASFALTADO,2019/01/01 00:00:00,DON ALVARO,BA,NEGRO,7,0,MERIDA,BADAJOZ,BA906028003,AMBOS SENTIDOS,OBRAS,0,1,38.84829,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>EXTREMADURA</autonomia>
+<provincia>BADAJOZ</provincia>
+<matricula>BA</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>MERIDA</poblacion>
+<fechahora_ini>2019-01-01 00:00",id-incidencia-1.180,incidencia, , ,-6.2769,-6.2769,38.84829,2021/01/19 21:31:00
+181,EXTREMADURA,EX-115,REASFALTADO,2018/12/18 12:05:00, ,BA,ROJO,19.8,17.2,QUINTANA DE LA SERENA,BADAJOZ,BA812189128,AMBOS SENTIDOS,OBRAS,0,1,39.0024351,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>EXTREMADURA</autonomia>
+<provincia>BADAJOZ</provincia>
+<matricula>BA</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>QUINTANA DE LA SERENA</poblacion>
+<fechahora_ini>2",id-incidencia-1.181,incidencia, , ,-5.5435065,-5.5435065,39.0024351,2021/01/19 21:31:00
+182,EXTREMADURA,BA-121,REASFALTADO,2018/12/14 00:00:00, ,BA,VERDE,6.9,0.1,RIBERA DEL FRESNO,BADAJOZ,BA812189126,AMBOS SENTIDOS,OBRAS,0,1,38.55803,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>EXTREMADURA</autonomia>
+<provincia>BADAJOZ</provincia>
+<matricula>BA</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>RIBERA DEL FRESNO</poblacion>
+<fechahora_ini>2018-",id-incidencia-1.182,incidencia, , ,-6.22577,-6.22577,38.55803,2021/01/19 21:31:00
+183,EXTREMADURA,BA-139,REASFALTADO,2018/06/24 21:12:00, ,BA,VERDE,13.9,0.1,SANTO DOMINGO,BADAJOZ,BA806249059,AMBOS SENTIDOS,OBRAS,0,1,38.52014,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>EXTREMADURA</autonomia>
+<provincia>BADAJOZ</provincia>
+<matricula>BA</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>SANTO DOMINGO</poblacion>
+<fechahora_ini>2018-06-2",id-incidencia-1.183,incidencia, , ,-7.015,-7.015,38.52014,2021/01/19 21:31:00
+184,EXTREMADURA,EX-337,OBRAS EN GENERAL,2019/11/12 09:18:00, ,BA,AMARILLO,13,1,TORREMEJIA,BADAJOZ,BA911129234,AMBOS SENTIDOS,OBRAS,0,1,38.7935584,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>EXTREMADURA</autonomia>
+<provincia>BADAJOZ</provincia>
+<matricula>BA</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>TORREMEJIA</poblacion>
+<fechahora_ini>2019-11",id-incidencia-1.184,incidencia, , ,-6.3266623,-6.3266623,38.7935584,2021/01/19 21:31:00
+185,EXTREMADURA,BA-113,OBRAS EN GENERAL,2018/09/27 02:12:00, ,BA,NEGRO,12.2,11.8,VALLE DE LA SERENA,BADAJOZ,BA809279005,AMBOS SENTIDOS,OBRAS,0,1,38.7038545,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>EXTREMADURA</autonomia>
+<provincia>BADAJOZ</provincia>
+<matricula>BA</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>VALLE DE LA SERENA</poblacion>
+<fechahora_ini",id-incidencia-1.185,incidencia, , ,-5.7885461,-5.7885461,38.7038545,2021/01/19 21:31:00
+186,EXTREMADURA,BA-078,REASFALTADO,2020/11/24 17:29:00, ,BA,VERDE,11.5,11.5,ZAHINOS,BADAJOZ,BA011248280,AMBOS SENTIDOS,OBRAS,0,1,38.3525942,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>EXTREMADURA</autonomia>
+<provincia>BADAJOZ</provincia>
+<matricula>BA</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>ZAHINOS</poblacion>
+<fechahora_ini>2020-11-24 17:2",id-incidencia-1.186,incidencia, , ,-6.9716235,-6.9716235,38.3525942,2021/01/19 21:31:00
+187,CASTILLA-LEON,AP-1,OBRAS EN GENERAL,2020/12/17 08:27:00, ,BU,ROJO,66,58,PANCORBO,BURGOS,BU012178123,CRECIENTE DE LA KILOMETRICA,OBRAS,0,1,42.6227992,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>BURGOS</provincia>
+<matricula>BU</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>PANCORBO</poblacion>
+<fechahora_ini>2020-12-",id-incidencia-1.187,incidencia, , ,-3.115083,-3.115083,42.6227992,2021/01/19 21:31:00
+188,CASTILLA-LEON,BU-30,TRABAJOS DE MANTENIMIENTO,2021/01/19 10:00:00, ,BU,VERDE,4.7,5.2,RENUNCIO,BURGOS,BU101198134,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,42.3060816,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>BURGOS</provincia>
+<matricula>BU</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>RENUNCIO</poblacion>
+<fechahora_ini",id-incidencia-1.188,incidencia, , ,-3.7531108,-3.7531108,42.3060816,2021/01/19 21:31:00
+189,CASTILLA-LEON,BU-30,OBRAS EN GENERAL,2021/01/12 16:36:00, ,BU,VERDE,13,11,VILLALBILLA DE BURGOS,BURGOS,BU101128220,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,42.348931,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>BURGOS</provincia>
+<matricula>BU</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>VILLALBILLA DE BURGOS</poblacion>
+<fechahora",id-incidencia-1.189,incidencia, , ,-3.7919093,-3.7919093,42.348931,2021/01/19 21:31:00
+190,GALICIA,AC-840,OBRAS EN GENERAL,2018/11/26 12:15:00, ,C,AMARILLO,13.5,13.5,TRASANQUELOS,A CORUÑA,OC811269177,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,1,43.17509,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>GALICIA</autonomia>
+<provincia>A CORUÑA</provincia>
+<matricula>C</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>TRASANQUELOS</poblacion>
+<fechahora_ini>2018-11-",id-incidencia-1.190,incidencia, , ,-8.17551,-8.17551,43.17509,2021/01/19 21:31:00
+191,GALICIA,AC-840,TRABAJOS DE MANTENIMIENTO,2018/11/26 11:54:00, ,C,AMARILLO,13.5,13.5,TRASANQUELOS,A CORUÑA,OC811268176,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,1,43.17509,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>GALICIA</autonomia>
+<provincia>A CORUÑA</provincia>
+<matricula>C</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>TRASANQUELOS</poblacion>
+<fechahora_ini",id-incidencia-1.191,incidencia, , ,-8.17551,-8.17551,43.17509,2021/01/19 21:31:00
+192,ANDALUCIA,A-381,OBRAS EN GENERAL,2021/01/18 07:45:00, ,CA,ROJO,36.2,38.8,ALCALA DE LOS GAZULES,CADIZ,CA101188027,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,36.4623316,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>CADIZ</provincia>
+<matricula>CA</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ALCALA DE LOS GAZULES</poblacion>
+<fechahora_ini>",id-incidencia-1.192,incidencia, , ,-5.7789254,-5.7789254,36.4623316,2021/01/19 21:31:00
+193,ANDALUCIA,A-381,OBRAS EN GENERAL,2021/01/18 11:16:00, ,CA,ROJO,76.5,73.5,ALCALA DE LOS GAZULES,CADIZ,CA101189177,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,36.2326181,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>CADIZ</provincia>
+<matricula>CA</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ALCALA DE LOS GAZULES</poblacion>
+<fechahora_ini>",id-incidencia-1.193,incidencia, , ,-5.5752689,-5.5752689,36.2326181,2021/01/19 21:31:00
+194,ANDALUCIA,A-381,OBRAS EN GENERAL,2021/01/19 07:45:00, ,CA,VERDE,70.5,73.5,ALCALA DE LOS GAZULES,CADIZ,CA101199036,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,36.2326181,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>CADIZ</provincia>
+<matricula>CA</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ALCALA DE LOS GAZULES</poblacion>
+<fechahora_ini>",id-incidencia-1.194,incidencia, , ,-5.5752689,-5.5752689,36.2326181,2021/01/19 21:31:00
+195,ANDALUCIA,A-381,OBRAS EN GENERAL,2021/01/18 11:43:00, ,CA,VERDE,73.5,76.5,ALCALA DE LOS GAZULES,CADIZ,CA101189181,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,36.2160174,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>CADIZ</provincia>
+<matricula>CA</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ALCALA DE LOS GAZULES</poblacion>
+<fechahora_ini>",id-incidencia-1.195,incidencia, , ,-5.5491282,-5.5491282,36.2160174,2021/01/19 21:31:00
+196,ANDALUCIA,A-381,OBRAS EN GENERAL,2021/01/18 07:45:00, ,CA,VERDE,38.8,36.2,ALCALA DE LOS GAZULES,CADIZ,CA101189029,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,36.4709945,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>CADIZ</provincia>
+<matricula>CA</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ALCALA DE LOS GAZULES</poblacion>
+<fechahora_ini>",id-incidencia-1.196,incidencia, , ,-5.8070198,-5.8070198,36.4709945,2021/01/19 21:31:00
+197,ANDALUCIA,CA-5201,MANTENIMIENTO DE PUENTES,2021/01/18 08:15:00, ,CA,ROJO,17,16,MEDINA-SIDONIA,CADIZ,CA101188053,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,36.427405,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>CADIZ</provincia>
+<matricula>CA</matricula>
+<causa>MANTENIMIENTO DE PUENTES</causa>
+<poblacion>MEDINA-SIDONIA</poblacion>
+<fechahora_ini",id-incidencia-1.197,incidencia, , ,-5.9529256,-5.9529256,36.427405,2021/01/19 21:31:00
+198,ANDALUCIA,CA-5201,MANTENIMIENTO DE PUENTES,2021/01/18 08:16:00, ,CA,ROJO,16,17,MEDINA-SIDONIA,CADIZ,CA101189054,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,36.4336399,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>CADIZ</provincia>
+<matricula>CA</matricula>
+<causa>MANTENIMIENTO DE PUENTES</causa>
+<poblacion>MEDINA-SIDONIA</poblacion>
+<fechahora_ini",id-incidencia-1.198,incidencia, , ,-5.9451494,-5.9451494,36.4336399,2021/01/19 21:31:00
+199,ANDALUCIA,N-432,OBRAS EN GENERAL,2020/12/21 23:06:00, ,CO,VERDE,265.6,266,PEDROCHES,CORDOBA,CO012218293,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,37.90802,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>CORDOBA</provincia>
+<matricula>CO</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>PEDROCHES</poblacion>
+<fechahora_ini>2020-12-21",id-incidencia-1.199,incidencia, , ,-4.75375,-4.75375,37.90802,2021/01/19 21:31:00
+200,ANDALUCIA,CO-31,OBRAS EN GENERAL,2020/12/21 23:05:00, ,CO,VERDE,266,267,PEDROCHES,CORDOBA,CO012218292,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,37.90875,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>CORDOBA</provincia>
+<matricula>CO</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>PEDROCHES</poblacion>
+<fechahora_ini>2020-12-21",id-incidencia-1.200,incidencia, , ,-4.75356,-4.75356,37.90875,2021/01/19 21:31:00
+201,ANDALUCIA,CO-31,OBRAS EN GENERAL,2020/12/21 23:04:00, ,CO,VERDE,267,266,PEDROCHES,CORDOBA,CO012219289,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,37.9141775,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>CORDOBA</provincia>
+<matricula>CO</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>PEDROCHES</poblacion>
+<fechahora_ini>2020-12-21",id-incidencia-1.201,incidencia, , ,-4.7562662,-4.7562662,37.9141775,2021/01/19 21:31:00
+202,ANDALUCIA,N-432,OBRAS EN GENERAL,2020/12/21 23:06:00, ,CO,VERDE,266,265.6,PEDROCHES,CORDOBA,CO012219290,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,37.90802,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>CORDOBA</provincia>
+<matricula>CO</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>PEDROCHES</poblacion>
+<fechahora_ini>2020-12-21",id-incidencia-1.202,incidencia, , ,-4.75375,-4.75375,37.90802,2021/01/19 21:31:00
+203,CASTILLA-LA MANCHA,CR-7022,REASFALTADO,2020/11/09 09:39:00, ,CR,ROJO,6.1,0,CORTIJOS DE ARRIBA,CIUDAD REAL,CR011099209,AMBOS SENTIDOS,OBRAS,0,1,39.30481,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>CIUDAD REAL</provincia>
+<matricula>CR</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>CORTIJOS DE ARRIBA</poblacion>
+<fechaho",id-incidencia-1.203,incidencia, , ,-4.01431,-4.01431,39.30481,2021/01/19 21:31:00
+204,CASTILLA-LA MANCHA,CM-3165,OBRAS EN GENERAL,2020/12/04 12:20:00, ,CR,VERDE,5.6,6.6,HERENCIA,CIUDAD REAL,CR012048176,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,39.3808319,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>CIUDAD REAL</provincia>
+<matricula>CR</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>HERENCIA</poblacion>
+<fechahora_in",id-incidencia-1.204,incidencia, , ,-3.3040955,-3.3040955,39.3808319,2021/01/19 21:31:00
+205,CASTILLA-LA MANCHA,CM-3165,OBRAS EN GENERAL,2020/12/04 12:20:00, ,CR,VERDE,6.6,5.6,HERENCIA,CIUDAD REAL,CR012049171,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,39.3797963,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>CIUDAD REAL</provincia>
+<matricula>CR</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>HERENCIA</poblacion>
+<fechahora_in",id-incidencia-1.205,incidencia, , ,-3.3155815,-3.3155815,39.3797963,2021/01/19 21:31:00
+206,CASTILLA-LA MANCHA,CR-633,OBRAS EN GENERAL,2020/11/04 12:00:00, ,CR,ROJO,8.6,15.8,MONTIEL,CIUDAD REAL,CR007178168,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,4,38.69634,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>CIUDAD REAL</provincia>
+<matricula>CR</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>MONTIEL</poblacion>
+<fechahora_ini",id-incidencia-1.206,incidencia, , ,-2.86368,-2.86368,38.69634,2021/01/19 21:31:00
+207,CASTILLA-LA MANCHA,CR-633,OBRAS EN GENERAL,2020/07/17 08:57:00, ,CR,ROJO,15.8,8.6,SANTA CRUZ DE LOS CAÑAMOS,CIUDAD REAL,CR007179165,CRECIENTE DE LA KILOMETRICA,OBRAS,0,4,38.6422496,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>CIUDAD REAL</provincia>
+<matricula>CR</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>SANTA CRUZ DE LOS CAÑAMOS</poblac",id-incidencia-1.207,incidencia, , ,-2.8655145,-2.8655145,38.6422496,2021/01/19 21:31:00
+208,CASTILLA-LA MANCHA,CR-7022,OBRAS EN GENERAL,2021/01/15 08:23:00, ,CR,ROJO,5.9,0,VALDEHIERRO,CIUDAD REAL,CR101158052,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,39.30481,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>CIUDAD REAL</provincia>
+<matricula>CR</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>VALDEHIERRO</poblacion>
+<fechahora",id-incidencia-1.208,incidencia, , ,-4.01431,-4.01431,39.30481,2021/01/19 21:31:00
+209,CASTILLA-LA MANCHA,CU-V-8302,OBRAS EN GENERAL,2020/11/12 13:40:00, ,CU,ROJO,0,8.3,CASAS DE LOS PINOS,CUENCA,CU011129271,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,39.3433861,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>CUENCA</provincia>
+<matricula>CU</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>CASAS DE LOS PINOS</poblacion>
+<fechaho",id-incidencia-1.209,incidencia, , ,-2.3737801,-2.3737801,39.3433861,2021/01/19 21:31:00
+210,CASTILLA-LA MANCHA,CU-V-8302,OBRAS EN GENERAL,2020/11/12 13:40:00, ,CU,ROJO,8.3,0,SAN CLEMENTE,CUENCA,CU011128265,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,39.39955,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LA MANCHA</autonomia>
+<provincia>CUENCA</provincia>
+<matricula>CU</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>SAN CLEMENTE</poblacion>
+<fechahora_ini",id-incidencia-1.210,incidencia, , ,-2.42666,-2.42666,39.39955,2021/01/19 21:31:00
+211,CATALUÑA,GI-513,REASFALTADO,2021/01/13 08:41:00,BÀSCARA,GI,VERDE,13.2,0,BANYOLES,GIRONA,GI101139086,AMBOS SENTIDOS,OBRAS,0,1,42.10081,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>BANYOLES</poblacion>
+<fechahora_ini>2021-01-13 08:41<",id-incidencia-1.211,incidencia, , ,2.79153,2.79153,42.10081,2021/01/19 21:31:00
+212,CATALUÑA,N-260,OBRAS EN GENERAL,2021/01/18 13:30:00, ,GI,VERDE,123.2,123.1, ,GIRONA,GI101189194,AMBOS SENTIDOS,OBRAS,0,1,42.2477767,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion></poblacion>
+<fechahora_ini>2021-01-18 13:30</fe",id-incidencia-1.212,incidencia, , ,2.1640858,2.1640858,42.2477767,2021/01/19 21:31:00
+213,CATALUÑA,C-66,REASFALTADO,2020/12/27 19:45:00,SANT FERRIOL,GI,VERDE,55.8,50.4,PORQUERES,GIRONA,GI012278013,AMBOS SENTIDOS,OBRAS,0,3,42.15595,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>PORQUERES</poblacion>
+<fechahora_ini>2020-12-27 19:45",id-incidencia-1.213,incidencia, , ,2.74835,2.74835,42.15595,2021/01/19 21:31:00
+214,CATALUÑA,C-25,REASFALTADO,2021/01/11 13:00:00,CAMPLLONG,GI,VERDE,242,240,RIUDELLOTS DE LA SELVA,GIRONA,GI101119175,AMBOS SENTIDOS,OBRAS,0,1,41.8956863,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>RIUDELLOTS DE LA SELVA</poblacion>
+<fechahora_ini>202",id-incidencia-1.214,incidencia, , ,2.8099028,2.8099028,41.8956863,2021/01/19 21:31:00
+215,CATALUÑA,C-25,REASFALTADO,2021/01/14 16:41:00,VIC,GI,VERDE,207.5,207,SANT HILARI SACALM,GIRONA,GI012249023,ESTE,OBRAS,0,3,41.8489748,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>SANT HILARI SACALM</poblacion>
+<fechahora_ini>2021-01",id-incidencia-1.215,incidencia, , ,2.4750854,2.4750854,41.8489748,2021/01/19 21:31:00
+216,CATALUÑA,N-260,TRABAJOS DE MANTENIMIENTO,2021/01/13 09:54:00, ,GI,VERDE,106.8,106.8,SANT JOAN DE LES ABADESSES,GIRONA,GI101139126,AMBOS SENTIDOS,OBRAS,0,9,42.2351072,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>GIRONA</provincia>
+<matricula>GI</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>SANT JOAN DE LES ABADESSES</poblacion>
+",id-incidencia-1.216,incidencia, , ,2.2821969,2.2821969,42.2351072,2021/01/19 21:31:00
+217,ANDALUCIA,A-385,TRABAJOS DE MANTENIMIENTO,2020/11/09 21:39:00, ,GR,NEGRO,9,4,ALHENDIN,GRANADA,GR011098302,AMBOS SENTIDOS,OBRAS,0,1,37.0706248,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>GRANADA</provincia>
+<matricula>GR</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>ALHENDIN</poblacion>
+<fechahora_ini>20",id-incidencia-1.217,incidencia, , ,-3.6887402,-3.6887402,37.0706248,2021/01/19 21:31:00
+218,ANDALUCIA,A-338,OBRAS EN GENERAL,2020/11/11 00:00:00,ALHAMA,GR,ROJO,6.7,5.5,GABIA GRANDE,GRANADA,GR011129042,CRECIENTE DE LA KILOMETRICA,OBRAS,0,1,37.1299119,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>GRANADA</provincia>
+<matricula>GR</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>GABIA GRANDE</poblacion>
+<fechahora_ini>2020-11",id-incidencia-1.218,incidencia, , ,-3.6766659,-3.6766659,37.1299119,2021/01/19 21:31:00
+219,ANDALUCIA,GR-S/N,OBRAS EN GENERAL,2020/02/07 10:00:00, ,GR,ROJO,7.6,4,GRANADA,GRANADA,GR002229026,AMBOS SENTIDOS,OBRAS,1,1,37.1764193,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>GRANADA</provincia>
+<matricula>GR</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>GRANADA</poblacion>
+<fechahora_ini>2020-02-07 1",id-incidencia-1.219,incidencia, , ,-3.6000188,-3.6000188,37.1764193,2021/01/19 21:31:00
+220,ANDALUCIA,GR-3302,OBRAS EN GENERAL,2020/05/31 11:22:00, ,GR,NEGRO,10.7,10.2,JAYENA,GRANADA,GR005319014,AMBOS SENTIDOS,OBRAS,0,1,36.949198,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>GRANADA</provincia>
+<matricula>GR</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>JAYENA</poblacion>
+<fechahora_ini>2020-05-31 11",id-incidencia-1.220,incidencia, , ,-3.8146123,-3.8146123,36.949198,2021/01/19 21:31:00
+221,ANDALUCIA,GR-S/N,OBRAS EN GENERAL,2020/09/22 08:25:00, ,GR,ROJO,7.6,6.4,PURCHIL,GRANADA,GR009229119,AMBOS SENTIDOS,OBRAS,1,2,37.172382,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>GRANADA</provincia>
+<matricula>GR</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>PURCHIL</poblacion>
+<fechahora_ini>2020-09-22 0",id-incidencia-1.221,incidencia, , ,-3.6657594,-3.6657594,37.172382,2021/01/19 21:31:00
+222,ANDALUCIA,GR-6203,OBRAS EN GENERAL,2020/10/22 09:00:00, ,GR,ROJO,10,7,YESOS (LOS),GRANADA,GR010249037,AMBOS SENTIDOS,OBRAS,0,1,36.75887,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>GRANADA</provincia>
+<matricula>GR</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>YESOS (LOS)</poblacion>
+<fechahora_ini>2020-10-",id-incidencia-1.222,incidencia, , ,-3.26484,-3.26484,36.75887,2021/01/19 21:31:00
+223,ANDALUCIA,HU-5101,REASFALTADO,2021/01/11 16:15:00, ,H,ROJO,13,0,CALAÑAS,HUELVA,OH101118233,AMBOS SENTIDOS,OBRAS,0,1,37.65404,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>HUELVA</provincia>
+<matricula>H</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>CALAÑAS</poblacion>
+<fechahora_ini>2021-01-11 16:15</",id-incidencia-1.223,incidencia, , ,-6.87618,-6.87618,37.65404,2021/01/19 21:31:00
+224,ARAGON,A-2,OBRAS EN GENERAL,2020/12/21 07:58:00, ,HU,AMARILLO,438,437,FRAGA,HUESCA,HU009159074,AMBOS SENTIDOS,OBRAS,0,4,41.5137318,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>HUESCA</provincia>
+<matricula>HU</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>FRAGA</poblacion>
+<fechahora_ini>2020-12-21 07:58</",id-incidencia-1.224,incidencia, , ,0.3684965,0.3684965,41.5137318,2021/01/19 21:31:00
+225,ANDALUCIA,N-322,OBRAS EN GENERAL,2020/12/29 09:05:00, ,J,VERDE,170,159,TORREPEROGIL,JAEN,OJ012298080,AMBOS SENTIDOS,OBRAS,0,2,38.046916,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>JAEN</provincia>
+<matricula>J</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>TORREPEROGIL</poblacion>
+<fechahora_ini>2020-12-29",id-incidencia-1.225,incidencia, , ,-3.2479464,-3.2479464,38.046916,2021/01/19 21:31:00
+226,ANDALUCIA,N-322,OBRAS EN GENERAL,2020/12/29 09:09:00, ,J,VERDE,192,183,VILLACARRILLO,JAEN,OJ011249234,AMBOS SENTIDOS,OBRAS,0,3,38.1366753,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>JAEN</provincia>
+<matricula>J</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>VILLACARRILLO</poblacion>
+<fechahora_ini>2020-12-29",id-incidencia-1.226,incidencia, , ,-3.0497996,-3.0497996,38.1366753,2021/01/19 21:31:00
+227,ANDALUCIA,N-322,OBRAS EN GENERAL,2017/09/21 15:26:00,CÓRDOBA-VALENCIA,J,VERDE,193.5,193,VILLANUEVA DEL ARZOBISPO,JAEN,OJ709218129,AMBOS SENTIDOS,OBRAS,0,1,38.1919036,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>JAEN</provincia>
+<matricula>J</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>VILLANUEVA DEL ARZOBISPO</poblacion>
+<fechahora_ini",id-incidencia-1.227,incidencia, , ,-2.9899228,-2.9899228,38.1919036,2021/01/19 21:31:00
+228,CATALUÑA,C-13,OBRAS EN GENERAL,2021/01/11 12:15:00, ,L,VERDE,47.5,46.4,CAMARASA,LLEIDA,OL101119165,AMBOS SENTIDOS,OBRAS,0,1,41.9010705,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>CAMARASA</poblacion>
+<fechahora_ini>2021-01-11 12",id-incidencia-1.228,incidencia, , ,0.8842893,0.8842893,41.9010705,2021/01/19 21:31:00
+229,CATALUÑA,C-13,TRABAJOS DE MANTENIMIENTO,2021/01/12 11:25:00, ,L,VERDE,45.7,45.5,CAMARASA,LLEIDA,OL012079041,AMBOS SENTIDOS,OBRAS,0,5,41.8941736,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>CAMARASA</poblacion>
+<fechahora_ini>2021",id-incidencia-1.229,incidencia, , ,0.8788536,0.8788536,41.8941736,2021/01/19 21:31:00
+230,CATALUÑA,C-13,TRABAJOS DE MANTENIMIENTO,2021/01/12 11:26:00, ,L,VERDE,47.2,46.4,CAMARASA,LLEIDA,OL101129173,AMBOS SENTIDOS,OBRAS,0,1,41.9010705,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>CAMARASA</poblacion>
+<fechahora_ini>2021",id-incidencia-1.230,incidencia, , ,0.8842893,0.8842893,41.9010705,2021/01/19 21:31:00
+231,CATALUÑA,C-462,REASFALTADO,2020/09/30 21:36:00,ALÀS I CERC,L,VERDE,83.1,68.8, ,LLEIDA,OL008309020,AMBOS SENTIDOS,OBRAS,0,2,42.2772083,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>REASFALTADO</causa>
+<poblacion></poblacion>
+<fechahora_ini>2020-09-30 21:36</fechahor",id-incidencia-1.231,incidencia, , ,1.5024114,1.5024114,42.2772083,2021/01/19 21:31:00
+232,CATALUÑA,L-504,OBRAS EN GENERAL,2020/12/24 19:22:00, ,L,VERDE,18.6,18.6,LLADORRE,LLEIDA,OL012149263,AMBOS SENTIDOS,OBRAS,0,2,42.6399702,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>LLADORRE</poblacion>
+<fechahora_ini>2020-12-24 19",id-incidencia-1.232,incidencia, , ,1.2521372,1.2521372,42.6399702,2021/01/19 21:31:00
+233,CATALUÑA,C-14,TRABAJOS DE MANTENIMIENTO,2021/01/11 13:10:00, ,L,VERDE,169,162.5,ORGANYA,LLEIDA,OL010119011,AMBOS SENTIDOS,OBRAS,0,18,42.2115308,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>ORGANYA</poblacion>
+<fechahora_ini>2021-",id-incidencia-1.233,incidencia, , ,1.3295613,1.3295613,42.2115308,2021/01/19 21:31:00
+234,CATALUÑA,C-14, ,2019/11/01 18:31:00,PAS ALTERNATIU MENTRE DURI L' OBRA I TALLS PUNTUALS DE CALÇADA,L,VERDE,166.5,163.2,ORGANYÀ,LLEIDA,OL901070006,AMBOS SENTIDOS,OBRAS,0,22,42.2194627,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>LLEIDA</provincia>
+<matricula>L</matricula>
+<causa></causa>
+<poblacion>ORGANYÀ</poblacion>
+<fechahora_ini>2019-11-01 18:31</fechahora_i",id-incidencia-1.234,incidencia, , ,1.3326848,1.3326848,42.2194627,2021/01/19 21:31:00
+235,CASTILLA-LEON,A-6,TRABAJOS DE MANTENIMIENTO,2020/02/17 19:33:00, ,LE,VERDE,428,422,VEGA DE VALCARCE,LEON,LE002179297,AMBOS SENTIDOS,OBRAS,0,1,42.6682814,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>LEON</provincia>
+<matricula>LE</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>VEGA DE VALCARCE</poblacion>
+<fechaho",id-incidencia-1.235,incidencia, , ,-6.9464612,-6.9464612,42.6682814,2021/01/19 21:31:00
+236,LA_RIOJA,LR-260,TRABAJOS DE MANTENIMIENTO,2020/06/23 22:46:00,LP NAVARRA,LO,AMARILLO,13.2,11.5,ALCANADRE,LA RIOJA,LO006238336,CRECIENTE DE LA KILOMETRICA,OBRAS,0,1,42.3984247,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>LA_RIOJA</autonomia>
+<provincia>LA RIOJA</provincia>
+<matricula>LO</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>ALCANADRE</poblacion>
+<fechahora_ini>2",id-incidencia-1.236,incidencia, , ,-2.1313043,-2.1313043,42.3984247,2021/01/19 21:31:00
+237,LA_RIOJA,N-232,TRABAJOS DE MANTENIMIENTO,2020/10/09 09:27:00, ,LO,AMARILLO,343.545,343.545,ALFARO,LA RIOJA,LO008108131,AMBOS SENTIDOS,OBRAS,0,2,42.2157464,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>LA_RIOJA</autonomia>
+<provincia>LA RIOJA</provincia>
+<matricula>LO</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>ALFARO</poblacion>
+<fechahora_ini>2020",id-incidencia-1.237,incidencia, , ,-1.818746,-1.818746,42.2157464,2021/01/19 21:31:00
+238,LA_RIOJA,LR-134,REASFALTADO,2020/11/19 14:25:00, ,LO,NEGRO,18.7,18.7,CALAHORRA,LA RIOJA,LO011199264,AMBOS SENTIDOS,OBRAS,0,1,42.32878,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>LA_RIOJA</autonomia>
+<provincia>LA RIOJA</provincia>
+<matricula>LO</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>CALAHORRA</poblacion>
+<fechahora_ini>2020-11-19 14:2",id-incidencia-1.238,incidencia, , ,-1.93727,-1.93727,42.32878,2021/01/19 21:31:00
+239,LA_RIOJA,LR-113,TRABAJOS DE MANTENIMIENTO,2020/03/06 04:06:00, ,LO,ROJO,23,22,CANALES DE LA SIERRA,LA RIOJA,LO001108173,AMBOS SENTIDOS,OBRAS,0,3,42.1644684,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>LA_RIOJA</autonomia>
+<provincia>LA RIOJA</provincia>
+<matricula>LO</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>CANALES DE LA SIERRA</poblacion>
+<fech",id-incidencia-1.239,incidencia, , ,-2.9004527,-2.9004527,42.1644684,2021/01/19 21:31:00
+240,LA_RIOJA,LR-409,OBRAS EN GENERAL,2021/01/07 00:00:00, ,LO,ROJO,1.1,0.6,CIRIÑUELA,LA RIOJA,LO101079001,AMBOS SENTIDOS,OBRAS,0,2,42.4223352,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>LA_RIOJA</autonomia>
+<provincia>LA RIOJA</provincia>
+<matricula>LO</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>CIRIÑUELA</poblacion>
+<fechahora_ini>2021-01-0",id-incidencia-1.240,incidencia, , ,-2.8944186,-2.8944186,42.4223352,2021/01/19 21:31:00
+241,LA_RIOJA,LR-261,TRABAJOS DE MANTENIMIENTO,2020/07/10 18:10:00, ,LO,AMARILLO,10.8,10.8,LAGUNILLA DEL JUBERA,LA RIOJA,LO007109253,AMBOS SENTIDOS,OBRAS,0,1,42.3534278,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>LA_RIOJA</autonomia>
+<provincia>LA RIOJA</provincia>
+<matricula>LO</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>LAGUNILLA DEL JUBERA</poblacion>
+<fech",id-incidencia-1.241,incidencia, , ,-2.3056619,-2.3056619,42.3534278,2021/01/19 21:31:00
+242,LA_RIOJA,N-120,OBRAS EN GENERAL,2020/09/11 11:25:00, ,LO,ROJO,9.3,8,NAVARRETE,LA RIOJA,LO009118167,AMBOS SENTIDOS,OBRAS,0,1,42.44353,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>LA_RIOJA</autonomia>
+<provincia>LA RIOJA</provincia>
+<matricula>LO</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>NAVARRETE</poblacion>
+<fechahora_ini>2020-09-11",id-incidencia-1.242,incidencia, , ,-2.54476,-2.54476,42.44353,2021/01/19 21:31:00
+243,LA_RIOJA,LR-261,TRABAJOS DE MANTENIMIENTO,2020/07/10 18:16:00, ,LO,AMARILLO,21.2,19.1,SANTA ENGRACIA,LA RIOJA,LO007109254,AMBOS SENTIDOS,OBRAS,0,1,42.2971212,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>LA_RIOJA</autonomia>
+<provincia>LA RIOJA</provincia>
+<matricula>LO</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>SANTA ENGRACIA</poblacion>
+<fechahora_",id-incidencia-1.243,incidencia, , ,-2.2967908,-2.2967908,42.2971212,2021/01/19 21:31:00
+244,GALICIA,LU-901,REASFALTADO,2018/09/19 21:52:00, ,LU,ROJO,16.5,9.8,BARRELA (A),LUGO,LU805269036,AMBOS SENTIDOS,OBRAS,0,2,42.5027,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>GALICIA</autonomia>
+<provincia>LUGO</provincia>
+<matricula>LU</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>BARRELA (A)</poblacion>
+<fechahora_ini>2018-09-19 21:52</",id-incidencia-1.244,incidencia, , ,-7.87801,-7.87801,42.5027,2021/01/19 21:31:00
+245,GALICIA,N-VI,TRABAJOS DE MANTENIMIENTO,2019/01/07 10:15:00, ,LU,AMARILLO,504.3,503.8,LUGO,LUGO,LU901078044,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,1,43.0246215,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>GALICIA</autonomia>
+<provincia>LUGO</provincia>
+<matricula>LU</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>LUGO</poblacion>
+<fechahora_ini>2019-01-07",id-incidencia-1.245,incidencia, , ,-7.5789196,-7.5789196,43.0246215,2021/01/19 21:31:00
+246,GALICIA,LU-P-4806,TRABAJOS DE MANTENIMIENTO,2020/01/20 14:18:00, ,LU,AMARILLO,25.5,21.4,PONTENOVA (A),LUGO,LU001208265,AMBOS SENTIDOS,OBRAS,0,1,43.2332218,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>GALICIA</autonomia>
+<provincia>LUGO</provincia>
+<matricula>LU</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>PONTENOVA (A)</poblacion>
+<fechahora_ini>20",id-incidencia-1.246,incidencia, , ,-7.207005,-7.207005,43.2332218,2021/01/19 21:31:00
+247,GALICIA,N-540,OBRAS EN GENERAL,2020/05/20 02:59:00, ,LU,AMARILLO,61.8,59.8,SOILAN,LUGO,LU005208012,AMBOS SENTIDOS,OBRAS,0,1,42.5640394,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>GALICIA</autonomia>
+<provincia>LUGO</provincia>
+<matricula>LU</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>SOILAN</poblacion>
+<fechahora_ini>2020-05-20 02:59</",id-incidencia-1.247,incidencia, , ,-7.7999011,-7.7999011,42.5640394,2021/01/19 21:31:00
+248,MADRID,M-513,OBRAS EN GENERAL,2020/12/18 11:55:00, ,M,VERDE,6.2,7,BOADILLA DEL MONTE,MADRID,OM012188218,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,40.4114417,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>MADRID</autonomia>
+<provincia>MADRID</provincia>
+<matricula>M</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>BOADILLA DEL MONTE</poblacion>
+<fechahora_ini>2020-1",id-incidencia-1.248,incidencia, , ,-3.8885018,-3.8885018,40.4114417,2021/01/19 21:31:00
+249,MADRID,A-2,OBRAS EN GENERAL,2020/06/21 21:15:00, ,M,VERDE,35,34,ORUGA (LA),MADRID,OM006218038,CRECIENTE DE LA KILOMETRICA,OBRAS,0,1,40.5043564,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>MADRID</autonomia>
+<provincia>MADRID</provincia>
+<matricula>M</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ORUGA (LA)</poblacion>
+<fechahora_ini>2020-06-21 21:",id-incidencia-1.249,incidencia, , ,-3.3316106,-3.3316106,40.5043564,2021/01/19 21:31:00
+250,MADRID,M-604,REASFALTADO,2019/08/05 10:17:00, ,M,AMARILLO,30,25,RASCAFRIA,MADRID,OM908058120,AMBOS SENTIDOS,OBRAS,0,1,40.9074989,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>MADRID</autonomia>
+<provincia>MADRID</provincia>
+<matricula>M</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>RASCAFRIA</poblacion>
+<fechahora_ini>2019-08-05 10:17</fe",id-incidencia-1.250,incidencia, , ,-3.8753424,-3.8753424,40.9074989,2021/01/19 21:31:00
+251,ANDALUCIA,AP-7,TRABAJOS DE MANTENIMIENTO,2021/01/19 20:00:00, ,MA,VERDE,151.2,150.2,BAHIA DORADA,MALAGA,MA101199216,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,36.4217328,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>MALAGA</provincia>
+<matricula>MA</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>BAHIA DORADA</poblacion>
+<fechahora_ini",id-incidencia-1.251,incidencia, , ,-5.217159,-5.217159,36.4217328,2021/01/19 21:31:00
+252,ANDALUCIA,MA-6407,OBRAS EN GENERAL,2020/11/20 08:39:00, ,MA,ROJO,6,0.6,CAMPILLOS,MALAGA,MA011209141,AMBOS SENTIDOS,OBRAS,0,1,37.051316,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>MALAGA</provincia>
+<matricula>MA</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>CAMPILLOS</poblacion>
+<fechahora_ini>2020-11-20",id-incidencia-1.252,incidencia, , ,-4.8873593,-4.8873593,37.051316,2021/01/19 21:31:00
+253,ANDALUCIA,AP-7,OBRAS EN GENERAL,2021/01/12 10:24:00, ,MA,VERDE,221,224,TORREMOLINOS,MALAGA,MA101129164,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,36.61188,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>MALAGA</provincia>
+<matricula>MA</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>TORREMOLINOS</poblacion>
+<fechahora_ini>2021-01-",id-incidencia-1.253,incidencia, , ,-4.52772,-4.52772,36.61188,2021/01/19 21:31:00
+254,MURCIA,RM-A4,OBRAS EN GENERAL,2021/01/19 18:30:00, ,MU,AMARILLO,0.3,0,ESPARRAGAL,MURCIA,MU101198196,AMBOS SENTIDOS,OBRAS,0,1,38.02108,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>MURCIA</autonomia>
+<provincia>MURCIA</provincia>
+<matricula>MU</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ESPARRAGAL</poblacion>
+<fechahora_ini>2021-01-19 18",id-incidencia-1.254,incidencia, , ,-1.13809,-1.13809,38.02108,2021/01/19 21:31:00
+255,MURCIA,A-7,OBRAS EN GENERAL,2020/11/10 16:48:00, ,MU,NEGRO,636,636,LORCA,MURCIA,MU011109351,AMBOS SENTIDOS,OBRAS,0,2,37.6706416,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>MURCIA</autonomia>
+<provincia>MURCIA</provincia>
+<matricula>MU</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>LORCA</poblacion>
+<fechahora_ini>2020-11-10 16:48</",id-incidencia-1.255,incidencia, , ,-1.7096676,-1.7096676,37.6706416,2021/01/19 21:31:00
+256,MURCIA,RM-F53,OBRAS EN GENERAL,2020/11/18 17:44:00, ,MU,NEGRO,1.8,2.2,ROSIQUES (LOS),MURCIA,MU011189279,AMBOS SENTIDOS,OBRAS,0,1,37.6624774,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>MURCIA</autonomia>
+<provincia>MURCIA</provincia>
+<matricula>MU</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ROSIQUES (LOS)</poblacion>
+<fechahora_ini>2020-11-1",id-incidencia-1.256,incidencia, , ,-0.9446671,-0.9446671,37.6624774,2021/01/19 21:31:00
+257,NAVARRA,AP-15,OBRAS EN GENERAL,2020/12/10 16:19:00, ,NA,AMARILLO,29,30.5,PERALTA,NAVARRA,NA012108268,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,1,42.3364913,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>NAVARRA</autonomia>
+<provincia>NAVARRA</provincia>
+<matricula>NA</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>PERALTA</poblacion>
+<fechahora_ini>2020-12-10 16:",id-incidencia-1.257,incidencia, , ,-1.7248559,-1.7248559,42.3364913,2021/01/19 21:31:00
+258,NAVARRA,AP-15,OBRAS EN GENERAL,2020/12/10 16:19:00, ,NA,AMARILLO,27,29,PERALTA,NAVARRA,NA012109262,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,1,42.3277128,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>NAVARRA</autonomia>
+<provincia>NAVARRA</provincia>
+<matricula>NA</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>PERALTA</poblacion>
+<fechahora_ini>2020-12-10 16:",id-incidencia-1.258,incidencia, , ,-1.7253017,-1.7253017,42.3277128,2021/01/19 21:31:00
+259,GALICIA,N-525,OBRAS EN GENERAL,2020/05/28 08:57:00, ,OR,AMARILLO,129,129,CANIZO (O),OURENSE,OR005288166,AMBOS SENTIDOS,OBRAS,0,1,42.0559668,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>GALICIA</autonomia>
+<provincia>OURENSE</provincia>
+<matricula>OR</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>CANIZO (O)</poblacion>
+<fechahora_ini>2020-05-28",id-incidencia-1.259,incidencia, , ,-7.1147061,-7.1147061,42.0559668,2021/01/19 21:31:00
+260,GALICIA,A-52,TRABAJOS DE MANTENIMIENTO,2020/12/14 08:21:00, ,OR,VERDE,245,244,RAZAMONDE,OURENSE,OR912168305,CRECIENTE DE LA KILOMETRICA,OBRAS,0,5,42.334483,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>GALICIA</autonomia>
+<provincia>OURENSE</provincia>
+<matricula>OR</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>RAZAMONDE</poblacion>
+<fechahora_ini>202",id-incidencia-1.260,incidencia, , ,-8.0462203,-8.0462203,42.334483,2021/01/19 21:31:00
+261,GALICIA,N-525,TRABAJOS DE MANTENIMIENTO,2020/02/01 20:06:00, ,OR,AMARILLO,144.5,143,RIOS,OURENSE,OR002019037,CRECIENTE DE LA KILOMETRICA,OBRAS,0,1,42.0036723,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>GALICIA</autonomia>
+<provincia>OURENSE</provincia>
+<matricula>OR</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>RIOS</poblacion>
+<fechahora_ini>2020-02-",id-incidencia-1.261,incidencia, , ,-7.2274937,-7.2274937,42.0036723,2021/01/19 21:31:00
+262,CASTILLA-LEON,PP-6202,OBRAS EN GENERAL,2020/11/13 13:02:00, ,P,NEGRO,0.1,0.1,VILLAESCUSA DE LAS TORRES,PALENCIA,OP011139228,AMBOS SENTIDOS,OBRAS,0,1,42.75943,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>PALENCIA</provincia>
+<matricula>P</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>VILLAESCUSA DE LAS TORRES</poblacion>
+<fech",id-incidencia-1.262,incidencia, , ,-4.25385,-4.25385,42.75943,2021/01/19 21:31:00
+263,BALEARES,MA-19,TRABAJOS DE MANTENIMIENTO,2021/01/18 08:56:00,PALMA,PM,AMARILLO,7,7,CAN PASTILLA,ILLES BALEARS,PM101188098,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,39.54346,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>BALEARES</autonomia>
+<provincia>ILLES BALEARS</provincia>
+<matricula>PM</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>CAN PASTILLA</poblacion>
+<fechaho",id-incidencia-1.263,incidencia, , ,2.7078648,2.7078648,39.54346,2021/01/19 21:31:00
+264,BALEARES,MA-19,TRABAJOS DE MANTENIMIENTO,2021/01/19 13:20:00,PALMA,PM,AMARILLO,7,7,CAN PASTILLA,ILLES BALEARS,PM101199185,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,39.54346,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>BALEARES</autonomia>
+<provincia>ILLES BALEARS</provincia>
+<matricula>PM</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>CAN PASTILLA</poblacion>
+<fechaho",id-incidencia-1.264,incidencia, , ,2.7078648,2.7078648,39.54346,2021/01/19 21:31:00
+265,BALEARES,MA-19,TRABAJOS DE MANTENIMIENTO,2021/01/19 15:00:00,PALMA,PM,AMARILLO,7,7,CAN PASTILLA,ILLES BALEARS,PM101198174,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,1,39.54346,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>BALEARES</autonomia>
+<provincia>ILLES BALEARS</provincia>
+<matricula>PM</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>CAN PASTILLA</poblacion>
+<fechaho",id-incidencia-1.265,incidencia, , ,2.7078648,2.7078648,39.54346,2021/01/19 21:31:00
+266,BALEARES,EI-20,TRABAJOS DE MANTENIMIENTO,2020/11/11 07:00:00, ,PM,AMARILLO,1.4,0,EIVISSA,ILLES BALEARS,PM011119035,CRECIENTE DE LA KILOMETRICA,OBRAS,0,3,38.90384,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>BALEARES</autonomia>
+<provincia>ILLES BALEARS</provincia>
+<matricula>PM</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>EIVISSA</poblacion>
+<fechahora_in",id-incidencia-1.266,incidencia, , ,1.40761,1.40761,38.90384,2021/01/19 21:31:00
+267,BALEARES,EI-300,TRABAJOS DE MANTENIMIENTO,2021/01/12 08:00:00, ,PM,AMARILLO,2.3,2,EIVISSA,ILLES BALEARS,PM101128063,AMBOS SENTIDOS,OBRAS,0,2,38.9261777,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>BALEARES</autonomia>
+<provincia>ILLES BALEARS</provincia>
+<matricula>PM</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>EIVISSA</poblacion>
+<fechahora_in",id-incidencia-1.267,incidencia, , ,1.441136,1.441136,38.9261777,2021/01/19 21:31:00
+268,BALEARES,MA-13,OBRAS EN GENERAL,2020/08/25 09:15:00, ,PM,AMARILLO,6,5,MARRATXINET,ILLES BALEARS,PM008259143,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,1,39.6195659,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>BALEARES</autonomia>
+<provincia>ILLES BALEARS</provincia>
+<matricula>PM</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>MARRATXINET</poblacion>
+<fechahora_ini>202",id-incidencia-1.268,incidencia, , ,2.7072249,2.7072249,39.6195659,2021/01/19 21:31:00
+269,BALEARES,MA-3323,TRABAJOS DE MANTENIMIENTO,2021/01/18 08:00:00, ,PM,ROJO,9.5,0,SANT LLORENÇ DES CARDASSAR,ILLES BALEARS,PM101188044,AMBOS SENTIDOS,OBRAS,0,2,39.6042,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>BALEARES</autonomia>
+<provincia>ILLES BALEARS</provincia>
+<matricula>PM</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>SANT LLORENÇ DES CARDASSAR</pobl",id-incidencia-1.269,incidencia, , ,3.20221,3.20221,39.6042,2021/01/19 21:31:00
+270,BALEARES,MA-19,OBRAS EN GENERAL,2020/11/11 07:00:00, ,PM,AMARILLO,59.3,51,SANTANYI,ILLES BALEARS,PM011118025,AMBOS SENTIDOS,OBRAS,0,3,39.3594584,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>BALEARES</autonomia>
+<provincia>ILLES BALEARS</provincia>
+<matricula>PM</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>SANTANYI</poblacion>
+<fechahora_ini>2020-1",id-incidencia-1.270,incidencia, , ,3.1346629,3.1346629,39.3594584,2021/01/19 21:31:00
+271,BALEARES,MA-10,OBRAS EN GENERAL,2021/01/18 07:30:00, ,PM,AMARILLO,77.9,75.5,SON FERRANDELL,ILLES BALEARS,PM101189018,AMBOS SENTIDOS,OBRAS,0,3,39.6869096,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>BALEARES</autonomia>
+<provincia>ILLES BALEARS</provincia>
+<matricula>PM</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>SON FERRANDELL</poblacion>
+<fechahora_ini>",id-incidencia-1.271,incidencia, , ,2.5726237,2.5726237,39.6869096,2021/01/19 21:31:00
+272,BALEARES,MA-4040,OBRAS EN GENERAL,2021/01/19 07:00:00, ,PM,AMARILLO,11.2,0,SON SERVERA,ILLES BALEARS,PM101199018,AMBOS SENTIDOS,OBRAS,0,2,39.62789,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>BALEARES</autonomia>
+<provincia>ILLES BALEARS</provincia>
+<matricula>PM</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>SON SERVERA</poblacion>
+<fechahora_ini>202",id-incidencia-1.272,incidencia, , ,3.35658,3.35658,39.62789,2021/01/19 21:31:00
+273,GALICIA,PO-552,OBRAS EN GENERAL,2020/10/30 08:53:00, ,PO,VERDE,69.9,58.3,IGREXA,PONTEVEDRA,PO010309119,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,41.9560143,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>GALICIA</autonomia>
+<provincia>PONTEVEDRA</provincia>
+<matricula>PO</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>IGREXA</poblacion>
+<fechahora_ini>2020-10-30 0",id-incidencia-1.273,incidencia, , ,-8.7651389,-8.7651389,41.9560143,2021/01/19 21:31:00
+274,GALICIA,PO-552,OBRAS EN GENERAL,2020/08/11 19:49:00, ,PO,VERDE,58.3,69.9,IGREXA,PONTEVEDRA,PO008119219,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,42.0237559,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>GALICIA</autonomia>
+<provincia>PONTEVEDRA</provincia>
+<matricula>PO</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>IGREXA</poblacion>
+<fechahora_ini>2020-08-11 1",id-incidencia-1.274,incidencia, , ,-8.6666452,-8.6666452,42.0237559,2021/01/19 21:31:00
+275,GALICIA,PO-255,OBRAS EN GENERAL,2020/12/04 18:23:00, ,PO,VERDE,41.3,33,MOUTA,PONTEVEDRA,PO012048227,AMBOS SENTIDOS,OBRAS,0,1,42.2673987,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>GALICIA</autonomia>
+<provincia>PONTEVEDRA</provincia>
+<matricula>PO</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>MOUTA</poblacion>
+<fechahora_ini>2020-12-04 18",id-incidencia-1.275,incidencia, , ,-8.3361119,-8.3361119,42.2673987,2021/01/19 21:31:00
+276,GALICIA,EP-9305,OBRAS EN GENERAL,2021/01/07 13:14:00,LEIRO,PO,AMARILLO,2.2,2,PADRENDA DE ABAIXO,PONTEVEDRA,PO101079178,CRECIENTE DE LA KILOMETRICA,OBRAS,0,1,42.4767763,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>GALICIA</autonomia>
+<provincia>PONTEVEDRA</provincia>
+<matricula>PO</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>PADRENDA DE ABAIXO</poblacion>
+<fechahora_ini>",id-incidencia-1.276,incidencia, , ,-8.7877342,-8.7877342,42.4767763,2021/01/19 21:31:00
+277,GALICIA,PO-225,OBRAS EN GENERAL,2020/08/12 09:23:00, ,PO,ROJO,0,1.1,TOUCEDA,PONTEVEDRA,PO008128169,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,42.47022,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>GALICIA</autonomia>
+<provincia>PONTEVEDRA</provincia>
+<matricula>PO</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>TOUCEDA</poblacion>
+<fechahora_ini>2020-08-12",id-incidencia-1.277,incidencia, , ,-8.65001,-8.65001,42.47022,2021/01/19 21:31:00
+278,GALICIA,PO-225,OBRAS EN GENERAL,2020/08/17 10:42:00, ,PO,ROJO,1.1,0,TOUCEDA,PONTEVEDRA,PO008128163,CRECIENTE DE LA KILOMETRICA,OBRAS,0,4,42.46543,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>GALICIA</autonomia>
+<provincia>PONTEVEDRA</provincia>
+<matricula>PO</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>TOUCEDA</poblacion>
+<fechahora_ini>2020-08-17",id-incidencia-1.278,incidencia, , ,-8.64252,-8.64252,42.46543,2021/01/19 21:31:00
+279,CANTABRIA,A-67,TRABAJOS DE MANTENIMIENTO,2021/01/19 20:50:00, ,S,VERDE,185,184.4,BARREDA,CANTABRIA,OS101198205,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,43.3663062,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CANTABRIA</autonomia>
+<provincia>CANTABRIA</provincia>
+<matricula>S</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>BARREDA</poblacion>
+<fechahora_ini>20",id-incidencia-1.279,incidencia, , ,-4.0415903,-4.0415903,43.3663062,2021/01/19 21:31:00
+280,CANTABRIA,A-8,TRABAJOS DE MANTENIMIENTO,2021/01/19 19:01:00, ,S,VERDE,158.6,157,ISLARES,CANTABRIA,OS101198204,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,43.4023014,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CANTABRIA</autonomia>
+<provincia>CANTABRIA</provincia>
+<matricula>S</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>ISLARES</poblacion>
+<fechahora_ini>20",id-incidencia-1.280,incidencia, , ,-3.2999327,-3.2999327,43.4023014,2021/01/19 21:31:00
+281,CANTABRIA,A-8,TRABAJOS DE MANTENIMIENTO,2021/01/19 20:50:00, ,S,VERDE,227.7,227.8,SIERRAPANDO,CANTABRIA,OS101199218,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,43.3460922,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CANTABRIA</autonomia>
+<provincia>CANTABRIA</provincia>
+<matricula>S</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>SIERRAPANDO</poblacion>
+<fechahora_in",id-incidencia-1.281,incidencia, , ,-4.0255631,-4.0255631,43.3460922,2021/01/19 21:31:00
+282,CANTABRIA,A-67,TRABAJOS DE MANTENIMIENTO,2021/01/19 20:50:00, ,S,VERDE,180.6,180.4,SIERRAPANDO,CANTABRIA,OS101199219,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,43.3403343,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CANTABRIA</autonomia>
+<provincia>CANTABRIA</provincia>
+<matricula>S</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>SIERRAPANDO</poblacion>
+<fechahora_in",id-incidencia-1.282,incidencia, , ,-4.0306701,-4.0306701,43.3403343,2021/01/19 21:31:00
+283,CASTILLA-LEON,N-620,OBRAS EN GENERAL,2019/08/07 20:54:00, ,SA,AMARILLO,346.5,347.6,FUENTES DE OÑORO,SALAMANCA,SA908079188,AMBOS SENTIDOS,OBRAS,0,4,40.58985,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>SALAMANCA</provincia>
+<matricula>SA</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>FUENTES DE OÑORO</poblacion>
+<fechahora_",id-incidencia-1.283,incidencia, , ,-6.78434,-6.78434,40.58985,2021/01/19 21:31:00
+284,ANDALUCIA,SE-30,OBRAS EN GENERAL,2020/09/16 13:10:00, ,SE,VERDE,16.5,17.7,CAMAS,SEVILLA,SE009169251,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,1,37.3967059,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>SEVILLA</provincia>
+<matricula>SE</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>CAMAS</poblacion>
+<fechahora_ini>2020-09-16 13:",id-incidencia-1.284,incidencia, , ,-6.0255443,-6.0255443,37.3967059,2021/01/19 21:31:00
+285,ANDALUCIA,A-49,TRABAJOS DE MANTENIMIENTO,2021/01/19 09:17:00,SEVILLA,SE,VERDE,1,1,CAMAS,SEVILLA,SE101198137,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,37.3833998,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>SEVILLA</provincia>
+<matricula>SE</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>CAMAS</poblacion>
+<fechahora_ini>2021-",id-incidencia-1.285,incidencia, , ,-6.0347312,-6.0347312,37.3833998,2021/01/19 21:31:00
+286,ANDALUCIA,N-IV,OBRAS EN GENERAL,2020/09/16 08:30:00, ,SE,AMARILLO,559.5,554.8,DOS HERMANAS,SEVILLA,SE908129147,AMBOS SENTIDOS,OBRAS,0,5,37.2778885,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>SEVILLA</provincia>
+<matricula>SE</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>DOS HERMANAS</poblacion>
+<fechahora_ini>2020-09",id-incidencia-1.286,incidencia, , ,-5.9344216,-5.9344216,37.2778885,2021/01/19 21:31:00
+287,ANDALUCIA,SE-30,TRABAJOS DE MANTENIMIENTO,2020/10/23 07:17:00, ,SE,VERDE,13,13,SEVILLA,SEVILLA,SE010229288,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,4,37.3628039,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>SEVILLA</provincia>
+<matricula>SE</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>SEVILLA</poblacion>
+<fechahora_ini>202",id-incidencia-1.287,incidencia, , ,-6.0096291,-6.0096291,37.3628039,2021/01/19 21:31:00
+288,ANDALUCIA,SE-30,OBRAS EN GENERAL,2021/01/19 21:08:00, ,SE,AMARILLO,17.4,17.7,SEVILLA,SEVILLA,SE101198206,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,1,37.3967059,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ANDALUCIA</autonomia>
+<provincia>SEVILLA</provincia>
+<matricula>SE</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>SEVILLA</poblacion>
+<fechahora_ini>2021-01-19 2",id-incidencia-1.288,incidencia, , ,-6.0255443,-6.0255443,37.3967059,2021/01/19 21:31:00
+289,CASTILLA-LEON,A-1,REASFALTADO,2021/01/19 21:07:00,MADRID,SG,VERDE,108,108.7,CASTILLEJO DE MESLEON,SEGOVIA,SG101199221,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,1,41.2732198,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>SEGOVIA</provincia>
+<matricula>SG</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>CASTILLEJO DE MESLEON</poblacion>
+<fechahora_ini",id-incidencia-1.289,incidencia, , ,-3.6007278,-3.6007278,41.2732198,2021/01/19 21:31:00
+290,CASTILLA-LEON,SO-830,OBRAS EN GENERAL,2020/11/05 00:53:00, ,SO,VERDE,28.5,17,MONTENEGRO DE CAMEROS,SORIA,SO008059173,AMBOS SENTIDOS,OBRAS,0,3,42.0383254,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>SORIA</provincia>
+<matricula>SO</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>MONTENEGRO DE CAMEROS</poblacion>
+<fechahora_",id-incidencia-1.290,incidencia, , ,-2.7848474,-2.7848474,42.0383254,2021/01/19 21:31:00
+291,CATALUÑA,TV-7048,OBRAS EN GENERAL,2020/07/03 09:47:00,SELVA DEL CAMP,T,VERDE,2,1,ALMOSTER,TARRAGONA,OT005149171,AMBOS SENTIDOS,OBRAS,0,5,41.1862674,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ALMOSTER</poblacion>
+<fechahora_ini>2020-07-03",id-incidencia-1.291,incidencia, , ,1.1057797,1.1057797,41.1862674,2021/01/19 21:31:00
+292,CATALUÑA,TV-2127,OBRAS EN GENERAL,2021/01/18 13:20:00, ,T,VERDE,3.5,3,BARRI MARITIM DE SANT SALVADOR,TARRAGONA,OT101188190,AMBOS SENTIDOS,OBRAS,0,1,41.1884988,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>BARRI MARITIM DE SANT SALVADOR</poblacion>
+<fe",id-incidencia-1.292,incidencia, , ,1.5427098,1.5427098,41.1884988,2021/01/19 21:31:00
+293,CATALUÑA,T-301,OBRAS EN GENERAL,2021/01/11 19:35:00, ,T,VERDE,21.2,21.1,BENIFALLET,TARRAGONA,OT101118251,AMBOS SENTIDOS,OBRAS,0,1,40.9525069,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>BENIFALLET</poblacion>
+<fechahora_ini>2021-01-",id-incidencia-1.293,incidencia, , ,0.5030294,0.5030294,40.9525069,2021/01/19 21:31:00
+294,CATALUÑA,C-43,TRABAJOS DE MANTENIMIENTO,2020/06/09 13:19:00,GANDESA,T,VERDE,13.4,0,BENIFALLET,TARRAGONA,OT005288212,AMBOS SENTIDOS,OBRAS,0,2,40.98067,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>BENIFALLET</poblacion>
+<fechahora_ini",id-incidencia-1.294,incidencia, , ,0.51698,0.51698,40.98067,2021/01/19 21:31:00
+295,CATALUÑA,T-362,TRABAJOS DE MANTENIMIENTO,2021/01/18 13:49:00,ENLLAÇ AMB TV-3531,T,VERDE,1.5,0.2,BOT,TARRAGONA,OT101188196,SUR,OBRAS,0,3,41.04866,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>BOT</poblacion>
+<fechahora_ini>2021-0",id-incidencia-1.295,incidencia, , ,0.37064,0.37064,41.04866,2021/01/19 21:31:00
+296,CATALUÑA,T-2237,OBRAS EN GENERAL,2021/01/11 19:52:00, ,T,VERDE,0.8,0, ,TARRAGONA,OT101118254,AMBOS SENTIDOS,OBRAS,0,1,41.18358,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion></poblacion>
+<fechahora_ini>2021-01-11 19:52</",id-incidencia-1.296,incidencia, , ,0.58667,0.58667,41.18358,2021/01/19 21:31:00
+297,CATALUÑA,T-3231,OBRAS EN GENERAL,2020/07/03 09:50:00,SELVA DEL CAMP,T,VERDE,3.1,0, ,TARRAGONA,OT005148171,AMBOS SENTIDOS,OBRAS,0,5,41.1981,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion></poblacion>
+<fechahora_ini>2020-07-03 09:50</",id-incidencia-1.297,incidencia, , ,1.11482,1.11482,41.1981,2021/01/19 21:31:00
+298,CATALUÑA,TV-2441,OBRAS EN GENERAL,2021/01/18 13:18:00, ,T,VERDE,15.6,13.6,QUEROL,TARRAGONA,OT101189193,AMBOS SENTIDOS,OBRAS,0,1,41.396318,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>QUEROL</poblacion>
+<fechahora_ini>2021-01-18 1",id-incidencia-1.298,incidencia, , ,1.4560938,1.4560938,41.396318,2021/01/19 21:31:00
+299,CATALUÑA,TV-3021,OBRAS EN GENERAL,2021/01/11 19:50:00, ,T,VERDE,0.5,0,RASQUERA,TARRAGONA,OT101119256,AMBOS SENTIDOS,OBRAS,0,1,41.00266,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>RASQUERA</poblacion>
+<fechahora_ini>2021-01-11",id-incidencia-1.299,incidencia, , ,0.60053,0.60053,41.00266,2021/01/19 21:31:00
+300,CATALUÑA,T-711,OBRAS EN GENERAL,2021/01/11 19:43:00, ,T,VERDE,5,4.9,TORROJA DEL PRIORAT,TARRAGONA,OT101118252,AMBOS SENTIDOS,OBRAS,0,1,41.2127113,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>TORROJA DEL PRIORAT</poblacion>
+<fechahora_ini",id-incidencia-1.300,incidencia, , ,0.8121824,0.8121824,41.2127113,2021/01/19 21:31:00
+301,CATALUÑA,C-12,TRABAJOS DE MANTENIMIENTO,2020/06/09 13:18:00,BENIFALLET,T,VERDE,40.8,19,TORTOSA,TARRAGONA,OT005289200,AMBOS SENTIDOS,OBRAS,0,2,40.8191708,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>TORTOSA</poblacion>
+<fechahora_ini>20",id-incidencia-1.301,incidencia, , ,0.5137306,0.5137306,40.8191708,2021/01/19 21:31:00
+302,CATALUÑA,TV-2021,TRABAJOS DE MANTENIMIENTO,2021/01/14 10:40:00,LA NOU DE GAIÀ,T,VERDE,4.9,2.2,VESPELLA,TARRAGONA,OT101139171,AMBOS SENTIDOS,OBRAS,0,2,41.1962385,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>VESPELLA</poblacion>
+<fechahora_ini>2",id-incidencia-1.302,incidencia, , ,1.3631914,1.3631914,41.1962385,2021/01/19 21:31:00
+303,CATALUÑA,TV-7223,OBRAS EN GENERAL,2021/01/11 19:54:00, ,T,VERDE,3,2.9,VILALLONGA DEL CAMP,TARRAGONA,OT101118255,AMBOS SENTIDOS,OBRAS,0,1,41.2129315,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CATALUÑA</autonomia>
+<provincia>TARRAGONA</provincia>
+<matricula>T</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>VILALLONGA DEL CAMP</poblacion>
+<fechahora_ini",id-incidencia-1.303,incidencia, , ,1.1864345,1.1864345,41.2129315,2021/01/19 21:31:00
+304,ARAGON,A-223A,OBRAS EN GENERAL,2020/07/08 14:22:00, ,TE,ROJO,2,1.2,ALCORISA,TERUEL,TE007089285,AMBOS SENTIDOS,OBRAS,1,1,40.8938916,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ALCORISA</poblacion>
+<fechahora_ini>2020-07-08 14:2",id-incidencia-1.304,incidencia, , ,-0.3809616,-0.3809616,40.8938916,2021/01/19 21:31:00
+305,ARAGON,N-420,OBRAS EN GENERAL,2020/11/11 18:36:00, ,TE,ROJO,646,644,ESCUCHA,TERUEL,TE011118336,AMBOS SENTIDOS,OBRAS,0,1,40.7797048,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ESCUCHA</poblacion>
+<fechahora_ini>2020-11-11 18:36",id-incidencia-1.305,incidencia, , ,-0.8521305,-0.8521305,40.7797048,2021/01/19 21:31:00
+306,ARAGON,A-1412,OBRAS EN GENERAL,2020/09/15 13:13:00, ,TE,ROJO,16.7,11,MAZALEON,TERUEL,TE009159168,AMBOS SENTIDOS,OBRAS,0,1,41.07713,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>MAZALEON</poblacion>
+<fechahora_ini>2020-09-15 13:1",id-incidencia-1.306,incidencia, , ,0.11619,0.11619,41.07713,2021/01/19 21:31:00
+307,ARAGON,A-23,OBRAS EN GENERAL,2021/01/11 10:09:00, ,TE,AMARILLO,144,139,VILLARQUEMADO,TERUEL,TE101119110,CRECIENTE DE LA KILOMETRICA,OBRAS,0,1,40.5230157,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>TERUEL</provincia>
+<matricula>TE</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>VILLARQUEMADO</poblacion>
+<fechahora_ini>2021-01-11",id-incidencia-1.307,incidencia, , ,-1.2558082,-1.2558082,40.5230157,2021/01/19 21:31:00
+308,CANARIAS,TF-111,TRABAJOS DE MANTENIMIENTO,2020/11/20 07:00:00, ,TF,AMARILLO,2.9,1.9,CAMPITOS (LOS),SANTA CRUZ DE TENERIFE,TF101128013,AMBOS SENTIDOS,OBRAS,0,1,28.4754428,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CANARIAS</autonomia>
+<provincia>SANTA CRUZ DE TENERIFE</provincia>
+<matricula>TF</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>CAMPITOS (LOS)</poblacio",id-incidencia-1.308,incidencia, , ,-16.2606822,-16.2606822,28.4754428,2021/01/19 21:31:00
+309,CANARIAS,TF-61,REASFALTADO,2021/01/15 06:44:00, ,TF,VERDE,0.8,0,GÜIMAR,SANTA CRUZ DE TENERIFE,TF009019062,AMBOS SENTIDOS,OBRAS,0,3,28.31304,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CANARIAS</autonomia>
+<provincia>SANTA CRUZ DE TENERIFE</provincia>
+<matricula>TF</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>GÜIMAR</poblacion>
+<fechahora_ini>202",id-incidencia-1.309,incidencia, , ,-16.41162,-16.41162,28.31304,2021/01/19 21:31:00
+310,CANARIAS,LP-204,REASFALTADO,2020/10/19 09:30:00, ,TF,VERDE,1.4,0,SAN ANTONIO,SANTA CRUZ DE TENERIFE,TF010198252,AMBOS SENTIDOS,OBRAS,0,1,28.64671,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CANARIAS</autonomia>
+<provincia>SANTA CRUZ DE TENERIFE</provincia>
+<matricula>TF</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>SAN ANTONIO</poblacion>
+<fechahora_ini",id-incidencia-1.310,incidencia, , ,-17.76702,-17.76702,28.64671,2021/01/19 21:31:00
+311,CANARIAS,TF-333,REASFALTADO,2020/08/29 08:30:00,LOS REALEJOS,TF,AMARILLO,3,0,SAN JERONIMO,SANTA CRUZ DE TENERIFE,TF008299008,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,28.39384,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CANARIAS</autonomia>
+<provincia>SANTA CRUZ DE TENERIFE</provincia>
+<matricula>TF</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>SAN JERONIMO</poblacion>
+<fechahora_in",id-incidencia-1.311,incidencia, , ,-16.55075,-16.55075,28.39384,2021/01/19 21:31:00
+312,COMUNITAT VALENCIANA,CV-33,OBRAS EN GENERAL,2020/12/21 08:26:00, ,V,VERDE,5,4,ALBAL,VALENCIA,OV012219079,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,39.408667,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ALBAL</poblacion>
+<fechahora_ini>202",id-incidencia-1.312,incidencia, , ,-0.4304461,-0.4304461,39.408667,2021/01/19 21:31:00
+313,COMUNITAT VALENCIANA,N-225,OBRAS EN GENERAL,2019/07/18 08:49:00, ,V,AMARILLO,5.1,5.1,ALFARA DE LA BARONIA,VALENCIA,OV907189147,AMBOS SENTIDOS,OBRAS,0,2,39.7690626,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>ALFARA DE LA BARONIA</poblacion>
+<fe",id-incidencia-1.313,incidencia, , ,-0.3417226,-0.3417226,39.7690626,2021/01/19 21:31:00
+314,COMUNITAT VALENCIANA,CV-35,OBRAS EN GENERAL,2020/10/13 13:49:00, ,V,ROJO,23.3,23.8,BENISANO,VALENCIA,OV010138257,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,39.6231467,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>BENISANO</poblacion>
+<fechahora_ini>",id-incidencia-1.314,incidencia, , ,-0.5809451,-0.5809451,39.6231467,2021/01/19 21:31:00
+315,COMUNITAT VALENCIANA,A-7,OBRAS EN GENERAL,2021/01/19 21:20:00,BARCELONA,V,VERDE,315.9,318.3,BETERA,VALENCIA,OV101199223,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,1,39.5831585,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>BETERA</poblacion>
+<fechahora_ini>20",id-incidencia-1.315,incidencia, , ,-0.4124403,-0.4124403,39.5831585,2021/01/19 21:31:00
+316,COMUNITAT VALENCIANA,A-3,OBRAS EN GENERAL,2021/01/16 19:18:00, ,V,VERDE,247,319,BUÑOL,VALENCIA,OV101168031,AMBOS SENTIDOS,OBRAS,0,1,39.4339496,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>BUÑOL</poblacion>
+<fechahora_ini>20",id-incidencia-1.316,incidencia, , ,-0.7766122,-0.7766122,39.4339496,2021/01/19 21:31:00
+317,COMUNITAT VALENCIANA,A-3,OBRAS EN GENERAL,2021/01/12 19:41:00, ,V,VERDE,247,319,BUÑOL,VALENCIA,OV101129231,AMBOS SENTIDOS,OBRAS,0,1,39.4339496,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>BUÑOL</poblacion>
+<fechahora_ini>20",id-incidencia-1.317,incidencia, , ,-0.7766122,-0.7766122,39.4339496,2021/01/19 21:31:00
+318,COMUNITAT VALENCIANA,CV-35,OBRAS EN GENERAL,2020/12/02 08:25:00, ,V,VERDE,36.9,37,CASINOS,VALENCIA,OV012028110,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,39.6808607,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>CASINOS</poblacion>
+<fechahora_ini>2",id-incidencia-1.318,incidencia, , ,-0.6908478,-0.6908478,39.6808607,2021/01/19 21:31:00
+319,COMUNITAT VALENCIANA,CV-35,OBRAS EN GENERAL,2020/11/23 09:54:00, ,V,ROJO,38.1,37.1,CASINOS,VALENCIA,OV011239204,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,39.6808607,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>CASINOS</poblacion>
+<fechahora_ini>2",id-incidencia-1.319,incidencia, , ,-0.6908478,-0.6908478,39.6808607,2021/01/19 21:31:00
+320,COMUNITAT VALENCIANA,CV-35,OBRAS EN GENERAL,2020/11/23 09:53:00, ,V,ROJO,38.1,37.1,CASINOS,VALENCIA,OV011239203,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,39.6808607,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>CASINOS</poblacion>
+<fechahora_ini>2",id-incidencia-1.320,incidencia, , ,-0.6908478,-0.6908478,39.6808607,2021/01/19 21:31:00
+321,COMUNITAT VALENCIANA,CV-35,OBRAS EN GENERAL,2021/01/11 15:46:00, ,V,ROJO,53,53,CHULILLA,VALENCIA,OV009098260,CRECIENTE DE LA KILOMETRICA,OBRAS,0,4,39.6982889,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>CHULILLA</poblacion>
+<fechahora_ini>",id-incidencia-1.321,incidencia, , ,-0.8664849,-0.8664849,39.6982889,2021/01/19 21:31:00
+322,COMUNITAT VALENCIANA,CV-35,OBRAS EN GENERAL,2021/01/08 08:29:00, ,V,VERDE,30.9,30.8,DOMEÑO ANTIGUO,VALENCIA,OV101089056,CRECIENTE DE LA KILOMETRICA,OBRAS,0,2,39.6482958,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>DOMEÑO ANTIGUO</poblacion>
+<fechaho",id-incidencia-1.322,incidencia, , ,-0.6354055,-0.6354055,39.6482958,2021/01/19 21:31:00
+323,COMUNITAT VALENCIANA,CV-35,TRABAJOS DE MANTENIMIENTO,2021/01/11 08:46:00,VALENCIA,V,VERDE,23,26,LLIRIA,VALENCIA,OV101118060,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,1,39.6390018,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>TRABAJOS DE MANTENIMIENTO</causa>
+<poblacion>LLIRIA</poblacion>
+<fechaho",id-incidencia-1.323,incidencia, , ,-0.5851827,-0.5851827,39.6390018,2021/01/19 21:31:00
+324,COMUNITAT VALENCIANA,CV-35,OBRAS EN GENERAL,2021/01/18 11:34:00, ,V,AMARILLO,48.5,48,LOSA DEL OBISPO,VALENCIA,OV101188176,AMBOS SENTIDOS,OBRAS,0,1,39.7007355,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>LOSA DEL OBISPO</poblacion>
+<fechaho",id-incidencia-1.324,incidencia, , ,-0.8070629,-0.8070629,39.7007355,2021/01/19 21:31:00
+325,COMUNITAT VALENCIANA,A-3,OBRAS EN GENERAL,2021/01/10 21:41:00, ,V,VERDE,247,352,VALENCIA,VALENCIA,OV101109162,AMBOS SENTIDOS,OBRAS,0,1,39.46917,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>VALENCIA</poblacion>
+<fechahora_ini>",id-incidencia-1.325,incidencia, , ,-0.41788,-0.41788,39.46917,2021/01/19 21:31:00
+326,COMUNITAT VALENCIANA,A-3,OBRAS EN GENERAL,2021/01/19 21:11:00, ,V,VERDE,319,247,VILLARGORDO DEL CABRIEL,VALENCIA,OV101199222,AMBOS SENTIDOS,OBRAS,0,1,39.5501334,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>COMUNITAT VALENCIANA</autonomia>
+<provincia>VALENCIA</provincia>
+<matricula>V</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>VILLARGORDO DEL CABRIEL</poblacion>
+",id-incidencia-1.326,incidencia, , ,-1.5068484,-1.5068484,39.5501334,2021/01/19 21:31:00
+327,CASTILLA-LEON,A-62,MANTENIMIENTO DE PUENTES,2020/10/23 09:58:00, ,VA,VERDE,151.3,151.8,TORDESILLAS,VALLADOLID,VA010239162,DECRECIENTE DE LA KILOMETRICA,OBRAS,0,2,41.5101071,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>CASTILLA-LEON</autonomia>
+<provincia>VALLADOLID</provincia>
+<matricula>VA</matricula>
+<causa>MANTENIMIENTO DE PUENTES</causa>
+<poblacion>TORDESILLAS</poblacion>
+<fechaho",id-incidencia-1.327,incidencia, , ,-4.9912471,-4.9912471,41.5101071,2021/01/19 21:31:00
+328,ARAGON,A-68,OBRAS EN GENERAL,2020/04/13 08:07:00,LOGROÑO,Z,ROJO,269,268.5,FIGUERUELAS,ZARAGOZA,OZ905298119,CRECIENTE DE LA KILOMETRICA,OBRAS,0,5,41.7629086,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>ZARAGOZA</provincia>
+<matricula>Z</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>FIGUERUELAS</poblacion>
+<fechahora_ini>2020-04-13",id-incidencia-1.328,incidencia, , ,-1.1803641,-1.1803641,41.7629086,2021/01/19 21:31:00
+329,ARAGON,N-232,OBRAS EN GENERAL,2021/01/04 08:26:00, ,Z,AMARILLO,282.6,268.6,FIGUERUELAS,ZARAGOZA,OZ007038164,AMBOS SENTIDOS,OBRAS,0,3,41.76564,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>ZARAGOZA</provincia>
+<matricula>Z</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>FIGUERUELAS</poblacion>
+<fechahora_ini>2021-01-04",id-incidencia-1.329,incidencia, , ,-1.19366,-1.19366,41.76564,2021/01/19 21:31:00
+330,ARAGON,A-1503,OBRAS EN GENERAL,2020/12/23 09:22:00, ,Z,AMARILLO,40,30.3,JARQUE,ZARAGOZA,OZ008198188,AMBOS SENTIDOS,OBRAS,0,3,41.5670841,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>ZARAGOZA</provincia>
+<matricula>Z</matricula>
+<causa>OBRAS EN GENERAL</causa>
+<poblacion>JARQUE</poblacion>
+<fechahora_ini>2020-12-23 09:22",id-incidencia-1.330,incidencia, , ,-1.7115812,-1.7115812,41.5670841,2021/01/19 21:31:00
+331,ARAGON,A-2,REASFALTADO,2020/06/15 09:32:00, ,Z,VERDE,186,186,MONREAL DE ARIZA,ZARAGOZA,OZ006158216, ,OBRAS,0,1,41.3077381,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>OBRAS</tipo>
+<autonomia>ARAGON</autonomia>
+<provincia>ZARAGOZA</provincia>
+<matricula>Z</matricula>
+<causa>REASFALTADO</causa>
+<poblacion>MONREAL DE ARIZA</poblacion>
+<fechahora_ini>2020-06-15",id-incidencia-1.331,incidencia, , ,-2.1248088,-2.1248088,41.3077381,2021/01/19 21:31:00
+332,CANTABRIA,S-10,ACCIDENTE,2021/01/19 17:20:00,SOLARES,S,AMARILLO,12,14,SOLARES,CANTABRIA,OS101198194,CRECIENTE DE LA KILOMETRICA,RETENCION,0,1,43.3887297,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>RETENCION</tipo>
+<autonomia>CANTABRIA</autonomia>
+<provincia>CANTABRIA</provincia>
+<matricula>S</matricula>
+<causa>ACCIDENTE</causa>
+<poblacion>SOLARES</poblacion>
+<fechahora_ini>2021-01-19 17:",id-incidencia-1.332,incidencia, , ,-3.7419471,-3.7419471,43.3887297,2021/01/19 21:31:00
+333,CANTABRIA,A-8,ACCIDENTE,2021/01/19 17:33:00, ,S,AMARILLO,201,199,SOLARES,CANTABRIA,OS101199206,DECRECIENTE DE LA KILOMETRICA,RETENCION,0,2,43.3884539,"﻿<?xml version=""1.0"" encoding=""UTF-16""?><incidencia>
+<tipo>RETENCION</tipo>
+<autonomia>CANTABRIA</autonomia>
+<provincia>CANTABRIA</provincia>
+<matricula>S</matricula>
+<causa>ACCIDENTE</causa>
+<poblacion>SOLARES</poblacion>
+<fechahora_ini>2021-01-19 17:",id-incidencia-1.333,incidencia, , ,-3.7286967,-3.7286967,43.3884539,2021/01/19 21:31:00
