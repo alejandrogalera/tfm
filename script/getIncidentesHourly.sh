@@ -1,5 +1,5 @@
 #!/bin/bash
-DATE=`date "+%Y%m%d-%H"`
+DATE=`date "+%Y%m%d-%H%M"`
 #BASEDIR=/home/agalera/workspace/bigdata/00_TFM/tfm
 BASEDIR=/home/agalera/tfm
 BUCKETNAME=agaleratfm-bucket
@@ -14,4 +14,3 @@ gsutil cp ${BASEDIR}/data/opendata_esri/incid_traf/incid_traf_${DATE}.csv gs://$
 mv ${BASEDIR}/data/opendata_esri/incid_traf/incid_traf_${DATE}.csv ${BASEDIR}/data/opendata_esri/incid_traf/incid_traf_latest.csv
 #Copiamos el latest al bucket para que sea accesible por el script de PySpark
 gsutil cp ${BASEDIR}/data/opendata_esri/incid_traf/incid_traf_latest.csv gs://${BUCKETNAME}/incid_traf/incid_traf_latest.csv
-
