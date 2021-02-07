@@ -44,7 +44,7 @@ df.select('causa').distinct().show(truncate=False)
 dfCausas = df.select('causa').distinct() #A la web para los iconos
 #En el caso del listado de causas queremos sobreescribir.
 #De lo contrario daría error, ya que el vaor por defecto es "error", de entre overwrite, append, error o ignore.
-dfCausas.repartition(1).write.mode("overwrite").format("csv").save("gs://agaleratfm-bucket/indic_traf/causas.csv")
+dfCausas.repartition(1).write.mode("overwrite").format("csv").save("gs://agaleratfm-bucket/incid_traf/causas.csv")
 
 #Muy importante df.repartition(1) https://mungingdata.com/apache-spark/output-one-file-csv-parquet/
 
