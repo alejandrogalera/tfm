@@ -31,7 +31,7 @@ def main(sysargv):
     outputFilename = getOutputFilename(args, data)
 
     #parseFeatures data outputFile, write header, sep, write_query_date, exclude columns
-    parseFeatures(data, outputFilename, True,     ';', True,            ['xml_fragme'])
+    parseFeatures(data, outputFilename, True,     ',', True,            ['xml_fragme'])
 
 
 #https://stackoverflow.com/questions/436220/how-to-determine-the-encoding-of-text

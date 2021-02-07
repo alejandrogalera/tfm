@@ -10,7 +10,7 @@ spark = SparkSession(sc)
 df = spark.read\
           .option("header", "true")\
           .option("inferSchema", "true")\
-          .csv("gs://agaleratfm-bucket/Incidencias_sin_xml_fragment.csv")
+          .csv("gs://agaleratfm-bucket/incid_traf/incid_traf_latest.csv")
 df.printSchema()
 
 df.select('autonomia').distinct().show()
@@ -42,11 +42,13 @@ df.select('causa').distinct().show(truncate=False)
 #|MANTENIMIENTO DE PUENTES                  |
 #+------------------------------------------+
 dfCausas = df.select('causa').distinct() #A la web para los iconos
-dfCausas.repartition(1).write.format("csv").save("gs://agaleratfm-bucket/causas.csv")
+#En el caso del listado de causas queremos sobreescribir.
+#De lo contrario daría error, ya que el vaor por defecto es "error", de entre overwrite, append, error o ignore.
+dfCausas.repartition(1).write.mode("overwrite").format("csv").save("gs://agaleratfm-bucket/indic_traf/causas.csv")
 
 #Muy importante df.repartition(1) https://mungingdata.com/apache-spark/output-one-file-csv-parquet/
 
 dfCat = df.filter(F.col("autonomia") == "CATALUÑA")
 #https://stackoverflow.com/questions/33174443/how-to-save-a-spark-dataframe-as-csv-on-disk
-dfCat.repartition(1).write.format("csv").save("gs://agaleratfm-bucket/incidencias_spark")
+dfCat.repartition(1).write.mode("append").format("csv").save("gs://agaleratfm-bucket/incid_traf/incidCat.csv")
 
