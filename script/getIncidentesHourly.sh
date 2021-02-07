@@ -1,7 +1,7 @@
 #!/bin/bash
 DATE=`date "+%Y%m%d-%H"`
-BASEDIR=/home/agalera/workspace/bigdata/00_TFM/tfm
-#BASEDIR=/home/agalera/tfm
+#BASEDIR=/home/agalera/workspace/bigdata/00_TFM/tfm
+BASEDIR=/home/agalera/tfm
 BUCKETNAME=agaleratfm-bucket
 
 #Ejecutamos el python que se descarga el geojson y lo transforma a csv

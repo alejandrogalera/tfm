@@ -37,9 +37,17 @@ def main(sysargv):
 #https://stackoverflow.com/questions/436220/how-to-determine-the-encoding-of-text
 def getFileEncoding(filename):
     blob = open(filename, 'rb').read()
-    m = magic.open(magic.MAGIC_MIME_ENCODING)
-    m.load()
-    encoding = m.buffer(blob)  # "utf-8" "us-ascii" etc
+    
+    #Python3 magic
+    #m = magic.open(magic.MAGIC_MIME_ENCODING)
+    #m = magic.from_buffer(filename)
+    #m.load()
+    #encoding = m.buffer(blob)  # "utf-8" "us-ascii" etc
+
+    #python-magic
+    m = magic.Magic(mime_encoding=True)
+    encoding = m.from_buffer(blob)
+
     return encoding
 
 
