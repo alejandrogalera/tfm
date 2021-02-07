@@ -136,9 +136,15 @@ def parseFeatures(data, outfilename, enableHeader, separator, enableQueryDate, e
                     row.append(feature['properties'][colname])
 
             #Get geometry point coords.
-            if (feature['geometry']['type'] == 'Point') \
-                and (2 == len(feature['geometry']['coordinates'])):
-                row.extend(feature['geometry']['coordinates'])
+            try:
+                if (feature['geometry']['type'] == 'Point') \
+                    and (2 == len(feature['geometry']['coordinates'])):
+                    row.extend(feature['geometry']['coordinates'])
+            except TypeError as e:
+                #Rows with 'geometry': None provoke log and continue
+                print("Incorrect feature: "+str(feature))
+                #row.extend(['0','0'])
+                continue
 
             if (enableQueryDate):
                 row.append(query_date)
