@@ -1,9 +1,10 @@
 options(encoding = "UTF-8")
 Sys.setlocale(category="LC_ALL", locale = "es_ES.UTF8")
 
+.libPaths()
 
 library(googleCloudStorageR)
-library(googleAuthR)
+library(googleAuthR'')
 library(googleAnalyticsR)
 library(searchConsoleR)
 
@@ -21,7 +22,7 @@ my_gcp_project_id   <- "eloquent-theme-304023"
 Sys.setenv("GCS_DEFAULT_BUCKET" = "agaleratfm-bucket",
            "GCS_AUTH_FILE" = "/home/rstudio/script/eloquent-theme-304023-4eb83a51bea0.json")
 gcs_setup()
-#> gcs_setup()
+3#> gcs_setup()
 #ℹ ==Welcome to googleCloudStorageR v0.6.0 setup==
 #  This wizard will scan your system for setup options and help you with any that are missing. 
 #Hit 0 or ESC to cancel. 
