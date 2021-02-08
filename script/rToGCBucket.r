@@ -4,7 +4,7 @@ Sys.setlocale(category="LC_ALL", locale = "es_ES.UTF8")
 .libPaths()
 
 library(googleCloudStorageR)
-library(googleAuthR'')
+library(googleAuthR)
 library(googleAnalyticsR)
 library(searchConsoleR)
 
