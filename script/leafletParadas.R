@@ -51,6 +51,10 @@ htmlLeafletOSMPoblacion
 #Añadimos como marcadores los puntos de una línea.
 paradasL0242 <- paradasLineasNoDup[paradasLineasNoDup$Nombre_d_1==paradasLineasNoDup$Nombre_d_1[1],]
 
+#Vilafranca - El Vendrell -Tarragona -Port Aventura. Autocars del Penedés
+paradasL0808 <- paradasLineasNoDup[paradasLineasNoDup$Nombre_d_1=="L0808",]
+write.csv(paradasL0808, file = "data/r/paradasL0808.csv")
+
 dat <- data.frame(Longitude = paradasL0242$Longitude,
                   Latitude = paradasL0242$Latitude)
 
