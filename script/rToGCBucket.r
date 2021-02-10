@@ -1,5 +1,13 @@
+#!/usr/bin/env Rscript
 options(encoding = "UTF-8")
 Sys.setlocale(category="LC_ALL", locale = "es_ES.UTF8")
+
+args = commandArgs(trailingOnly = TRUE)
+if (length(args)>0)
+{
+  cat("Setting working dir to ",args[1])
+  setwd(args[1])
+}
 
 .libPaths()
 
