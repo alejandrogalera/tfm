@@ -25,7 +25,33 @@ dir("script/")
 incidTrafLatest <- read.csv("script/incid_traf_latest.csv", header = TRUE, sep = ',', encoding = 'utf-8')
 incidTrafCatLatest <- incidTrafLatest[incidTrafLatest$autonomia=="CATALUÑA",]
 
+
+#Depuramos los missings.
+
+
+#Obtenemos los posibles valores para los combo-box (select html) de la web
+getUniqueAndSave <- function(vect, filename) 
+{  
+  #Encoding(vect) <- "UTF-8"
+  #vect <- vect[!is.na(vect)]
+  aux <- paste( as.vector(trimws(unique(vect))), collapse='\n')
+  cat(aux)
+  Encoding(aux) <- "UTF-8"
+  write(aux, filename)
+  return(aux) 
+}
+
 colnames(incidTrafCatLatest)
+getUniqueAndSave(incidTrafLatest$autonomia, "autonomia.txt")
+getUniqueAndSave(incidTrafCatLatest$carretera, "carretera.txt")
+getUniqueAndSave(incidTrafLatest$causa, "causa.txt")
+getUniqueAndSave(incidTrafCatLatest$poblacion, "poblacion.txt")
+getUniqueAndSave(incidTrafLatest$nivel, "nivel.txt")
+getUniqueAndSave(incidTrafLatest$tipo, "tipo.txt")
+#https://stackoverflow.com/questions/46031256/populating-a-dropdown-list-with-values-from-a-text-file
+
+
+
 
 #####################
 # Creación icon set #

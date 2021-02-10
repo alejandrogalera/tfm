@@ -32,6 +32,13 @@ body {
   overflow-x: hidden;
 }
 
+select option {
+  margin: 40px;
+  background: white;
+  color: white;
+  text-shadow: 0 1px 0 white;
+}
+
 a,
 button {
   transition: all 0.3s ease;
@@ -115,15 +122,15 @@ small {
   color: #666768;
 }
 
-.navbar-light .navbar-nav .nav-item.green-highlight.active > .nav-link, 
-.navbar-light .navbar-nav .nav-item.green-highlight .nav-link.active, 
-.navbar-light .navbar-nav .nav-item.green-highlight .nav-link.show, 
+.navbar-light .navbar-nav .nav-item.green-highlight.active > .nav-link,
+.navbar-light .navbar-nav .nav-item.green-highlight .nav-link.active,
+.navbar-light .navbar-nav .nav-item.green-highlight .nav-link.show,
 .navbar-light .navbar-nav .nav-item.green-highlight .show > .nav-link {
   color: #006868;
 }
 
 .nav-item {
-  position: relative;  
+  position: relative;
 }
 
 .nav-link {
@@ -212,15 +219,15 @@ small {
 
 .btn-primary {
   background-color: white;
-  border: 0;  
+  border: 0;
   color: #3E3F40;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
-.btn-primary:not(:disabled):not(.disabled).active, 
-.btn-primary:not(:disabled):not(.disabled):active, 
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
   background-color: #495057;
   outline: none;
@@ -255,10 +262,10 @@ small {
   width: 110px;
   height: 110px;
   border: 1px solid #3E3F40;
-  border-radius: 50%;  
+  border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 60px;
@@ -302,7 +309,7 @@ small {
 .tm-call-to-action-description {
   margin-bottom: 55px;
   font-size: 1.1rem;
-  
+
 }
 
 p {
@@ -411,7 +418,7 @@ p {
 .tm-app-header {
   max-width: 644px;
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
   margin-bottom: 60px;
 }
 
@@ -427,8 +434,8 @@ p {
 .tm-app-feature-box {
   display: flex;
   align-items: center;
-  padding: 50px 40px; 
-  margin-bottom: 40px; 
+  padding: 50px 40px;
+  margin-bottom: 40px;
 }
 
 .tm-app-feature-icon {
@@ -458,7 +465,7 @@ p {
 .tm-services-parallax-header {
   min-height: 700px;
   display: flex;
-  align-items: center; 
+  align-items: center;
   margin-top: 42px;
   margin-bottom: 22px;
 }
@@ -471,7 +478,7 @@ p {
 }
 
 .tm-services-page-title {
-  font-size: 2.8rem;  
+  font-size: 2.8rem;
   padding-bottom: 37px;
 }
 
@@ -513,7 +520,7 @@ p {
 
 #tmServices .tabs a {
   display: flex;
-  align-items: center;  
+  align-items: center;
   text-align: left;
   text-decoration: none;
   text-transform: uppercase;
@@ -524,14 +531,14 @@ p {
   font-size: 20px;
   font-weight: 700;
   padding: 20px 30px;
-  transition: all 0.3s;  
+  transition: all 0.3s;
 }
 
 #tmServices .tabs .icon-wrap {
   width: 75px;
   height: 75px;
   border: 1px solid white;
-  border-radius: 50%;  
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -559,7 +566,7 @@ p {
 /* Testimonials */
 .tm-testimonials-section {
   padding-top: 45px;
-  padding-bottom: 90px;  
+  padding-bottom: 90px;
   margin-left: -35px;
   margin-right: -35px;
 }
@@ -583,7 +590,7 @@ p {
 }
 
 .tm-testimonial-box {
-  padding: 60px 30px 85px;  
+  padding: 60px 30px 85px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -598,7 +605,7 @@ p {
   height: 30px;
 }
 
-.slick-dots li {  
+.slick-dots li {
   margin: 8px;
 }
 
@@ -610,7 +617,7 @@ p {
 
 .slick-dots li button:before {
   font-family: inherit;
-  font-size: inherit;  
+  font-size: inherit;
   content: "\f45c";
   opacity: 0.5;
 }
@@ -627,16 +634,16 @@ p {
 /* Contact page */
 .tm-contact-form {
   height: 100%;
-  padding: 67px 115px 67px 70px;  
+  padding: 67px 115px 67px 70px;
   margin-right: 5px;
 }
 
 .tm-contact-text {
-  padding: 58px 95px 100px 80px;  
+  padding: 58px 95px 100px 80px;
   margin-left: 5px;
 }
 
-.tm-contact-col-left {  
+.tm-contact-col-left {
   margin-bottom: 0;
 }
 
@@ -719,7 +726,7 @@ p {
 
  .tm-feature-box {
    margin-bottom: 20px;
-   max-width: 600px;   
+   max-width: 600px;
  }
 
  .navbar-expand-lg .navbar-nav .nav-link {
@@ -739,7 +746,7 @@ p {
 
  .tm-tab-links {
    margin-right: 0;
-   margin-bottom: 40px;   
+   margin-bottom: 40px;
  }
 
  .tm-tab-links,
@@ -751,18 +758,18 @@ p {
  }
 
  .tm-contact-col-left {
-   margin-bottom: 40px;   
+   margin-bottom: 40px;
  }
 
 
   .tm-contact-form {
     margin-right: 0;
   }
-  
+
  .tm-contact-text {
    margin-left: 0;
  }
- 
+
 }
 
 @media (max-width: 849px) {
@@ -808,7 +815,7 @@ p {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    bottom: -80px;        
+    bottom: -80px;
   }
 
   .slick-dots li {

@@ -1,3 +1,54 @@
+<?php
+//index.php
+
+$error = '';
+$name = '';
+$email = '';
+$subject = '';
+$message = '';
+
+function clean_text($string)
+{
+ $string = trim($string);
+ $string = stripslashes($string);
+ $string = htmlspecialchars($string);
+ return $string;
+}
+
+if(isset($_POST["submit"]))
+{
+  $name = clean_text($_POST["name"]);
+  $email = clean_text($_POST["email"]);
+  $subject = clean_text($_POST["subject"]);
+  $message = clean_text($_POST["message"]);
+ }
+
+ if($error == '')
+ {
+  $file_open = fopen("contact_data.csv", "a");
+  $no_rows = count(file("contact_data.csv"));
+  if($no_rows > 1)
+  {
+   $no_rows = ($no_rows - 1) + 1;
+  }
+  $form_data = array(
+   'sr_no'  => $no_rows,
+   'name'  => $name,
+   'email'  => $email,
+   'subject' => $subject,
+   'message' => $message
+  );
+  fputcsv($file_open, $form_data);
+  $salida = shell_exec('rm -f /home/agalera/dead.letter');
+  $error = '<label class="text-success">Thank you for contacting us</label>';
+  $name = '';
+  $email = '';
+  $subject = '';
+  $message = '';
+ }
+}
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,6 +61,10 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/templatemo-style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body id="aboutPage">
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/bg-01.jpg">
@@ -19,7 +74,7 @@
             <div class="tm-brand-container tm-bg-white-transparent">
               <i class="fas fa-2x fa-bus tm-brand-icon"></i>
               <div class="tm-brand-texts">
-                <h1 class="tm-brand-name">BigData in Transport Sector</h1>
+                <h1 class="tm-brand-name">XXXXXXXXXXXXXXXXXXXXX</h1>
                 <p class="small">Master BigData UCM. Alejandro Galera</p>
               </div>
             </div>
@@ -116,7 +171,33 @@
             <div class="row">
                 <header class="col-12 text-center text-white tm-bg-black-transparent p-5 tm-app-header">
                     <h2 class="text-uppercase mb-3 tm-app-feature-header">App Features</h2>
-                    <p class="mb-0 small">Suspendisse finibus tellus eget sem lacinia, vel lacinia libero consequat. Sed imperdiet placerat vehicula.</p>
+    <form method="post">
+     <h3 align="center">Contact Form</h3>
+     <br />
+     <?php echo $error; ?>
+     <div class="form-group">
+      <label>Enter Name</label>
+      <input type="text" name="name" placeholder="Enter Name" class="form-control" value="<?php echo $name; ?>" />
+     </div>
+     <div class="form-group">
+      <label>Enter Email</label>
+      <input type="text" name="email" class="form-control" placeholder="Enter Email" value="<?php echo $email; ?>" />
+     </div>
+     <div class="form-group">
+      <label>Enter Subject</label>
+      <input type="text" name="subject" class="form-control" placeholder="Enter Subject" value="<?php echo $subject; ?>" />
+     </div>
+     <div class="form-group">
+      <label>Enter Message</label>
+      <textarea name="message" class="form-control" placeholder="Enter Message"><?php echo $message; ?></textarea>
+     </div>
+     <div class="form-group" align="center">
+      <input type="submit" name="submit" class="btn btn-info" value="Submit" />
+     </div>
+    </form>
+
+<!--                    <p class="mb-0 small">Suspendisse finibus tellus eget sem lacinia, vel lacinia libero consequat. Sed imperdiet placerat vehicula.</p>
+-->
                 </header>
             </div>
 
