@@ -1,7 +1,5 @@
 #!/usr/bin/env Rscript
-#Setup del sistema de codificación.
-#Este script está preparado para ser ejecutado una vez y depurar la generación de distintos scripts específicos por 
-#Tareas.
+#Este script se ejecuta desde la web para generar nuevo widget actualizado con el csv latest de incidencias de tráfico.
 options(encoding = "UTF-8")
 Sys.setlocale(category="LC_ALL", locale = "es_ES.UTF8")
 
@@ -18,7 +16,7 @@ library(htmlwidgets) #Guardar gráficos en html.
 
 #Manejo de argumentos de entrada con valor por defecto del WORKDIR si no se 
 #actualiza por argumentos de línea de comandos.
-WORKDIR <- '.'
+WORKDIR <- '.' #raiz de la web
 args = commandArgs(trailingOnly = TRUE)
 if (length(args)>0)
 {
@@ -28,22 +26,8 @@ if (length(args)>0)
 }
 
 
-#Cargamos los datos procesados
-load("data/r/catalunyaPoblacMap.RData")          #Para el mapa base.
-load("data/r/paradasLineasNoDupMunicipio.RData") #Para un tipo de marcadores
-#load("data/r/incidentesTrafico.RData")   #Para el otro tipo de marcadores: incidentes de tráfico.
-load("data/r/fullData.RData")                    #Para el gasto medio en transporte por municipio.
-
-#Guardamos para la web el listado de poblaciones.
-#Para su compatibilidad con los datos de Esri, lo pasamos a mayúsculas además de ordenarlas.
-orderedPobList <- catalunyaPoblacMap$NAME_4[order(catalunyaPoblacMap$NAME_4)]
-write(toupper(orderedPobList), file = "web/select/poblacion.txt")
-
-
-
-#Primero leemos de data/r/
-dir("script/")
-incidTrafLatest <- read.csv("script/incid_traf_latest.csv", header = TRUE, sep = ',', encoding = 'utf-8')
+#Leemos de data/r/
+incidTrafLatest <- read.csv("incid_traf_latest.csv", header = TRUE, sep = ',', encoding = 'utf-8')
 #Reformateamos las mayusculas/minúsculas. Por ejemplo, en la variable sentido existe
 #tanto "AMBOS SENTIDOS" como "Ambos sentidos"
 unique(incidTrafLatest$sentido)
@@ -82,23 +66,11 @@ getUniqueAndSave <- function(vect, filename)
   return(aux) 
 }
 
-colnames(incidTrafCatLatest)
-#Guardamos los listados txt en el directorio select relativo al workdir
-filef <- paste(WORKDIR, "/web/select/autonomia.txt", sep = "")
-getUniqueAndSave(incidTrafLatest$autonomia, paste(WORKDIR, "/web/select/autonomia.txt", sep = ""))
-getUniqueAndSave(incidTrafCatLatest$carretera, paste(WORKDIR, "/web/select/carretera.txt", sep = ""))
-getUniqueAndSave(incidTrafLatest$causa, paste(WORKDIR, "/web/select/causa.txt", sep = ""))
-#La población ya la hemos almacenado a partir de catalunyaPoblacMap al principio del script.
-getUniqueAndSave(incidTrafLatest$nivel, paste(WORKDIR, "/web/select/nivel.txt", sep = ""))
-getUniqueAndSave(incidTrafLatest$tipo, paste(WORKDIR, "/web/select/tipo.txt", sep = ""))
-#https://stackoverflow.com/questions/46031256/populating-a-dropdown-list-with-values-from-a-text-file
-unique(incidTrafLatest$sentido)
+#Los listados txt en el directorio select relativo al workdir para los combobox no es necesario generarlos de nuevo
 
 #####################
 # Creación icon set #
 #####################
-#https://stat.ethz.ch/R-manual/R-devel/library/base/html/trimws.html
-
 #Hay que realizar una agrupación semántica de todas las causas que se puedan representar con un mismo icono.
 #Por ejemplo, "CERRADO TAL CAMINO" = "CERRADO" = "CARRETERA CORTADA EN ESTE SENTIDO".
 #Del mismo modo, "OBRAS EN GENERAL" = "OBRAS" = "MANTENIMIENTO" = "REASFALTADO".
@@ -169,10 +141,7 @@ incidTrafCatLatest$causa_group[is.na(incidTrafCatLatest$causa_group)]     <- "ot
 
 
 #Con ello resumimos un total de 11 iconos (que podría aumentarse) para representar todas las incidencias, 
-#asignando los NA al valor "other".
-unique(incidTrafCatLatest$causa_group)
-colnames(incidTrafCatLatest)
-
+#asignando los NA al valor "other_X".
 ### I edit this png file and created my own marker.
 ### https://raw.githubusercontent.com/lvoogdt/Leaflet.awesome-markers/master/dist/images/markers-soft.png
 incidIcons <- iconList(fog_1         = makeIcon("icon/01.1.niebla.png", iconWidth = 24, iconHeight =24),
@@ -233,17 +202,5 @@ htmlLeafletOSMIncidTraf <- leaflet(data = incidTrafCatLatest[1:100,]) %>%
                            "Sentido: ", sentido, "<br>",
                            "Municipio: ", poblacion, "<br>",
                            "Fecha: ", fechahora_, "<br>"))
-saveWidget(htmlLeafletOSMIncidTraf, file="/maps/htmlLeafletOSMIncidTraf.html")
-
-
-
-
-######################
-# Incidente re-route #
-######################
-#Vilafranca - El Vendrell -Tarragona -Port Aventura. Autocars del Penedés
-paradasL0808 <- read.csv(file = "data/r/paradasL0808.csv", header = TRUE, encoding = "utf-8")
-paradaJuliCesar <- paradasL0808[paradasL0808$FID==9166,]
-paradaJuliCesar$Latitude
-paradaJuliCesar$Longitude
+saveWidget(htmlLeafletOSMIncidTraf, file="maps/htmlLeafletOSMIncidTraf.html")
 
