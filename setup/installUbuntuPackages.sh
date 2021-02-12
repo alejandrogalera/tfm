@@ -8,6 +8,7 @@ sudo echo "LC_ALL=\"es_ES.UTF-8\""
 sudo echo "LANG=\"es_ES.UTF-8\""
 
 #Ubuntu libraries for python
+sudo apt-get install python3-dev libffi-dev libssl-dev python3-pip
 sudo apt-get install -y python3-magic
 sudo pip3 install spark
 
