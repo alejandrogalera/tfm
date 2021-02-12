@@ -16,6 +16,10 @@ library(stringr)  #Para str_split_fixed
 library(leaflet)  #Mapas web interactivos.
 library(htmlwidgets) #Guardar gráficos en html.
 
+library(tmaptools) #Para OSRM
+library(osrm)
+
+
 #Manejo de argumentos de entrada con valor por defecto del WORKDIR si no se 
 #actualiza por argumentos de línea de comandos.
 WORKDIR <- '.'
@@ -246,4 +250,51 @@ paradasL0808 <- read.csv(file = "data/r/paradasL0808.csv", header = TRUE, encodi
 paradaJuliCesar <- paradasL0808[paradasL0808$FID==9166,]
 paradaJuliCesar$Latitude
 paradaJuliCesar$Longitude
+
+
+#ROUTING
+objetivo<-"Villafranca del Penedes, Tarragona"
+geo_output<-geocode_OSM(objetivo, details=TRUE, return.first.only = TRUE, as.data.frame = T )
+
+laty=geo_output$lat
+lonx=geo_output$lon
+
+leaflet(data.frame(lonx,laty)) %>% 
+  addTiles() %>% 
+  addMarkers(lng=~lonx, lat=~laty)
+
+
+
+
+#Al revés si tengo una localización laty=40.4, lonx=-3.74, puedo encontrar la dirección
+
+rev_geocode_OSM(x=lonx, y=laty)
+
+
+destino<-"Tarragona, Tarragona"
+geo_output<-geocode_OSM(destino, details=TRUE, return.first.only = TRUE, as.data.frame = T )
+
+
+laty_destino=geo_output$lat
+lonx_destino=geo_output$lon
+
+ruta<-osrmRoute(src= c(lonx,laty), dst = c(lonx_destino, laty_destino), overview =  "full", osrm.profile = "car")
+ruta2<-osrmRoute(src= c(lonx,laty), dst = c(lonx_destino, laty_destino), overview =  "full", osrm.profile = "car", exclude="motorway")
+
+#proporciona el tiempo en minutos y la distancia en kilómetros
+#ruta@data
+nrow(ruta)
+nrow(ruta2)
+
+# Ahora podemos añadirlo al leafleat
+leaflet(data=data.frame(ruta)) %>% 
+  addTiles() %>%
+  addPolylines(lng=~lon, lat=~lat, color="red")
+#,label = (paste0(ruta$duration, " minutos, ", ruta$distance, " kms")))
+#addMarkers(lng=~lon, lat=~lat) %>% 
+leaflet(data=data.frame(ruta2)) %>% 
+  addTiles() %>%
+  addPolylines(lng=~lon, lat=~lat, color="red")
+
+
 

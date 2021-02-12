@@ -1,3 +1,6 @@
+#Opción 1: Econometría a ver si hay correlación espacial del gasto en transporte público con el número de paradas de bus.
+#Opción 2: Econometría a ver si hay correlación entre tamaño de población -> Gasto total municipal -> en función de la renta?
+
 
 #' # Objetivo
 #' Queremos estimar la ley de OKUN con datos Municipales,

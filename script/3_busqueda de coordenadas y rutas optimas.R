@@ -10,12 +10,10 @@ laty=geo_output$lat
 lonx=geo_output$lon
 
 library(leaflet)
-
+library(sp)
 leaflet(data.frame(lonx,laty)) %>% 
   addTiles() %>% 
   addMarkers(lng=~lonx, lat=~laty)
-
-
 
 
 #Al revés si tengo una localización laty=40.4, lonx=-3.74, puedo encontrar la dirección
@@ -32,6 +30,11 @@ geo_output<-geocode_OSM(destino, details=TRUE, return.first.only = TRUE, as.data
 
 laty_destino=geo_output$lat
 lonx_destino=geo_output$lon
+
+leaflet(data.frame(c(lonx,lonx_destino),c(laty,laty_destino))) %>% 
+  addTiles() %>% 
+  addMarkers(lng=~c(lonx,lonx_destino), lat=~c(laty, laty_destino))
+
 
 ruta<-osrmRoute(src= c(lonx,laty), dst = c(lonx_destino, laty_destino), returnclass = "sp" , overview =  "full")
 
