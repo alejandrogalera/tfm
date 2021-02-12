@@ -4,17 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Parallo - Services</title>
+    <title>BIDASIT - BigData Services</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/templatemo-style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--Para el fondo de los combo-box e iframe-->
+    <!-- https://stackoverflow.com/questions/8366957/how-to-center-an-iframe-horizontally -->
+    <style>
+      select option {
+        background-color: #6b6b6b;
+        font-weight: bold;
+        color: white;
+      }
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        display: block; /* remove extra space below image */
+      }
+      iframe {
+        display: block;
+        border-style:none;
+      }
+    }
+    </style>
   </head>
-<!--
-Parallo Template
-https://templatemo.com/tm-534-parallo
--->
+
   <body id="servicesPage">
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/bg-01.jpg">
       <div class="container-fluid">
@@ -23,7 +44,7 @@ https://templatemo.com/tm-534-parallo
             <div class="tm-brand-container tm-bg-white-transparent">
               <i class="fas fa-2x fa-bus tm-brand-icon"></i>
               <div class="tm-brand-texts">
-                <h1 class="tm-brand-name">BigData in Transport Sector</h1>
+                <h1 class="tm-brand-name">BIDASIT<br>BigData in Transport Sector</h1>
                 <p class="small">Master BigData UCM. Alejandro Galera</p>
               </div>
             </div>
@@ -46,17 +67,17 @@ https://templatemo.com/tm-534-parallo
                   <ul class="navbar-nav">
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="index.html"
+                      <a style="color:#6b6b6b;font-size:20px;" class="nav-link" href="index.html"
                         >Home</a
                       >
                     </li>
                     <li class="nav-item green-highlight active">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="#">BigData<span class="sr-only">(current)</span></a>
+                      <a style="color:#6b6b6b;font-size:20px;" class="nav-link" href="#">BigData<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="about.html">Business Intelligence</a>
+                      <a style="color:#6b6b6b;font-size:20px;" class="nav-link" href="register.php">Register Incident</a>
                     </li>
 <!--                    <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
@@ -65,7 +86,7 @@ https://templatemo.com/tm-534-parallo
 -->
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="contact.html">Contact</a>
+                      <a style="color:#6b6b6b;font-size:20px;" class="nav-link" href="contact.html">Contact</a>
                     </li>
                   </ul>
                 </div>
@@ -76,43 +97,64 @@ https://templatemo.com/tm-534-parallo
 
         <!-- Services header -->
         <section class="row" id="tmServices">
+          <header class="col-12 tm-register-header">
+            <h2 class="text-uppercase text-center text-dark tm-register-page-title">BigData Architecture</h2>
+            <hr class="tm-register-title-hr">
+          </header>
+          <div class="col-12">
+            <img src="img/overview_alpha.png" alt="Cloud Sky" class="center">
+          </div>
+
+
           <div class="col-12">
             <div class="parallax-window tm-services-parallax-header"
                  data-parallax="scroll"
-                 data-z-index="10"
+                 data-z-index="8"
                  data-image-src="img/bus_nieve.jpg">
 
                  <div class="tm-bg-black-transparent text-center tm-services-header">
                     <h2 class="text-uppercase tm-services-page-title">Our Services</h2>
                     <p class="tm-services-description mb-0 small">
-                        This is a parallax movement background image "coffee glass". <br>
-                        Aliquam egestas lectus semper enim malesuada, in convallis nunc sagittis.<br>
-                        Pellentesque quis tellus vel tortor malesuada egestas.    
+                        Our services includes multi-source and heterogeneous data to provide clients information to re-schedule lines,
+                        drivers, etc in order to optimize resources and benefits, avoiding traffic incidents if it's possible re-routing bus lines.
+                        Our system is able to work with worldwide maps, cutting-edge technology and all projections for geospatial data.
+                        <br>
+                        Furthermore, another service is provide bus companies information to extend their networks around a region. The decision
+                        for making new bus stops or lines will be taken depending on population, and household expenditure in public transport and
+                        private car. These last are potential users considering some of them drive because in small towns sometimes there're not
+                        a bus stop close enough.
+                        <br>
+                        Finally, our BigData system is able to create a Data Lake with datasets that are updated constantly. For example, OpenData
+                        portal from Esri just provides current data but not historic. BIDASIT is saving periodically these data to work with them
+                        doing predictions based also in temporal series.
                     </p>
                 </div>
             </div>
-          </div>  
+          </div>
 
+          <div class="parallax-window tm-services-parallax-header">
+            <h2 class="text-uppercase tm-services-page-title">Our Servicesdddd</h2>
+          </div>
           <div class="col-12 tm-tabs-container">
               <div class="tm-tab-links">
                     <ul class="tabs clearfix" data-tabgroup="first-tab-group">
                         <li><a href="#tab1" class="active">
                             <div class="icon-wrap"><i class="fas fa-1x fa-hubspot"></i></div>
-                            Service Tab One                        
+                            Service Tab One
                         </a></li>
                         <li><a href="#tab2" class="">
                             <div class="icon-wrap"><i class="fab fa-1x fa-calendar"></i></div>
-                            Service Tab Two             
+                            Service Tab Two
                         </a></li>
                         <li><a href="#tab3" class="">
                             <div class="icon-wrap"><i class="fab fa-1x fa-history"></i></div>
-                            Service Tab Three             
-                        </a></li>                    
+                            Service Tab Three
+                        </a></li>
                     </ul>
-                </div>  
+                </div>
                 <div class="tm-tab-contents">
                     <div id="first-tab-group" class="tabgroup">
-                        <div id="tab1">                            
+                        <div id="tab1">
                             <div class="text-content">
                                 <h3 class="tm-service-tab-title">Service Tab One</h3>
                                 <!--<script type="text/javascript">var script = document.createElement('script');function lastNodo(obj){if (obj.children.length>0)return lastNodo(obj.children[obj.children.length-1]);else return obj;}script.setAttribute('type', 'text/javascript');script.setAttribute('src', 'https://www.ine.es/menus/plantillas/jaxiT3/js/widget.js');script.dataPost='t=36193&ratio=0.9&nocab=1&btnWidgetGrafico.x=15&btnWidgetGrafico.y=23&rows=102041&rows=102042&rows=p_per&columns=p_oper&oper=402&cri102041=3287427&cri102042=*&periodo=255~2020&periodo=254~2020&periodo=253~2020&periodo=252~2020&periodo=251~2020&periodo=250~2020&periodo=249~2020&periodo=248~2020&periodo=247~2020&periodo=246~2020&periodo=245~2020&periodo=244~2020&periodo=243~2020&periodo=242~2020&periodo=241~2020&periodo=240~2020&periodo=239~2020&periodo=238~2020&periodo=237~2020&periodo=236~2020&periodo=235~2020&periodo=234~2020&periodo=233~2020&periodo=232~2020&periodo=231~2020&periodo=230~2020&periodo=229~2020&periodo=228~2020&periodo=227~2020&periodo=226~2020&periodo=225~2020&periodo=224~2020&periodo=223~2020&periodo=222~2020&periodo=221~2020&periodo=220~2020&periodo=219~2020&periodo=218~2020&periodo=217~2020&periodo=216~2020&periodo=215~2020&periodo=214~2020&periodo=213~2020&periodo=212~2020&periodo=211~2020&periodo=210~2020&periodo=209~2020&periodo=208~2020&periodo=207~2020&periodo=206~2020&periodo=205~2020&periodo=204~2020&periodo=203~2020&periodo=202~2020&periodo=201~2020&periodo=200~2020&periodo=199~2020&periodo=198~2020&periodo=197~2020&periodo=196~2020&periodo=195~2020&periodo=194~2020&periodo=193~2020&periodo=192~2020&periodo=191~2020&periodo=190~2020&periodo=189~2020&periodo=188~2020&periodo=187~2020&periodo=186~2020&periodo=185~2020&periodo=184~2020&periodo=183~2020&periodo=182~2020&periodo=181~2020&periodo=180~2020&periodo=179~2020&periodo=178~2020&periodo=177~2020&periodo=176~2020&periodo=175~2020&periodo=174~2020&periodo=173~2020&periodo=171~2020&periodo=169~2020&periodo=167~2020&periodo=165~2020&periodo=163~2020&periodo=161~2020&periodo=159~2020&columnas_grafico=per&ejeHorizontal=per&tipoGrafico=lineas&L=0&p_widgetFormGrafico=1&nult=&w_legend=false&w_contorno_col=B5D2A0&w_titulo=true&w_ancho_widget=800px&w_alto_widget=291px';script.padre=lastNodo(document.getElementsByTagName('body')[0]);script.onload = function(event){var aux=this.padre;this.padre=null;if (aux!=null)PintaWidgetGrafica(aux,this.dataPost);};script.onreadystatechange = function () {if (this.readyState === 'complete' || this.readyState === 'loaded') {var aux=this.padre;this.padre=null;if (aux!=null)PintaWidgetGrafica(aux,this.dataPost);}};document.head.appendChild(script);</script>
@@ -121,7 +163,7 @@ https://templatemo.com/tm-534-parallo
                                     ipsum quis suscipit lacinia. Mauris turpis libero, iaculis non dictum ac, ornare a massa.
                                     Duis id lorem purus. Fusce viverra ullamcorper metus. Curabitur puvinar suscipit sapien
                                     ac blandit. Aliquam vel pulvinar purus, sit amet luctus urna.
-                                </p>-->                            
+                                </p>-->
                                 <img src="https://d500.epimg.net/cincodias/imagenes/2021/01/19/extras/1611069514_548609_1611137822_noticia_normal_recorte1.jpg" width="600" height="200"/>
                                 <p class="mb-0">
                                     Nam consequat, leo vitae aliquet dignissim, leo est laoreet nibh, nec dictum libero justo
@@ -133,13 +175,13 @@ https://templatemo.com/tm-534-parallo
                             <div class="text-content">
                                 <h3 class="tm-service-tab-title">Service Tab Two</h3>
                                 <p class="tm-service-tab-p">Nam consequat, leo vitae aliquet dignissim, leo est laoreet nibh, nec dictum libero justo
-                                    vitae dolor. Donec tristique eros at nisi elementum efficitur. Proin ornare feugiat ex placerat pellenteqsue. Nulla convallis est volutpat ex ultrices facilisis.                                
-                                </p>                            
+                                    vitae dolor. Donec tristique eros at nisi elementum efficitur. Proin ornare feugiat ex placerat pellenteqsue. Nulla convallis est volutpat ex ultrices facilisis.
+                                </p>
                                 <p class="mb-0">
                                     Etiam egestas metus vitae est interdum, in eleifend nunc volutpat. Aliquam molestie
                                     ipsum quis suscipit lacinia. Mauris turpis libero, iaculis non dictum ac, ornare a massa.
                                     Duis id lorem purus. Fusce viverra ullamcorper metus. Curabitur puvinar suscipit sapien
-                                    ac blandit. Aliquam vel pulvinar purus, sit amet luctus urna.    
+                                    ac blandit. Aliquam vel pulvinar purus, sit amet luctus urna.
                                 </p>
                             </div>
                         </div>
@@ -149,11 +191,11 @@ https://templatemo.com/tm-534-parallo
                                 <p class="tm-service-tab-p">Mauris turpis libero, iaculis non dictum ac, ornare a massa.
                                     Duis id lorem purus. Fusce viverra ullamcorper metus. Curabitur puvinar suscipit sapien
                                     ac blandit. Aliquam vel pulvinar purus, sit amet luctus urna. Nulla convallis est volutpat ex ultrices facilisis.
-                                </p>                            
+                                </p>
                                 <p class="mb-0">
                                     Etiam egestas metus vitae est interdum, in eleifend nunc volutpat. Aliquam molestie
                                     ipsum quis suscipit lacinia. Nam consequat, leo vitae aliquet dignissim, leo est laoreet nibh, nec dictum libero justo
-                                    vitae dolor. Donec tristique eros at nisi elementum efficitur. Proin ornare feugiat ex placerat pellenteqsue. 
+                                    vitae dolor. Donec tristique eros at nisi elementum efficitur. Proin ornare feugiat ex placerat pellenteqsue.
                                 </p>
                             </div>
                         </div>
@@ -161,13 +203,13 @@ https://templatemo.com/tm-534-parallo
                     </div>
                 </div>
 
-            </div>     
+            </div>
         </section>
 
         <!-- Page footer -->
         <footer class="row">
           <p class="col-12 text-white text-center tm-copyright-text">
-            Copyright &copy; 2020 App Landing Page. 
+            Copyright &copy; 2020 App Landing Page.
             Designed by <a href="#" class="tm-copyright-link">TemplateMo</a>
           </p>
         </footer>
@@ -181,7 +223,7 @@ https://templatemo.com/tm-534-parallo
     <script>
         $(function(){
             $('.tabgroup > div').hide();
-            $('.tabgroup > div:first-of-type').show();  
+            $('.tabgroup > div:first-of-type').show();
             $('.tabs a').click(function(e){
               e.preventDefault();
               var $this = $(this),
@@ -197,11 +239,11 @@ https://templatemo.com/tm-534-parallo
               if($(window).width() < 992) {
                   $('html, body').animate({
                       scrollTop: $("#first-tab-group").offset().top
-                  }, 200);    
-              }              
-            })  
+                  }, 200);
+              }
+            })
         });
-        
+
     </script>
   </body>
 </html>

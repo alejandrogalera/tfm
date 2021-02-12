@@ -190,7 +190,7 @@ if (isset($_POST["submit"])) {
     </style>
   </head>
 
-  <body id="aboutPage">
+  <body id="registerPage">
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/bg-01.jpg">
       <div class="container-fluid">
         <div class="row tm-brand-row">
@@ -250,19 +250,19 @@ if (isset($_POST["submit"])) {
           </div>
         </div>
 
-        <!-- About -->
-        <section class="row" id="tmAbout">
-          <header class="col-12 tm-about-header">
-            <h2 class="text-uppercase text-center text-dark tm-about-page-title">New traffic incident DEMO</h2>
-            <hr class="tm-about-title-hr">
+        <!-- Register -->
+        <section class="row" id="tmRegister">
+          <header class="col-12 tm-register-header">
+            <h2 class="text-uppercase text-center text-dark tm-register-page-title">New traffic incident DEMO</h2>
+            <hr class="tm-register-title-hr">
           </header>
 
           <div class="col-lg-4">
 
-            <div class="tm-bg-black-transparent tm-about-box">
-              <div class="tm-about-number-container">0.1</div>
-              <h3 class="tm-about-name">New incident detected</h3>
-              <p class="tm-about-description">
+            <div class="tm-bg-black-transparent tm-register-box">
+              <div class="tm-register-number-container">0.1</div>
+              <h3 class="tm-register-name">New incident detected</h3>
+              <p class="tm-register-description">
                 A new traffic incident could be notified by Police Department or official public transport drivers too filling a form like the one below.
               </p>
               <img src="img/incident.jpg" alt="Cloud Sky">
@@ -270,10 +270,10 @@ if (isset($_POST["submit"])) {
           </div>
 
           <div class="col-lg-4">
-            <div class="tm-bg-black-transparent tm-about-box">
-              <div class="tm-about-number-container">0.2</div>
-              <h3 class="tm-about-name">Append to current CSV incident file</h3>
-              <p class="tm-about-description">
+            <div class="tm-bg-black-transparent tm-register-box">
+              <div class="tm-register-number-container">0.2</div>
+              <h3 class="tm-register-name">Append to current CSV incident file</h3>
+              <p class="tm-register-description">
                 New incident is appended to CSV previously taken from OpenData, processed in DataProc with PySpark and R.
               </p>
               <img src="img/incidentcsv.png" alt="Cloud Sky">
@@ -282,10 +282,10 @@ if (isset($_POST["submit"])) {
           </div>
 
           <div class="col-lg-4">
-            <div class="tm-bg-black-transparent tm-about-box">
-              <div class="tm-about-number-container">0.3</div>
-              <h3 class="tm-about-name">Map <br>updated</h3>
-              <p class="tm-about-description">
+            <div class="tm-bg-black-transparent tm-register-box">
+              <div class="tm-register-number-container">0.3</div>
+              <h3 class="tm-register-name">Map <br>updated</h3>
+              <p class="tm-register-description">
                 After having filled the form, the map will be updated with this new incident. If it's a blocking one, Public Sector companies could re-schedule routes.
               </p>
               <img src="img/incident_plot.png" alt="Cloud Sky">

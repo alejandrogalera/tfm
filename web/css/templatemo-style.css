@@ -234,6 +234,15 @@ small {
   border: none;
 }
 
+#container{width:100%; text-align: center;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
 /* Features section */
 #tmFeatures {
   padding-top: 68px;
@@ -362,24 +371,24 @@ p {
   color: #0fb7f0;
 }
 
-/* About Page */
-#tmAbout {
+/* Register Page */
+#tmRegister {
   padding-bottom: 80px;
 }
 
-.tm-about-page-title {
+.tm-register-page-title {
   font-size: 2.5rem;
   margin-top: 72px;
   margin-bottom: 40px;
 }
 
-.tm-about-box {
+.tm-register-box {
   padding: 25px;
   max-width: 360px;
   margin-bottom: 30px;
 }
 
-.tm-about-title-hr {
+.tm-register-title-hr {
   border-top-color: black;
   max-width: 450px;
   margin-bottom:;
@@ -390,11 +399,11 @@ p {
   color: white;
 }
 
-.tm-about-header {
+.tm-register-header {
   padding-bottom: 80px;
 }
 
-.tm-about-number-container {
+.tm-register-number-container {
   width: 83px;
   height: 83px;
   font-size: 2.2rem;
@@ -405,12 +414,12 @@ p {
   margin-bottom: 20px;
 }
 
-.tm-about-name {
+.tm-register-name {
   margin-bottom: 30px;
   text-transform: uppercase;
 }
 
-.tm-about-description {
+.tm-register-description {
   margin-bottom: 30px;
   line-height: 1.8;
 }
@@ -733,7 +742,7 @@ p {
    padding: 14px 19px;
  }
 
- .tm-about-box,
+ .tm-register-box,
  .tm-app-feature-box {
    margin-left: auto;
    margin-right: auto;

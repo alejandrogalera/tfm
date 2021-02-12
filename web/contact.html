@@ -9,14 +9,35 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>    
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/templatemo-style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--Para el fondo de los combo-box e iframe-->
+    <!-- https://stackoverflow.com/questions/8366957/how-to-center-an-iframe-horizontally -->
+    <style>
+      select option {
+        background-color: #6b6b6b;
+        font-weight: bold;
+        color: white;
+      }
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        display: block; /* remove extra space below image */
+      }
+      iframe {
+        display: block;
+        border-style:none;
+      }
+    }
+    </style>
   </head>
-<!--
-Parallo Template
-https://templatemo.com/tm-534-parallo
--->
+
   <body id="servicesPage">
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/bg-01.jpg">
       <div class="container-fluid">
@@ -25,7 +46,7 @@ https://templatemo.com/tm-534-parallo
             <div class="tm-brand-container tm-bg-white-transparent">
               <i class="fas fa-2x fa-bus tm-brand-icon"></i>
               <div class="tm-brand-texts">
-                <h1 class="tm-brand-name">BigData in Transport Sector</h1>
+                <h1 class="tm-brand-name">BIDASIT<br>BigData in Transport Sector</h1>
                 <p class="small">Master BigData UCM. Alejandro Galera</p>
               </div>
             </div>
@@ -47,15 +68,15 @@ https://templatemo.com/tm-534-parallo
                   <ul class="navbar-nav">
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="index.html">Home</a>
+                      <a style="color:#6b6b6b;font-size:20px;" class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="services.html">BigData</a>
+                      <a style="color:#6b6b6b;font-size:20px;" class="nav-link" href="services.html">BigData</a>
                     </li>
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="about.html">Business Intelligence</a>
+                      <a style="color:#6b6b6b;font-size:20px;"class="nav-link" href="register.php">Business Intelligence</a>
                     </li>
 <!--                    <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
@@ -64,7 +85,7 @@ https://templatemo.com/tm-534-parallo
 -->
                     <li class="nav-item green-highlight active">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                      <a style="color:#6b6b6b;font-size:20px;"class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
                     </li>
                   </ul>
                 </div>
@@ -84,11 +105,15 @@ https://templatemo.com/tm-534-parallo
                  <div class="tm-bg-black-transparent text-center tm-services-header tm-testimonials-header">
                     <h2 class="text-uppercase tm-services-page-title tm-testimonials-page-title">Contact</h2>
                     <p class="tm-services-description mb-0 small">
-                        Parallax movement background page "people" for contact page
+                        Contact main Data Scientist / Data Engineer<br>
+                        Alejandro Galera<br>
+                        <a href="https://www.linkedin.com/in/alejandro-galera-9b940172/">LinkedIN</a><br/>
+                        <a href="https://stackoverflow.com/users/3351141/alejandro-galera">StackOverflow</a><br/>
+                        <a href="https://github.com/alejandrogalera">GitHub</a><br/>
                     </p>
                 </div>
             </div>
-          </div>   
+          </div>
         </section>
 
         <section class="row tm-contact-row">
@@ -112,17 +137,17 @@ https://templatemo.com/tm-534-parallo
             </div>
             <div class="col-lg-6 tm-contact-col-right">
                 <div class="tm-bg-black-transparent tm-contact-text">
-                            
+
                     <i class="mx-auto mb-5 fas fa-3x fa-address-card tm-app-feature-icon"></i>
-                    
+
                     <h3 class="tm-service-tab-title">Maecenas in aliquam lorem</h3>
                     <p class="tm-service-tab-p">
                         Proin rutrum massa quis erat mollis iaculis. Vestibulum
                         a risus ex. Nunc rhoncus, justo at blandit cursus, orci
                         erat molestie felis, id ullamcorper mauris felis eu eros.
-                    </p>                            
+                    </p>
                     <p class="mb-0">
-                        Donec turpis augue, mollis eu erat in, posuere congue 
+                        Donec turpis augue, mollis eu erat in, posuere congue
                         sapien.  Maecenas facilisis dui sit amet ornare aliquam.
                         Paesent malesuada mi a est pulvinar.
                     </p>
@@ -141,7 +166,7 @@ https://templatemo.com/tm-534-parallo
                 posuere laoreet. Aliquam erat volutpat. Nulla eros est,
                 imperdiet vel feugiat non, ullamcorper mattis nulla.
               </p>
-              <form action="#" method="get" class="tm-call-to-action-form">                
+              <form action="#" method="get" class="tm-call-to-action-form">
                 <input name="email" type="email" class="tm-email-input" id="email" placeholder="Email" />
                 <button type="submit" class="btn btn-secondary">Get Updates</button>
               </form>
@@ -152,7 +177,7 @@ https://templatemo.com/tm-534-parallo
         <!-- Page footer -->
         <footer class="row">
           <p class="col-12 text-white text-center tm-copyright-text">
-            Copyright &copy; 2020 App Landing Page. 
+            Copyright &copy; 2020 App Landing Page.
             Designed by <a href="#" class="tm-copyright-link">TemplateMo</a>
           </p>
         </footer>
@@ -167,7 +192,7 @@ https://templatemo.com/tm-534-parallo
     <script>
         $(function(){
             $('.tabgroup > div').hide();
-            $('.tabgroup > div:first-of-type').show();  
+            $('.tabgroup > div:first-of-type').show();
             $('.tabs a').click(function(e){
               e.preventDefault();
               var $this = $(this),
@@ -183,8 +208,8 @@ https://templatemo.com/tm-534-parallo
               if($(window).width() < 992) {
                   $('html, body').animate({
                       scrollTop: $("#first-tab-group").offset().top
-                  }, 200);    
-              }              
+                  }, 200);
+              }
             })
 
             $('.tm-carousel').slick({
@@ -225,7 +250,7 @@ https://templatemo.com/tm-534-parallo
                     // settings: "unslick"
                     // instead of a settings object
                   ]
-            });  
+            });
         });
     </script>
   </body>
