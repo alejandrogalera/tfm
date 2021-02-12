@@ -10,7 +10,7 @@ sudo echo "LANG=\"es_ES.UTF-8\""
 #Ubuntu libraries for python
 sudo apt-get install python3-dev libffi-dev libssl-dev python3-pip
 sudo apt-get install -y python3-magic
-sudo pip3 install spark
+sudo pip3 install spark pyspark
 
 #Ubuntu libraries for R
 sudo apt-get install -y libgdal-dev libfontconfig1-dev libcairo2-dev libudunits2-dev cargo libprotobuf-dev libjq-dev libv8-dev libavfilter-dev
