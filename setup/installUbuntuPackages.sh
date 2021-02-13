@@ -17,7 +17,7 @@ sudo apt-get install -y libgdal-dev libfontconfig1-dev libcairo2-dev libudunits2
 sudo apt-get install -y r-base-dev r-base-core libjq-dev libcurl4-openssl-dev libssl-dev libprotobuf-dev libjq-dev libv8-3.14-dev protobuf-compiler #for geojson
 
 #Web
-sudo apt-get install -y apache2
+sudo apt-get install -y apache2 php
 
 #Librerías para usar R y Python de Anaconda:
 #Nota: El directorio /opt/conda/miniconda3 debe tener permisos de escritura.
