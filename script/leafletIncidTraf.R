@@ -179,50 +179,50 @@ colnames(incidTrafCatLatest)
 
 ### I edit this png file and created my own marker.
 ### https://raw.githubusercontent.com/lvoogdt/Leaflet.awesome-markers/master/dist/images/markers-soft.png
-incidIcons <- iconList(fog_1         = makeIcon("icon/01.1.niebla.png", iconWidth = 24, iconHeight =24),
-                       fog_2         = makeIcon("icon/01.2.niebla.png", iconWidth = 24, iconHeight =24),
-                       fog_3         = makeIcon("icon/01.3.niebla.png", iconWidth = 24, iconHeight =24),
-                       fog_4         = makeIcon("icon/01.4.niebla.png", iconWidth = 24, iconHeight =24),
-                       snow_1        = makeIcon("icon/02.1.nieve.png",  iconWidth = 24, iconHeight =24),
-                       snow_2        = makeIcon("icon/02.2.nieve.png",  iconWidth = 24, iconHeight =24),
-                       snow_3        = makeIcon("icon/02.3.nieve.png",  iconWidth = 24, iconHeight =24),
-                       snow_4        = makeIcon("icon/02.4.nieve.png",  iconWidth = 24, iconHeight =24),
-                       wind_1        = makeIcon("icon/03.1.viento.png", iconWidth = 24, iconHeight =24),
-                       wind_2        = makeIcon("icon/03.2.viento.png", iconWidth = 24, iconHeight =24),
-                       wind_3        = makeIcon("icon/03.3.viento.png", iconWidth = 24, iconHeight =24),
-                       wind_4        = makeIcon("icon/03.4.viento.png", iconWidth = 24, iconHeight =24),
-                       rain_1        = makeIcon("icon/04.1.lluvia.png", iconWidth = 24, iconHeight =24),
-                       rain_2        = makeIcon("icon/04.2.lluvia.png", iconWidth = 24, iconHeight =24),
-                       rain_3        = makeIcon("icon/04.3.lluvia.png", iconWidth = 24, iconHeight =24),
-                       rain_4        = makeIcon("icon/04.4.lluvia.png", iconWidth = 24, iconHeight =24),
-                       ice_1         = makeIcon("icon/05.1.hielo.png", iconWidth = 24, iconHeight =24),
-                       ice_2         = makeIcon("icon/05.2.hielo.png", iconWidth = 24, iconHeight =24),
-                       ice_3         = makeIcon("icon/05.3.hielo.png", iconWidth = 24, iconHeight =24),
-                       ice_4         = makeIcon("icon/05.4.hielo.png", iconWidth = 24, iconHeight =24),
-                       closed_1      = makeIcon("icon/06.1.cerrado.png", iconWidth = 24, iconHeight =24),
-                       closed_2      = makeIcon("icon/06.2.cerrado.png", iconWidth = 24, iconHeight =24),
-                       closed_3      = makeIcon("icon/06.3.cerrado.png", iconWidth = 24, iconHeight =24),
-                       closed_4      = makeIcon("icon/06.4.cerrado.png", iconWidth = 24, iconHeight =24),
-                       accident_1    = makeIcon("icon/07.1.accidente.png", iconWidth = 24, iconHeight =24),
-                       accident_2    = makeIcon("icon/07.2.accidente.png", iconWidth = 24, iconHeight =24),
-                       accident_3    = makeIcon("icon/07.3.accidente.png", iconWidth = 24, iconHeight =24),
-                       accident_4    = makeIcon("icon/07.4.accidente.png", iconWidth = 24, iconHeight =24),
-                       congestion_1  = makeIcon("icon/08.1.congestion.png", iconWidth = 24, iconHeight =24),
-                       congestion_2  = makeIcon("icon/08.2.congestion.png", iconWidth = 24, iconHeight =24),
-                       congestion_3  = makeIcon("icon/08.3.congestion.png", iconWidth = 24, iconHeight =24),
-                       congestion_4  = makeIcon("icon/08.4.congestion.png", iconWidth = 24, iconHeight =24),
-                       maintenance_1 = makeIcon("icon/09.1.mantenimiento.png", iconWidth = 24, iconHeight =24),
-                       maintenance_2 = makeIcon("icon/09.2.mantenimiento.png", iconWidth = 24, iconHeight =24),
-                       maintenance_3 = makeIcon("icon/09.3.mantenimiento.png", iconWidth = 24, iconHeight =24),
-                       maintenance_4 = makeIcon("icon/09.4.mantenimiento.png", iconWidth = 24, iconHeight =24),
-                       works_1       = makeIcon("icon/10.1.obras.png", iconWidth = 24, iconHeight =24),
-                       works_2       = makeIcon("icon/10.2.obras.png", iconWidth = 24, iconHeight =24),
-                       works_3       = makeIcon("icon/10.3.obras.png", iconWidth = 24, iconHeight =24),
-                       works_4       = makeIcon("icon/10.4.obras.png", iconWidth = 24, iconHeight =24),
-                       other_1       = makeIcon("icon/11.1.otros.png", iconWidth = 24, iconHeight =24),
-                       other_2       = makeIcon("icon/11.2.otros.png", iconWidth = 24, iconHeight =24),
-                       other_3       = makeIcon("icon/11.3.otros.png", iconWidth = 24, iconHeight =24),
-                       other_4       = makeIcon("icon/11.4.otros.png", iconWidth = 24, iconHeight =24))
+incidIcons <- iconList(fog_1         = makeIcon("web/icon/01.1.niebla.png", iconWidth = 24, iconHeight =24),
+                       fog_2         = makeIcon("web/icon/01.2.niebla.png", iconWidth = 24, iconHeight =24),
+                       fog_3         = makeIcon("web/icon/01.3.niebla.png", iconWidth = 24, iconHeight =24),
+                       fog_4         = makeIcon("web/icon/01.4.niebla.png", iconWidth = 24, iconHeight =24),
+                       snow_1        = makeIcon("web/icon/02.1.nieve.png",  iconWidth = 24, iconHeight =24),
+                       snow_2        = makeIcon("web/icon/02.2.nieve.png",  iconWidth = 24, iconHeight =24),
+                       snow_3        = makeIcon("web/icon/02.3.nieve.png",  iconWidth = 24, iconHeight =24),
+                       snow_4        = makeIcon("web/icon/02.4.nieve.png",  iconWidth = 24, iconHeight =24),
+                       wind_1        = makeIcon("web/icon/03.1.viento.png", iconWidth = 24, iconHeight =24),
+                       wind_2        = makeIcon("web/icon/03.2.viento.png", iconWidth = 24, iconHeight =24),
+                       wind_3        = makeIcon("web/icon/03.3.viento.png", iconWidth = 24, iconHeight =24),
+                       wind_4        = makeIcon("web/icon/03.4.viento.png", iconWidth = 24, iconHeight =24),
+                       rain_1        = makeIcon("web/icon/04.1.lluvia.png", iconWidth = 24, iconHeight =24),
+                       rain_2        = makeIcon("web/icon/04.2.lluvia.png", iconWidth = 24, iconHeight =24),
+                       rain_3        = makeIcon("web/icon/04.3.lluvia.png", iconWidth = 24, iconHeight =24),
+                       rain_4        = makeIcon("web/icon/04.4.lluvia.png", iconWidth = 24, iconHeight =24),
+                       ice_1         = makeIcon("web/icon/05.1.hielo.png", iconWidth = 24, iconHeight =24),
+                       ice_2         = makeIcon("web/icon/05.2.hielo.png", iconWidth = 24, iconHeight =24),
+                       ice_3         = makeIcon("web/icon/05.3.hielo.png", iconWidth = 24, iconHeight =24),
+                       ice_4         = makeIcon("web/icon/05.4.hielo.png", iconWidth = 24, iconHeight =24),
+                       closed_1      = makeIcon("web/icon/06.1.cerrado.png", iconWidth = 24, iconHeight =24),
+                       closed_2      = makeIcon("web/icon/06.2.cerrado.png", iconWidth = 24, iconHeight =24),
+                       closed_3      = makeIcon("web/icon/06.3.cerrado.png", iconWidth = 24, iconHeight =24),
+                       closed_4      = makeIcon("web/icon/06.4.cerrado.png", iconWidth = 24, iconHeight =24),
+                       accident_1    = makeIcon("web/icon/07.1.accidente.png", iconWidth = 24, iconHeight =24),
+                       accident_2    = makeIcon("web/icon/07.2.accidente.png", iconWidth = 24, iconHeight =24),
+                       accident_3    = makeIcon("web/icon/07.3.accidente.png", iconWidth = 24, iconHeight =24),
+                       accident_4    = makeIcon("web/icon/07.4.accidente.png", iconWidth = 24, iconHeight =24),
+                       congestion_1  = makeIcon("web/icon/08.1.congestion.png", iconWidth = 24, iconHeight =24),
+                       congestion_2  = makeIcon("web/icon/08.2.congestion.png", iconWidth = 24, iconHeight =24),
+                       congestion_3  = makeIcon("web/icon/08.3.congestion.png", iconWidth = 24, iconHeight =24),
+                       congestion_4  = makeIcon("web/icon/08.4.congestion.png", iconWidth = 24, iconHeight =24),
+                       maintenance_1 = makeIcon("web/icon/09.1.mantenimiento.png", iconWidth = 24, iconHeight =24),
+                       maintenance_2 = makeIcon("web/icon/09.2.mantenimiento.png", iconWidth = 24, iconHeight =24),
+                       maintenance_3 = makeIcon("web/icon/09.3.mantenimiento.png", iconWidth = 24, iconHeight =24),
+                       maintenance_4 = makeIcon("web/icon/09.4.mantenimiento.png", iconWidth = 24, iconHeight =24),
+                       works_1       = makeIcon("web/icon/10.1.obras.png", iconWidth = 24, iconHeight =24),
+                       works_2       = makeIcon("web/icon/10.2.obras.png", iconWidth = 24, iconHeight =24),
+                       works_3       = makeIcon("web/icon/10.3.obras.png", iconWidth = 24, iconHeight =24),
+                       works_4       = makeIcon("web/icon/10.4.obras.png", iconWidth = 24, iconHeight =24),
+                       other_1       = makeIcon("web/icon/11.1.otros.png", iconWidth = 24, iconHeight =24),
+                       other_2       = makeIcon("web/icon/11.2.otros.png", iconWidth = 24, iconHeight =24),
+                       other_3       = makeIcon("web/icon/11.3.otros.png", iconWidth = 24, iconHeight =24),
+                       other_4       = makeIcon("web/icon/11.4.otros.png", iconWidth = 24, iconHeight =24))
 
 
 htmlLeafletOSMIncidTraf <- leaflet(data = incidTrafCatLatest[1:100,]) %>% 
@@ -237,64 +237,5 @@ htmlLeafletOSMIncidTraf <- leaflet(data = incidTrafCatLatest[1:100,]) %>%
                            "Sentido: ", sentido, "<br>",
                            "Municipio: ", poblacion, "<br>",
                            "Fecha: ", fechahora_, "<br>"))
-saveWidget(htmlLeafletOSMIncidTraf, file="/maps/htmlLeafletOSMIncidTraf.html")
-
-
-
-
-######################
-# Incidente re-route #
-######################
-#Vilafranca - El Vendrell -Tarragona -Port Aventura. Autocars del Penedés
-paradasL0808 <- read.csv(file = "data/r/paradasL0808.csv", header = TRUE, encoding = "utf-8")
-paradaJuliCesar <- paradasL0808[paradasL0808$FID==9166,]
-paradaJuliCesar$Latitude
-paradaJuliCesar$Longitude
-
-
-#ROUTING
-objetivo<-"Villafranca del Penedes, Tarragona"
-geo_output<-geocode_OSM(objetivo, details=TRUE, return.first.only = TRUE, as.data.frame = T )
-
-laty=geo_output$lat
-lonx=geo_output$lon
-
-leaflet(data.frame(lonx,laty)) %>% 
-  addTiles() %>% 
-  addMarkers(lng=~lonx, lat=~laty)
-
-
-
-
-#Al revés si tengo una localización laty=40.4, lonx=-3.74, puedo encontrar la dirección
-
-rev_geocode_OSM(x=lonx, y=laty)
-
-
-destino<-"Tarragona, Tarragona"
-geo_output<-geocode_OSM(destino, details=TRUE, return.first.only = TRUE, as.data.frame = T )
-
-
-laty_destino=geo_output$lat
-lonx_destino=geo_output$lon
-
-ruta<-osrmRoute(src= c(lonx,laty), dst = c(lonx_destino, laty_destino), overview =  "full", osrm.profile = "car")
-ruta2<-osrmRoute(src= c(lonx,laty), dst = c(lonx_destino, laty_destino), overview =  "full", osrm.profile = "car", exclude="motorway")
-
-#proporciona el tiempo en minutos y la distancia en kilómetros
-#ruta@data
-nrow(ruta)
-nrow(ruta2)
-
-# Ahora podemos añadirlo al leafleat
-leaflet(data=data.frame(ruta)) %>% 
-  addTiles() %>%
-  addPolylines(lng=~lon, lat=~lat, color="red")
-#,label = (paste0(ruta$duration, " minutos, ", ruta$distance, " kms")))
-#addMarkers(lng=~lon, lat=~lat) %>% 
-leaflet(data=data.frame(ruta2)) %>% 
-  addTiles() %>%
-  addPolylines(lng=~lon, lat=~lat, color="red")
-
-
+saveWidget(htmlLeafletOSMIncidTraf, file="web/maps/htmlLeafletOSMIncidTraf.html")
 

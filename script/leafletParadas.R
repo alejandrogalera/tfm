@@ -25,6 +25,60 @@ leaflet(catalunyaPoblacMap,
   addPolygons(data=catalunyaPoblacMap, stroke=TRUE, opacity = 0.5, fillOpacity = 0.7, 
               color="grey10",
               fillColor = ~colorQuantile("YlOrBr", n=9, Poblacion, na.color = "white")(Poblacion))
+#Podemos representar otros parámetros haciendo uso del dataset fullData que contiene 
+#paradas, líneas, población y los tres tipos de gastos por vivienda en el sector transporte.
+load("data/r/gasto1_vehiculos.RData")
+load("data/r/gasto2_uso_vehiculo.RData")
+load("data/r/gasto3_tra_pub.RData")
+
+#Añadimos la información del gasto al dataset de catalunyaPoblacMap
+catalunyaFull <- catalunyaPoblacMap
+catalunyaFull$Gasto_tra_pub[catalunyaFull$Poblacion>=100000] <-
+  gasto3_tra_pub$Total[gasto3_tra_pub$Poblacion=="100,000 or more inhabitants"]
+catalunyaFull$Gasto_tra_pub[catalunyaFull$Poblacion<100000] <-
+  gasto3_tra_pub$Total[gasto3_tra_pub$Poblacion=="From 50,000 to 100,000 inhabitants"]
+catalunyaFull$Gasto_tra_pub[catalunyaFull$Poblacion<50000] <-
+  gasto3_tra_pub$Total[gasto3_tra_pub$Poblacion=="From 20,000 to 50,000 inhabitants"]
+catalunyaFull$Gasto_tra_pub[catalunyaFull$Poblacion<20000] <-
+  gasto3_tra_pub$Total[gasto3_tra_pub$Poblacion=="From 10,000 to 20,000 inhabitants"]
+catalunyaFull$Gasto_tra_pub[catalunyaFull$Poblacion<10000] <-
+  gasto3_tra_pub$Total[gasto3_tra_pub$Poblacion=="Less than 10,000 inhabitants"]
+
+#La siguiente función da error: "Cut() error - 'breaks' are not unique" porque coinciden los quantiles, y al 
+#hacer cut, se generan breaks con el mismo valor.
+#leaflet(catalunyaFull, 
+#        options = leafletOptions(attributionControl = TRUE)) %>%
+#  addPolygons(data=catalunyaFull, stroke=TRUE, opacity = 0.5, fillOpacity = 0.7, 
+#              color="grey10", 
+#              fillColor = ~colorQuantile("Blues", n=5 ,Gasto_tra_pub, na.color = "white")(Gasto_tra_pub))
+
+
+catalunyaFull$CC_4 <- NULL
+quantile(catalunyaFull$Gasto_tra_pub)
+#Si los cuantiles son iguales, la función de leaflet da error "Cut() error - 'breaks' are not unique"
+#Se puede realizar lo que propone la comunidad StackOverflow https://stackoverflow.com/questions/16184947/cut-error-breaks-are-not-unique
+#o añadir un diferencial para que los cuantiles no coincidan y por tanto el cut no detecte breaks coincidentes.
+addDifferential <- function(x) {
+  return(x+runif(1, 0.0001, 0.0010))
+}
+
+catalunyaFull$Gasto_tra_pub <- sapply(catalunyaFull$Gasto_tra_pub,addDifferential)
+#Ya tenemos cuantiles diferentes.
+quantile(catalunyaFull$Gasto_tra_pub)
+
+leaflet(catalunyaFull, 
+        options = leafletOptions(attributionControl = TRUE)) %>%
+        addPolygons(data=catalunyaFull, stroke=TRUE, opacity = 0.5, fillOpacity = 0.7, 
+        color="grey10", 
+        fillColor = ~colorQuantile("Blues", n=5 ,Gasto_tra_pub, na.color = "white")(Gasto_tra_pub))
+
+#Se puede representar cualquiera de estas variables:
+colnames(fullData@data)
+#[1] "FID"                "Nombre_de_"         "Nombre_d_1"        
+#[4] "Descripcio"         "Operador"           "Longitude"         
+#[7] "Latitude"           "Municipio"          "Poblacion"         
+#[10] "COD_INE"            "Gasto_vehiculo"     "Gasto_uso_veh_pers"
+#[13] "Gasto_tra_pub"      "Gasto_total"        "X"    
 
 #########################
 # catalunyaPoblacionMap #
@@ -49,20 +103,22 @@ htmlLeafletOSMPoblacion
 ######################
 #A continuación, situamos los marcadores correspondientes a las paradas de autobús.
 #Añadimos como marcadores los puntos de una línea.
-paradasL0242 <- paradasLineasNoDup[paradasLineasNoDup$Nombre_d_1==paradasLineasNoDup$Nombre_d_1[1],]
+#Representemos el caso de estudio de la línea, por ejemplo, L1196
+#L1196- GRANOLLERS - BARCELONA
+paradasL1196 <- paradasLineasNoDup[paradasLineasNoDup$Nombre_d_1=="L1196",]
+colnames(paradasLineasNoDup)
 
-#Vilafranca - El Vendrell -Tarragona -Port Aventura. Autocars del Penedés
-paradasL0808 <- paradasLineasNoDup[paradasLineasNoDup$Nombre_d_1=="L0808",]
-write.csv(paradasL0808, file = "data/r/paradasL0808.csv")
+#Barcelona-Granollers-Llinars del Vallès, empresa Sagalès SA
+save(paradasL1196, file = "data/r/paradasL1196.RData")
 
-dat <- data.frame(Longitude = paradasL0242$Longitude,
-                  Latitude = paradasL0242$Latitude)
+dat <- data.frame(Longitude = paradasL1196$Longitude,
+                  Latitude = paradasL1196$Latitude)
 
-htmlLeafletOSMParadasL0242 <- leaflet(data=dat) %>%
+htmlLeafletOSMParadasL1196 <- leaflet(data=dat) %>%
   addTiles()%>%  
   addMarkers(data=dat,lng=~Longitude, lat=~Latitude)
-htmlLeafletOSMParadasL0242
-saveWidget(htmlLeafletOSMParadasL0242, file="web/maps/leafletOSMParadasL0242.html")
+htmlLeafletOSMParadasL1196
+saveWidget(htmlLeafletOSMParadasL1196, file="web/maps/leafletOSMParadasL1196.html")
 
 ######################################
 # Información extra a los marcadores
@@ -82,51 +138,12 @@ htmlLeafletOSMPobGastoOper <- leaflet(data=fullData[sample(nrow(fullData),100),]
                            "Operador:      ", Operador, "<br>",
                            "Línea:         ", Nombre_d_1, "<br>",
                            "Trayecto:      ", Descripcio, "<br>",
-                           "
-                           <div class=\"tab\">
-  <button class=\"tablinks\" onclick=\"openCity(event, 'London')\">London</button>
-  <button class=\"tablinks\" onclick=\"openCity(event, 'Paris')\">Paris</button>
-</div>
-                           <div id=\"London\" class=\"tabcontent\">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-  <p>London is the capital city of England.</p>
-</div>
-<div id=\"Paris\" class=\"tabcontent\">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p>
-  <p>Paris is the capital of France.</p>
-</div>
-"
-                          ))
-#La documentación para el popup
-#https://www.w3schools.com/howto/howto_js_tabs.asp
+                           "Gasto tp.pub:  ", Gasto_tra_pub, "<br>",
+                           "Gasto compra veh:", Gasto_vehiculo, "<br>",
+                           "Gasto uso veh.pers:", Gasto_uso_veh_pers, "<br>"))
+htmlLeafletOSMPobGastoOper
 
-
-#Ejemplo de gráfico en el popup
-#https://stackoverflow.com/questions/32352539/plotting-barchart-in-popup-using-leaflet-library
-colnames(fullData)
-a <- fullData[1,]
-asdf <- barplot(c(a$Gasto_vehiculo, a$Gasto_tra_pub, a$Gasto_uso_veh_pers, a$Gasto_total),
-        main = "Gastos en el sector Transporte",
-        names.arg = c("Adq. veh.", "Uso pers. veh.", "Tr. publico", "Total"),
-        xlab = "Gasto promedio por familia y tipo de municipio (pob)",
-        ylab = "Euros anuales")
-
-png(filename = "test.png")
-asdf
-dev.off()
-
-kk <- plot(c(1,2,3), c(5,6,7))
-
-leaflet(data=fullData[sample(nrow(fullData),100),]) %>%
-  addTiles() %>%  # Add default OpenStreetMap map tiles
-  addMarkers(lng=~Latitude,
-             lat=~Longitude,
-             popup= leafpop::popupGraph(kk, width = 300, height = 400))
-             #popup= leafpop::popupGraph(asdf, width = 300, height = 400))
-
-#https://rdrr.io/github/r-spatial/leafpop/man/addPopupGraphs.html
+#Plot de popup con leafpop
 pt = data.frame(x = 174.764474, y = -36.877245)
 pt = st_as_sf(pt, coords = c("x", "y"), crs = 4326)
 p2 = lattice::levelplot(t(volcano), col.regions = terrain.colors(100))

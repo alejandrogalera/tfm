@@ -265,6 +265,7 @@ carrAutoviaCat <- filterWGS84ShapeLines(carrAutovia, latMin, latMax, longMin, lo
 carrNacCat <- filterWGS84ShapeLines(carrNac, latMin, latMax, longMin, longMax)
 carrAutonCat <- filterWGS84ShapeLines(carrAuton, latMin, latMax, longMin, longMax)
 
+
 #Representamos las gráficas.
 color_carretera <- c("blue", "green", "red", "orange")
 tm_shape(catalunyaMap)+

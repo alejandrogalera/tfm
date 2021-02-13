@@ -2,6 +2,9 @@
 #Opción 2: Econometría a ver si hay correlación entre tamaño de población -> Gasto total municipal -> en función de la renta?
 
 
+#Objetivo explicar el gasto en transporte público en función de la población.
+
+
 #' # Objetivo
 #' Queremos estimar la ley de OKUN con datos Municipales,
 #' en este caso para explicar la Tasa de Paro Municipal en función

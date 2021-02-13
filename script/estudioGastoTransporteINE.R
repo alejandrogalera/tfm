@@ -71,6 +71,10 @@ gasto2_uso_vehiculo <- getExpenditureVar(gastoTransporteHousehold2015,
                                          "072 Use of personal vehicles")
 gasto3_tra_pub <- getExpenditureVar(gastoTransporteHousehold2015, 
                                     "073 Transport service")
+save(gasto1_vehiculos, file = "data/r/gasto1_vehiculos.RData")
+save(gasto2_uso_vehiculo, file = "data/r/gasto2_uso_vehiculo.RData")
+save(gasto3_tra_pub, file = "data/r/gasto3_tra_pub.RData")
+
 
 #Inicializamos a cero las tres variables que se rellenarán con la información del estudio de gastos.
 fullData <- paradasLineasNoDup

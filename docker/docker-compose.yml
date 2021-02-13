@@ -44,15 +44,26 @@ services:
     environment:
       - DISPLAY=:0.0
 
-  spark:
-    build:
-      context: .
-      dockerfile: Dockerfile_spark
-    image: agalera/spark:${SPARK_VERSION}
-    container_name: "spark"
-    command: tail -F /dev/null
-    networks:
-      - default
+  database:
+    image: postgres:${POSTGRESQL_VERSION}
+    env_file:
+      - database.env
+    volumes:
+      - database-data:/var/lib/postgresql/data/
+
+
+#  spark:
+#    build:
+#      context: .
+#      dockerfile: Dockerfile_spark
+#    image: agalera/spark:${SPARK_VERSION}
+#    container_name: "spark"
+#    command: tail -F /dev/null
+#    networks:
+#      - default
+
+volumes:
+  database-data: # named volumes can be managed easier using docker-compose
 
 networks:
   default:
