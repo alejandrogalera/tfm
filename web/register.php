@@ -330,7 +330,7 @@ if (isset($_POST["submit"])) {
                     <div class="form-group">
                       <label>Location</label>
                       <select id="poblacion" name="poblacion" class="form-control">
-                        <option selected="selected" value="CREIXELL">CREIXELL</option>
+                        <option selected="selected" value="LLEIDA">LLEIDA</option>
                         <?php foreach ($eachlinesPoblacion as $linesPoblacion) { //add php code here
                           echo "<option poblacion='" . $linesPoblacion . "'>$linesPoblacion</option>";
                         }?>
@@ -339,7 +339,7 @@ if (isset($_POST["submit"])) {
                     <div class="form-group">
                       <label>Province</label>
                       <select id="provincia" name="provincia" class="form-control">
-                        <option selected="selected" value="TARRAGONA">TARRAGONA</option>
+                        <option selected="selected" value="LLEIDA">LLEIDA</option>
                         <?php foreach ($eachlinesProvincia as $linesProvincia) { //add php code here
                           echo "<option provincia='" . $linesProvincia . "'>$linesProvincia</option>";
                         }?>
@@ -348,7 +348,7 @@ if (isset($_POST["submit"])) {
                     <div class="form-group">
                       <label>Road</label>
                       <select id="carretera" name="carretera" class="form-control">
-                        <option selected="selected" value="N-340">N-340</option>
+                        <option selected="selected" value="LL-11">LL-11</option>
                         <?php foreach ($eachlinesCarretera as $linesCarretera) { //add php code here
                           echo "<option carretera='" . $linesCarretera . "'>$linesCarretera</option>";
                         }?>
@@ -394,11 +394,11 @@ if (isset($_POST["submit"])) {
                     </div>
                     <div class="form-group">
                       <label>Latitude</label>
-                      <input type="text" name="csv_y" placeholder="41.16703" class="form-control" value="<?php echo $csv_y; ?>" />
+                      <input type="text" name="csv_y" placeholder="41.61674" class="form-control" value="<?php echo $csv_y; ?>" />
                     </div>
                     <div class="form-group">
                       <label>Longitude</label>
-                      <input type="text" name="csv_x" class="form-control" placeholder="1.433811" value="<?php echo $csv_x; ?>" />
+                      <input type="text" name="csv_x" class="form-control" placeholder="0.62218" value="<?php echo $csv_x; ?>" />
                     </div>
                     <div class="form-group" align="center">
                       <input type="submit" name="submit" class="btn btn-info" value="Submit" />
