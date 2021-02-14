@@ -99,7 +99,7 @@ if (isset($_POST["submit"])) {
     if ($error == '') {
         //Actualizamos el csv latest almacenado en el bucket
         //exec('gsutil cp gs://agaleratfm-bucket/incid_traf/incid_traf_latest.csv .');
-        exec("Rscript r/generateIncidTrafWidget.R");
+        exec("/usr/bin/Rscript r/generateIncidTrafWidget.R");
         //exec("./kk.sh");
         //sleep(3);
         $file_open = fopen("incid_traf_latest.csv", "a");
@@ -394,11 +394,11 @@ if (isset($_POST["submit"])) {
                     </div>
                     <div class="form-group">
                       <label>Latitude</label>
-                      <input type="text" name="csv_y" placeholder="41.61674" class="form-control" value="<?php echo $csv_y; ?>" />
+                      <input type="text" name="csv_y" placeholder="41.61674" class="form-control" value="41.61674" />
                     </div>
                     <div class="form-group">
                       <label>Longitude</label>
-                      <input type="text" name="csv_x" class="form-control" placeholder="0.62218" value="<?php echo $csv_x; ?>" />
+                      <input type="text" name="csv_x" class="form-control" placeholder="0.62218" value="0.62218" />
                     </div>
                     <div class="form-group" align="center">
                       <input type="submit" name="submit" class="btn btn-info" value="Submit" />
