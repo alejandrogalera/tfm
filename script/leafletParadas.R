@@ -72,8 +72,10 @@ leaflet(catalunyaFull,
         color="grey10", 
         fillColor = ~colorQuantile("Blues", n=5 ,Gasto_tra_pub, na.color = "white")(Gasto_tra_pub))
 
+save(file = "data/r/catalunyaFull.RData", catalunyaFull)
+
 #Se puede representar cualquiera de estas variables:
-colnames(fullData@data)
+colnames(fullData)
 #[1] "FID"                "Nombre_de_"         "Nombre_d_1"        
 #[4] "Descripcio"         "Operador"           "Longitude"         
 #[7] "Latitude"           "Municipio"          "Poblacion"         
